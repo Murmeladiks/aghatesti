@@ -1,0 +1,786 @@
+"Abilities_Luna"
+{
+    //=================================================================================================================
+	// Luna: Lunar Blessing
+	//=================================================================================================================
+	"luna_pf_lunar_blessing"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/luna/luna_pf_lunar_blessing"
+		"AbilityTextureName"            "luna_lunar_blessing"
+		
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_YES"
+		"MaxLevel"						"1"
+		"Innate"						"1"
+		"IsBreakable"					"1"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "radius"			
+            {
+                "value"						"1200"
+                "affected_by_aoe_increase"	"1"
+            }
+            "self_bonus_night_vision"		"400"
+            "self_bonus_night_vision_per_level"  "20"
+            "bonus_damage_per_level"			
+            {
+                "value"							"1"
+                "special_bonus_unique_luna_3"	"+1"
+            }
+            "bonus_damage_tooltip"
+            {
+                "dynamic_value"				    "true"
+            }
+            "self_bonus_damage_per_level"
+            {
+                "value"							"2"
+                "special_bonus_unique_luna_3"	"+2"
+            }
+            "self_bonus_damage_tooltip"
+            {
+                "dynamic_value"				"true"
+            }
+            "self_bonus_night_vision_tooltip"
+            {
+                "dynamic_value"				"true"
+            }
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_4"
+	}
+
+    //=================================================================================================================
+	// Luna: Lucent Beam
+	//=================================================================================================================
+	"luna_pf_lucent_beam"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/luna/luna_pf_lucent_beam"
+		"AbilityTextureName"            "luna_lucent_beam"
+
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Luna.LucentBeam.Target"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.4"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"90 100 110 120"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.5"	// Mostly about the damage
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+            "AbilityCooldown"
+			{
+				"value"					"9.0 8.0 7.0 6.0"
+				"special_bonus_unique_luna_2" "-2.0"
+			}
+            "stun_duration"
+			{
+				"value"					"0.6 0.7 0.8 0.9"
+				"special_bonus_unique_luna_4"	"+0.4"
+			}
+            "beam_damage"
+            {
+                "value"             "80 160 240 320"
+            }
+            "damage_buff_duration"
+			{
+				"value"						"0"
+				"special_bonus_facet_luna_moonstorm"			"+15"
+				"CalculateSpellDamageTooltip"	"0"
+				"DamageTypeTooltip"				"DAMAGE_TYPE_NONE"
+			}
+			"damage_buff_per_beam"
+			{
+				"value"						"0"
+				"special_bonus_facet_luna_moonstorm"			"+5 8 11 14"
+				"CalculateSpellDamageTooltip"	"0"
+				"DamageTypeTooltip"				"DAMAGE_TYPE_PHYSICAL"
+			}
+			"damage_buff_from_eclipse_pct"
+			{
+				"special_bonus_facet_luna_moonstorm"				"=40"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+    //=================================================================================================================
+	// Luna: Lunar Orbit
+	//=================================================================================================================
+	"luna_pf_lunar_orbit"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/luna/luna_pf_lunar_orbit"
+		"AbilityTextureName"            "luna_lunar_orbit"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilitySound"					"Hero_Luna.MoonGlaive.Impact"
+
+        // Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"40 35 30 25"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"65 70 75 80"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"rotating_glaives_duration"					"4 5 6 7"
+			"rotating_glaives"
+			{
+				"value"				"4"
+				"special_bonus_unique_luna_lunar_orbit_lunar_cyclone"		"+1"
+			}
+			"rotating_glaives_movement_radius"			"250"
+			"rotating_glaives_hit_radius"
+			{
+				"value"								"150"
+				"affected_by_aoe_increase"			"1"
+			}
+			"rotating_glaives_collision_damage"				"20 25 30 35"
+			"rotating_glaives_speed"
+			{
+				"value"									"160"
+				"special_bonus_unique_luna_lunar_orbit_lunar_cyclone"	"+25%"
+			}
+			"rotating_glaives_shard_speed_bonus_tooltip"	"0"
+			"rotating_glaives_damage_reduction"
+			{
+				"value"									"0"
+				"special_bonus_facet_luna_moonshield"	"10 15 20 25"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+
+	//=================================================================================================================
+	// Luna: Moon Glaives
+	//=================================================================================================================
+	"luna_pf_moon_glaive"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/luna/luna_pf_moon_glaive"
+		"AbilityTextureName"            "luna_moon_glaive"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilitySound"					"Hero_Luna.MoonGlaive.Impact"
+		"IsBreakable"					"1"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "range"								
+			{
+				"value"		"500"
+				"affected_by_aoe_increase"	"1"
+			}
+            "bounces"                   "2 3 4 5"
+            "damage_reduction_percent"
+            {
+                "value"					        "56 50 44 38"
+                "special_bonus_unique_luna_7"	"-8"
+            }
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
+	}
+
+	//=================================================================================================================
+	// Luna: Eclipse
+	//=================================================================================================================
+	"luna_pf_eclipse"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/luna/luna_pf_eclipse"
+		"AbilityTextureName"            "luna_eclipse"
+		
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"   
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"               "2"
+        "AbilitySound"                  "Hero_Luna.Eclipse.Cast"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastPoint"              "0.5"
+        "AbilityCastRange"              "0"
+        "AbilityDuration"               "3.0 4.8 6.6"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "150 200 250"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"beams"
+			{
+				"value"						                        "6 9 12"
+                "special_bonus_unique_luna_eclipse_lunar_focus"		"+3"
+			}
+			"beam_interval"             	"0.6"
+			"radius"					
+			{
+				"value"	"675"
+				"affected_by_aoe_increase"	"1"
+			}
+            "night_duration"
+            {
+                "value"                                     "10"
+                "special_bonus_unique_luna_eclipse_hide"    "+4"
+            }
+            "AbilityCooldown"
+			{
+				"value"							"90"
+				"special_bonus_unique_luna_6"	"-20.0"
+			}
+            "point_cast_radius"
+            {
+                "special_bonus_unique_luna_eclipse_lunar_focus" "=300"
+                "affected_by_aoe_increase"	"1"
+            }
+            "point_cast_interval"
+            {
+                "special_bonus_unique_luna_eclipse_lunar_focus" "=0.3"
+            }
+        }
+	}
+
+    //=================================================================================================================
+    // Ability: Luna Lucent Beam: Bloodmoon
+    //=================================================================================================================
+    "aghsfort_special_luna_lucent_beam_bloodmoon"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lucent_beam"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"spell_lifesteal"       "20"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lucent Beam: Diffusion
+    //=================================================================================================================
+    "aghsfort_special_luna_lucent_beam_diffusion"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lucent_beam"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"radius"                "250"
+			"damage_pct"            "30"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lucent Beam: Moonglow
+    //=================================================================================================================
+    "aghsfort_special_luna_lucent_beam_moonglow"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lucent_beam"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"dmg_to_aspd_pct"       	"30"
+			"lifesteal"                 "25"
+			"duration_multiplier"		"4.0"
+        }
+    }
+
+
+    
+
+    //=================================================================================================================
+    // Ability: Luna Lunar Blessing: Moon Mark
+    //=================================================================================================================
+    "aghsfort_special_luna_lunar_blessing_moon_mark"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lunar_blessing"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"spell_resist_pct"      "10"
+			"duration"              "6.0"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Moon Glaive: Can bounce to allies, resetting hit list
+    //=================================================================================================================
+    "aghsfort_special_luna_moon_glaive_ally_bounce"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_moon_glaive"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Moon Glaive Double Moon
+    //=================================================================================================================
+    "aghsfort_special_luna_moon_glaive_double_moon"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_moon_glaive"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Moon Glaive Moon Well
+    //=================================================================================================================
+    "aghsfort_special_luna_glaives_moon_well"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_moon_glaive"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"eclipse_pct"           "35"
+			"moon_well_radius"      "250"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Moon Glaive Knockback
+    //=================================================================================================================
+    "aghsfort_special_luna_moon_glaive_knockback"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_moon_glaive"
+        
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.4"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+
+        // Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"12.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"debuff_duration"       "5.0"
+			"bounce_duration"       "0.75"
+			"stun_duration"         "0.75"
+			"knockback_radius"      "350"
+			"attack_speed_slow"     "30"
+			"move_speed_slow_pct"   "20"
+			"passive_chance"        "12"
+            "cooldown"              "12"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lunar Blessing: Lunar Remnant
+    //=================================================================================================================
+    "aghsfort_special_luna_lunar_blessing_lunar_remnant"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lunar_blessing"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"duration"              "3.0" // actual value stored in Lunar Blessing AbilityValuess
+        }
+    }
+
+	//=================================================================================================================
+    // Ability: Luna Lunar Orbit: Lunar Cyclone
+    //=================================================================================================================
+    "special_bonus_unique_luna_lunar_orbit_lunar_cyclone"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lunar_orbit"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"rotating_glaives_speed_bonus"		"50"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lucent Beam: Glaives
+    //=================================================================================================================
+    "aghsfort_special_luna_lucent_beam_glaives"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lucent_beam"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"count"                 "1" 
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lunar Blessing Moon Shield
+    //=================================================================================================================
+    "aghsfort_special_luna_lunar_blessing_moon_shield"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lunar_blessing"
+
+        // Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.4"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20.0"
+	
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"70"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"hp_regen_pct"          "1.0"
+			"time_since_damage"     "2.0"
+			"duration"              "10.0"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lunar Blessing Moonfright
+    //=================================================================================================================
+    "aghsfort_special_luna_lunar_blessing_moonfright"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lunar_blessing"
+        
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.4"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10.0"
+	
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"70"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"fear_duration"         "3.0"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lunar Blessing Lunar Power
+    //=================================================================================================================
+    "aghsfort_special_luna_lunar_blessing_lunar_power"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lunar_blessing"
+
+        // Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.4"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20.0"
+	
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"70"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"spell_amp_bonus_pct"   "50.0"
+			"duration"              "10.0"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Lunar Blessing Leap
+    //=================================================================================================================
+    "aghsfort_special_luna_lunar_blessing_leap"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_lunar_orbit"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastPoint"              "0.4"
+        "AbilityCastAnimation"          "ACT_DOTA_SPAWN"
+        
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "12.0"
+    
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "50"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"leap_distance"			"750"
+			"leap_height"			"250"
+			"leap_speed"            "1500.0"
+			"cooldown_reduction"	"50"
+			"search_range"			"175" 
+			"damage_multiplier"		"3"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Moon Glaive Glaive Shield
+    //=================================================================================================================
+    "aghsfort_special_luna_moon_glaive_glaive_shield"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_moon_glaive"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"replenish_time"            "10.0"
+			"rotate_range"              "200"
+			"hit_radius"                "75"
+        }
+    }
+    
+
+    //=================================================================================================================
+    // Ability: Luna Eclipse Moonstruck
+    //=================================================================================================================
+    "aghsfort_special_luna_eclipse_moonstruck"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_eclipse"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Eclipse Lunar Cycle
+    //=================================================================================================================
+    "aghsfort_special_luna_eclipse_lunar_cycle"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_eclipse"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"cooldown_reduction"    "10"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Eclipse Lunar Favor
+    //=================================================================================================================
+    "aghsfort_special_luna_eclipse_lunar_favor"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_eclipse"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"heal_pct_from_beam"    "75"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Eclipse Hide
+    //=================================================================================================================
+    "special_bonus_unique_luna_eclipse_hide"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_eclipse"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"multiplier"				"3"
+			"bonus_night_duration"		"4.0"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Luna Eclipse Lunar Focus
+    //=================================================================================================================
+    "special_bonus_unique_luna_eclipse_lunar_focus"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "luna_eclipse"
+
+        // Special
+		//-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"radius"                "300"
+			"value"                 "3"
+			"frequency"             "200"
+        }
+    }
+}

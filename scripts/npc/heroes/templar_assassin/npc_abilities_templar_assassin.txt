@@ -1,0 +1,412 @@
+"Hero_TemplarAssassin"
+{
+    //=================================================================================================================
+    // Templar Assassin: Refraction
+    //=================================================================================================================
+    "templar_assassin_pf_refraction"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/templar_assassin/templar_assassin_pf_refraction"
+		"AbilityTextureName"            "templar_assassin_refraction"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_PHYSICAL"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO"  
+        "AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_YES"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
+        "AbilitySound"                  "Hero_TemplarAssassin.Refraction"
+        
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastPoint"              "0.0"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+        "AbilityCastRange"              "800"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "17.0"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "100"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"instances"
+			{
+				"value"						"2 3 4 5"
+				"special_bonus_unique_templar_assassin"		"+5"
+				"CalculateSpellDamageTooltip"				"0"
+				"DamageTypeTooltip"							"DAMAGE_TYPE_NONE"
+			}
+			"bonus_damage"				
+			{
+				"value"						"25 45 65 85"
+				"special_bonus_unique_templar_assassin_refraction_damage"		"+25"
+			}
+            "bonus_damage_per_instance_burn"
+			{
+				"special_bonus_facet_templar_assassin_refractor"	"+1"
+			}
+            "shield_per_instance"
+			{
+				"value"						"30"
+			}
+            "max_damage_absorb"
+            {
+                "value"             "200 250 300 350"
+                "DamageTypeTooltip"				"DAMAGE_TYPE_NONE"
+            }
+            "duration"					    "17"
+			"cast_while_disabled"
+			{
+				"value"					"0"
+				"special_bonus_unique_templar_assassin_refraction_disable_cast"				"+1"
+			}
+            "dispels"
+			{
+				"special_bonus_unique_templar_assassin_4"				"+1"
+			}
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_REFRACTION"
+    }
+
+    //=================================================================================================================
+    // Templar Assassin: Meld
+    //=================================================================================================================
+    "templar_assassin_pf_meld"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/templar_assassin/templar_assassin_pf_meld"
+		"AbilityTextureName"            "templar_assassin_meld"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_PHYSICAL"  
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_YES"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
+        "AbilitySound"                  "Hero_TemplarAssassin.Meld"
+        
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastPoint"              "0.0 0.0 0.0 0.0"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "11 9 7 5"
+        "AbilityDuration"               "5"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "35 40 45 50"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"bonus_damage"              "50 100 150 200"
+			"bonus_armor"
+			{
+				"value"					"-5 -6 -7 -8"
+                "special_bonus_unique_templar_assassin_2" "+-3"
+			}
+			"meld_duration"             "2.5"
+            "bash_duration"
+            {
+                "special_bonus_unique_templar_assassin_7"   "+1"
+            }
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
+    }
+    
+    //=================================================================================================================
+    // Templar Assassin: Psi Blades
+    //=================================================================================================================
+    "templar_assassin_pf_psi_blades"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/templar_assassin/templar_assassin_pf_psi_blades"
+		"AbilityTextureName"            "templar_assassin_psi_blades"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_PURE"  
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_YES"
+        "MaxLevel"						"5"
+		"RequiredLevel"					"-1"
+		"Innate"						"1"
+    
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "bonus_attack_range"		
+            {
+                "value"		"0 50 100 150 200"
+                "special_bonus_unique_templar_assassin_8"	"+120"
+            }
+            "attack_spill_range"		
+            {
+                "value"							"1.5" 
+                "special_bonus_unique_templar_assassin_8"	"+0.25" // ?
+            }
+            "attack_spill_width"		
+            {
+                "value"		"90"
+                "affected_by_aoe_increase"	"1"
+            }
+            "attack_spill_pct"			"80 85 90 95 100"
+            
+            "spill_slow_duration"
+            {
+                "value"											"0.0"
+                "special_bonus_facet_templar_assassin_voidblades"	"+3.0"
+            }
+            "spill_movement_slow_pct"
+            {
+                "special_bonus_facet_templar_assassin_voidblades"	"5 10 15 20 25"
+            }
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
+    }   
+    
+    //=================================================================================================================
+    // Templar Assassin: Psionic Trap
+    //=================================================================================================================
+    "templar_assassin_pf_psionic_trap"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/templar_assassin/templar_assassin_pf_psionic_trap"
+        "AbilityTextureName"            "templar_assassin_psionic_trap"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
+        "AbilitySound"                  "Hero_TemplarAssassin.Trap"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "1800"
+        "AbilityCastPoint"              "0.3 0.3 0.3 0.3"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_5"
+        
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "2"
+        "AbilityCharges"                "2 3 4"
+        "AbilityChargeRestoreTime"      "40"
+
+    
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "15 15 15"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"trap_radius"				
+			{
+				"value"		"400"
+				"affected_by_aoe_increase"	"1"
+			}
+			"max_traps"					
+			{
+				"value"		"2 3 4"
+			}
+			"trap_delay_time"			"1.5"
+			"movement_speed_slow"
+            {
+                "value"                     		        "30"
+                "special_bonus_unique_templar_assassin_3"	"+15"
+            }
+			"slow_duration"             "5.0"
+			"trap_damage"			
+			{
+				"value"		"250 300 350"
+			}
+			"damage_tick_rate"			"1" // better than .5 to avoid lag
+        }
+    }
+
+    "aghsfort_special_templar_assassin_refraction_allies"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_refraction"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"               "800"
+        }
+    }
+
+    "aghsfort_special_templar_assassin_refraction_kill_refresh"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_refraction"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+
+        }
+    }
+
+    "aghsfort_special_templar_assassin_refraction_counter_attack"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_refraction"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"               "80"
+        }
+    }
+
+    "aghsfort_special_templar_assassin_refraction_detonate_trap"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_refraction"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"               "80"
+        }        
+    }
+
+    "aghsfort_special_templar_assassin_psionic_trap_area_attack"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_psionic_trap"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+
+        }        
+    }
+    "aghsfort_special_templar_assassin_psionic_trap_damage_heals"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_psionic_trap"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"               "50"
+        }        
+    }
+    "aghsfort_special_templar_assassin_psionic_trap_multipulse"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_psionic_trap"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"               "3"
+        }        
+    }         
+    "aghsfort_special_templar_assassin_meld_attack_on_activation"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_meld"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"               "300"
+        }        
+    }
+    "aghsfort_special_templar_assassin_meld_teleport"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_meld"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"               "600"
+        }        
+    }
+    "aghsfort_special_templar_assassin_meld_refraction_on_kill"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_meld"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+
+        }        
+    }
+
+    "aghsfort_special_templar_assassin_psi_blades_autoattack"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_psi_blades"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"fire_rate"                  "1.0"
+			"radius"                    "500"
+        }        
+    }   
+
+    "aghsfort_special_templar_assassin_psi_blades_trap"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_psi_blades"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"trap_chance"                  "15"
+        }        
+    }  
+
+    "aghsfort_special_templar_assassin_psi_blades_splash"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "templar_assassin_psi_blades"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                     "175"
+            "damage_pct"                "50"
+        }        
+    }
+}

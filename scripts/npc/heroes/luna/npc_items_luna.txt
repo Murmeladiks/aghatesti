@@ -1,0 +1,452 @@
+"Items_Luna"
+{
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_lucent_beam_flat_damage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_lucent_beam_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "50"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_lucent_beam_percent_mana_cost_cooldown"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_lucent_beam_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "7"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_lucent_beam_flat_stun"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_lucent_beam_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "0.25"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_moon_glaive_range"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_moon_glaive_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "100"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_moon_glaive_bounces"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_moon_glaive_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "1"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_moon_glaive_damage_reduction_percent"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_moon_glaive_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "5"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_luna_pf_lunar_orbit_damage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_lunar_orbit_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "5"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_eclipse_beams"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_eclipse_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "2"
+        }
+	}
+
+	//=================================================================================================================
+	// Luna Minor Shard
+	//=================================================================================================================
+	"item_aghsfort_luna_eclipse_percent_cooldown_mana_cost"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"luna_eclipse_pf"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "7"
+        }
+	}
+}

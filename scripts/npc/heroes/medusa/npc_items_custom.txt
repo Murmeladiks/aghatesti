@@ -1,0 +1,431 @@
+"DOTAAbilities"
+{
+	"item_medusa_split_shot_lua_damage_reduction"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_split_shot"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "5"
+        }
+	}
+
+	"item_medusa_split_shot_lua_split_count"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_split_shot"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "1"
+        }
+	}
+
+	"item_medusa_split_shot_lua_search_range"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_split_shot"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "75"
+        }
+	}
+
+	"item_medusa_mystic_snake_lua_jumps"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_mystic_snake"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "1"
+        }
+	}
+
+	"item_medusa_mystic_snake_lua_damage_increase"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_mystic_snake"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "10"
+        }
+	}
+
+	"item_medusa_mystic_snake_lua_cooldown"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_mystic_snake"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "12"
+        }
+	}
+
+	"item_medusa_mana_shield_lua_absorption_pct"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_mana_shield"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "5"
+        }
+	}
+
+	"item_medusa_mana_shield_lua_damage_per_mana"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_mana_shield"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "0.2"
+        }
+	}
+
+	"item_medusa_stone_gaze_lua_petrification_duration"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_stone_gaze"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "1"
+        }
+	}
+
+	"item_medusa_stone_gaze_lua_petrification_bonus_damage"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_stone_gaze"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "5"
+        }
+	}
+
+	"item_medusa_stone_gaze_lua_cooldown"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"../spellicons/medusa_stone_gaze"
+		"ScriptFile"					"items/item_small_scepter_fragment"
+		"Model"							"models/props_gameplay/aghanim_scepter.vmdl"
+		"ItemKillable"					"0"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"0"
+
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+
+		"AbilityValues"
+        {
+            "value" "12"
+        }
+	}
+}

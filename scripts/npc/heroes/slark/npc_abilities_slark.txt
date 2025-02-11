@@ -1,0 +1,46 @@
+"DOTAAbilities"
+"Hero_Slark"
+{
+    //=================================================================================================================
+	// Ability: Barracuda (Innate)
+	//=================================================================================================================
+	"slark_innate"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"4"
+		"DependentOnAbility"			""				
+		"Innate"						"1"
+		"IsBreakable"					"1"
+
+		"AbilityValues"
+		{
+			"health_regen"
+			{
+				"value"	"25 50 75 125"
+			}
+			"bonus_movement_speed"
+			{
+				"value"	"30 45 65 100" // Extra movement speed when hidden
+			}
+		}
+
+		// Effects
+		"Modifiers"
+		{
+			"modifier_slark_innate"
+			{
+				"Passive"				"1"
+				"IsHidden"				"1"
+				"LuaModifier"			"modifier_slark_innate"
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT" "%health_regen"
+					"MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT" "%bonus_movement_speed"
+				}
+			}
+		}	
+	}
+
+}

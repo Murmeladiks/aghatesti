@@ -1,0 +1,565 @@
+"Hero_Ursa"
+{
+    //=================================================================================================================
+	// Ability: Might of Ulfsaar (Innate)
+	//=================================================================================================================
+	"ursa_maul"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"4"
+		"DependentOnAbility"			"ursa_pf_enrage"				
+		"Innate"						"1"
+		"IsBreakable"					"1"
+
+		"AbilityValues"
+		{
+			"health_as_damage_pct"	
+			{
+				"value"	"1.2 1.3 1.4 1.5"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
+	}
+
+	//=================================================================================================================
+	// Ursa: Earthshock
+	//=================================================================================================================
+	"ursa_pf_earthshock"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/ursa/ursa_pf_earthshock"
+		"AbilityTextureName"            "ursa_earthshock"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Ursa.Earthshock"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"95"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+            "shock_radius"				
+			{
+				"value"		                    "385"
+				"affected_by_aoe_increase"	    "1"
+				"special_bonus_unique_ursa_2"	"+400"
+			}
+            "movement_slow"			"-22 -28 -34 -40"
+            "hop_distance"			"250"
+            "hop_duration"			"0.25"
+            "hop_height"			"83"
+            "fury_swipe_stacks_on_hit"
+			{
+				"value"				"0"
+				"special_bonus_unique_ursa_earthshock_furyswipes"			"+2"
+			}
+            "impact_damage"			"75 125 175 225"
+            "slow_duration"
+			{
+				"value"         	"4.0"
+				"special_bonus_unique_ursa_earthshock_overpower_stack"	"+2"
+			}
+            "AbilityCooldown"				
+			{
+				"value"				            "15 13 11 9"
+				"special_bonus_unique_ursa_3"	"=0.25"
+			}
+            "AbilityCharges"		
+			{
+				"value"	"0"
+				"special_bonus_unique_ursa_3"	"+2"
+			}
+			"AbilityChargeRestoreTime"
+			{
+				"value"				"15 13 11 9"
+			}
+		}
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+		"AbilityCastGestureSlot"		"DEFAULT"
+	}
+
+	//=================================================================================================================
+	// Ursa: Overpower
+	//=================================================================================================================
+	"ursa_pf_overpower"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/ursa/ursa_pf_overpower"
+        "AbilityTextureName"			"ursa_overpower"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"AbilitySound"					"Hero_Ursa.Overpower"		
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_DOTA_OVERRIDE_ABILITY_3"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.3"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"12 11 10 9"
+		"AbilityDuration"				"20"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"45 50 55 60"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "max_attacks"
+            {
+                "value"                         "3 4 5 6"
+                "special_bonus_unique_ursa_7"    "+3"
+            }
+            "attack_speed_bonus_pct"    "400"
+			"slow_resist"			"10 20 30 40"
+        }
+	}
+	
+	//=================================================================================================================
+	// Ursa: Fury Swipes
+	//=================================================================================================================
+	"ursa_pf_fury_swipes"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/ursa/ursa_pf_fury_swipes"
+        "AbilityTextureName"			"ursa_fury_swipes"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+        "AbilityCastPoint"              "0.3"
+        "IsBreakable"					"1"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "bonus_reset_time"
+            {
+                "value"                 "8"
+            }
+            "damage_per_stack"
+            {
+                "value"                		"10 19 28 37"
+                "special_bonus_unique_ursa" "+7"
+            }
+            "max_swipe_stack"           "6"
+        }
+		"AbilityCastAnimation"      "ACT_DOTA_SPAWN"
+	}
+
+	//=================================================================================================================
+	// Ursa: Enrage
+	//=================================================================================================================
+	"ursa_pf_enrage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/ursa/ursa_pf_enrage"
+        "AbilityTextureName"			"ursa_enrage"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Ursa.Enrage"
+
+		
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_DOTA_OVERRIDE_ABILITY_4"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		"AbilityCastRange"				"0"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"50 40 30"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"AbilityCooldown"
+			{
+				"value"					"50 40 30"
+				"special_bonus_scepter"	"=30 =24 =18"
+			}
+            "damage_reduction"			"50"
+            "status_resistance"
+			{
+				"value"							"50"
+				"special_bonus_unique_ursa_8"	"+15"
+			}
+			"duration"
+			{
+				"value"							"4 4.5 5"
+			}
+
+			"damage_increase"	
+			{
+				"value"										"0"
+				"special_bonus_facet_ursa_grudge_bearer"	"=5"
+			}
+			"damage_increase_duration"
+			{
+				"value"										"0"
+				"special_bonus_facet_ursa_grudge_bearer"	"=5"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_earthshock_bonus_charge"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_earthshock"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "1"
+        }
+	}
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_earthshock_invis"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_earthshock"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "2.5"
+            "value2" "0.0"
+        }
+	}
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_earthshock_apply_fury_swipes"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_earthshock"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+        }
+	}
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "special_bonus_unique_ursa_earthshock_overpower_stack"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_earthshock"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "3"
+            "bonus_slow_duration" "2.0"
+        }
+    }
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_earthshock_knockback"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_earthshock"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "125"
+            "value2" "0.15"
+            "value3" "1.5"
+            "bonus_damage_pct" "25"
+        }
+	}
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_earthshock_miss_chance"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_earthshock"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "40"
+        }
+	}
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_overpower_crit"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_overpower"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "130"
+        }
+	}
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_overpower_evasion"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_overpower"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "3.5"
+            "value2" "30"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_overpower_taunt"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_overpower"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "6"
+            "value2" "350"
+            "value3" "2.5"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_overpower_cleave"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_overpower"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "35"
+            "value2" "150"
+            "value3" "360"
+            "value4" "650"
+        }
+    }
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_fury_swipes_armor_reduction"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_fury_swipes"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "1"
+        }
+	}
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_fury_swipes_lifesteal"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_fury_swipes"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "3"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_fury_swipes_ursa_minor"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_fury_swipes"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "cubs" "3"
+            "mana_cost" "50"
+            "cooldown" "20"
+            "duration" "10.0"
+            "cub_swipes_modifier" "35"
+        }
+    }
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_enrage_magic_immunity"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_enrage"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "700"
+            "value2" "30"
+        }
+	}
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_enrage_allies"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_enrage"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "700"
+        }
+    }
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_ursa_enrage_fear"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"			"ursa_enrage"
+		"BaseClass"                     "ability_datadriven"
+		"AbilityValues"
+        {
+            "value" "500"
+            "value2" "3.0"
+        }
+	}
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_enrage_armor"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_enrage"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "700"
+            "value2" "30"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_enrage_attack_speed"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_enrage"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "value" "700"
+            "value2" "80"
+        }
+    }
+
+     //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_ursa_enrage_earthshock"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ursa_enrage"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "interval" "1.0"
+        }
+    }
+}

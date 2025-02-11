@@ -1,0 +1,17 @@
+"DOTAHeroes"
+{
+	"pathfinder_slark"
+	{
+		"override_hero"			"npc_dota_hero_slark"
+		"Ability1"		"slark_dark_pact"
+		"Ability2"		"slark_pounce"
+		"Ability3"		"slark_essence_shift"
+		"Ability6"		"slark_shadow_dance"
+		"Ability17"		"special_bonus_hp_475"
+		"Ability18"		"slark_innate"
+		"ArmorPhysical"		"1"
+		"AttributeBaseStrength"		"24"
+
+		"ProjectileSpeed"		"900"
+	}
+}

@@ -1,0 +1,5 @@
+require("extensions/table")
+require("extensions/cdota_base_npc")
+require("extensions/cdota_modifier_lua")
+require("extensions/CDOTA_Ability_Lua")
+--require("extensions/class_hooks")

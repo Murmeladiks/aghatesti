@@ -1,0 +1,12 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_sniper_aghsfort"
+	{
+		"override_hero"		"npc_dota_hero_sniper"
+		"Ability1"			"sniper_pf_shrapnel"
+		"Ability2"			"sniper_pf_headshot"
+		"Ability3"			"sniper_pf_take_aim"
+		"Ability4"			"sniper_pf_concussive_grenade"
+		"Ability6"			"sniper_pf_assassinate"
+	}
+}

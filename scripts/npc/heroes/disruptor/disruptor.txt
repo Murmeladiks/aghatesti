@@ -1,0 +1,15 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_disruptor_aghsfort"
+	{
+		"override_hero"			"npc_dota_hero_disruptor"
+		"Ability1"		"aghsfort_disruptor_thunder_strike_datadriven"
+		"Ability2"		"aghsfort_disruptor_glimpse_datadriven"
+		"Ability3"		"aghsfort_disruptor_kinetic_field_datadriven"
+		"Ability6"		"aghsfort_disruptor_static_storm_datadriven"
+		"Ability11"		"special_bonus_unique_disruptor_3"
+		"Ability14"		"special_bonus_intelligence_20"
+		"Ability13"		"special_bonus_unique_disruptor_2"
+		"Ability10"		"special_bonus_magic_resistance_20"
+	}
+}

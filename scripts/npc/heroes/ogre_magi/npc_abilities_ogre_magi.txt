@@ -1,0 +1,677 @@
+"Hero_OgreMagi"
+{
+	//=================================================================================================================
+	// Ogre Magi: Fireblast (Lua version)
+	//=================================================================================================================
+	"ogre_magi_fireblast_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_fireblast_lua/ogre_magi_fireblast_lua"
+		"AbilityTextureName"			"ogre_magi_fireblast"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_fireblast.vpcf"
+		}
+
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"4"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"525"
+		"AbilityCastPoint"				"0.45"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"11 10 9 8"
+		"AbilityManaCost"				"70 85 100 115"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"stun_duration"		"1.2"
+			"multicast_delay"	"0.6"
+			
+			"fireblast_damage"
+			{
+				"value"		"70 130 190 250"
+			}
+
+			"required_level"
+			{
+				"value"						"1"
+				"special_bonus_facet_ogre_magi_learning_curve"	"-1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ogre Magi: Fireblast
+	//=================================================================================================================
+	"ogre_magi_fireblast_lua_curve"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_fireblast_lua/ogre_magi_fireblast_lua"
+		"AbilityTextureName"			"ogre_magi_fireblast"
+		"RequiredLevel"					"-1"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_fireblast.vpcf"
+		}
+
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"4"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"525"
+		"AbilityCastPoint"				"0.45"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"11 10 9 8"
+		"AbilityManaCost"				"70 85 100 115"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"stun_duration"		"1.2"
+			"multicast_delay"	"0.6"
+			
+			"fireblast_damage"
+			{
+				"value"		"70 130 190 250"
+			}
+
+			"required_level"
+			{
+				"value"						"1"
+				"special_bonus_facet_ogre_magi_learning_curve"	"-1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ogre Magi: Ignite (Lua version)
+	//=================================================================================================================
+	"ogre_magi_ignite_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_ignite_lua/ogre_magi_ignite_lua"
+		"AbilityTextureName"			"ogre_magi_ignite"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_ignite.vpcf"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_ignite_debuff.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"4"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700 800 900 1000"
+		"AbilityCastPoint"				"0.35"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"17"
+		"AbilityManaCost"				"90 100 110 120"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"duration"			"5 6 7 8"
+			"burn_damage"		
+			{
+				"value"				"20 30 40 50"
+			}		
+			"slow_movement_speed_pct"		"20 23 26 29"
+			"projectile_speed"		"1000"
+			"multicast_delay"	"0.6"
+
+			"required_level"
+			{
+				"value"						"1"
+				"special_bonus_facet_ogre_magi_learning_curve"	"-1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ogre Magi: Ignite
+	//=================================================================================================================
+	"ogre_magi_ignite_lua_curve"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_ignite_lua/ogre_magi_ignite_lua"
+		"AbilityTextureName"			"ogre_magi_ignite"
+		"RequiredLevel"					"-1"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_ignite.vpcf"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_ignite_debuff.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"4"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700 800 900 1000"
+		"AbilityCastPoint"				"0.35"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"17"
+		"AbilityManaCost"				"90 100 110 120"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"duration"			"5 6 7 8"
+			"burn_damage"		
+			{
+				"value"				"20 30 40 50"
+			}		
+			"slow_movement_speed_pct"		"20 23 26 29"
+			"projectile_speed"		"1000"
+			"multicast_delay"	"0.6"
+
+			"required_level"
+			{
+				"value"						"1"
+				"special_bonus_facet_ogre_magi_learning_curve"	"-1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ogre Magi: Bloodlust (Lua version)
+	//=================================================================================================================
+	"ogre_magi_bloodlust_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_bloodlust_lua/ogre_magi_bloodlust_lua"
+		"AbilityTextureName"			"ogre_magi_bloodlust"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_cast.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_YES"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"4"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"600"
+		"AbilityCastPoint"				"0.45"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"25"
+		"AbilityManaCost"				"50 60 70 80"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"modelscale"				"25.0"
+			"bonus_movement_speed"		"7 9 11 13"
+			"bonus_attack_speed"
+			{
+				"value"					"10 20 30 40"
+			}
+			"self_bonus"
+			{
+				"value"					"5 10 20 30"
+				"special_bonus_unique_ogre_magi" "+30"
+			}
+			"duration"					"12"
+
+			"required_level"
+			{
+				"value"						"1"
+				"special_bonus_facet_ogre_magi_learning_curve"	"-1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ogre Magi: Bloodlust (Lua version)
+	//=================================================================================================================
+	"ogre_magi_bloodlust_lua_curve"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_bloodlust_lua/ogre_magi_bloodlust_lua"
+		"AbilityTextureName"			"ogre_magi_bloodlust"
+		"RequiredLevel"					"-1"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_buff.vpcf"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_bloodlust_cast.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_YES"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"4"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"600"
+		"AbilityCastPoint"				"0.45"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"25"
+		"AbilityManaCost"				"50 60 70 80"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"modelscale"				"25.0"
+			"bonus_movement_speed"		"7 9 11 13"
+			"bonus_attack_speed"
+			{
+				"value"					"10 20 30 40"
+			}
+			"self_bonus"
+			{
+				"value"					"40 60 80 100"
+				"special_bonus_unique_ogre_magi" "+30"
+			}
+			"duration"					"12"
+
+			"required_level"
+			{
+				"value"						"1"
+				"special_bonus_facet_ogre_magi_learning_curve"	"-1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ogre Magi: Multicast (Lua version)
+	//=================================================================================================================
+	"ogre_magi_multicast_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_multicast_lua/ogre_magi_multicast_lua"
+		"AbilityTextureName"			"ogre_magi_multicast"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf"
+		}
+		
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"FightRecapLevel"				"2"
+		"MaxLevel"						"3"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"RequiredLevel"
+			{
+				"special_bonus_facet_ogre_magi_learning_curve"	"+1"
+			}
+			"multicast_2_times"
+			{
+				"value"		"75"
+				// Have the bonus listed here so the value shows as modified, actual modification is done by strenght_mult
+				"special_bonus_facet_ogre_magi_fat_chance" "+0"
+			}
+
+			"multicast_3_times"
+			{
+				"value"		"0 30 30"
+				// Have the bonus listed here so the value shows as modified, actual modification is done by strenght_mult
+				"special_bonus_facet_ogre_magi_fat_chance" "+0"
+			}
+
+			"multicast_4_times"
+			{
+				"value"		"0 0 15"
+				// Have the bonus listed here so the value shows as modified, actual modification is done by strenght_mult
+				"special_bonus_facet_ogre_magi_fat_chance" "+0"
+			}
+
+			"strength_mult"
+			{
+				"value"						"0"
+				"special_bonus_facet_ogre_magi_fat_chance"	"=0.06"
+			}
+			"bloodlust_aoe"			"700"
+			"bonus_cast_range"		"20 40 60"
+		}
+	}
+
+	//=================================================================================================================
+	// Ogre Magi: Multicast (Lua version)
+	//=================================================================================================================
+	"ogre_magi_multicast_lua_curve"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/ogre_magi/ogre_magi_multicast_lua/ogre_magi_multicast_lua"
+		"AbilityTextureName"			"ogre_magi_multicast"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ogre_magi.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_multicast.vpcf"
+		}
+		
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"FightRecapLevel"				"2"
+		"MaxLevel"						"3"
+		"RequiredLevel"					"5"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"RequiredLevel"
+			{
+				"special_bonus_facet_ogre_magi_learning_curve"	"+1"
+			}
+			"multicast_2_times"
+			{
+				"value"		"75"
+				// Have the bonus listed here so the value shows as modified, actual modification is done by strenght_mult
+				"special_bonus_facet_ogre_magi_fat_chance" "+0"
+			}
+
+			"multicast_3_times"
+			{
+				"value"		"0 30 30"
+				// Have the bonus listed here so the value shows as modified, actual modification is done by strenght_mult
+				"special_bonus_facet_ogre_magi_fat_chance" "+0"
+			}
+
+			"multicast_4_times"
+			{
+				"value"		"0 0 15"
+				// Have the bonus listed here so the value shows as modified, actual modification is done by strenght_mult
+				"special_bonus_facet_ogre_magi_fat_chance" "+0"
+			}
+
+			"strength_mult"
+			{
+				"value"						"0"
+				"special_bonus_facet_ogre_magi_fat_chance"	"=0.06"
+			}
+			"bloodlust_aoe"			"700"
+			"bonus_cast_range"		"20 40 60"
+		}
+	}
+
+    "special_bonus_pathfinder_ogre_magi_bloodlust_lua+bonus_movement_speed"
+    {
+        "BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"        
+        "AbilityValues"
+        {
+            "bonus_movement_speed" "15"
+        }            
+    }
+
+    
+    "special_bonus_pathfinder_ogre_magi_ignite_lua+burn_damage"
+    {
+        "BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"        
+        "AbilityValues"
+        {
+            "burn_damage" "16"
+        }            
+    }
+    
+    "special_bonus_pathfinder_ogre_magi_fireblast_lua+fireblast_damage"
+    {
+        "BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"        
+        "AbilityValues"
+        {
+            "fireblast_damage" "240"
+        }            
+    }
+
+    "pathfinder_special_om_multi_multicast"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_multicast"
+        "BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "chance" "45"
+        }
+    }
+    "pathfinder_special_om_alive_multicast"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_multicast"
+        "BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "heal" "100"
+            "health_penalty" "50"
+        }
+    }
+    "pathfinder_special_om_aoe_multicast"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_multicast"
+        "BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "chance" "15"
+            "radius" "900"
+        }
+    }
+    "pathfinder_special_om_shield_bloodlust"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_smash"
+        "BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+            "layers" "3"
+            "radius" "1000"
+            "targets" "5"
+        }
+    }
+
+    "pathfinder_special_om_aoe_fireblast"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_fireblast"
+        "BaseClass"                     "ability_datadriven"    
+        "AbilityValues"
+        {
+            "aoe" "250"
+        }
+    }
+
+    "pathfinder_special_om_gold_fireblast"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_fireblast"
+        "BaseClass"                     "ability_datadriven"    
+        "AbilityValues"
+        {
+            "captain_gold" "80"
+            "creep_gold" "15"
+        }
+    }
+
+    "pathfinder_special_friendly_ignite"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_ignite"
+        "BaseClass"                     "ability_datadriven"    
+    }
+
+
+    "pathfinder_special_ignite_fireblast"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_ignite"
+        "BaseClass"                     "ability_datadriven" 
+        "AbilityValues"
+        {
+            "chance" "35"
+        }  
+    }
+
+    "pathfinder_special_ignite_multismash"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_ignite"
+        "BaseClass"                     "ability_datadriven" 
+        "AbilityValues"
+        {
+            "duration_reduction" "1.0"
+        }  
+    }
+
+    "pathfinder_special_bloodlust_fear"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "ogre_magi_bloodlust"
+        "BaseClass"                     "ability_datadriven" 
+        "AbilityValues"
+        {
+            "radius" "250"
+            "duration" "1.2"
+        }  
+    }
+
+    "pathfinder_special_om_summoming"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        "AbilityTextureName"            "ogre_magi/arcana/ogre_magi_bloodlust_arcana_alt2"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "pathfinder/pathfinder_special_om_summoming"        
+        "AbilityCastAnimation"          "ACT_DOTA_VICTORY"
+        
+
+        "AbilityCastPoint"              "0"
+        "AbilityCooldown"               "55"        
+        "AbilityManaCost"               "110"        
+        "AnimationPlaybackRate"         "0.58"
+        "AbilityValues"
+        {
+            "interval" "1.5"
+            "channel_time" "20"
+            "lifetime" "8"
+        }        
+    }	
+}

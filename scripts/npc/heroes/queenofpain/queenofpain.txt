@@ -1,0 +1,13 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_queenofpain_aghsfort"
+	{
+		"override_hero"		"npc_dota_hero_queenofpain"
+		"Ability1"			"queenofpain_pf_shadow_strike"
+		"Ability2"			"queenofpain_pf_blink"
+		"Ability3"			"queenofpain_pf_scream_of_pain"
+		"Ability6"			"queenofpain_pf_sonic_wave"
+		"Ability16"			"special_bonus_unique_queenofpain_scream_of_pain_stun"
+		"Ability17"			"special_bonus_24_crit_2"
+	}
+}

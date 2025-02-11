@@ -1,0 +1,3465 @@
+
+// Dota Abilities Override File
+"DOTAAbilities"
+{
+	"Version"		"1"
+
+	//=================================================================================================================
+	// 
+	// ITEM ABILITIES
+	// 
+	//=================================================================================================================
+
+	// "item_helm_of_the_dominator"
+	// {
+	// 	"ItemIsNeutralDrop"				"0"
+	// 	"ItemCost"						"3000"
+	// 	"ItemPurchasable"				"0"
+	// 	"CustomShop"					"1"
+	// 	"RequiresCustomShop"			"1"
+	// 	"RequiredCustomShopName"		"boss_shop"
+	// 	"ItemStockInitial"				"1"
+	// 	"ItemStockMax"					"1"
+	// 	"ItemStockTime"					"999999.0"
+	// 	"ItemSellable"					"0"
+	// 	"AbilityCooldown"				"55.0"		
+	// }
+
+	"item_recipe_dagon"				"REMOVE"
+	"item_recipe_dagon_2"			"REMOVE"
+	"item_recipe_dagon_3"			"REMOVE"
+	"item_recipe_dagon_4"			"REMOVE"
+	"item_recipe_dagon_5"			"REMOVE"
+	"item_dagon"					"REMOVE"
+	"item_dagon_2"					"REMOVE"
+	"item_dagon_3"					"REMOVE"
+	"item_dagon_4"					"REMOVE"
+	"item_dagon_5"					"REMOVE"
+
+	"item_heart"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"						"114"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4800"
+		"ItemShopTags"					"str;regen_health;health_pool"
+		"ItemQuality"					"epic"
+		"ItemAliases"					"hot;heart of tarrasque"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_strength"		"45"
+			"bonus_health"			"250"
+			"health_regen_pct"		"1"
+		}
+	}
+
+	"item_recipe_grandmasters_glaive"
+	{
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1100"	
+		"ItemPurchasable"				"0"
+		"IsObsolete"					"1"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_grandmasters_glaive"
+		"ItemRequirements"
+		{
+			"01"						"item_basher;item_kaya"
+			"04"						"item_basher;item_sange"
+			"06"						"item_basher;item_yasha"
+		}
+	}
+
+	"item_grandmasters_glaive"
+	{
+
+		"ItemCost"						"6100"		
+		"ItemPurchasable"				"0"
+		"IsObsolete"					"1"
+	}
+
+	"item_blink"
+	{
+		"ItemCost"						"1050"	
+	}
+	"item_overwhelming_blink"
+	{
+		"ItemCost"						"5600"
+	}
+	"item_swift_blink"
+	{
+		"ItemCost"						"5600"
+	}
+	"item_arcane_blink"
+	{
+		"ItemCost"						"5600"
+	}
+
+	
+	"item_helm_of_the_dominator_2"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+	"item_travel_boots"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+	"item_recipe_travel_boots"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+	"item_travel_boots_2"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+	"item_recipe_travel_boots_2"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Recipe: Helm of the Dominator
+	//=================================================================================================================
+	"item_recipe_helm_of_the_dominator_2"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	"item_aghanims_shard"
+	{
+		"ItemPurchasable"				"0"
+		"ItemDroppable"					"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	"item_ward_sentry"
+	{
+		"ItemCost"						"165"
+		"ItemPurchasable"				"1"		
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"200"		
+		"AbilityValues"
+		{
+			"lifetime"				"180"
+			"vision_range"			"400"
+			"true_sight_range"		"600"
+			"health"				"200"
+			"duration_minutes_tooltip"				"8"
+		}
+	}
+	"item_clarity"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+		"ItemCost"						"125"
+		"ItemPurchasable"				"1"		
+		"ItemStockInitial"				"4"
+		"ItemStockMax"					"4"
+		"ItemStockTime"					"120"
+	}
+	//=================================================================================================================
+	// Observer Wards
+	//=================================================================================================================
+	"item_ward_observer"
+	{
+		"ItemCost"						"125"
+		"ItemPurchasable"				"0"		
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"130"
+	}
+	//=================================================================================================================
+	// Broom Handle
+	//=================================================================================================================
+	"item_broom_handle"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Keen Optic
+	//=================================================================================================================
+	"item_keen_optic"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Arcane Ring
+	//=================================================================================================================
+	"item_arcane_ring"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Ocean Heart
+	//=================================================================================================================
+	"item_ocean_heart"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Ironwood Tree
+	//=================================================================================================================
+	"item_ironwood_tree"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"0"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Poor Man's Shield
+	//=================================================================================================================
+	"item_poor_mans_shield"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Faded Broach
+	//=================================================================================================================
+	"item_faded_broach"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_mysterious_hat"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_chipped_vest"
+	{
+		"ItemCost"						"350"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_possessed_mask"
+	{		
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"primary_attribute"			"6"
+			"lifesteal"			"5"
+		}
+	}
+
+	//=================================================================================================================
+	// Dragon Scale
+	//=================================================================================================================
+	"item_dragon_scale"
+	{
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_unstable_wand"
+	{
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+		"AbilityCooldown"				"7"
+	}
+	"item_pogo_stick"
+	{
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+		"AbilityCooldown"				"5"
+	}
+
+	//=================================================================================================================
+	// Essence Ring
+	//=================================================================================================================
+	"item_essence_ring"
+	{
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Pupil's Gift
+	//=================================================================================================================
+	"item_pupils_gift"
+	{
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_bullwhip"
+	{
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	"item_quicksilver_amulet"
+	{
+		"ItemCost"						"500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_misericorde"
+	{
+		"ItemCost"						"700"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	"item_paintball"
+	{
+		"ItemCost"						"700"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+
+	//=================================================================================================================
+	// Enchanted Quiver
+	//=================================================================================================================
+	"item_enchanted_quiver"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	
+	//=================================================================================================================
+	// Ring of Aquila
+	//=================================================================================================================
+	"item_ring_of_aquila"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Grove Bow
+	//=================================================================================================================
+	"item_grove_bow"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Craggy Coat
+	//=================================================================================================================
+	"item_craggy_coat"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+
+	"item_elven_tunic"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	"item_psychic_headband"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	"item_cloak_of_flames"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	"item_ceremonial_robe"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Nether Shawl
+	//=================================================================================================================
+	"item_nether_shawl"
+	{
+		"ItemCost"						"1500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Imp Claw
+	//=================================================================================================================
+	"item_imp_claw"
+	{
+		"ItemCost"						"1500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Vambrace
+	//=================================================================================================================
+	"item_vambrace"
+	{
+		"ItemCost"						"1500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Greater Faerie Fire
+	//=================================================================================================================
+	"item_greater_faerie_fire"
+	{
+		"ItemCost"						"1250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Quickening Charm
+	//=================================================================================================================
+	"item_quickening_charm"
+	{
+		"ItemCost"						"2500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Orb of Destruction
+	//=================================================================================================================
+	"item_orb_of_destruction"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_penta_edged_sword"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	"item_stormcrafter"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+	"item_trickster_cloak"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Paladin Sword
+	//=================================================================================================================
+	"item_paladin_sword"
+	{
+		"ItemCost"						"3250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_lifesteal"			"10"
+			"bonus_spell_lifesteal"			"8"
+			"bonus_amp"					"10"
+			"creep_lifesteal_reduction_pct"	"0"
+		}
+	}
+
+	//=================================================================================================================
+	// Havoc Hammer
+	//=================================================================================================================
+	"item_havoc_hammer"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Witless Shako
+	//=================================================================================================================
+	"item_witless_shako"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Magic Lamp
+	//=================================================================================================================
+	"item_panic_button"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+
+	//=================================================================================================================
+	// Illusionist's Cape
+	//=================================================================================================================
+	"item_illusionsts_cape"
+	{
+		"ItemCost"						"3000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Minotaur Horn
+	//=================================================================================================================
+	"item_minotaur_horn"
+	{
+		"ItemCost"						"3250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Phoenix Ash
+	//=================================================================================================================
+	"item_phoenix_ash"
+	{
+		"ItemCost"						"1600"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Spell Prism
+	//=================================================================================================================
+	"item_spell_prism"
+	{
+		"ItemCost"						"4250"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_force_field"
+	{
+		"ItemCost"						"6000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_book_of_shadows"
+	{
+		"ItemCost"						"4000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Timeless Relic
+	//=================================================================================================================
+	"item_timeless_relic"
+	{
+		"ItemCost"						"4000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Ballista
+	//=================================================================================================================
+	"item_ballista"
+	{
+		"ItemCost"						"6000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_carapace_of_qaldin"
+	{
+		"ItemCost"						"5000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Book of the Dead
+	//=================================================================================================================
+	"item_demonicon"
+	{
+		"ItemCost"						"5000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Force Boots
+	//=================================================================================================================
+	"item_force_boots"
+	{
+		"ItemCost"						"5500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Woodland Striders
+	//=================================================================================================================
+	"item_woodland_striders"
+	{
+		"ItemCost"						"5500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	"item_giants_ring"
+	{
+		"ItemCost"						"55000"
+		"ItemPurchasable"				"0"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"0"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Mirror Shield
+	//=================================================================================================================
+	"item_mirror_shield"
+	{
+		"ItemCost"						"2750"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+		"AbilityValues"
+		{
+			"all_stats"			"7"
+			"block_cooldown"		"16.0"
+		}
+	}
+
+	//=================================================================================================================
+	// Ex Machina
+	//=================================================================================================================
+	"item_ex_machina"
+	{
+		"ItemCost"						"4500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Fallen Sky
+	//=================================================================================================================
+	"item_fallen_sky"
+	{
+		"ItemCost"						"4750"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Apex
+	//=================================================================================================================
+	"item_apex"
+	{
+		"ItemCost"						"6000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Stygian Desolator
+	//=================================================================================================================
+	"item_desolator_2"
+	{
+		"ItemCost"						"6000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+	}
+
+	//=================================================================================================================
+	// Magic Stick
+	//=================================================================================================================
+	"item_magic_stick"
+	{
+		"ItemPurchasable"				"1"
+		"ShouldBeSuggested"				"1"
+	}
+
+	//=================================================================================================================
+	// Magic Wand
+	//=================================================================================================================
+	"item_magic_wand"
+	{
+		"ItemPurchasable"				"1"
+		"ShouldBeSuggested"				"1"
+	}
+
+	//=================================================================================================================
+	// Tome of Knowledge
+	//=================================================================================================================
+	"item_tome_of_knowledge"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Teleport Scroll
+	//=================================================================================================================
+	"item_tpscroll"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Flask
+	//=================================================================================================================
+	"item_flask"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"buff_duration"			"10"
+			"health_regen"			"40"
+			"break_on_hero_damage"	"0"					// don't break to anything in this mode
+		}
+	}
+
+	
+	//=================================================================================================================
+	// Bottle
+	//=================================================================================================================
+	"item_bottle"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"41"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_gameplay/bottle_blue.vmdl"
+		"ModelAlternate"				"models/props_gameplay/bottle_empty.vmdl"
+		"FightRecapLevel"				"1"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"0.5"
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+		"ItemCost"						"0"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"common"
+		"ItemAliases"					"bottle"
+		"ItemStackable"					"0"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemPermanent"					"1"
+		"ItemInitialCharges"			"3"
+		"ItemDisplayCharges"			"1"
+		"IsTempestDoubleClonable"		"0"
+		"ShouldBeSuggested"				"1"
+		"ShouldBeInitiallySuggested"	"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"health_restore"		"0"
+			"mana_restore"			"0"
+			"health_restore_pct"	"25"
+			"mana_restore_pct"		"8"
+			"restore_tme"			"2.5"
+			"max_charges"			"3"
+			"break_on_hero_damage"	"0"
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Urn of Shadows
+	//=================================================================================================================
+	"item_recipe_urn_of_shadows"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Urn of Shadows
+	//=================================================================================================================
+	"item_urn_of_shadows"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Faerie Fire
+	//=================================================================================================================
+	"item_faerie_fire"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Recipe: Spirit Vessel
+	//=================================================================================================================
+	"item_recipe_spirit_vessel"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Spirit Vessel
+	//=================================================================================================================
+	"item_spirit_vessel"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Recipe: Bloodstone
+	//=================================================================================================================
+	"item_recipe_bloodstone"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Bloodstone
+	//=================================================================================================================
+	"item_bloodstone"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Enchanted Mango
+	//=================================================================================================================
+	"item_enchanted_mango"
+	{
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Courier
+	//=================================================================================================================
+	"item_courier"
+	{
+		"ItemPurchasable"				"0"
+		"ItemDroppable"					"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Flying Courier
+	//=================================================================================================================
+	"item_flying_courier"
+	{
+		"ItemPurchasable"				"0"
+		"ItemDroppable"					"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Smoke of Deceit
+	//=================================================================================================================
+	"item_smoke_of_deceit"
+	{
+		"ItemPurchasable"				"0"
+		"ItemDroppable"					"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Recipe: Rapier
+	//=================================================================================================================
+	"item_recipe_rapier"
+	{
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRequirements"				"0"
+	}
+	
+	//=================================================================================================================
+	// Divine Rapier
+	//=================================================================================================================
+	"item_rapier"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Helm of the Dominator
+	//=================================================================================================================
+	"item_helm_of_the_dominator"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Recipe: Helm of the Dominator
+	//=================================================================================================================
+	"item_recipe_helm_of_the_dominator"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Hand of Midas
+	//=================================================================================================================
+	"item_hand_of_midas"
+	{
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Hand of Midas Recipe
+	//=================================================================================================================
+	"item_recipe_hand_of_midas"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Quelling Blade
+	//=================================================================================================================
+	"item_quelling_blade"
+	{
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Recipe: Battlefury - now requires a purchase in place of the quelling blade
+	//=================================================================================================================
+	"item_recipe_bfury"
+	{
+		"ItemCost"						"130"	
+		"ItemRequirements"
+		{
+			"01"						"item_broadsword;item_claymore;item_pers"
+		}
+	}
+
+	
+
+
+	//=================================================================================================================
+	// Recipe: Ward Dispenser
+	//=================================================================================================================
+	"item_recipe_ward_dispenser"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+	
+	//=================================================================================================================
+	// Ward Dispenser
+	//=================================================================================================================
+	"item_ward_dispenser"
+	{
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Tango
+	//=================================================================================================================
+	"item_tango"
+	{
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Aghs Scepter
+	//=================================================================================================================
+	"item_ultimate_scepter"
+	{
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Aghs Scepter 2
+	//=================================================================================================================
+	"item_ultimate_scepter_2"
+	{
+		"ItemPurchasable"				"0"	
+		"ShouldBeSuggested"				"0"
+	}
+
+	//=================================================================================================================
+	// Recipe: Scepter
+	//=================================================================================================================
+	"item_recipe_ultimate_scepter"
+	{
+		"ItemRequirements"				"0"
+		"ItemPurchasable"				"0"
+		"ShouldBeSuggested"				"0"
+	}
+
+
+	//=================================================================================================================
+	// Mask of Madness
+	//=================================================================================================================
+	"item_mask_of_madness"
+	{
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"lifesteal_percent"				"10"
+			"creep_lifesteal_reduction_pct"	"0"
+		}
+	}
+
+	//=================================================================================================================
+	// Vladimir
+	//=================================================================================================================
+	"item_vladmir"
+	{
+		"AbilityValues"
+		{
+			"lifesteal_aura"			"8"
+			"creep_lifesteal_reduction_pct"	"0"
+			"damage_aura"			"18"
+			"aura_radius"	"1200"
+		}
+	}
+
+	//=================================================================================================================
+	// Satanic
+	//=================================================================================================================
+	"item_satanic"
+	{		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"lifesteal_percent"		"13"
+			"creep_lifesteal_reduction_pct"	"0"
+			"unholy_lifesteal_percent"	"37"
+			"unholy_lifesteal_total_tooltip"	"40"
+			"unholy_duration"		"6.0"
+		}
+	}
+
+	"item_mage_slayer"
+	{
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"spell_amp_debuff"		"10"
+			"duration"				"3"
+		}
+	}
+
+	//=================================================================================================================
+	// Vampire Fangs
+	//=================================================================================================================
+	"item_vampire_fangs"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		
+		"ItemIsNeutralDrop"				"1"
+
+		"ItemCost"						"2000"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"attack_lifesteal"				"10"
+			"spell_lifesteal"				"6"
+			"creep_lifesteal_reduction_pct"	"0"
+			"night_vision"					"300"
+		}
+	}
+
+	//=================================================================================================================
+	// 
+	//=================================================================================================================
+	"item_trident"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemIsNeutralDrop"				"1"
+
+		"ItemCost"						"6000"
+		"ItemPurchasable"				"0"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_strength"			"30"
+			"bonus_agility"				"30"
+			"bonus_intellect"			"30"
+			"status_resistance"			"20"
+			"bonus_attack_speed"		"30"
+			"movement_speed_percent_bonus"	"30"
+			"hp_regen_amp"				"30"
+			"mana_regen_multiplier"		"30"
+			"spell_amp"					"30"
+			"magic_damage_attack"		"30"
+		}
+	}
+
+	//=================================================================================================================
+	// Shadow Amulet
+	//=================================================================================================================
+	"item_shadow_amulet"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"FightRecapLevel"				"1"
+
+
+		// Stats		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"600"
+		"AbilityCooldown"				"28.0"
+		"AbilityManaCost"				"75"
+		"AbilitySharedCooldown"			"shadow_blade"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1000"
+		"ItemShopTags"					""
+		"ItemAliases"					"shadow amulet"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{			
+			"fade_time"				"0.3"
+			"fade_duration"			"14"
+			"self_cooldown"			"21"
+		}
+	}
+
+	//=================================================================================================================
+	// Titan Sliver
+	//=================================================================================================================
+	"item_titan_sliver"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemIsNeutralDrop"				"1"
+	
+
+		"ItemCost"						"2500"
+		"ItemPurchasable"				"1"
+		"CustomShop"					"1"
+		"RequiresCustomShop"			"1"
+		"RequiredCustomShopName"		"boss_shop"
+		"ItemStockInitial"				"1"
+		"ItemStockMax"					"1"
+		"ItemStockTime"					"999999.0"
+		"ItemSellable"					"0"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"base_attack_damage"			"16"
+			"magic_resistance"			"16"
+			"status_resistance"			"11"
+		}
+	}
+
+	//=================================================================================================================
+	// Lifesteal
+	//=================================================================================================================
+	"item_lifesteal"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"26"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"900"
+		"ItemShopTags"					"unique"
+		"ItemQuality"					"component"
+		"ItemAliases"					"morbid mask"
+		//"SideShop"						"1"
+		"ShouldBeSuggested"				"1"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"lifesteal_percent"		"8"
+			"creep_lifesteal_reduction_pct"	"0"
+		}
+	}
+
+	//=================================================================================================================
+	// Recipe: Bloodthorn
+	//=================================================================================================================
+	"item_recipe_bloodthorn"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"245"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1500"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_bloodthorn"
+		"ItemRequirements"
+		{
+			"01"						"item_orchid;item_hyperstone"
+		}
+	}
+	
+	//=================================================================================================================
+	// Bloodthorn
+	//=================================================================================================================
+	"item_bloodthorn"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"250"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"FightRecapLevel"				"1"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"30.0"
+		"AbilitySharedCooldown"			"orchid"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100"
+		"ItemCost"						"6475"
+		"ItemShopTags"					"int;attack_speed;damage;regen_mana;damage;hard_to_tag"
+		"ItemQuality"					"epic"
+		"ItemAliases"					"orchid malevolence"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"silence_duration"			"3"
+			"silence_damage_percent"	"15"
+		}
+	}
+
+	//=================================================================================================================
+	// Black King Bar
+	//=================================================================================================================
+	"item_black_king_bar"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"FightRecapLevel"				"2"
+
+		// Stats		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"50"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4050"
+		"ItemShopTags"					"str;damage;hard_to_tag"
+		"ItemQuality"					"epic"
+		"ItemAliases"					"bkb;black king bar"
+		"ItemSellable"					"1"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"duration"				"5"
+			"max_level"				"1"
+		}
+	}
+
+	//=================================================================================================================
+	// Battlefury
+	//=================================================================================================================
+	"item_bfury"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"
+		"ItemShopTags"					"damage;health_regen;mana_regen;hard_to_tag"
+		"ItemQuality"					"epic"
+		"ItemAliases"					"bf;battle fury"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"cleave_damage_percent"	"20"
+			"cleave_damage_percent_creep"	"20"
+		}
+	}
+
+	//=================================================================================================================
+	// Orchid
+	//=================================================================================================================
+	"item_orchid"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"FightRecapLevel"				"1"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"30.0"
+		"AbilitySharedCooldown"			"orchid"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100"
+		"ItemCost"						"3475"
+		"ItemShopTags"					"int;attack_speed;damage;regen_mana;damage;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"orchid malevolence;silence"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+				"bonus_attack_speed"	"40"
+				"bonus_damage"			"10"
+				"bonus_mana_regen"		"3.5"
+				"bonus_health_regen"	"6.0"
+				"bonus_intellect"		"12"
+				"silence_damage_percent"	"15"
+				"silence_duration"		"3"
+		}
+	}
+
+	//=================================================================================================================
+	// 
+	// REGULAR ABILITIES
+	// 
+	//=================================================================================================================
+
+	//=================================================================================================================
+	// Shredder: Chakram
+	//=================================================================================================================
+	"shredder_chakram"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5527"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+		"HasScepterUpgrade"			"1"
+		"AbilitySound"					"Hero_Shredder.Chakram.Cast"
+		"MaxLevel"                      "4"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1800"
+		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"8.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"speed"					"600.0 625.0 650.0 675.0"
+			"radius"				"200"
+			"pass_damage"			"200 240 280 320"
+			"damage_per_second"		"100 120 140 160"
+			"slow"					"5 6 7 8"
+			"damage_interval"		"0.5"
+			"break_distance"		"2000.0"
+			"mana_per_second"		"0"
+			"pass_slow_duration"	"0.5"
+			"slow_health_percentage"	"5"
+		}
+	}
+
+	//=================================================================================================================
+	// Shredder: Chakram 2
+	//=================================================================================================================
+	"shredder_chakram_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5645"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"		
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"IsGrantedByScepter"			"1"
+		"HasScepterUpgrade"			"1"
+		"MaxLevel"                      "4"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1800"
+		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_6"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"12.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"speed"
+			{
+				"value"					"600.0 625.0 650.0 675.0"
+				"RequiresScepter"	"1"
+			}
+			"radius"
+			{
+				"value"					"200"
+				"RequiresScepter"	"1"
+			}
+			"pass_damage"
+			{
+				"value"					"200 240 280 320"
+				"RequiresScepter"	"1"
+			}
+			"damage_per_second"
+			{
+				"value"					"100 120 140 160"
+				"RequiresScepter"	"1"
+			}
+			"slow"
+			{
+				"value"				"5 6 7 8"
+				"RequiresScepter"	"1"	
+			}
+			"damage_interval"
+			{
+				"value"				"0.5"
+				"RequiresScepter"	"1"	
+			}
+			"break_distance"
+			{
+				"value"				"2000.0"
+				"RequiresScepter"	"1"	
+			}
+			"mana_per_second"
+			{
+				"value"				"0"
+				"RequiresScepter"	"1"	
+			}
+			"pass_slow_duration"
+			{
+				"value"			"0.5"	
+				"RequiresScepter"	"1"	
+			}
+			"slow_health_percentage"
+			{
+				"value"				"5"
+				"RequiresScepter"	"1"	
+			}
+		}
+	}
+	//=================================================================================================================
+	// Tidehunter: Ravage
+	//=================================================================================================================
+	"tidehunter_ravage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel"				"2"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.7"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"15.0"
+
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"300"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"radius"			"1025"
+			"speed"				"775"
+			"duration"			"1.2"
+		}
+	}
+
+	//=================================================================================================================
+	// Kunkka: Tidebringer
+	//=================================================================================================================
+	"kunkka_tidebringer"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5032"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.		
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilitySound"					"Hero_Kunkka.Tidebringer.Attack"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"4.0"
+		"AbilityCastRange"				"150"
+		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{		
+			"cleave_starting_width"			"150"
+			"cleave_ending_width"			"650"
+			"cleave_distance"			"1100"
+			"damage_bonus"
+			{
+				"value"				"100"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"cleave_damage"
+			{
+				"value"				"300"
+				"LinkedSpecialBonus"		"special_bonus_unique_kunkka_4"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+
+	//=================================================================================================================
+	// Kunkka: Ghostship
+	//=================================================================================================================
+	"kunkka_ghostship"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"2"
+
+		"HasScepterUpgrade"				"1"
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.3"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20"
+
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"800"
+	
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"150"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"tooltip_delay"				"2.7"
+			"ghostship_distance"		"1000"
+			"ghostship_width"			"425"
+			"movespeed_bonus"			"10"
+			"buff_duration"				"10"
+			"stun_duration"				"2.0"
+			"ghostship_speed"			"500"
+			"ghostship_speed_scepter"	"650"
+			"ghostship_width_scepter"	"200"
+			"ghostship_absorb"			"40 45 50"
+		}
+	}
+
+	//=================================================================================================================
+	// Obsidian Destroyer: Astral Imprisonment
+	//=================================================================================================================
+	"obsidian_destroyer_astral_imprisonment"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5392"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY | DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilitySound"					"Hero_ObsidianDestroyer.AstralImprisonment"
+		"HasScepterUpgrade"			"1"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDuration"				"2.0"
+		"AbilityCooldown"				"3"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"150"
+		"AbilityCastPoint"				"0.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.5" // applies multiple modifiers
+
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"prison_duration"		"2.0"
+			"damage"
+			{
+				"value"				"0"
+				"LinkedSpecialBonus"	"special_bonus_unique_outworld_devourer_3"
+			}
+			"radius"				"150"
+			"max_charges_scepter"
+			{
+				"value"			"2"
+				"RequiresScepter"			"1"
+			}
+			"charge_restore_time_scepter"
+			{
+				"value"			"12"
+				"RequiresScepter"			"1"
+			}
+			"scepter_range_bonus"
+			{
+				"value"			"300"
+				"RequiresScepter"			"1"
+			}
+			"counter_duration"	"35"
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}	
+
+	//=================================================================================================================
+	// Alchemist: Acid Spray
+	//=================================================================================================================
+	"alchemist_acid_spray"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.2"
+		"AbilityCastRange"				"900"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20.0"
+		
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"50"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"radius"				"450" // was 625
+			"duration"				"9.0"
+			"damage"				"125"
+			"armor_reduction"
+			{
+				"value"				"12"
+				"LinkedSpecialBonus"	"special_bonus_unique_alchemist"
+			}
+			"tick_rate"				"0.5"
+		}
+	}
+
+	//=================================================================================================================
+	// Alchemist: Unstable Concoction
+	//=================================================================================================================
+	"alchemist_unstable_concoction"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel"				"1"
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"900" // give it a range for sake of our alchemist_ai
+		"AbilityCastPoint"				"0.0"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"18.0"
+		
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+        }
+	}
+
+	//=================================================================================================================
+	// Alchemist: Unstable Concoction Throw
+	//=================================================================================================================
+	"alchemist_unstable_concoction_throw"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"900" // was 775
+		"AbilityCastPoint"				"0.2"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportBonus"	"120"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"brew_time"					"2.5"
+			"min_stun"					"2.0"
+			"max_stun"					"2.0"
+			"min_damage"				"800"
+			"max_damage"				"1200"
+			"movement_speed"			"900"
+			"vision_range"				"300"
+			"midair_explosion_radius"	"500"
+			"brew_explosion"			"5.5"
+		}
+	}
+
+	//=================================================================================================================
+	// Alchemist: Chemical Rage
+	//=================================================================================================================
+	"alchemist_chemical_rage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5369"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Hero_Alchemist.ChemicalRage.Cast"
+
+		"HasScepterUpgrade"			"1"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.0"
+		"AbilityCastAnimation"			"ACT_INVALID"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"50"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"duration"				"12.0"
+			"transformation_time"	"0.7"
+			"base_attack_time"
+			{
+				"value"		"0.6"
+				"LinkedSpecialBonus"		"special_bonus_unique_alchemist_3"
+			}
+			"bonus_health"			"3000"
+			"bonus_health_regen"
+			{
+				"value"		"100"
+				"LinkedSpecialBonus"		"special_bonus_unique_alchemist_3"
+			}
+			"bonus_mana_regen"		"200"
+			"bonus_movespeed"
+			{
+				"value"		"220"
+				"LinkedSpecialBonus"		"special_bonus_unique_alchemist_3"
+			}
+			"scepter_gold_damage"
+			{
+				"value"		"2"
+				"RequiresScepter"			"1"
+			}
+			"scepter_bonus_damage"
+			{
+				"value"		"30"
+				"RequiresScepter"			"1"
+			}
+			"scepter_spell_amp"
+			{
+				"value"		"6"
+				"RequiresScepter"			"1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ability: Mirana Starfall
+	//=================================================================================================================
+	"mirana_starfall"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5051"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Ability.Starfall"
+
+		"HasScepterUpgrade"			"1"
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"12.0"
+		"AbilityDuration"				"10.0"
+
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"200"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"80"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"starfall_radius"	"650"		
+			"starfall_secondary_radius"	"450"
+			"interval_scepter"
+			{
+				"value"	"8.0"
+				"RequiresScepter"			"1"
+			}
+			"secondary_starfall_damage_percent"	 "50"
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+		"AbilityCastGestureSlot"		"DEFAULT"
+	}
+	
+	//=================================================================================================================
+	// Ability: Mirana Arrow
+	//=================================================================================================================
+	"mirana_arrow"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5048"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Mirana.ArrowCast"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"3000"
+		"AbilityCastPoint"				"0.5 0.5 0.5 0.5"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"18 17 16 15"
+		"AbilityDuration"				"3.11 3.11 3.11 3.11"
+
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"350"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100 100 100 100"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"arrow_speed"		"900.0"
+			"arrow_width"		"115"
+			"arrow_range"		"3000"
+			"arrow_max_stunrange"	"1500"
+			"arrow_min_stun"	"0.3"
+			"arrow_max_stun"	"5.0"
+			"arrow_bonus_damage"	"500"
+			"arrow_vision"	"500"
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+
+	//=================================================================================================================
+	// Luna: Moon Glaive
+	//=================================================================================================================
+	"luna_moon_glaive"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"range"						"500"
+			"bounces"					"2 4"
+			"damage_reduction_percent"	"35"
+		}
+	}
+
+	//=================================================================================================================
+	// Harpy Storm: Chain Lightning
+	//=================================================================================================================
+	"harpy_storm_chain_lightning"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5319"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"MaxLevel"						"1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		// Unit Targeting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"200"
+		"AbilityCastPoint"				"0.3"
+		"AbilityCooldown"				"6.0"
+		"AbilityManaCost"				"00"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"initial_damage"		"175"
+			"jump_range"			"500"
+			"jump_delay"			"0.25"
+			"damage_percent_loss"	"25.0"
+			"max_targets"			"4"
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+	//=================================================================================================================
+	// Ghost: Frost Attack
+	//=================================================================================================================
+	"ghost_frost_attack"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5301"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"MaxLevel"						"1"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"movespeed_slow"		"-15"
+			"attackspeed_slow"		"-10"
+			"duration"				"1"
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+	//=================================================================================================================
+	// Brewmaster Storm: Static Remnant
+	//=================================================================================================================
+	"storm_spirit_static_remnant"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5098"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_StormSpirit.StaticRemnantPlant"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0 0 0 0"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"3.5"
+		"AbilityDuration"				"12.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"25"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"static_remnant_radius"		"235"		
+			"static_remnant_damage_radius"	"260"
+			"static_remnant_delay"		"1.0"
+			"static_remnant_damage"
+			{
+				"value"			"100"
+				"LinkedSpecialBonus"	"special_bonus_unique_storm_spirit_5"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+	//=================================================================================================================
+	// Brewmaster: Thunder Clap
+	//=================================================================================================================
+	"brewmaster_thunder_clap"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5400"							// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"AbilitySound"					"Hero_Brewmaster.ThunderClap"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10"
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.4 0.4 0.4"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"50 100 110 120"		
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "radius" "400 400 400 400"
+            "damage" "100 100 100 100"
+            "movement_slow" "25"
+            "attack_speed_slow" "25"
+            "duration"
+            {
+                "value" "2.0"
+                "LinkedSpecialBonus" "special_bonus_unique_brewmaster_3"
+            }
+            "duration_creeps"
+            {
+                "value" "2.0"
+                "LinkedSpecialBonus" "special_bonus_unique_brewmaster_3"
+            }
+        }
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+	//=================================================================================================================
+	// Beastmaster: Wild Axes
+	//=================================================================================================================
+	"beastmaster_wild_axes"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5168"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Beastmaster.Wild_Axes"
+		"HasScepterUpgrade"				"1"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"12"
+
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"80"		
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "radius" "175"
+            "spread" "450"
+            "range" "1500"
+            "axe_damage"
+            {
+                "value" "300"
+                "LinkedSpecialBonus" "special_bonus_unique_beastmaster"
+            }
+            "duration" "6"
+            "damage_amp" "6 8 10 12"
+            "scepter_cooldown"
+            {
+                "value" "0"
+                "RequiresScepter" "1"
+            }
+            "min_throw_duration" "1.25"
+            "max_throw_duration" "1.25"
+        }
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+	//=================================================================================================================
+	// Beastmaster: Primal Roar
+	//=================================================================================================================
+	"beastmaster_primal_roar"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5177"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"		
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Hero_Beastmaster.Primal_Roar"
+	
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.5 0.5 0.5"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"90"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"200"		
+		
+		// Cast Range
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"600"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.6"	// Applies multiple modifiers
+
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "duration" "2.0"
+            "damage" "150"
+            "side_damage" "150"
+            "damage_radius" "300"
+            "slow_movement_speed_pct" "-60"
+            "slow_attack_speed_pct" "-60"
+            "push_distance" "450"
+            "push_duration" "1.0"
+            "slow_duration" "3"
+            "movement_speed" "40"
+            "movement_speed_duration" "3.0"
+        }
+	}
+	
+	//=================================================================================================================
+	// Troll Warlord: Whirling Axes (Throw)
+	//=================================================================================================================
+	"troll_warlord_whirling_axes_ranged"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5509"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_TrollWarlord.WhirlingAxes.Ranged"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_DOTA_WHIRLING_AXES_RANGED"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.2 0.2 0.2 0.2"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"9"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "axe_width" "100"
+            "axe_speed" "800.0"
+            "axe_range" "1000.0"
+            "axe_damage"
+            {
+                "value" "600"
+                "LinkedSpecialBonus" "special_bonus_unique_troll_warlord_3"
+            }
+            "axe_slow_duration" "2.5"
+            "movement_speed" "40"
+            "axe_spread" "25"
+            "axe_count" "5"
+        }
+	}
+
+	//=================================================================================================================
+	// Troll Warlord: Whirling Axes Spin
+	//=================================================================================================================
+	"troll_warlord_whirling_axes_melee"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5510"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_TrollWarlord.WhirlingAxes.Melee"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+ 		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		"AbilityCastPoint"				"0.0"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"9"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "damage"
+            {
+                "value" "500"
+                "LinkedSpecialBonus" "special_bonus_unique_troll_warlord_3"
+            }
+            "hit_radius" "100"
+            "max_range" "450.0"
+            "axe_movement_speed" "1250"
+            "blind_duration" "5"
+            "blind_pct" "60"
+            "whirl_duration" "3.0"
+        }
+	}
+
+	//=================================================================================================================
+	// Skywrath Mage: Mystic Flare
+	//=================================================================================================================
+	"skywrath_mage_mystic_flare"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5584"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"2"
+
+		"HasScepterUpgrade"			"1"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.1 0.1 0.1 0.1"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"60.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"300"
+			
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "radius" "170"
+            "duration" "2.4"
+            "damage"
+            {
+                "value" "750"
+                "LinkedSpecialBonus" "special_bonus_unique_skywrath_5"
+            }
+            "damage_interval" "0.1"
+            "scepter_radius"
+            {
+                "value" "700"
+                "RequiresScepter" "1"
+            }
+        }
+	}
+
+	//=================================================================================================================
+	// Legion Commander: Duel
+	//=================================================================================================================
+	"legion_commander_duel"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5598"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Hero_LegionCommander.Duel"
+
+		"HasScepterUpgrade"			"1"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"150"
+		"AbilityCastPoint"				"1.3"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"50.0 50.0 50.0"
+		
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"75 75 75"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"3.0"	// Value much higher than cost.
+
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "duration" "3.0"
+            "duration_scepter"
+            {
+                "value" "6 7 8"
+                "RequiresScepter" "1"
+            }
+            "reward_damage"
+            {
+                "value" "0"
+                "LinkedSpecialBonus" "special_bonus_unique_legion_commander"
+            }
+            "victory_range" "600"
+        }
+	}
+	
+	//=================================================================================================================
+	// Slark: Dark Pact
+	//=================================================================================================================
+	"slark_dark_pact"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5494"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"BaseClass" 					"ability_lua"
+		"ScriptFile" 					"abilities/pf_slark_darkpact"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Slark.DarkPact.Cast"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_INVALID"
+		"AbilityCastPoint"				"0.001 0.001 0.001 0.001"
+		"AbilityCastRange"				"400"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"1.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"60"	
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "delay" "1.5"
+            "pulse_duration" "1.0"
+            "radius" "400"
+            "total_damage"
+            {
+                "value" "250"
+                "LinkedSpecialBonus" "special_bonus_unique_slark_2"
+            }
+            "total_pulses" "10"
+            "pulse_interval" "0.1"
+        }
+	}
+
+	//=================================================================================================================
+	// Slark: Pounce
+	//=================================================================================================================
+	"slark_pounce"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5495"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Slark.Pounce.Cast"
+		"HasScepterUpgrade"				"1"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "pounce_distance" "400"
+            "pounce_speed" "1000"
+            "pounce_acceleration" "4000.0"
+            "pounce_radius" "95"
+            "leash_duration"
+            {
+                "value" "0"
+                "LinkedSpecialBonus" "special_bonus_unique_slark"
+            }
+            "leash_radius" "400"
+            "max_charges"
+            {
+                "value" "2"
+                "RequiresScepter" "1"
+            }
+            "charge_restore_time"
+            {
+                "value" "10"
+                "RequiresScepter" "1"
+            }
+            "pounce_distance_scepter"
+            {
+                "value" "1100"
+                "RequiresScepter" "1"
+            }
+        }
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+
+	//=================================================================================================================
+	// Slark Shadow Dance
+	//=================================================================================================================
+	"slark_shadow_dance"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Hero_Slark.ShadowDance"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"45"
+		
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "duration"
+            {
+                "value" "4"
+                "LinkedSpecialBonus" "special_bonus_unique_slark_3"
+            }
+            "fade_time" "0.0"
+            "bonus_movement_speed" "50"
+            "bonus_regen_pct" "20"
+            "activation_delay" "0.5"
+            "neutral_disable" "2.0"
+        }
+	}
+
+	//=================================================================================================================
+	// Naga Siren: Ensnare
+	//=================================================================================================================
+	"naga_siren_ensnare"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5468"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_NagaSiren.Ensnare.Cast"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.6"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+		
+		// Cast Range
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"650 650 650 650"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "duration" "2.0"
+            "net_speed" "500"
+            "fake_ensnare_distance" "900"
+        }
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}	
+
+	//=================================================================================================================
+	// Naga Siren: Rip Tide
+	//=================================================================================================================
+	"naga_siren_rip_tide"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5469"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_NagaSiren.Riptide.Cast"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0 0 0 0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "chance" "17"
+            "armor_reduction"
+            {
+                "value" "-2 -4 -6 -8"
+                "LinkedSpecialBonus" "special_bonus_unique_naga_siren_3"
+            }
+            "damage" "250"
+            "radius" "300"
+            "duration" "4.0"
+        }
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
+	}	
+
+	//=================================================================================================================
+	// Naga Siren: Song of the Siren
+	//=================================================================================================================
+	"naga_siren_song_of_the_siren"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"5470"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"2"
+		"HasScepterUpgrade"			"1"
+		"AbilitySound"					"Hero_NagaSiren.SongOfTheSiren"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"1.0"
+		"AbilityCastRange"				"1000 1200 1400"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"60"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "radius" "1000"
+            "duration" "7.0"
+            "animation_rate" "0.55 0.55 0.55"
+            "regen_rate" "10.0"
+            "regen_rate_self" "100.0"
+            "regen_rate_tooltip_scepter"
+            {
+                "value" "10"
+                "RequiresScepter" "1"
+            }
+        }
+	}
+
+	//=================================================================================================================
+	// Tidehunter: Anchor Smash
+	//=================================================================================================================
+	"tidehunter_anchor_smash"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5120"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Tidehunter.AnchorSmash"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"375"
+		"AbilityCastPoint"				"0.4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"30"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "attack_damage" "500"
+            "damage_reduction"
+            {
+                "value" "-30"
+                "LinkedSpecialBonus" "special_bonus_unique_tidehunter_3"
+                "CalculateSpellDamageTooltip" "0"
+            }
+            "reduction_duration" "6.0"
+            "radius" "375"
+        }
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
+	}
+
+	//=================================================================================================================
+	// Tidehunter: Ravage
+	//=================================================================================================================
+	"tidehunter_ravage"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5121"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Ability.Ravage"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.3 0.3 0.3"
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"0.0"
+
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"1000"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"150"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "radius" "1250"
+            "speed" "725"
+            "duration" "2.0"
+        }
+	}
+
+	//=================================================================================================================
+	// Sange
+	//=================================================================================================================
+	"item_sange"
+	{
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "bonus_strength" "16"
+            "status_resistance" "8"
+            "hp_regen_amp" "12"
+        }
+	}
+
+	//=================================================================================================================
+	// Sange and Yasha
+	//=================================================================================================================
+	"item_sange_and_yasha"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"154"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4100"
+		"ItemShopTags"					"damage;str;agi;attack_speed;unique"
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"sny;s&y;sy;sange and yasha"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "bonus_strength" "16"
+            "bonus_agility" "16"
+            "status_resistance" "10"
+            "bonus_attack_speed" "16"
+            "movement_speed_percent_bonus" "10"
+            "hp_regen_amp" "15"
+        }
+	}
+
+	//=================================================================================================================
+	// Kaya and Sange
+	//=================================================================================================================
+	"item_kaya_and_sange"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"273"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4100"
+		"ItemShopTags"					"damage;str;agi;attack_speed;unique"
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"snk;s&k;sk;sange and kaya"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "bonus_strength" "16"
+            "bonus_intellect" "16"
+            "status_resistance" "10"
+            "mana_regen_multiplier" "30"
+            "spell_amp" "16"
+            "hp_regen_amp" "15"
+            "spell_lifesteal_amp" "30"
+        }
+	}
+
+	//=================================================================================================================
+	// Heaven's Halberd
+	//=================================================================================================================
+	"item_heavens_halberd"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"210"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"FightRecapLevel"				"1"
+
+		// Stats		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"18"
+		"AbilityCastRange"				"600"
+		"AbilityCastPoint"				"0.0"
+
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100"
+		"ItemCost"						"3450"
+		"ItemShopTags"					"str;damage;evasion"
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"heaven's halberd"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "bonus_evasion" "20"
+            "bonus_strength" "20"
+            "disarm_range" "5.0"
+            "disarm_melee" "3.0"
+            "status_resistance" "10"
+            "hp_regen_amp" "15"
+        }
+	}
+
+	// Greevil's Astral Imprisonment in Pangoball Bonus Room
+	"obsidian_destroyer_astral_imprisonment"
+	{
+		"AbilityValues"
+        {
+            "mana_capacity_steal" "0"
+            "mana_capacity_duration" "1"
+        }
+	}
+}

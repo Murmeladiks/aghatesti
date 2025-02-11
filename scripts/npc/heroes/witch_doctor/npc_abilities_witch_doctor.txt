@@ -1,0 +1,572 @@
+"Hero_WitchDoctor"
+{    
+    //=================================================================================================================
+    // Witch Doctor: Paralyzing Cask
+    //=================================================================================================================
+    "witch_doctor_pf_paralyzing_cask"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/witch_doctor/witch_doctor_pf_paralyzing_cask"
+        "AbilityTextureName"            "witch_doctor_paralyzing_cask"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"   
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES_STRONG"
+        "FightRecapLevel"               "1"
+        "AbilitySound"                  "Hero_WitchDoctor.Paralyzing_Cask_Cast"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "600"
+        "AbilityCastPoint"              "0.2"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "20.0 18.0 16.0 14.0"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "80 100 120 140"
+
+        // Stats
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityModifierSupportValue"   "0.5"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "stun_duration"			"1.0"
+            "base_damage"				
+            {
+                "value"					        "70"
+                "CalculateSpellDamageTooltip"	"1"
+            }
+            "bounce_bonus_damage"
+            {
+                "value"							                "0"
+                "CalculateSpellDamageTooltip"	                "1"
+                "special_bonus_facet_witch_doctor_headhunter"	"+30"
+                "RequiresFacet"				"witch_doctor_headhunter"
+            }
+            "bounce_range"			
+            {	
+                "value"		                "575"
+                "affected_by_aoe_increase"	"1"
+            }
+            "bounces"				
+            { 
+                "value"					                "2 4 6 8"
+                "special_bonus_unique_witch_doctor_3"	"+2"
+            }
+            "speed"					        "1200"
+            "bounce_delay"			        "0.15"
+            
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
+    }
+    
+    //=================================================================================================================
+    // Witch Doctor: Voodoo Restoration
+    //=================================================================================================================
+    "witch_doctor_pf_voodoo_restoration"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/witch_doctor/witch_doctor_pf_voodoo_restoration"
+        "AbilityTextureName"            "witch_doctor_voodoo_restoration"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+        "AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ALLIES_YES"
+        "AbilitySound"                  "Hero_WitchDoctor.Voodoo_Restoration"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "0.0"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "34 40 46 52"       
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "mana_per_second"			
+            {
+                "value"	                                "24 30 36 42"
+                "special_bonus_unique_witch_doctor_4"   "x0.75"
+            }
+            "tooltip_mana_per_second"			
+            {
+                "special_bonus_unique_witch_doctor_4" "+25"
+            }
+            "radius"					
+            {
+                "value"			                "500"
+                "special_bonus_facet_witch_doctor_voodoo_festeration"	"+100"
+                "affected_by_aoe_increase"	    "1"
+            }
+            "heal"						
+            {
+                "value"			                "16 24 32 40"
+                "DamageTypeTooltip"			    "DAMAGE_TYPE_MAGICAL"
+                "special_bonus_facet_witch_doctor_voodoo_festeration"	"+10"
+            }
+            "does_heal"
+            {
+                "value"			"1"
+                "special_bonus_facet_witch_doctor_voodoo_festeration"	"-1"
+                "special_bonus_unique_witch_doctor_voodoo_restoration_ally_heal" "+1"
+            }
+            "does_damage"
+            {
+                "value"			"0"
+                "special_bonus_facet_witch_doctor_voodoo_festeration"	"+1"
+                "special_bonus_unique_witch_doctor_voodoo_restoration_enemy_damage" "=1"
+            }
+            "heal_interval"				    "0.33"
+            "self_only_heal_percentage"		// NOTE: only works if does_heal_all_allies == 0
+            {
+                "value"													            "0"
+                "special_bonus_facet_witch_doctor_voodoo_festeration"	            "=25"
+                "special_bonus_unique_witch_doctor_voodoo_restoration_ally_heal"    "=0"
+            }
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
+    }
+    
+    //=================================================================================================================
+    // Witch Doctor: Maledict
+    //=================================================================================================================
+    "witch_doctor_pf_maledict"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/witch_doctor/witch_doctor_pf_maledict"
+        "AbilityTextureName"            "witch_doctor_maledict"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"   
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"               "1"
+        "AbilitySound"                  "Hero_WitchDoctor.Maledict_Cast"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------		
+        "AbilityCastRange"              "600"
+        "AbilityCastPoint"              "0.35"
+		"AbilityCastAnimation"      	"ACT_DOTA_CAST_ABILITY_3"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "30 26 22 18"
+        "AbilityDuration"               "12.0"
+
+        // Damage.
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityDamage"                 "12 18 24 30"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "105 110 115 120"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "radius"
+            {
+                "value"			            "200"
+                "special_bonus_unique_witch_doctor_6" "+100"
+                "affected_by_aoe_increase"	"1"
+            }
+            "bonus_damage"				
+            {
+                "value"									"16 24 32 40"
+                "special_bonus_unique_witch_doctor_7"	"+30"
+            }
+            "bonus_damage_threshold"		"100"
+            "ticks"							"3"
+            "max_bonus_damage"      		"180 220 240 260"
+        }
+    }
+    
+    //=================================================================================================================
+    // Witch Doctor: Death Ward
+    //=================================================================================================================
+    "witch_doctor_pf_death_ward"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/witch_doctor/witch_doctor_pf_death_ward"
+		"AbilityTextureName"            "witch_doctor_death_ward"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_PURE"  
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitTargetFlags"        "DOTA_UNIT_TARGET_FLAG_NO_INVIS | DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE | DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE | DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_YES"
+        "FightRecapLevel"               "2"
+        "AbilitySound"                  "Hero_WitchDoctor.Death_WardBuild"
+        
+        "LinkedAbility"                 "witch_doctor_pf_death_ward_no_channel"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "500"
+        "AbilityCastPoint"              "0.35 0.35 0.35"
+        "AbilityCastAnimation"      	"ACT_DOTA_CAST_ABILITY_4"
+        "AbilityChannelAnimation"       "ACT_DOTA_CHANNEL_ABILITY_4"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "80.0"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "200 200 200"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"					
+			{
+				"value"		"60 95 130"
+				"special_bonus_unique_witch_doctor_5"	"+45"
+				"special_bonus_facet_witch_doctor_cleft_death"	"-30%"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"attack_range"		
+			{
+				"value"							        "700"
+				"special_bonus_unique_witch_doctor_1"	"+75"
+			}
+			"bounce_radius"				
+			{
+				"value"						"550"
+				"RequiresScepter"			"1"
+				"affected_by_aoe_increase"	"1"
+			}
+			"bounces"					"2"
+			"AbilityChannelTime"		"6.0 7.0 8.0"
+		}
+    }
+
+    //=================================================================================================================
+    // Witch Doctor: Death Ward (No Channelling)
+    //=================================================================================================================
+    "witch_doctor_pf_death_ward_no_channel"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/witch_doctor/witch_doctor_pf_death_ward_no_channel"
+		"AbilityTextureName"            "witch_doctor_death_ward"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_PURE"  
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitTargetFlags"        "DOTA_UNIT_TARGET_FLAG_NO_INVIS | DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE | DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE | DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_YES"
+        "FightRecapLevel"               "2"
+        "AbilitySound"                  "Hero_WitchDoctor.Death_WardBuild"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "500"
+        "AbilityCastPoint"              "0.35 0.35 0.35"
+        "AbilityCastAnimation"      	"ACT_DOTA_CAST_ABILITY_4"
+        "AbilityChannelAnimation"       "ACT_DOTA_CHANNEL_ABILITY_4"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "80.0"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "200 200 200"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"					
+			{
+				"value"		"60 95 130"
+				"special_bonus_unique_witch_doctor_5"	"+45"
+				"special_bonus_facet_witch_doctor_cleft_death"	"-30%"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"attack_range"		
+			{
+				"value"							        "700"
+				"special_bonus_unique_witch_doctor_1"	"+75"
+			}
+			"bounce_radius"				
+			{
+				"value"						"550"
+				"RequiresScepter"			"1"
+				"affected_by_aoe_increase"	"1"
+			}
+			"bounces"					"2"
+			"AbilityDuration"		"6.0 7.0 8.0"
+		}
+    }
+
+    //=================================================================================================================
+	// Legendary: Multicask
+	//=================================================================================================================
+	"aghsfort_special_witch_doctor_paralyzing_cask_multicask"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityTextureName"            "witch_doctor_paralyzing_cask"
+        "MaxLevel"                      "1"
+
+        "AbilityValues"
+        {
+            "value"     "1"
+        }
+	}
+    //=================================================================================================================
+	// Legendary: Cask Applies Maledict
+	//=================================================================================================================
+    "aghsfort_special_witch_doctor_paralyzing_cask_applies_maledict"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_paralyzing_cask"
+        "BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+    }
+    //=================================================================================================================
+	// Legendary: Cask AOE Damage
+	//=================================================================================================================
+    "aghsfort_special_witch_doctor_paralyzing_cask_aoe_damage"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_paralyzing_cask"
+        "BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "250"
+        }
+    }
+    "aghsfort_special_witch_doctor_paralyzing_cask_attack_procs"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_paralyzing_cask"
+        "BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value"				"15"
+        }
+    }    
+    "aghsfort_special_witch_doctor_maledict_ground_curse"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_maledict"
+        "BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+        }
+    }
+    "aghsfort_special_witch_doctor_maledict_aoe_procs"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_maledict"
+        "BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "300"
+        }
+    }    
+    "aghsfort_special_witch_doctor_maledict_death_restoration"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_maledict"
+        "BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "65"
+        }
+    }
+    "aghsfort_special_witch_doctor_maledict_affects_allies"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_maledict"
+        "BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "60"
+        }
+    }
+    "aghsfort_special_witch_doctor_maledict_infectious"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_maledict"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "250"
+        }
+    }
+
+    "special_bonus_unique_witch_doctor_voodoo_restoration_enemy_damage"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_voodoo_restoration"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+        }
+    }
+
+    "special_bonus_unique_witch_doctor_voodoo_restoration_ally_heal"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_voodoo_restoration"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+        }
+    }
+
+    "aghsfort_special_witch_doctor_voodoo_restoration_lifesteal"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_voodoo_restoration"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "lifesteal_pct" "15"
+            "spell_lifesteal_pct" "8"
+        }
+    }
+    "aghsfort_special_witch_doctor_voodoo_restoration_damage_amp"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_voodoo_restoration"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "35"
+        }
+    }
+    "aghsfort_special_witch_doctor_voodoo_restoration_mana_restore"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_voodoo_restoration"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+        }
+    }
+    "aghsfort_special_witch_doctor_death_ward_no_channel"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_death_ward"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "100"
+        }
+    }    
+    "aghsfort_special_witch_doctor_death_ward_splitshot"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_death_ward"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "split_shot_count" "3"
+            "split_shot_bonus_range" "100"
+        }
+    } 
+    "aghsfort_special_witch_doctor_death_ward_damage_resist"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_death_ward"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+            "value" "80"
+        }
+    }
+    "aghsfort_special_witch_doctor_death_ward_bounce"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "witch_doctor_death_ward"
+		"BaseClass"                     "ability_datadriven"
+        "MaxLevel"                      "1"
+        "AbilityValues"
+        {
+        }
+    }
+}

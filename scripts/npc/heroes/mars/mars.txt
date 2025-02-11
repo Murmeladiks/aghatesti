@@ -1,0 +1,14 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_mars_aghsfort"
+	{
+		"override_hero"			"npc_dota_hero_mars"
+		"Ability1"		"aghsfort_mars_spear"
+		"Ability2"		"aghsfort_mars_gods_rebuke"
+		"Ability3"		"aghsfort_mars_bulwark"
+		"Ability6"		"aghsfort_mars_arena_of_blood"
+		"Ability9"		"aghsfort_mars_bulwark_stop"
+		"Ability11"		"special_bonus_hp_175"
+		"Ability12"		"special_bonus_lifesteal_15"
+	}
+}

@@ -1,0 +1,15 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_ursa_aghsfort"
+	{
+		"override_hero"		"npc_dota_hero_ursa"
+		"Ability1"			"ursa_pf_earthshock"
+		"Ability2"			"ursa_pf_overpower"
+		"Ability3"			"ursa_pf_fury_swipes"
+		"Ability4"			"ursa_maul"
+		"Ability6"			"ursa_pf_enrage"
+		"Ability10"			"special_bonus_attack_damage_20"
+		//"Ability14"			"special_bonus_unique_ursa_3"
+		"ArmorPhysical"		"2"
+	}
+}

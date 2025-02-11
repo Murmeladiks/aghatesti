@@ -1,0 +1,16 @@
+# Ignore compiled and temporary files
+game/bin/
+game/core/
+game/dota/
+game/resource/
+game/addons/your_addon_name/maps/
+game/addons/your_addon_name/materials/
+game/addons/your_addon_name/models/
+game/addons/your_addon_name/particles/
+game/addons/your_addon_name/sounds/
+game/addons/your_addon_name/resource/
+game/addons/your_addon_name/panorama/images/
+game/addons/your_addon_name/panorama/videos/
+game/addons/your_addon_name/scripts/vscripts/__pycache__/
+game/addons/your_addon_name/scripts/vscripts/*.luac
+game/addons/your_addon_name/scripts/vscripts/*.bak

@@ -1,0 +1,668 @@
+"Hero_Sniper"
+{    
+    //=================================================================================================================
+	// Sniper: Keen Scope
+	//=================================================================================================================
+	"sniper_keen_scope"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"						"4"		
+		"Innate"						"1"
+		"DependentOnAbility"			"sniper_pf_assassinate"
+
+		"AbilityValues"
+		{
+			"bonus_range"				"100 200 300 400"
+		}
+	}
+    
+    //=================================================================================================================
+    // Sniper: Shrapnel
+    //=================================================================================================================
+    "sniper_pf_shrapnel"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/sniper/sniper_pf_shrapnel"
+		"AbilityTextureName"            "sniper_shrapnel"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"   
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"               "1"
+        "AbilitySound"                  "Hero_Sniper.ShrapnelShatter"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "1800"
+        "AbilityCastPoint"              "0.3 0.3 0.3 0.3"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "0"
+        "AbilityChargeRestoreTime"      "35"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "75"
+
+        // Stats
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityModifierSupportValue"   "0.25"  // primarily about damage
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "slow_movement_speed"	
+            {
+                "value"		"-12 -18 -24 -30"
+                "special_bonus_facet_sniper_scattershot"	"=-30 =-40 =-50 =-60"
+                "special_bonus_unique_sniper_5" "-10"
+            }
+            "radius"			
+            {
+                "value"						"400 425 450 475"
+                "affected_by_aoe_increase"	"1"
+            }
+            "shrapnel_damage"		
+            {
+                "value"							"30 45 60 75"
+                "special_bonus_facet_sniper_scattershot"	"x4"
+                "special_bonus_unique_sniper_shrapnel_damage"		"+30%"
+            }
+            "duration"				
+            {
+                "value"		"6.0"
+                "special_bonus_facet_sniper_scattershot"	"=1"
+            }
+            "damage_delay"
+            {
+                "value"             "1.2"
+            }
+            "damage_interval"
+            {
+                "value"             "1"
+                "special_bonus_facet_sniper_scattershot"    "=0.1"
+            }
+            "AbilityCharges"		
+            {
+                "value" 						"3"
+                "special_bonus_unique_sniper_2"	"+6"
+            }
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_1"
+    }
+    
+    //=================================================================================================================
+    // Sniper: Headshot
+    //=================================================================================================================
+    "sniper_pf_headshot"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/sniper/sniper_pf_headshot"
+        "AbilityTextureName"            "sniper_headshot"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_PHYSICAL"  
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "damage"
+			{
+				"value"					"20 50 80 110"
+				"special_bonus_unique_sniper_headshot_damage"	"+30"
+			}
+			"proc_chance"				"40"
+			"knockback_distance"
+			{
+				"value"					"10"
+				"special_bonus_unique_sniper_3"		"+25"
+			}
+			"slow"						"-100"
+			"slow_vs_considered_hero"   "-30"
+			"slow_duration"				"0.5"
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
+    }
+
+    //=================================================================================================================
+    // Sniper: Take Aim
+    //=================================================================================================================
+    "sniper_pf_take_aim"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/sniper/sniper_pf_take_aim"
+        "AbilityTextureName"            "sniper_take_aim"
+		
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"               "1"
+    
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "0"
+        "AbilityCastPoint"              "0"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "20 18 16 14"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "50"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "duration"
+			{
+				"value"					"3"
+                "special_bonus_unique_sniper_4"	"+1"
+			}
+			"active_attack_range_bonus"			"200"
+			"slow"
+			{
+				"value"					"-65"
+                "special_bonus_unique_aghsfort_special_sniper_take_aim_self_purge"	"+100"
+			}
+			"headshot_chance"           "100"
+            "bonus_armor"		
+			{
+				"value"												"5 10 15 20"
+				"special_bonus_unique_sniper_take_aim_armor"		"+15"
+			}
+			"no_reveal"
+			{
+				"special_bonus_facet_sniper_ghillie_suit"	"1"
+			}
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
+    }
+    
+    //=================================================================================================================
+    // Sniper: Assassinate
+    //=================================================================================================================
+    "sniper_pf_assassinate"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/sniper/sniper_pf_assassinate"
+		"AbilityTextureName"            "sniper_assassinate"
+
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitTargetFlags"        "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"   
+        "FightRecapLevel"               "2"
+        "AbilitySound"                  "Ability.Assassinate"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "3000"
+        "AbilityCastRangeBuffer"        "600"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "20 15 10"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "175 225 275"
+        
+        // Stats
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityModifierSupportValue"   "0.0"   // Modifier just does damage
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"AbilityCastPoint"
+			{
+				"value"							"2"
+				"special_bonus_unique_aghsfort_special_sniper_assassinate_original_scepter" "=0.5"
+			}
+            "stun_duration"
+            {
+                "value"             "0.1"
+                "special_bonus_unique_aghsfort_special_sniper_assassinate_original_scepter" "=1.5"
+            }
+            "cast_point"
+            {
+                "value"							"2"
+				"special_bonus_unique_aghsfort_special_sniper_assassinate_original_scepter" "-1.5"
+            }
+			"projectile_speed"          "2500"
+            "damage"                    "300 400 500"
+        }
+    }
+	
+	//=================================================================================================================
+    // Sniper: Concussive Grenade ( shard ability )
+    //=================================================================================================================
+    "sniper_pf_concussive_grenade"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/sniper/sniper_pf_concussive_grenade"
+        "AbilityTextureName"            "sniper_concussive_grenade"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"   
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
+        "MaxLevel"                      "1"
+        "FightRecapLevel"               "1"
+        "IsGrantedByShard"              "1"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "600"
+        "AbilityCastPoint"              "0.1"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_5"
+        
+        
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "12"
+
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "50"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"damage"
+			{
+				"value"					"200"
+				"CalculateSpellDamageTooltip"	"1"
+			}
+			"AbilityCastRange"		
+			{
+				"value"					    "600"
+				"special_bonus_unique_sniper_grenade_range"		"+250"
+			}
+			"radius"		
+			{
+				"value"		                "375"
+				"affected_by_aoe_increase"	"1"
+			}
+			"slow"		                    "50"
+			"debuff_duration"		        "3"
+			"knockback_height"		        "100"
+			"knockback_distance"		
+			{
+				"value"		                "475"
+				"affected_by_aoe_increase"	"1"
+			}
+			"knockback_duration"		    "0.4"
+            "base_damage"                   "100"
+            "assassinate_multiplier"        "50"
+			"speed"				            "2500"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_shrapnel_bombs"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_shrapnel"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "325" // bomb aoe
+			"value2"                "50" // damage pct
+			"value3"                "1.0" // stun duration
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_shrapnel_attack_speed"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_shrapnel"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "10" // attack speed per charge
+			"value2"                "15" // charge duration
+        }
+    }
+
+
+    //=================================================================================================================
+    // Ability: Concussive Dummy
+    //=================================================================================================================
+    "aghsfort_special_sniper_assassinate_concussive_dummy"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua" 
+		"ScriptFile"					"heroes/sniper/sniper_pf_concussive_grenade_dummy"  
+        "MaxLevel"                      "1"
+
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_assassinate"
+
+        "AbilityValues"
+        {
+			"assassinate_mult_pct"  "50"
+			"base_damage"           "100"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_shrapnel_miss_chance"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_shrapnel"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "15" // miss chance
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_shrapnel_move_speed"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_shrapnel"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_headshot_shotgun"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_headshot"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"start_radius"        	"225"
+			"end_radius"        	"450"
+			"distance"				"800" 
+			"headshot_multiplier"   "10"
+			"cooldown"              "10"
+			"mana_cost"             "50"
+			"blast_speed"       	"3000"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_headshot_crits"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_headshot"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "135" // crit damage
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_headshot_stuns"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_headshot"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "3.0" // cooldown
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "special_bonus_unique_aghsfort_special_sniper_take_aim_self_purge"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_take_aim"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "100" // bonus movespeed
+			"value2"                "2.5" // sprint duration
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_take_aim_aoe"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_take_aim"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "500" // radius
+			"value2"                "0.05" // delay per unit
+			"value3"                "800" // cast range
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_take_aim_hop_backwards"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_take_aim"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "400" // distance
+			"value2"                "0.2" // travel duration
+			"value3"                "350" // knockback proc range
+			"value4"                "180" // knockback angle
+			"value5"                "30.0" // knockback height
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_headshot_armor_reduction"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_headshot"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"debuff_duration"       "7.0"
+			"armor_reduction"       "2"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_take_aim_armor_reduction"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_take_aim"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "10" // duration
+			"value2"                "6" // armor reduction
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_take_aim_rapid_fire"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_take_aim"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"attack_speed"                 "50" 
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_take_aim_shrapnel"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_take_aim"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"attacK_range_multiplier"	"2" 
+			"shrapnel_pct"				"50"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_assassinate_buckshot"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_assassinate"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"value"                 "900" // scatter range
+			"value2"                "450" // scatter width
+			"value3"                "75" // buckshot damage pct
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "special_bonus_unique_aghsfort_special_sniper_assassinate_original_scepter"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_assassinate"
+		"BaseClass"                     "ability_datadriven"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "cast_point"                "0.5"
+            "stun_duration"             "1.5"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_sniper_assassinate_killshot"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_assassinate"
+		"BaseClass"                     "ability_datadriven"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+			"value"                 "100" // bonus assassinate damage per kill
+			"value2"                "1" // max killshot gains per encounter
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Headshot Assassinte
+    //=================================================================================================================
+    "aghsfort_special_sniper_headshot_assassinate"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "sniper_headshot"
+		"BaseClass"                     "ability_datadriven"
+        "AbilityValues"
+        {
+			"chance_mod"				"50"
+			"assassinate_pct"			"25"
+        }
+    }
+}

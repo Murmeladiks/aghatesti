@@ -1,0 +1,491 @@
+"DOTAAbiltiies"
+{
+	//=================================================================================================================
+	// Medusa: Split Shot
+	//=================================================================================================================
+	"medusa_split_shot_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/medusa/medusa_split_shot/medusa_split_shot_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"		
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+		"AbilityTextureName"			"medusa_split_shot"
+		
+		"AbilityCastPoint"				"0.4 0.4 0.4 0.4"
+
+		"Precache"
+		{
+			"particle"					"particles/units/heroes/hero_shadowshaman/shadowshaman_ward_spawn_rubick.vpcf"
+			"particle"					"particles/econ/events/diretide_2020/attack_modifier/attack_modifier_fall20.vpcf"
+		}
+
+		"AbilityValues"
+		{
+			"damage_modifier"				"-60 -50 -40 -30"
+			"damage_modifier_tooltip"		"40 50 60 70"
+			"arrow_count"					"4"
+			"split_shot_bonus_range"		"150"
+		}
+	}
+
+	//=================================================================================================================
+	// Medusa: Mystic Snake
+	//=================================================================================================================
+	"medusa_mystic_snake_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/medusa/medusa_mystic_snake/medusa_mystic_snake_lua"
+		"AbilityTextureName"			"medusa_mystic_snake"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Medusa.MysticSnake.Cast"
+
+		"AbilityCastRange"				"750"
+		"AbilityCastPoint"				"0.2"
+
+		"AbilityManaCost"				"140 150 160 170"
+
+		"Precache"
+		{
+			"particle"					"particles/units/heroes/hero_medusa/medusa_mystic_snake_projectile.vpcf"
+			"particle"					"particles/units/heroes/hero_medusa/medusa_mystic_snake_projectile_return.vpcf"
+			"particle"					"particles/units/heroes/hero_antimage/antimage_manavoid_explode_b.vpcf"
+		}
+
+		"AbilityValues"
+		{
+			"AbilityCooldown"					
+			{
+				"value"				"13 12 11 10"
+				"special_bonus_unique_medusa_5"					"-3"
+			}
+			"radius"							
+			{
+				"value"		"450"
+				"affected_by_aoe_increase"	"1"
+			}
+			"snake_jumps"			"3 4 5 6"
+			"jump_delay"			"0.25 0.25 0.25 0.25"
+			"mana_steal_default"	"3"
+			"mana_steal_captain"	"6"
+			"snake_damage"			"80 120 160 200"
+			"snake_scale"			"35"
+			"initial_speed"			"800"
+			"return_speed"			"800"
+
+			"max_attacks"					
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_engorged"			"+3"
+			}
+			"mana_per_damage"					
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_engorged"			"+4"
+			}
+			"attack_buff_duration"	
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_engorged"			"+5"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+
+	//=================================================================================================================
+	// Medusa: Mana Shield
+	//=================================================================================================================
+	"medusa_mana_shield_lua"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/medusa/medusa_mana_shield/medusa_mana_shield_lua"
+		"AbilityTextureName"			"medusa_mana_shield"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"		
+		"AbilitySound"					"Hero_Medusa.ManaShield.On"
+		"MaxLevel"						"5"
+		"RequiredLevel"					"-1"
+		"Innate"						"1"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage_per_mana"			"1.6 2 2.4 2.8 3.2"
+			"illusion_damage_per_mana"	"0.8 1.2 1.6 2.0 2.4"
+			"absorption_pct"			"98"
+
+			// for the Toggle facet
+			"aspd_increase_smoothness"						"0.015"
+			"aspd_increase_rate_pct"					
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_mana_pact"		"=3.5"
+			}
+			"aspd_increase_max_tooltip"
+			{
+				"value"										"0"
+				"special_bonus_facet_medusa_mana_pact"		"=35"
+			}
+			"aspd_increase_buff_duration"			
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_mana_pact"		"=15"
+			}			
+			"aspd_increase_mana_cost_pct"							
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_mana_pact"		"=3"
+			}			
+			"aspd_increase_max_aspd_time"						
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_mana_pact"		"=10"
+			}			
+			"attack_buff_cooldown"					
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_mana_pact"		"=35"
+			}			
+			"min_duration"							
+			{
+				"value"						"0"
+				"special_bonus_facet_medusa_mana_pact"		"=3"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
+	}
+
+	//=================================================================================================================
+	// Medusa: Stone Gaze
+	//=================================================================================================================
+	"medusa_stone_gaze_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/medusa/medusa_stone_gaze/medusa_stone_gaze_lua"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Hero_Medusa.StoneGaze.Cast"
+
+		"AbilityCastPoint"				"0.4"
+		"AbilityCastRange"				"1200"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		"AbilityCooldown"				"90"
+		"AbilityManaCost"				"150"
+
+		"AbilityTextureName"			"medusa_stone_gaze"
+
+		"Precache"
+		{
+			"particle"					"particles/units/heroes/hero_visage/visage_stoneform_blast.vpcf"
+			"particle"					"particles/units/heroes/hero_earth_spirit/earthspirit_stone_clap_shock.vpcf"
+			"particle"					"particles/units/heroes/hero_medusa/medusa_stone_gaze_debuff.vpcf"
+			"particle"					"particles/units/heroes/hero_medusa/medusa_stone_gaze_facing.vpcf"
+		}
+	
+		"AbilityValues"
+        {
+            "radius" "1200"
+            "duration"
+            {
+                "value" "5 5.5 6"
+                "LinkedSpecialBonus" "special_bonus_unique_medusa"
+            }
+            "slow" "35"
+            "stone_duration" "2 2.2 2.4"
+            "face_duration" "2.0"
+            "vision_cone" "0.08715"
+            "bonus_physical_damage"
+            {
+                "value" "35 45 55"
+                "DamageTypeTooltip" "DAMAGE_TYPE_PHYSICAL"
+            }
+            "speed_boost" "50"
+        }
+	}
+
+
+
+	// Curse of Endless Torment shard ability for pole
+	"medusa_split_shot_curse_of_endless_torment"
+	{
+		"BaseClass"		"ability_lua"
+		"ScriptFile"	"heroes/medusa/medusa_split_shot_curse_of_endless_torment/medusa_split_shot_curse_of_endless_torment"
+
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_split_shot"
+		"MaxLevel"                      "1"
+
+		"AbilityValues"
+        {
+            "pole_attacks_count" "20"
+        }
+	}
+
+	// Stone Form shard cancel ability
+	"medusa_end_stone_form_lua"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/medusa/medusa_mana_shield/medusa_mana_shield_lua"
+
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "earth_spirit_petrify"
+		"MaxLevel"                      "1"
+	}
+
+	// Mana Dome from mana shield legendary shard
+	"medusa_mana_dome"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/medusa/medusa_mana_dome/medusa_mana_dome"
+
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityTextureName"            "medusa_mana_dome"
+		"MaxLevel"                      "1"
+
+		"AbilityCooldown"				"20"
+		"AbilityCastRange"				"800"
+
+		"Precache"
+		{
+			"soundfile"					"soundevents/game_sounds_heroes/game_sounds_faceless_void.vsndevts"
+			"particle"					"particles/heroes/medusa/medusa_mana_dome/medusa_mana_dome.vpcf"
+		}
+
+		"AbilityValues"
+        {
+            "duration" "20"
+            "radius" "450"
+            "bonus_damage_absorbtion" "30"
+            "bonus_mana_regen" "20"
+            "mana_cost_multiplier" "25"
+        }
+	}
+
+
+
+
+
+
+
+
+	// SHARDS
+	"pathfinder_medusa_split_shot_snake_oiled_enhancement" 
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_split_shot"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"    
+
+		"AbilityValues"
+        {
+            "chance" "5"
+        }  
+	}
+
+	"pathfinder_medusa_split_shot_bewitched_barrage" 
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_split_shot"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"    
+
+		"AbilityValues"
+        {
+            "attacks_to_petrify" "16"
+            "petrify_duration" "1.0"
+            "active_damage_reduction" "25"
+        }  
+	}
+
+	"pathfinder_medusa_split_shot_curse_of_endless_torment"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_split_shot"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"    
+
+		"AbilityValues"
+        {
+            "spawn_chance" "25"
+            "pole_attacks_count_tooltip" "20"
+            "linger_duration" "1.5"
+            "min_radius" "300"
+        }  
+	}
+
+	"pathfinder_medusa_mystic_snake_chained_serpents" 
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_mystic_snake"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"    
+
+		"AbilityValues"
+        {
+            "bonus_bounces" "1"
+            "split_chance" "25"
+        }  
+	}
+
+	"pathfinder_medusa_mystic_snake_petrifying_snake"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_mystic_snake"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"    
+
+		"AbilityValues"
+        {
+            "petrify_duration" "2"
+        }  
+	}
+
+	"pathfinder_medusa_mystic_snake_venomotherapy"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_mystic_snake"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"    
+
+		"AbilityValues"
+        {
+            "search_range_bonus" "50"
+            "missing_mana_healing" "20"
+            "petrify_radius" "210"
+            "petrify_duration" "1.5"
+        }  
+	}
+
+	"pathfinder_medusa_mana_shield_stone_form"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_mana_shield"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"    
+
+		"AbilityValues"
+        {
+            "bonus_regen" "5"
+            "proc_threshold" "10"
+            "snake_interval" "1"
+            "proc_cooldown" "40"
+            "proc_knockback_radius" "500"
+            "stone_form_grace_duration" "0.75"
+            "base_duration" "5"
+        }  
+	}
+
+	"pathfinder_medusa_mana_shield_mana_dome"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_mana_shield"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"   
+
+		// Ability Specials are defined on ability medusa_mana_dome above
+	}
+
+	"pathfinder_medusa_mana_shield_magic_negation"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_mana_shield"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"
+
+		"AbilityValues"
+        {
+            "shield_interval" "2"
+            "shield_duration" "1"
+            "expire_effect_radius" "250"
+            "expire_effect_duration" "0.6"
+            "expire_effect_damage" "160"
+            "mana_threshold" "17"
+            "cooldown_speed_increase" "200"
+        } 
+	}
+
+
+	"pathfinder_medusa_stone_gaze_stone_shatter"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_stone_gaze"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"
+
+		"AbilityValues"
+        {
+            "shatter_chance" "50"
+            "shatter_radius" "275"
+            "petrified_damage_bonus" "2"
+            "petrified_damage_radius" "150"
+            "linger_duration" "1.5"
+        }  
+	}
+	"pathfinder_medusa_stone_gaze_split"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_stone_gaze"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"
+
+		"AbilityValues"
+        {
+            "move_speed_bonus" "200"
+            "attack_speed_bonus" "25"
+        }  	
+	}
+	"pathfinder_medusa_stone_gaze_gorgon_eyes"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "medusa_stone_gaze"
+		"MaxLevel"                      "1"
+		"BaseClass"                     "ability_datadriven"
+
+		"AbilityValues"
+        {
+            "passive_face_duration" "2"
+            "passive_stone_duration" "2"
+            "passive_stone_cooldown" "15"
+        } 
+	}
+
+
+
+	"special_bonus_unique_medusa_mystic_snake_global"
+	{
+		"BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"        
+        "AbilityValues"
+        {
+            "value" "1"
+        }  
+	}
+
+	"special_bonus_unique_medusa_mystic_snake_spell_immunity"
+	{
+		"BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"        
+        "AbilityValues"
+        {
+            "value" "1.5"
+        }  
+	}
+}

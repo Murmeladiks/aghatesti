@@ -1,0 +1,20 @@
+"DOTAHeroes"
+{
+	"pathfinder_phantom_assassin"
+	{
+		"override_hero"			"npc_dota_hero_phantom_assassin"
+		"Ability1"		"phantom_assassin_stifling_dagger_lua"
+		"Ability2"		"phantom_assassin_phantom_strike_lua"
+		"Ability3"		"phantom_assassin_blur_lua"		
+		"Ability6"		"phantom_assassin_coup_de_grace_lua"
+		
+		"Ability10"		"special_bonus_hp_175"
+		"Ability11"		"special_bonus_unique_phantom_assassin_dagger_slow"
+		"Ability12"		"special_bonus_lifesteal_12"
+		"Ability13"		"special_bonus_unique_phantom_assassin_strike_duration"
+		"Ability14"		"special_bonus_corruption_3"		
+		"Ability15"		"special_bonus_unique_phantom_assassin_strike_global"
+		"Ability16"		"special_bonus_unique_phantom_assassin_immaterial_evasion"
+		"Ability17"		"special_bonus_unique_phantom_assassin_2"
+	}
+}

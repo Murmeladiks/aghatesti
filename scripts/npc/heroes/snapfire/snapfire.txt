@@ -1,0 +1,16 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_snapfire_aghsfort"
+	{
+		"override_hero"			"npc_dota_hero_snapfire"
+		"Ability1"				"aghsfort_snapfire_scatterblast"
+		"Ability2"				"aghsfort_snapfire_firesnap_cookie"
+		"Ability3"				"aghsfort_snapfire_lil_shredder"
+		"Ability4"				"aghsfort_snapfire_gobble_up"
+		"Ability5"				"aghsfort_snapfire_spit_creep"
+		"Ability6"				"aghsfort_snapfire_mortimer_kisses"
+		"Ability11"				"special_bonus_strength_10"
+		"Ability14"				"special_bonus_unique_snapfire_shredder_armor"
+		"Ability16"				"special_bonus_attack_damage_90"
+	}
+}

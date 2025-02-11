@@ -1,0 +1,526 @@
+"DOTAAbiltiies"
+{
+	"pathfinder_nevermore_shadowraze_near"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilityTextureName"			"nevermore_shadowraze1"
+		"ScriptFile"					"heroes/shadow_fiend/pathfinder_nevermore_shadowraze"
+		"AbilityCastPoint"				"0.55"
+		"AbilityCastAnimation"			"ACT_DOTA_RAZE_1"
+		"AbilityManaCost"				"95"        
+        "AbilityCastRange"              "200"        
+
+        "LinkedAbility"                 "pathfinder_nevermore_shadowraze_medium"
+
+		// Precache
+		//-------------------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"					"particles/units/heroes/hero_nevermore/nevermore_shadowraze.vpcf"
+			"soundfile"					"soundevents/game_sounds_heroes/game_sounds_nevermore.vsndevts"
+			"soundfile"					"soundevents/voscripts/game_sounds_vo_nevermore.vsndevts"
+		}
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"
+			{
+				"value"						"90 160 230 300"
+				"special_bonus_unique_nevermore_shadowraze_damage"	"+150"
+			}
+			"radius"	
+			{
+				"value"		"250"		
+				"affected_by_aoe_increase"	"1"
+			}
+			"distance"						"200"
+			"stack_damage"
+			{
+				"value"								"20 30 40 50"
+				"special_bonus_unique_nevermore_7"	"+30"
+			}
+			"movement_speed_debuff"
+			{
+				"value"											"0"
+				"special_bonus_facet_nevermore_shadowmire"		"3"
+			}
+			"attack_speed_debuff"
+			{
+				"value"											"0"
+				"special_bonus_facet_nevermore_shadowmire"		"3"
+			}
+			"stack_duration"				"8"
+            "AbilityCooldown"
+			{
+				"value"						"10.0"
+			}
+		}
+	}
+
+    "pathfinder_nevermore_shadowraze_medium"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilityTextureName"			"nevermore_shadowraze2"
+		"ScriptFile"					"heroes/shadow_fiend/pathfinder_nevermore_shadowraze"
+		"AbilityCastPoint"				"0.55"
+		"AbilityCastAnimation"			"ACT_DOTA_RAZE_2"
+		"AbilityManaCost"				"95"        
+        "AbilityCastRange"              "450"
+        
+
+        "LinkedAbility"                 "pathfinder_nevermore_shadowraze_far"
+
+		// Precache
+		//-------------------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"					"particles/units/heroes/hero_nevermore/nevermore_shadowraze.vpcf"
+			"soundfile"					"soundevents/game_sounds_heroes/game_sounds_nevermore.vsndevts"
+			"soundfile"					"soundevents/voscripts/game_sounds_vo_nevermore.vsndevts"
+		}
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"
+			{
+				"value"						"90 160 230 300"
+				"special_bonus_unique_nevermore_shadowraze_damage"	"+150"
+			}
+			"radius"	
+			{
+				"value"		"250"		
+				"affected_by_aoe_increase"	"1"
+			}
+			"distance"						"450"
+			"stack_damage"
+			{
+				"value"								"20 30 40 50"
+				"special_bonus_unique_nevermore_7"	"+30"
+			}
+			"movement_speed_debuff"
+			{
+				"value"											"0"
+				"special_bonus_facet_nevermore_shadowmire"		"4"
+			}
+			"attack_speed_debuff"
+			{
+				"value"											"0"
+				"special_bonus_facet_nevermore_shadowmire"		"4"
+			}
+			"stack_duration"				"8"
+			"AbilityCooldown"
+			{
+				"value"						"10.0"
+			}
+		}
+	}
+
+    "pathfinder_nevermore_shadowraze_far"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilityTextureName"			"nevermore_shadowraze3"
+		"ScriptFile"					"heroes/shadow_fiend/pathfinder_nevermore_shadowraze"
+		"AbilityCastPoint"				"0.55"
+		"AbilityCastAnimation"			"ACT_DOTA_RAZE_3"
+		"AbilityManaCost"				"95"        
+        "AbilityCastRange"              "700"        
+
+        "LinkedAbility"                 "pathfinder_nevermore_shadowraze_near"
+
+		// Precache
+		//-------------------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"					"particles/units/heroes/hero_nevermore/nevermore_shadowraze.vpcf"
+			"soundfile"					"soundevents/game_sounds_heroes/game_sounds_nevermore.vsndevts"
+			"soundfile"					"soundevents/voscripts/game_sounds_vo_nevermore.vsndevts"
+		}
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"
+			{
+				"value"						"90 160 230 300"
+				"special_bonus_unique_nevermore_shadowraze_damage"	"+150"
+			}
+			"radius"	
+			{
+				"value"		"250"		
+				"affected_by_aoe_increase"	"1"
+			}
+			"distance"						"700"
+			"stack_damage"
+			{
+				"value"								"20 30 40 50"
+				"special_bonus_unique_nevermore_7"	"+30"
+			}
+			"movement_speed_debuff"
+			{
+				"value"											"0"
+				"special_bonus_facet_nevermore_shadowmire"		"4"
+			}
+			"attack_speed_debuff"
+			{
+				"value"											"0"
+				"special_bonus_facet_nevermore_shadowmire"		"4"
+			}
+			"stack_duration"				"8"
+			"AbilityCooldown"
+			{
+				"value"						"10.0"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ability: Frenzy
+	//=================================================================================================================	
+	"nevermore_pf_frenzy"
+	{
+		// General
+        //-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"					"heroes/shadow_fiend/nevermore_pf_frenzy"
+        "AbilityTextureName"            "nevermore_frenzy"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"FightRecapLevel"				"1"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		// Stats		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"16.0"
+		"AbilityManaCost"				"75"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_attack_speed"	
+			{
+				"value"					"40 50 60 70"
+				"special_bonus_unique_nevermore_4"	"+30"
+			}
+			"cast_speed_pct"		
+			{
+				"value"													"100"
+				"special_bonus_unique_nevermore_frenzy_castspeed"		"+40"
+			}
+			"cast_speed_pct_tooltip"
+			{
+				"value"													"0"
+				"special_bonus_unique_nevermore_frenzy_castspeed"		"=140"
+			}
+			"duration"				"8"
+			"soul_cost"				"5"
+		}
+	}
+
+	//=================================================================================================================
+	// Ability: Presence of the Dark Lord
+	//=================================================================================================================	
+	"pathfinder_nevermore_dark_lord"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"		
+		"AbilityTextureName"			"nevermore_dark_lord"
+		"ScriptFile"					"heroes/shadow_fiend/pathfinder_nevermore_dark_lord"
+
+		// Precache
+		//-------------------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"					"soundevents/voscripts/game_sounds_vo_nevermore.vsndevts"
+		}
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"aura_radius"				
+			{
+				"value"			"650 700 750 800"
+				"special_bonus_unique_nevermore_dark_lord_radius"	"+19200"
+				"affected_by_aoe_increase"	"1"
+			}
+			"armor_reduction"			"4 5 6 7"
+			"bonus_armor_per_stack"
+			{
+				"value"						"0"
+				"special_bonus_facet_nevermore_lasting_presence"	"+1"
+			}
+			"kill_buff_duration"
+			{
+				"value"						"0"
+				"special_bonus_facet_nevermore_lasting_presence"	"+40"
+			}
+		}
+	}
+
+	"pathfinder_nevermore_requiem"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"							"ability_lua"
+		"AbilityBehavior"					"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
+		"AbilityUnitTargetTeam"				"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"				"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"				"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"					"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityType"						"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityTextureName"				"nevermore_requiem"
+		"ScriptFile"						"heroes/shadow_fiend/pathfinder_nevermore_requiem.lua"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"					"1.67"
+		"AbilityCooldown"					"120.0 110.0 100.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"					"150 175 200"
+
+		// Precache
+		//-------------------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"		"soundevents/game_sounds_heroes/game_sounds_nevermore.vsndevts"
+			"soundfile"		"soundevents/voscripts/game_sounds_vo_nevermore.vsndevts"
+			"particle"		"particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_a.vpcf"
+			"particle"		"particles/units/heroes/hero_nevermore/nevermore_requiemofsouls_line.vpcf"
+			"particle"		"particles/units/heroes/hero_nevermore/nevermore_requiemofsouls.vpcf"
+		}
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"					"80 120 160"
+			"ms_slow_pct"				"20 25 30"
+			"souls_per_line"			"1"
+			"lines_travel_speed"		"700"
+			"travel_distance"			"800 900 1000"
+			"lines_starting_width"		"125"
+			"lines_end_width"			"350"
+			"requiem_slow_duration"		"0.7"
+			"requiem_slow_duration_max"	"2.5"
+		}
+	}
+
+    "special_bonus_unique_nevermore_shadowraze_damage"
+    {
+        "BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"                 
+    }
+
+    "pathfinder_nevermore_necromastery"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"nevermore_necromastery"
+		"ScriptFile"					"heroes/shadow_fiend/pathfinder_nevermore_necromastery.lua"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"MaxLevel"						"4"
+		"DependentOnAbility"			"pathfinder_nevermore_requiem"
+		"Innate"						"1"
+
+		// Precache
+		//-------------------------------------------------------------------------------------------------------------
+		"precache"
+		{
+			"particle"				"particles/units/heroes/hero_nevermore/nevermore_necro_souls.vpcf"
+			"particle"				"particles/units/heroes/hero_nevermore/nevermore_necro_souls_hero.vpcf"
+			"particle"				"particles/units/heroes/hero_nevermore/nevermore_souls_hero_effect.vpcf"
+			"soundfile"				"soundevents/game_sounds_heroes/game_sounds_nevermore.vsndevts"
+			"soundfile"				"soundevents/voscripts/game_sounds_vo_nevermore.vsndevts"
+		}
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"souls_per_kill"				"1"
+			"damage_per_soul"
+			{
+				"value"				"1 2 3 4"
+				"special_bonus_unique_nevermore_necromastery_damage"	"+3"
+			}
+			"max_souls"						"20"
+			"soul_projectile_speed"			"1500"
+			"souls_lost_on_death_pct"		"50"
+		}
+	}
+
+    "special_bonus_unique_nevermore_necromastery_damage"
+    {
+        "BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"                   
+    }
+
+    "pathfinder_nevermore_special_necromastery_revenant"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_necromastery"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"        
+        
+        "AbilityValues"
+        {
+            "soul_cost" "8"
+        }
+
+	}
+
+    "special_bonus_unique_nevermore_dark_lord_radius"
+    {
+        "BaseClass"						"special_bonus_undefined"
+        
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"           
+    }
+
+    "pathfinder_nevermore_special_requiem_soul_projectile"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_requiem"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_lua"     
+        "ScriptFile"					"heroes/shadow_fiend/pathfinder_nevermore_requiem.lua"   
+	}
+
+
+    "pathfinder_nevermore_special_raze_multi"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_shadowraze2"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+
+        "AbilityValues"
+        {
+            "angle" "35"
+        }
+	}
+
+    "pathfinder_nevermore_special_dark_lord_raze"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_dark_lord"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+
+        "AbilityValues"
+        {
+            "soul_cost" "2"
+        }
+	}
+    "pathfinder_nevermore_special_dark_lord_split_attack"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_dark_lord"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+
+        "AbilityValues"
+        {
+            "damage_percent" "50"
+            "target_number" "2"
+        }
+	}
+    "pathfinder_nevermore_special_dark_lord_friendly"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_dark_lord"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+	}
+
+    "pathfinder_nevermore_special_necromastery_lifesteal"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_necromastery"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+	}
+
+    "pathfinder_nevermore_special_requiem_attack"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_requiem"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+
+         "AbilityValues"
+        {
+            "stacks_per_hit" "1"
+            "trigger_threshold" "55"
+        }
+	}
+    "pathfinder_nevermore_special_necromastery_attack_soul"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_necromastery"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+
+         "AbilityValues"
+        {
+            "chance" "15"
+            "amount" "1"
+        }
+	}
+
+    "pathfinder_nevermore_special_requiem_sleep"
+	{
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "nevermore_requiem"
+        "MaxLevel"                      "1"
+        "BaseClass"                     "ability_datadriven"
+
+         "AbilityValues"
+        {
+            "duration" "25"
+        }
+	}
+}

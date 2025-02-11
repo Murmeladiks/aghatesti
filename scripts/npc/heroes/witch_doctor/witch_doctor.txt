@@ -1,0 +1,15 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_witch_doctor_aghsfort"
+	{
+		"override_hero"			"npc_dota_hero_witch_doctor"
+		"Ability1"		"witch_doctor_pf_paralyzing_cask"
+		"Ability2"		"witch_doctor_pf_voodoo_restoration"
+		"Ability3"		"witch_doctor_pf_maledict"
+		"Ability5"		"witch_doctor_pf_death_ward_no_channel"
+		"Ability6"		"witch_doctor_pf_death_ward"
+		
+
+		"Ability10"		"special_bonus_mp_250"
+	}
+}
