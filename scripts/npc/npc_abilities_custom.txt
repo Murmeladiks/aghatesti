@@ -18481,6 +18481,7 @@
 #base "heroes/queenofpain/npc_abilities_queenofpain.txt"
 #base "heroes/shadow_fiend/npc_abilities_custom.txt"
 #base "heroes/sniper/npc_abilities_sniper.txt"
+#base "heroes/snapfire/npc_abilities_snapfire.txt"
 #base "heroes/templar_assassin/npc_abilities_templar_assassin.txt"
 #base "heroes/tidehunter/npc_abilities_tidehunter.txt"
 #base "heroes/ursa/npc_abilities_ursa.txt"

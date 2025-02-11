@@ -2977,8 +2977,6 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"ID"							"5494"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"BaseClass" 					"ability_lua"
-		"ScriptFile" 					"abilities/pf_slark_darkpact"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
@@ -2993,7 +2991,7 @@
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"1.0"
+		"AbilityCooldown"				"20.0"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
