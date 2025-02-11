@@ -10,7 +10,9 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-        "BaseClass" "ability_datadriven"
+        "BaseClass"                   "ability_lua"
+        "ScriptFile"					"heroes/snapfire/custom_snapfire_scatterblast
+		//"BaseClass"                     "ability_datadriven"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
@@ -85,6 +87,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"BaseClass"                     "ability_datadriven"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
@@ -406,6 +409,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_scatterblast"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "value" "300"
@@ -420,6 +424,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_scatterblast"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
         }
@@ -433,6 +438,7 @@
         //-------------------------------------------------------------------------------------------------------------
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "snapfire_scatterblast"
+		"BaseClass" 					"ability_datadriven"
         "AbilityValues"
         {
             "value" "60"
@@ -448,6 +454,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "value" "300"
@@ -463,6 +470,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "bonus_attack_range" "250"
@@ -481,6 +489,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
         }
@@ -495,6 +504,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_lil_shredder"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "value" "150"
@@ -509,6 +519,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_lil_shredder"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "bounce_range" "500"
@@ -524,6 +535,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_lil_shredder"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "value" "500"
@@ -541,6 +553,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "BaseClass"                     "ability_lua"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
+		"BaseClass" 					"ability_datadriven"
         "ScriptFile"                    "pathfinder/pathfinder_special_snapfire_gobble"
 		"AbilityValues"
         {
@@ -552,6 +565,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "split_projectiles" "6"
@@ -568,6 +582,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "fire_rate" "1.0"
@@ -583,6 +598,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
+		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "damage_reduction" "80"
