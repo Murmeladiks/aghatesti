@@ -3,6 +3,43 @@
     //=================================================================================================================
 	// Snapfire: Start
 	//=================================================================================================================
+
+	//=================================================================================================================
+	// Ability: BuckShot(Innate)
+	//=================================================================================================================
+
+	"snapfire_buckshot"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+        "MaxLevel"                      "1"
+        "Innate"                        "1"
+            
+        "AbilityValues"
+        {
+            "miss_chance" "25" 
+            "damage_amp"   {
+					"value"												"25"
+				"special_bonus_unique_snapfire_lil_shredder_gunner"		"125"
+			} 
+            "split_shot"
+            {
+                "value" "0"
+                "special_bonus_facet_snapfire_ricochet_ii"      "+2"
+            }
+            "split_shot_damage_pct"
+            {
+                "value"     "0"
+                "special_bonus_facet_snapfire_ricochet_ii"      "=75"
+            }
+            "glancing_shot_damage_pct" {
+					"value"			"60"
+					"special_bonus_unique_snapfire_lil_shredder_gunner"		"120"
+			} 
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
+    }
 	//=================================================================================================================
 	// Ability: Snapfire Scatterblast
 	//=================================================================================================================
@@ -10,8 +47,8 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-        "BaseClass"                   "ability_lua"
-        "ScriptFile"					"heroes/snapfire/custom_snapfire_scatterblast
+        "BaseClass"                   	"snapfire_scatterblast"
+        //"ScriptFile"					"heroes/snapfire/custom_snapfire_scatterblast
 		//"BaseClass"                     "ability_datadriven"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
@@ -87,7 +124,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
-		"BaseClass"                     "ability_datadriven"
+		"BaseClass"                     "snapfire_mortimer_kisses"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
@@ -158,7 +196,7 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CUSTOM"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
@@ -185,13 +223,14 @@
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
-        {
-            "max_time_in_belly"
-            {
-                "value" "3.0"
-                "RequiresScepter" "1"
-            }
-        }
+		{
+			"01"
+			{
+				 
+				"max_time_in_belly"		"3.0"
+				"RequiresScepter"		"1"
+			}
+		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
 	}
 
@@ -234,30 +273,99 @@
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
-        {
-            "projectile_speed" "1400"
-            "projectile_width" "130"
-            "impact_radius" "400"
-            "impact_damage" "400"
-            "projectile_vision" "500"
-            "burn_interval" "0.5"
-            "burn_damage" "100"
-            "move_slow_pct"
-            {
-                "value" "25"
-                "LinkedSpecialBonus" "special_bonus_unique_snapfire_4"
-            }
-            "burn_ground_duration" "3.0"
-            "min_range" "0"
-            "min_lob_travel_time" "0.1"
-            "max_lob_travel_time" "2.0"
-            "burn_linger_duration" "1.0"
-            "stun_duration" "1.0"
-            "min_height_above_lowest" "150.0"
-            "min_height_above_highest" "100.0"
-            "min_acceleration" "1000.0"
-            "max_acceleration" "2000.0"
-        }
+		{
+			"01"
+			{
+				 
+				"projectile_speed"		"1400"
+			}
+			"02"
+			{
+				 
+				"projectile_width"		"130"
+			}
+			"03"
+			{
+				 
+				"impact_radius"			"400"
+			}
+			"04"
+			{
+				 
+				"impact_damage"			"400"
+			}
+			"05"
+			{
+				 
+				"projectile_vision"		"500"
+			}
+			"06"
+			{
+				 
+				"burn_interval"			"0.5"
+			}
+			"07"
+			{
+				 
+				"burn_damage"			"100"
+			}
+			"08"
+			{
+				 
+				"move_slow_pct"			"25"
+				"LinkedSpecialBonus"	"special_bonus_unique_snapfire_4"
+			}
+			"09"
+			{
+				 
+				"burn_ground_duration"	"3.0"
+			}
+			"10"
+			{
+				 
+				"min_range"				"0" //"600"
+			}
+			"11"
+			{
+				 
+				"min_lob_travel_time"	"0.1"
+			}
+			"12"
+			{
+				 
+				"max_lob_travel_time"	"2.0"
+			}
+			"13"
+			{
+				 
+				"burn_linger_duration"	"1.0"
+			}
+			"14"
+			{
+				 
+				"stun_duration"			"1.0"
+			}
+			"15"
+			{
+				 
+				"min_height_above_lowest"	"150.0"
+			}
+			"16"
+			{
+				 
+				"min_height_above_highest"	"100.0"
+			}
+			"17"
+			{
+				 
+				"min_acceleration"		"1000.0"
+			}
+			"18"
+			{
+				 
+				"max_acceleration"		"2000.0"
+			}
+		}
 	}
 
 	//=================================================================================================================
@@ -267,6 +375,7 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                   	"snapfire_firesnap_cookie"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
@@ -325,6 +434,7 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"                   	"snapfire_lil_shredder"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
@@ -342,8 +452,8 @@
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"24 20 16 12"
-		"AbilityDuration"				"8"
+		"AbilityCooldown"             "24 20 16 12"
+        "AbilityDuration"               "6"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
@@ -353,23 +463,48 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-            "damage"					    "20 45 70 95"
-            "buffed_attacks"
-            {
-                "value"                     "6"
+			"01"
+			{
+				 
+				"damage"					"20 45 70 95"
+			}
+			"02"
+			{
+				 
+				"buffed_attacks"			"6"
                 "LinkedSpecialBonus"        "aghsfort_special_snapfire_lil_shredder_ally_cast"
                 "LinkedSpecialBonusField"   "bonus_attacks"
-            }
-            "attack_speed_bonus"		    "300"
-            "attack_range_bonus"		    "75 150 225 300"
-            "buff_duration_tooltip"		    "8"
-            "base_attack_time"			    "1.0"
-            "armor_reduction_per_attack"
+			}
+			"03"
+			{
+				 
+				"attack_speed_bonus"		"300"
+			}
+			"04"
+			{
+				 
+				"attack_range_bonus"		"75 150 225 300"
+			}
+			"05"
+			{
+				 
+				"buff_duration_tooltip"		"6"
+			}
+			"06"
+			{
+				 
+				"base_attack_time"			"1.0"
+			}
+			"07"
             {
-                "value"                                         "0.75"
-                "special_bonus_unique_snapfire_shredder_armor"  "+0.25"
+                 
+                "armor_reduction_per_attack"    "0.75"
             }
-			"armor_duration"                "5.0"
+            "08"
+            {
+                 
+                "armor_duration"                "5.0"
+            }
 		}
 	}
 
@@ -390,12 +525,11 @@
 	//=================================================================================================================
   	"aghsfort_special_snapfire_scatterblast_double_barrel"
 	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"AbilityTextureName"            "snapfire_scatterblast"
-        "BaseClass"                     "ability_datadriven"
-		"AbilityValues"
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_scatterblast_double_barrel"
+        "AbilityTextureName"            "snapfire_scatterblast"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityValues"
         {
             "value" "3"
         }
@@ -405,12 +539,11 @@
 	//=================================================================================================================
   	"aghsfort_special_snapfire_scatterblast_knockback"
 	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"AbilityTextureName"            "snapfire_scatterblast"
-		"BaseClass" 					"ability_datadriven"
-		"AbilityValues"
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_scatterblast_stopping_power"
+        "AbilityTextureName"            "snapfire_scatterblast"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityValues"
         {
             "value" "300"
         }
@@ -424,7 +557,6 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_scatterblast"
-		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
         }
@@ -434,11 +566,10 @@
     //=================================================================================================================
     "aghsfort_special_snapfire_scatterblast_barrage"
     {
-        // General
-        //-------------------------------------------------------------------------------------------------------------
-        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_scatterblast_sawed_off"
         "AbilityTextureName"            "snapfire_scatterblast"
-		"BaseClass" 					"ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityValues"
         {
             "value" "60"
@@ -454,7 +585,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
-		"BaseClass" 					"ability_datadriven"
+		"BaseClass"						"ability.lua"
+		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_bakers_dozen"
 		"AbilityValues"
         {
             "value" "300"
@@ -469,8 +601,9 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"BaseClass"						"ability.lua"
+		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
-		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "bonus_attack_range" "250"
@@ -488,8 +621,9 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/special_bonus_unique_snapfire_firesnap_cookie_enemy"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
-		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
         }
@@ -500,12 +634,11 @@
 	//=================================================================================================================
   	"aghsfort_special_snapfire_lil_shredder_explosives"
 	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"AbilityTextureName"            "snapfire_lil_shredder"
-		"BaseClass" 					"ability_datadriven"
-		"AbilityValues"
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_lil_shredder_explosive_shells"
+        "AbilityTextureName"            "snapfire_lil_shredder"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityValues"
         {
             "value" "150"
         }
@@ -519,7 +652,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_lil_shredder"
-		"BaseClass" 					"ability_datadriven"
+		"BaseClass"                     "snapfire_lil_shredder"
+        //"ScriptFile"                    "heroes/snapfire/snapfire_lil_shredder_explosive_shells"
 		"AbilityValues"
         {
             "bounce_range" "500"
@@ -535,7 +669,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_lil_shredder"
-		"BaseClass" 					"ability_datadriven"
+		"BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_lil_shredder_allies"
 		"AbilityValues"
         {
             "value" "500"
@@ -553,7 +688,6 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "BaseClass"                     "ability_lua"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
-		"BaseClass" 					"ability_datadriven"
         "ScriptFile"                    "pathfinder/pathfinder_special_snapfire_gobble"
 		"AbilityValues"
         {
@@ -565,7 +699,6 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
-		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "split_projectiles" "6"
@@ -598,7 +731,6 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
-		"BaseClass" 					"ability_datadriven"
 		"AbilityValues"
         {
             "damage_reduction" "80"

@@ -1,5 +1,0 @@
-modifier_snapfire_scatterblast_fullrange_pointblank = class({})
-
-function modifier_snapfire_scatterblast_fullrange_pointblank:IsHidden() return true end
-function modifier_snapfire_scatterblast_fullrange_pointblank:IsPurgable() return false end
-function modifier_snapfire_scatterblast_fullrange_pointblank:RemoveOnDeath() return false end
