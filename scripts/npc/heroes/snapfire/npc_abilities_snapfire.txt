@@ -703,6 +703,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
 		"AbilityValues"
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
         {
             "split_projectiles" "6"
             "split_radius" "300"

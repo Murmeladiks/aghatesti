@@ -13492,11 +13492,14 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_scatterblast_stopping_power"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_scatterblast"
 		"AbilityValues"
         {
             "value" "300"
+            "knockback_duration"		"0.3"
         }
 	}
 	//=================================================================================================================
@@ -13537,6 +13540,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
 		"AbilityValues"
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_bakers_dozen"
         {
             "value" "300"
             "projectile_speed_pct" "50"
@@ -13552,6 +13557,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
 		"AbilityValues"
+        "BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
         {
             "bonus_attack_range" "250"
             "bonus_attack_damage" "50"
@@ -13641,6 +13648,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
 		"AbilityValues"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/aghsfort_special_snapfire_mortimer_kisses_fragmentation"
         {
             "split_projectiles" "6"
             "split_radius" "300"

@@ -1,7 +1,7 @@
-aghsfort_special_snapfire_scatterblast_knockback = class( {} )
+snapfire_scatterblast_stopping_power = class( {} )
 
-LinkLuaModifier( "aghsfort_special_snapfire_scatterblast_knockback", "heroes/snapfire/snapfire_scatterblast_stopping_power", LUA_MODIFIER_MOTION_NONE )
-LinkLuaModifier( "modifier_generic_knockback_lua", "heroes/snapfire/snapfire_scatterblast_stopping_power", LUA_MODIFIER_MOTION_BOTH )
+LinkLuaModifier( "modifier_snapfire_scatterblast_stopping_power", "heroes/snapfire/snapfire_scatterblast_stopping_power.lua", LUA_MODIFIER_MOTION_NONE )
+LinkLuaModifier( "modifier_generic_knockback_lua", "heroes/snapfire/snapfire_scatterblast_stopping_power.lua", LUA_MODIFIER_MOTION_BOTH )
 --------------------------------------------------------------------------------
 
 function snapfire_scatterblast_stopping_power:GetIntrinsicModifierName()
@@ -52,7 +52,7 @@ function modifier_snapfire_scatterblast_stopping_power:OnTakeDamage(params)
     end
      
     if params.inflictor and params.inflictor:GetAbilityName() == "aghsfort_snapfire_scatterblast" then
-		self.snapfire_mortimer_kisses = params.attacker:FindAbilityByName("aghsfort_snapfire_mortimer_kisses")
+		self.snapfire_mortimer_kisses = params.attacker:FindAbilityByName("snapfire_mortimer_kisses")
        local origin =params.attacker:GetOrigin()
        local duration = 0.3
 	    local distance = 300
