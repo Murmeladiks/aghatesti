@@ -6096,7 +6096,7 @@
 	"DOTA_Tooltip_Ability_venomancer_plague_ward_datadriven_Description"                                                "Summons a plague ward to attack enemy units and structures. The ward is immune to magic. Wards gain the Poison Sting level from Venomancer, dealing 50% of the full damage."
 	
 	
-	"DOTA_Tooltip_Ability_venomancer_venomous_gale_datadriven_tick_damage"						                        "Strike Damage:"
+	"DOTA_Tooltip_Ability_venomancer_venomous_gale_datadriven_strike_damage"						                        "Strike Damage:"
 	"DOTA_Tooltip_Ability_venomancer_venomous_gale_datadriven_tick_damage"						                        "Damage Over Time:"
 	"DOTA_Tooltip_Ability_venomancer_venomous_gale_datadriven_distance"						                            "Travel Distance:"
 	"DOTA_Tooltip_Ability_venomancer_venomous_gale_datadriven_movement_slow"					                    	"%Movement Slow:"
@@ -6104,6 +6104,7 @@
 	"DOTA_Tooltip_Ability_venomancer_plague_ward_datadriven_duration"                                                   "Duration:"
 	"DOTA_Tooltip_Ability_venomancer_plague_ward_datadriven_attack_speed"                                               "Current Bonus Ward Attack Speed:"		
 	"DOTA_Tooltip_Ability_venomancer_plague_ward_datadriven_health"                                                     "Health:"
+		"DOTA_Tooltip_Ability_venomancer_plague_ward_datadriven_damage"                                                 "damage:"
 	"DOTA_Tooltip_Ability_venomancer_poison_sting_datadriven_damage"                                                    "Damage per Second:"		
 	"DOTA_Tooltip_Ability_venomancer_poison_sting_datadriven_movement_speed"                                            "%Movement Slow:"		
 	"DOTA_Tooltip_Ability_venomancer_poison_sting_datadriven_duration"                                                  "Duration:"
