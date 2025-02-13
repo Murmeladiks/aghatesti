@@ -3,7 +3,7 @@
 	"pathfinder_venomancer"
 	{
 		"override_hero"			"npc_dota_hero_venomancer"
-		"Ability1"				"venomancer_venomous_gale_datadriven"
+		"Ability1"				"venomancer_venomous_gale"
 		"Ability2"				"venomancer_poison_sting_datadriven"
 		"Ability3"				"venomancer_plague_ward_datadriven"				
 		"Ability6"				"venomancer_poison_nova_datadriven"
