@@ -146,8 +146,8 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_venomancer"] =
    "pathfinder_special_venomancer_bigass_ward_dummy",   
    "pathfinder_special_venomancer_ward_corpse",
    "pathfinder_special_venomancer_gale_attack",
-   "pathfinder_special_venomancer_banana_bomb",
-   "pathfinder_special_venomancer_gale_bkb",
+   "special_bonus_unique_venomancer_ward_bonus_damage",
+  -- "pathfinder_special_venomancer_gale_bkb",
 }
 
 SPECIAL_ABILITY_UPGRADES["npc_dota_hero_omniknight"] =

@@ -12,7 +12,7 @@ function modifier_pathfinder_special_venomancer_gale_attack:IsHidden()
 end
 
 function modifier_pathfinder_special_venomancer_gale_attack:OnAttackLanded(params)
-	local gale_ability = self:GetAbility():GetCaster():FindAbilityByName("venomancer_venomous_gale_datadriven")
+	local gale_ability = self:GetAbility():GetCaster():FindAbilityByName("venomancer_venomous_gale")
 	if params.attacker == self:GetAbility():GetCaster() then
 		if gale_ability:GetLevel() < 1 then
 			return
@@ -23,7 +23,7 @@ function modifier_pathfinder_special_venomancer_gale_attack:OnAttackLanded(param
 				local cast_point = params.attacker:GetOrigin() + ((params.target:GetOrigin() - params.attacker:GetOrigin()):Normalized() * 40)
 							
 				params.attacker:SetCursorPosition(params.target:GetAbsOrigin())
-				params.attacker:FindAbilityByName("venomancer_venomous_gale_datadriven"):OnAbilityPhaseStart()
+				params.attacker:FindAbilityByName("venomancer_venomous_gale"):OnAbilityPhaseStart()
 				params.attacker:EmitSoundParams("Hero_Venomancer.VenomousGale", 0, 0.6, 0)
 
 				local extra_gales = self:GetAbility():GetSpecialValueFor("extra_gales")
@@ -31,7 +31,7 @@ function modifier_pathfinder_special_venomancer_gale_attack:OnAttackLanded(param
 				for i = 1, extra_gales do
 					local new_point = RotatePosition(params.attacker:GetAbsOrigin(),QAngle(0, (i - 0.5) * angle_increment, 0), cast_point)				
 					params.attacker:SetCursorPosition(new_point)
-					params.attacker:FindAbilityByName("venomancer_venomous_gale_datadriven"):OnSpellStart()					
+					params.attacker:FindAbilityByName("venomancer_venomous_gale"):OnSpellStart()					
 				end				
 			end
 		end

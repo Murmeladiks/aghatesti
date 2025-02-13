@@ -1,0 +1,487 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc32:version{c5dcef98-b629-46ab-88e3-a17c005c935e} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "pelvis"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.79071, -18.932465, -11.843742 ]
+								hitbox_maxs = [ 11.363522, 13.930321, 11.841894 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spine_0"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.583553, -12.141062, -11.843741 ]
+								hitbox_maxs = [ 22.134506, 16.997629, 11.841895 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spine_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.831017, -12.795858, -11.183975 ]
+								hitbox_maxs = [ 20.690813, 16.847584, 11.183975 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "spine_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -18.097252, -9.929853, -11.183976 ]
+								hitbox_maxs = [ 17.986965, 19.204, 11.183974 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "leg_upper_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.300012, -8.06065, -5.712539 ]
+								hitbox_maxs = [ 8.041181, 11.288193, 3.58172 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "leg_upper_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.042494, -11.288198, -3.58172 ]
+								hitbox_maxs = [ 7.300014, 8.060654, 5.710672 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "neck_0"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.979427, -8.226624, -8.128469 ]
+								hitbox_maxs = [ 10.002903, 14.934134, 8.128469 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "leg_lower_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.258273, -5.499359, -4.273486 ]
+								hitbox_maxs = [ 2.051499, 3.811268, 4.097239 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "leg_lower_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.050022, -3.811265, -4.097239 ]
+								hitbox_maxs = [ 5.25827, 5.499363, 4.273484 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "head"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.587456, -13.76141, -8.128469 ]
+								hitbox_maxs = [ 13.609398, 17.325867, 8.128469 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_0_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.379036, -2.673332, -4.477045 ]
+								hitbox_maxs = [ 10.125208, 2.90506, 3.716846 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_0_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.125151, -2.905087, -3.716838 ]
+								hitbox_maxs = [ 0.379044, 2.673534, 4.477053 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ankle_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -13.149169, -3.5541, -5.373419 ]
+								hitbox_maxs = [ 4.239383, 2.925423, 5.333593 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ankle_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.239385, -2.925417, -5.33359 ]
+								hitbox_maxs = [ 13.149165, 3.553759, 5.373417 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "mouth_0"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.504002, -2.132217, -4.746575 ]
+								hitbox_maxs = [ 12.81292, 7.057888, 4.746573 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.66156, -3.372757, -5.350266 ]
+								hitbox_maxs = [ 25.665089, 3.734409, 5.086926 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_1_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -25.665058, -3.734364, -5.086934 ]
+								hitbox_maxs = [ 5.661583, 3.372799, 5.350255 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ball_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.197609, -5.267481, -5.221133 ]
+								hitbox_maxs = [ 2.741737, 4.080694, 5.504054 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ball_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.741747, -4.08069, -5.50405 ]
+								hitbox_maxs = [ 9.1976, 5.267476, 5.221131 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "tail_0"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.637442, -4.560575, -9.602636 ]
+								hitbox_maxs = [ 10.512078, 5.316933, 8.698309 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "head_end"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.718533, -6.550074, -1.457623 ]
+								hitbox_maxs = [ -3.412556, -4.534473, 1.457623 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "mouth_end"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.129917, -2.132225, -2.489875 ]
+								hitbox_maxs = [ 0.469439, -0.190968, 2.489874 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.697592, -1.369209, -3.247006 ]
+								hitbox_maxs = [ 11.633668, 1.740345, 3.721277 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "arm_2_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -11.633726, -1.740337, -3.721272 ]
+								hitbox_maxs = [ 1.697525, 1.369213, 3.247008 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ball_end_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.302439, -5.267481, -5.221133 ]
+								hitbox_maxs = [ 2.810431, 1.903881, 5.504054 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ball_end_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.810434, -1.903884, -5.504051 ]
+								hitbox_maxs = [ 6.302429, 5.267475, 5.221131 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "tail_end"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.303097, -3.049724, -4.010662 ]
+								hitbox_maxs = [ 2.017245, 5.316933, 3.27821 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "penguin"
+						filename = "models/creeps/ice_biome/penguin/mesh/penguin.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "penguin_run"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/creeps/ice_biome/penguin/animation/penguin_run.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 10
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "penguin_iceslide"
+						activity_name = "ACT_DOTA_SLIDE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/creeps/ice_biome/penguin/animation/penguin_iceslide.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 119
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "penguin_idle"
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/creeps/ice_biome/penguin/animation/penguin_idle.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 191
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "penguin_iceslide_loop"
+						activity_name = "ACT_DOTA_SLIDE_LOOP"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/creeps/ice_biome/penguin/animation/penguin_iceslide.dmx"
+						import_bone_scales = false
+						start_frame = 59
+						end_frame = 119
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "penguin_death"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/creeps/ice_biome/penguin/animation/penguin_death.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 29
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "penguin_death_ogreseal"
+						children = 
+						[
+							{
+								_class = "ActivityModifier"
+								activity_name = "ogreseal"
+								activity_weight = 1
+							},
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/creeps/ice_biome/penguin/animation/penguin_death_ogreseal.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 29
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimOrder"
+						anim_order = 
+						[
+							"penguin_run",
+							"penguin_iceslide",
+							"penguin_idle",
+							"penguin_iceslide_loop",
+							"penguin_death",
+							"penguin_death_ogreseal",
+						]
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from VMDL
+"""
+	}
+}

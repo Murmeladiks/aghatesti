@@ -1291,7 +1291,7 @@
 	//>--- LEGENDARY -------------------------
 	//>---------------------------------------
 	
-	"DOTA_Tooltip_Ability_pathfinder_jakiro_dual_breath_fart"                           "Tacobellian Indigestion"
+	"DOTA_Tooltip_Ability_pathfinder_jakiro_dual_breath_fart"                           "Pieru jakiro"
 	"DOTA_Tooltip_Ability_pathfinder_jakiro_dual_breath_fart_Description"	            "Every second, Jakiro has a %chance%%% chance of releasing either component of Dual Breath in a cone directly behind itself. Jakiro does not need to be alive for this effect to occur"
 	
 	"DOTA_Tooltip_Ability_pathfinder_jakiro_duel_breath_liquid_fire"	                "Through the Fire and Flames"
@@ -1945,7 +1945,7 @@
 	
 	
 	
-	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_unleash"	                                                 "Fluff From Above"
+	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_unleash"	                                                 "Fluff From Above/EI TOIMI?"
 	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_unleash_Description"	                                     "Upon landing from Rebound, Marci is granted a single sequence of Unleash attacks. If the target Marci leaps off is an ally, both Marci and her target will be buffed with the current level of Sidekick."
 	
 	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_leap"	                                                        "I'm Walking Here"
@@ -3465,7 +3465,7 @@
 	//>--- LEGENDARY -------------------------
 	//>---------------------------------------
 	
-	"DOTA_Tooltip_Ability_pathfinder_nevermore_special_necromastery_revenant"	                                "Oathbound Revenant"
+	"DOTA_Tooltip_Ability_pathfinder_nevermore_special_necromastery_revenant"	                                "Oathbound Revenant/EI TOIMI?"
 	"DOTA_Tooltip_Ability_pathfinder_nevermore_special_necromastery_revenant_Description"	                    "Necromastery becomes a unit-target ability. When activated, Shadowfiend consumes %soul_cost% souls to cast the current level of Shadowraze unto the targeted unit, twice. If it dies, the target will arise once more to fight for Shadowfiend"
 	
 	"DOTA_Tooltip_Ability_pathfinder_nevermore_special_raze_multi"	                                            "Death of Night"
@@ -6067,8 +6067,11 @@
 	"DOTA_Tooltip_Ability_pathfinder_special_venomancer_gale_attack"		                                            "Seasonal Allergy"
 	"DOTA_Tooltip_Ability_pathfinder_special_venomancer_gale_attack_Description"		                                "Venomancer's attacks have a %proc_chance%%% chance to also launch the current level of Venomous Gale in all directions."
 	
-	"DOTA_Tooltip_Ability_pathfinder_special_venomancer_banana_bomb" 	                                                "Bananamancer"
-	"DOTA_Tooltip_Ability_pathfinder_special_venomancer_banana_bomb_Description" 	                                    "Venomancer's Venomous Gale now summons a banana for each target hit. After a brief delay, these bananas will release Venomancer's current level of Poison Nova in a fixed %radius% radius. Happy bananamancing!"
+	//"DOTA_Tooltip_Ability_pathfinder_special_venomancer_banana_bomb" 	                                                "Bananamancer"
+	//"DOTA_Tooltip_Ability_pathfinder_special_venomancer_banana_bomb_Description" 	                                    "Venomancer's Venomous Gale now summons a banana for each target hit. After a brief delay, these bananas will release Venomancer's current level of Poison Nova in a fixed %radius% radius. Happy bananamancing!"
+	
+	"DOTA_Tooltip_Ability_special_bonus_unique_venomancer_ward_bonus_damage" 	                                        "Ruttoluikero"
+	"DOTA_Tooltip_Ability_special_bonus_unique_venomancer_ward_bonus_damage_Description" 	                            "Plague Wards gain %bonus_damage_pct%%% of Venomancers total damage as bonus damage"
 	
 	
 	//>---------------------------------------
@@ -7273,7 +7276,7 @@
 	"DOTA_Tooltip_ability_aghsfort_special_magnataur_empower_lifesteal_Description"				"Empowered attacks now have %value%%% lifesteal."
 
 	"DOTA_Tooltip_Ability_aghsfort_special_magnataur_empower_shockwave_on_attack"				"Too Many Waves"
-	"DOTA_Tooltip_ability_aghsfort_special_magnataur_empower_shockwave_on_attack_Description"	"Empowered attacks now have a %value%%% chance to cast Magnus's Shockwave."
+	"DOTA_Tooltip_ability_aghsfort_special_magnataur_empower_shockwave_on_attack_Description"	"Empowered attacks on melee heroes now have a %value%%% chance to cast Magnus's Shockwave."
 
 	"DOTA_Tooltip_Ability_aghsfort_special_magnataur_reverse_polarity_radius"					"Reverse Polarity Radius"
 	"DOTA_Tooltip_ability_aghsfort_special_magnataur_reverse_polarity_radius_Description"		"Reverse Polarity's radius is increased to %value%."

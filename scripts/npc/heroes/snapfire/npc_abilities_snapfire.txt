@@ -124,7 +124,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
-		"BaseClass"                     "snapfire_mortimer_kisses"
+		"BaseClass"                     "ability_datadriven"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
@@ -187,7 +187,10 @@
             "delay_after_last_projectile"	"0.5"
             "burn_linger_duration"	"1.0"
 		}
+		
 	}
+
+	
 
 	//=================================================================================================================
 	// Snapfire: Gobble Up
@@ -585,7 +588,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
-		"BaseClass"						"ability.lua"
+		"BaseClass"						"ability_lua"
 		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_bakers_dozen"
 		"AbilityValues"
         {
@@ -601,7 +604,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"BaseClass"						"ability.lua"
+		"BaseClass"						"ability_lua"
 		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
 		"AbilityValues"
@@ -687,7 +690,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "BaseClass"                     "ability_lua"
-		"AbilityTextureName"            "snapfire_mortimer_kisses"
+		"AbilityTextureName"            "snapfire_gobble_up"
         "ScriptFile"                    "pathfinder/pathfinder_special_snapfire_gobble"
 		"AbilityValues"
         {

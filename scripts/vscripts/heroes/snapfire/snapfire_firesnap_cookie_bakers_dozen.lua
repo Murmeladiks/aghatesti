@@ -48,9 +48,9 @@ function modifier_snapfire_firesnap_cookie_bakers_dozen:OnAbilityFullyCast(param
     end
     local unit = self:GetParent()
 
-    self.snapfire_firesnap_cookie = unit:FindAbilityByName("aghsfort_snapfire_firesnap_cookie")
+    self.snapfire_firesnap_cookie = unit:FindAbilityByName("snapfire_firesnap_cookie")
     
-    if params.ability:GetAbilityName() == "aghsfort_snapfire_firesnap_cookie"  then
+    if params.ability:GetAbilityName() == "snapfire_firesnap_cookie"  then
        local position = params.target:GetAbsOrigin()
         local enemies = FindUnitsInRadius(
             self:GetCaster():GetTeamNumber(),   -- int, your team number

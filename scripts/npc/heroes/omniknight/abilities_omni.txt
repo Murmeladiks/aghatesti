@@ -1,0 +1,607 @@
+	//=================================================================================================================
+	// Omniknight: Purification
+	//=================================================================================================================
+	"aghsfort_omniknight_purification"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CAN_SELF_CAST"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_YES"
+		"FightRecapLevel"				"1"
+		"AbilitySound"					"Hero_Omniknight.Purification"
+		"AbilityTextureName"			"omniknight_purification"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"300"
+		"AbilityCastPoint"				"0.2"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"14 13 12 11"
+		
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"75 90 105 120"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "heal"
+            {
+                "value" "90 160 230 300"
+                "LinkedSpecialBonus" "special_bonus_unique_omniknight_1"
+            }
+            "radius"
+            {
+                "value" "260"
+                "LinkedSpecialBonus" "special_bonus_unique_omniknight_4"
+            }
+            "cast_radius" "400"
+            "AbilityCharges"
+            {
+                "value" ""
+                "LinkedSpecialBonus" "aghsfort_special_omniknight_purification_charges"
+            }
+            "secondary_heal_damage_pct" "50"
+            "cast_range" "300"
+        }
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+    //=================================================================================================================
+    // Omniknight: Guardian Angel
+    //=================================================================================================================
+    "aghsfort_omniknight_guardian_angel"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ALLIES_YES"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"               "2"
+        "AbilitySound"                  "Hero_Omniknight.GuardianAngel.Cast"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastPoint"              "0.4"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
+        
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "125 175 250"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "AbilityCooldown"
+            {
+                "value"                             "100 80 60"
+                "special_bonus_unique_omniknight_7" "-12"
+            }
+            "duration"                  "4 5 6"
+            "radius"                    "1000"
+            "hp_regen"                  "10 14 18"
+        }
+    }
+
+
+    //=================================================================================================================
+    // Omniknight: Guardian Angel
+    //=================================================================================================================
+    "aghsfort_special_omniknight_guardian_angel_single_target"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ALLIES_YES"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"               "2"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "MaxLevel"                      "1"
+        "AbilitySound"                  "Hero_Omniknight.GuardianAngel.Cast"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "500"
+
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "100 80 60"
+        "AbilityCastPoint"              "0.4"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
+        
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "75 125 150"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "mana_cost_modifier" "50"
+        }
+    }
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_guardian_angel_single_target_dummy"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        "AbilityValues"
+        {
+            "mana_cost_modifier" "50"
+            "cooldown" "100 80 60"
+        }
+    }
+
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+  	"aghsfort_special_omniknight_purification_cast_radius"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "omniknight_purification"
+		"AbilityValues"
+        {
+            "value" "250"
+        }
+	}
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_omniknight_purification_charges"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "omniknight_purification"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "value" "2"
+        }
+	}
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_omniknight_purification_cooldown_reduction"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "omniknight_purification"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "cooldown_reduction_per_hit" "0.4"
+        }
+	}	
+
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"aghsfort_special_omniknight_purification_multicast"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityTextureName"            "omniknight_purification"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+        {
+            "multicast_chance" "50"
+            "multicast_delay" "0.3"
+        }
+	}	
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_repel_procs_purification"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_repel"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+        }
+    }   
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_repel_outgoing_damage"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_repel"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "value" "30"
+        }
+    }   
+        //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_repel_applies_degen_aura"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_repel"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+        }
+    }   
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_repel_damage_instance_refraction"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_repel"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "damage_threshold" "5"
+            "damage_instances" "5"
+        }
+    }   
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_repel_knockback_on_cast"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_repel"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "knockback_radius" "400"
+            "knockback_speed" "1000"
+            "knockback_damage_pct" "150"
+        }
+    }     
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_degen_aura_damage"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_degen_aura"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "damage_interval" "0.75"
+            "attack_damage_pct" "25"
+        }
+    } 
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_degen_aura_restoration"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_degen_aura"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "value" "4"
+        }
+    } 
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_degen_aura_toggle"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_degen_aura"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "value" "50"
+        }
+    } 
+
+	
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_guardian_angel_purification"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "purification_trigger_chance" "20"
+            "purification_trigger_cooldown" "1.0"
+        }
+    } 
+
+    //=================================================================================================================
+    // Ability: Special Bonus
+    //=================================================================================================================
+    "aghsfort_special_omniknight_guardian_angel_immune_flight"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            "value" "30"
+        }
+    } 
+
+
+
+    //=================================================================================================================
+	// Omniknight: END
+	//=================================================================================================================
+ 
+ "omniknight_guardian_angel_scepter"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_scepter"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_guardian_angel_flight"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_flight"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_guardian_angel_heal_life"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_heal_life"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_martyr_judgement"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_judgement"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_martyr_barrier"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_barrier"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_martyr_zeal"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_zeal"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ 
+ "omniknight_martyr_purification"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_purification"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ 
+ "omniknight_purification_shard"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_shard"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_purification_cure"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_cure"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_purification_stalwart"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_stalwart"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_purification_benevolence"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_benevolence"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ "omniknight_purification_holy_place"
+ {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_holy_place"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  

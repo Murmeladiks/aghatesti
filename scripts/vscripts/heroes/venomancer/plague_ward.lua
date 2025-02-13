@@ -22,10 +22,28 @@ function venomancer_plague_ward_datadriven_on_spell_start(keys)
 
 		plague_ward_unit:SetForwardVector(direction)
 		
-		if IsServer() then			
+		if IsServer() then
 			plague_ward_unit:SetControllableByPlayer(keys.caster:GetPlayerID(), true)
-			plague_ward_unit:SetBaseDamageMin(keys.ability:GetLevelSpecialValueFor("damage", plague_ward_level))
-			plague_ward_unit:SetBaseDamageMax(keys.ability:GetLevelSpecialValueFor("damage", plague_ward_level) + 2)
+		
+			-- Get the base Plague Ward damage from ability values
+			local base_damage = keys.ability:GetLevelSpecialValueFor("damage", plague_ward_level - 1)
+		
+			-- Initialize bonus damage to 0
+			local bonus_damage = 0
+		
+			-- Check if Venomancer has the upgrade ability
+			if keys.caster:HasAbility("special_bonus_unique_venomancer_ward_bonus_damage") then
+				local upgrade_ability = keys.caster:FindAbilityByName("special_bonus_unique_venomancer_ward_bonus_damage")
+				if upgrade_ability then
+					local bonus_damage_pct = upgrade_ability:GetSpecialValueFor("bonus_damage_pct")
+					local venomancer_attack_damage = keys.caster:GetAverageTrueAttackDamage(nil)
+					bonus_damage = (bonus_damage_pct / 100) * venomancer_attack_damage
+				end
+			end
+		
+			-- Apply the final Plague Ward damage
+			plague_ward_unit:SetBaseDamageMin(base_damage + bonus_damage)
+			plague_ward_unit:SetBaseDamageMax(base_damage + bonus_damage + 2)
 		end
 		plague_ward_unit:SetOwner(keys.caster)
 		

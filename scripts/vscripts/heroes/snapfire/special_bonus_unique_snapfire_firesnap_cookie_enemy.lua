@@ -1,9 +1,9 @@
-aghsfort_special_snapfire_firesnap_cookie_multicookie = class( {} )
+aghsfort_special_snapfire_firesnap_cookie_enemytarget = class( {} )
 
-LinkLuaModifier( "aghsfort_special_snapfire_firesnap_cookie_enemytarget", "heroes/snapfire/special_bonus_unique_snapfire_firesnap_cookie_enemy", LUA_MODIFIER_MOTION_NONE )
+LinkLuaModifier( "modifier_special_bonus_unique_snapfire_firesnap_cookie_enemy", "heroes/snapfire/special_bonus_unique_snapfire_firesnap_cookie_enemy", LUA_MODIFIER_MOTION_NONE )
 --------------------------------------------------------------------------------
 
-function aghsfort_special_snapfire_firesnap_cookie_multicookie:GetIntrinsicModifierName()
+function aghsfort_special_snapfire_firesnap_cookie_enemytarget:GetIntrinsicModifierName()
 	return "modifier_special_bonus_unique_snapfire_firesnap_cookie_enemy"
 end
 
