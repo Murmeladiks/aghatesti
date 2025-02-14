@@ -4579,6 +4579,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+        "BaseClass"                   	"omniknight_degen_aura"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"AbilityTextureName"            "omniknight_degen_aura"
@@ -4597,7 +4598,7 @@
                 "value"                 "10 15 20 25"
                 "LinkedSpecialBonus"    "special_bonus_unique_omniknight_2"
             }
-            "radius"                "300"
+            "radius"                "450"
             "AbilityCastRange"		"300"
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -4606,57 +4607,58 @@
 	// Omniknight: Repel
 	//=================================================================================================================
 	"aghsfort_omniknight_repel"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityTextureName"			"omniknight_repel"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
-		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_NO"
-		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
-		"FightRecapLevel"				"1"
-		"AbilitySound"					"Hero_Omniknight.Repel"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityTextureName"           "omniknight_repel"
+        "BaseClass"                    "omniknight_repel"
+        "AbilityBehavior"              "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "AbilityUnitTargetTeam"        "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "AbilityUnitTargetType"        "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellImmunityType"            "SPELL_IMMUNITY_ALLIES_NO"
+        "SpellDispellableType"         "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"              "1"
+        "AbilitySound"                 "Hero_Omniknight.Repel"
 
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"             "500"
+        "AbilityCastPoint"             "0.25"
 
-		// Casting
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"500"
-		"AbilityCastPoint"				"0.25"
-		
-		// Cost
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"75"
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"              "75"
 
-		// Stats
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityModifierSupportValue"	"3.0"	// Value much higher than cost.
+        // Stats
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityModifierSupportValue"  "3.0"  // Value much higher than cost.
 
-		
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityValues"
-		{
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
             "AbilityCooldown"
             {
-                "value"				                    "21 19 17 16"
-                "special_bonus_unique_omniknight_3"     "-4"
+                "value"                     "21 19 17 16"
+                "special_bonus_unique_omniknight_3" "-4"
             }
             "duration"
             {
-                "value"                                 "8"
-                "special_bonus_unique_omniknight_5"     "+2"
+                "value"                     "8"
+                "special_bonus_unique_omniknight_5" "+2"
             }
-            "damage_reduction"      "-8 -12 -16 -20"
-            "bonus_str"              "7 14 21 28"
+            "damage_reduction"            "-8 -12 -16 -20"
+            "bonus_str"                   "7 14 21 30"
             "hp_regen"
             {
-                "value"                 "6 9 12 15"
-                "LinkedSpecialBonus"    "special_bonus_unique_omniknight_5"
+                "value"                    "20 30 40 45"
+                "LinkedSpecialBonus"       "special_bonus_unique_omniknight_5"
             }
-		}
-		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
-	}
+        }
+
+        "AbilityCastAnimation"         "ACT_DOTA_CAST_ABILITY_2"
+    }
+
 
 	//=================================================================================================================
 	// START REWARD AURAS
@@ -11767,9 +11769,195 @@
     // HERO ABILITY UPGRADES START
     //=================================================================================================================
 	//=================================================================================================================
+	//=================================================================================================================
 	// Omniknight: START
 	//=================================================================================================================
 	
+     "omniknight_guardian_angel_scepter"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_scepter"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+    "omniknight_guardian_angel_flight"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_flight"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+    "omniknight_guardian_angel_heal_life"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_guardian_angel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_heal_life"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+    "omniknight_martyr_judgement"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_judgement"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+    "omniknight_martyr_barrier"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_barrier"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+    "omniknight_martyr_zeal"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_zeal"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ 
+    "omniknight_martyr_purification"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_martyr"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_purification"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+ 
+    "omniknight_purification_shard"   
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_shard"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    } 
+
+    "omniknight_purification_cure"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_cure"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+
+    "omniknight_purification_stalwart"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_stalwart"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+    "omniknight_purification_benevolence"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_benevolence"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+    "omniknight_purification_holy_place"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_holy_place"  
+        
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
+            
+        }
+    }  
+
 	//=================================================================================================================
 	// Omniknight: Purification
 	//=================================================================================================================
@@ -11778,6 +11966,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CAN_SELF_CAST"
+        "BaseClass"                   	"omniknight_purification"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
@@ -11785,6 +11974,7 @@
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Omniknight.Purification"
 		"AbilityTextureName"			"omniknight_purification"
+
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -11833,36 +12023,38 @@
         // General
         //-------------------------------------------------------------------------------------------------------------
 
-        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+        "BaseClass"                   	"omniknight_guardian_angel"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
         "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
         "SpellImmunityType"             "SPELL_IMMUNITY_ALLIES_YES"
         "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
         "FightRecapLevel"               "2"
         "AbilitySound"                  "Hero_Omniknight.GuardianAngel.Cast"
         "AbilityTextureName"            "omniknight_guardian_angel"
-        
+        //"BaseClass"                    "ability_lua" 
+        //"ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_scepter"
+        "AbilitySound"                      "Hero_Omniknight.GuardianAngel.Cast"
+
+
 
         // Time     
         //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "120"
         "AbilityCastPoint"              "0.4"
         "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
         
         // Cost
         //-------------------------------------------------------------------------------------------------------------
-        "AbilityManaCost"               "125 175 250"
+        "AbilityManaCost"             "150 200 250"
         
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "AbilityCooldown"
-            {
-                "value"                             "100 80 60"
-                "special_bonus_unique_omniknight_7" "-12"
-            }
-            "duration"                  "4 5 6"
-            "radius"                    "1000"
-            "hp_regen"                  "10 14 18"
+           "duration"                  "5.0 6.5 8.0"                 
+            "radius"                    "1200"
         }
     }
 
@@ -11876,6 +12068,7 @@
         //-------------------------------------------------------------------------------------------------------------
 
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+        //"BaseClass"                   	"omniknight_guardian_angel"
         "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
         "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
         "SpellImmunityType"             "SPELL_IMMUNITY_ALLIES_YES"
@@ -11885,6 +12078,7 @@
         "MaxLevel"                      "1"
         "AbilitySound"                  "Hero_Omniknight.GuardianAngel.Cast"
         "AbilityTextureName"            "omniknight_guardian_angel"
+        
 
         // Casting
         //-------------------------------------------------------------------------------------------------------------
@@ -11904,7 +12098,10 @@
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "mana_cost_modifier" "50"
+           
+                 
+                "mana_cost_modifier"                 "50"
+            
         }
     }
 
@@ -11917,12 +12114,13 @@
         //-------------------------------------------------------------------------------------------------------------
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
 
-        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
         "AbilityTextureName"            "omniknight_guardian_angel"
         "AbilityValues"
         {
-            "mana_cost_modifier" "50"
-            "cooldown" "100 80 60"
+           
+                "mana_cost_modifier"                 "50"
+            
         }
     }
 
@@ -11934,14 +12132,16 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
-
+		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES" 
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_holy_place" 
 		"AbilityValues"
-        {
-            "value" "250"
-        }
+		{
+			
+			"value"					"250"
+		}
 	}
 
 	//=================================================================================================================
@@ -11951,16 +12151,17 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"AbilityTextureName"            "omniknight_purification"
+		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_benevolence"  
 		
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
-        {
-            "value" "2"
-        }
+		{				 
+			"value"				"2"			
+		}
 	}
 	//=================================================================================================================
 	// Ability: Special Bonus
@@ -11972,13 +12173,16 @@
 		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "omniknight_purification"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_stalwart"  
+        
 		
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
-        {
-            "cooldown_reduction_per_hit" "0.4"
-        }
+		{
+			"cooldown_reduction_per_hit"		"0.4"	
+		}
 	}	
 
 	//=================================================================================================================
@@ -11991,14 +12195,19 @@
 		//"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "omniknight_purification"
-		
+		"BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_purification_cure" 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
-        {
-            "multicast_chance" "50"
-            "multicast_delay" "0.3"
-        }
+		{
+			
+				 
+			"multicast_chance"		"50"
+		
+				 
+			"multicast_delay"		"0.3"
+		}
 	}	
     //=================================================================================================================
     // Ability: Special Bonus
@@ -12010,11 +12219,14 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_repel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_purification" 
         
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
+
         }
     }   
     //=================================================================================================================
@@ -12027,12 +12239,16 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_repel"
-        
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_zeal"        
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "value" "30"
+           
+                 
+            "value"        "30"
+            
         }
     }   
         //=================================================================================================================
@@ -12062,13 +12278,20 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_repel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_barrier" 
         
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "damage_threshold" "5"
-            "damage_instances" "5"
+            
+                "damage_threshold"        "5"
+          
+                 
+                "damage_instances"        "5"
+            
+
         }
     }   
     //=================================================================================================================
@@ -12081,16 +12304,23 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_repel"
-        
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_martyr_judgement"
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "knockback_radius" "400"
-            "knockback_speed" "1000"
-            "knockback_damage_pct" "150"
+           
+                "knockback_radius"        "400"
+       
+                 
+                "knockback_speed"        "1000"
+        
+                 
+                "knockback_damage_pct"        "150"
+            
         }
-    }     
+    }   
 
     //=================================================================================================================
     // Ability: Special Bonus
@@ -12102,13 +12332,19 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_degen_aura"
-        
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/aghsfort_special_omniknight_degen_aura_damage"
         // Special
         //-------------------------------------------------------------------------------------------------------------
-        "AbilityValues"
+        "AbilitySpecial"
         {
-            "damage_interval" "0.75"
-            "attack_damage_pct" "25"
+           
+                 
+                "damage_interval"           "0.75"
+        
+                 
+                "attack_damage_pct"           "25"
+                      
         }
     } 
     //=================================================================================================================
@@ -12121,14 +12357,47 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_degen_aura"
-        
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/aghsfort_special_omniknight_degen_aura_restoration"
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "value" "4"
+           
+                 
+                "value"           "4"
+                       
         }
     } 
+
+        "aghsfort_special_omniknight_degen_aura_buff"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "omniknight_degen_aura"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/aghsfort_special_omniknight_degen_aura_buff"
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+		{
+            "move_speed_bonus"
+            {
+                "value"                 "10 15 20 25"
+                "LinkedSpecialBonus"    "special_bonus_unique_omniknight_2"
+            }
+            "attack_speed_bonus"
+            {
+                "value"                 "10 15 20 25"
+                "LinkedSpecialBonus"    "special_bonus_unique_omniknight_2"
+            }
+            "radius"                "450"
+		}
+    } 
+
+
 
     //=================================================================================================================
     // Ability: Special Bonus
@@ -12145,7 +12414,10 @@
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "value" "50"
+           
+                 
+                "value"                 "50"
+            
         }
     } 
 
@@ -12160,13 +12432,17 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_guardian_angel"
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_heal_life" 
         
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "purification_trigger_chance" "20"
-            "purification_trigger_cooldown" "1.0"
+           
+                 
+            "purification_trigger_chance"               "25"
+            "purification_trigger_cooldown"             "1.0"        
         }
     } 
 
@@ -12180,12 +12456,16 @@
         //"AbilityType"                 "DOTA_ABILITY_TYPE_ATTRIBUTES"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
         "AbilityTextureName"            "omniknight_guardian_angel"
-        
+        "BaseClass"                     "ability_lua" 
+        "ScriptFile"                    "heroes/omniknight/omniknight_guardian_angel_flight" 
         // Special
         //-------------------------------------------------------------------------------------------------------------
         "AbilityValues"
         {
-            "value" "30"
+           
+                 
+            "value"                 "30"
+            
         }
     } 
 
@@ -12194,6 +12474,7 @@
     //=================================================================================================================
 	// Omniknight: END
 	//=================================================================================================================
+
 
 	//=================================================================================================================
 	// Disruptor: START
@@ -13094,6 +13375,44 @@
 	// Snapfire: Start
 	//=================================================================================================================
 	//=================================================================================================================
+
+    //=================================================================================================================
+	// Ability: BuckShot(Innate)
+	//=================================================================================================================
+
+	"snapfire_buckshot"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS"
+        "MaxLevel"                      "1"
+        "Innate"                        "1"
+            
+        "AbilityValues"
+        {
+            "miss_chance" "25" 
+            "damage_amp"   {
+					"value"												"25"
+				"special_bonus_unique_snapfire_lil_shredder_gunner"		"125"
+			} 
+            "split_shot"
+            {
+                "value" "0"
+                "special_bonus_facet_snapfire_ricochet_ii"      "+2"
+            }
+            "split_shot_damage_pct"
+            {
+                "value"     "0"
+                "special_bonus_facet_snapfire_ricochet_ii"      "=75"
+            }
+            "glancing_shot_damage_pct" {
+					"value"			"60"
+					"special_bonus_unique_snapfire_lil_shredder_gunner"		"120"
+			} 
+        }
+        "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
+    }
+
 	// Ability: Snapfire Scatterblast
 	//=================================================================================================================
 	"aghsfort_snapfire_scatterblast"
@@ -13168,74 +13487,103 @@
 	//=================================================================================================================
 	// Ability: Snapfire Mortimer Kisses
 	//=================================================================================================================
-	"aghsfort_snapfire_mortimer_kisses"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
-		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
-		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
-		"AbilitySound"					"Hero_Snapfire.MortimerBlob.Launch"
-		"AbilityTextureName"            "snapfire_mortimer_kisses"
+	"snapfire_mortimer_kisses"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
+        "AbilitySound"                  "Hero_Snapfire.MortimerBlob.Launch"
+        "BaseClass"                     "snapfire_mortimer_kisses"
+        "AbilityTextureName"            "snapfire_mortimer_kisses"
+        
 
-		// Casting
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"3000"
-		"AbilityCastPoint"				"0.5"
-		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "3000"
+        "AbilityCastPoint"              "0.5"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
 
-		// Damage
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+        // Damage
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"
 
-		// Time		
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"90"
-		"AbilityDuration"				"5.5"
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "120 110 100"
+        "AbilityDuration"               "5.5"
 
-		// Cost
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"125 150 175"
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "125 150 175"
 
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityValues"
-		{
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
             "projectile_count"
             {
-                "value"                             "8"
-				"special_bonus_unique_snapfire_1"	"+6"
+                "value"     "8"
+                "special_bonus_unique_snapfire_1"   "+6"
             }
-            "projectile_speed"		"1300"
-            "projectile_width"		"130"
-            "impact_radius"			"275"
+            "projectile_speed"      "1300"
+            "projectile_width"      
+            {
+                "value" "130"
+                "affected_by_aoe_increase"  "1"     
+            }
+            "impact_radius"         
+            {
+                "value" "275"
+                "affected_by_aoe_increase"  "1" 
+            }
             "damage_per_impact"
-			{
-				"value"		                                                    "160 240 320"
-				"special_bonus_unique_snapfire_mortimer_kisses_impact_damage"	"+60"
-			}
-            "duration_tooltip"		"5.5"
-            "projectile_vision"		"500"
-            "turn_rate"				"75"
-			"burn_interval"			"0.5"
-            "burn_damage"			"60 80 100"
+            {
+                "value"     "180 270 360"
+                "special_bonus_unique_snapfire_mortimer_kisses_impact_damage"       "+60"
+            }
+            "duration_tooltip"      "5.5"
+            "projectile_vision"
+            {
+                "value" "500"
+                "affected_by_aoe_increase"  "1" 
+            }
+            "turn_rate"             "75"
+            "burn_interval"         "0.5"
+            "burn_damage"                   
+            {
+                "value"                 "60 80 100"
+                "CalculateSpellDamageTooltip"   "1"
+            }
             "move_slow_pct"
             {
-                "value"             "15 20 25"
-				"LinkedSpecialBonus"	"special_bonus_unique_snapfire_4"
+                "value"         "15 20 25"
+                "special_bonus_unique_snapfire_4"   "+20"
             }
-			"burn_ground_duration"	"3.0"
-            "dist_change_speed"		"75"
-            "min_range"				"600"
-            "min_lob_travel_time"	"0.8"
-            "max_lob_travel_time"	"2.0"
-            "delay_after_last_projectile"	"0.5"
-            "burn_linger_duration"	"1.0"
-		}
-	}
+            "burn_ground_duration"  "3.0"
+            "dist_change_speed"     "75"
+            "min_range"             "600"
+            "min_lob_travel_time"   "0.8"
+            "max_lob_travel_time"   "2.0"
+            "delay_after_last_projectile"   "0.5"
+            "burn_linger_duration"  "1.0"
+        } 
+
+        "OnSpellStart"
+		{			
+			"RunScript"
+			{
+				"ScriptFile"		"heroes/snapfire/mortimer_kisses"
+				"Function"			"snapfire_mortimer_kisses:OnSpellStart"
+				"Target"			"POINT"
+				"Duration"			"%duration"
+			}
+		}  
+    }
 
 	//=================================================================================================================
 	// Snapfire: Gobble Up
@@ -13641,19 +13989,38 @@
         {
         }
 	}
+
+    "snapfire_special_bonus_mortimer_kisses_projectile_count"
+    {
+        "BaseClass"                    "ability_datadriven"
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "AbilityTextureName"            "snapfire_mortimer_kisses"
+        "AbilityTooltip"                "Increases the number of projectiles fired by Mortimer Kisses by 8."
+        "LinkedAbility"
+        {
+            "01" "snapfire_mortimer_kisses"
+        }
+        "AbilityValues"
+        {
+            "projectiles_count"  "8"
+        }
+    }
+
   	"aghsfort_special_snapfire_mortimer_kisses_fragmentation"
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"heroes/snapfire/aghsfort_special_snapfire_mortimer_kisses_fragmentation"
 		"AbilityTextureName"            "snapfire_mortimer_kisses"
-		"AbilityValues"
-        "BaseClass"                     "ability_lua"
-        "ScriptFile"                    "heroes/snapfire/aghsfort_special_snapfire_mortimer_kisses_fragmentation"
+		"AbilityValues"		
         {
-            "split_projectiles" "6"
-            "split_radius" "300"
-            "split_impact_radius" "150"
+            "split_projectiles"     "6"
+            "split_radius"          "300"
+            "split_impact_radius"   "150"
+            "split_speed"           "700"
+            "damage"                "150"
         }
 	}	
 	//=================================================================================================================

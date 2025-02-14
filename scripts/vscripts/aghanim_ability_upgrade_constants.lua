@@ -163,14 +163,15 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_omniknight"] =
    "aghsfort_special_omniknight_repel_damage_instance_refraction",
    "aghsfort_special_omniknight_repel_knockback_on_cast",
 
-   "aghsfort_special_omniknight_degen_aura_toggle",
-   "aghsfort_special_omniknight_degen_aura_damage",
-   "aghsfort_special_omniknight_degen_aura_restoration",
+   --"aghsfort_special_omniknight_degen_aura_toggle",
+   --"aghsfort_special_omniknight_degen_aura_buff",
+   --"aghsfort_special_omniknight_degen_aura_damage",
+   --"aghsfort_special_omniknight_degen_aura_restoration",
 
    "aghsfort_special_omniknight_guardian_angel_purification",
    "aghsfort_special_omniknight_guardian_angel_immune_flight",
    --"aghsfort_special_omniknight_guardian_angel_single_target",
-   "aghsfort_special_omniknight_guardian_angel_single_target_dummy",
+   --"aghsfort_special_omniknight_guardian_angel_single_target_dummy",
 
 }
 
@@ -211,7 +212,7 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_snapfire"] =
   -- "aghsfort_special_snapfire_scatterblast_fullrange_pointblank",
    "aghsfort_special_snapfire_scatterblast_barrage",
 
-   "aghsfort_special_snapfire_firesnap_cookie_multicookie",
+  -- "aghsfort_special_snapfire_firesnap_cookie_multicookie",
    "aghsfort_special_snapfire_firesnap_cookie_enemytarget",
    "aghsfort_special_snapfire_firesnap_cookie_allied_buff",
 
@@ -220,6 +221,7 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_snapfire"] =
    "aghsfort_special_snapfire_lil_shredder_bouncing_bullets",
 
    "aghsfort_special_snapfire_mortimer_kisses_fragmentation",
+   "snapfire_special_bonus_mortimer_kisses_projectile_count",
 --   "aghsfort_special_snapfire_mortimer_kisses_fire_trail",
    "aghsfort_special_snapfire_mortimer_kisses_autoattack",
    "aghsfort_special_snapfire_mortimer_kisses_incoming_damage_reduction",

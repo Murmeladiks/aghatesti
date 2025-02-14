@@ -12,7 +12,7 @@
     {
         // General
         //-------------------------------------------------------------------------------------------------------------
-        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS"
         "MaxLevel"                      "1"
         "Innate"                        "1"
             
@@ -115,80 +115,96 @@
         }
 	}
 
-	//=================================================================================================================
-	// Ability: Snapfire Mortimer Kisses
-	//=================================================================================================================
 	"aghsfort_snapfire_mortimer_kisses"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
-		"BaseClass"                     "ability_datadriven"
-		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
-		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
-		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
-		"AbilitySound"					"Hero_Snapfire.MortimerBlob.Launch"
-		"AbilityTextureName"            "snapfire_mortimer_kisses"
+    {
+        // General
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
+        "AbilitySound"                  "Hero_Snapfire.MortimerBlob.Launch"
+        "BaseClass"                     "snapfire_mortimer_kisses"
+        "AbilityTextureName"            "snapfire_mortimer_kisses"
 
-		// Casting
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"3000"
-		"AbilityCastPoint"				"0.5"
-		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+        // Gobble up scepter ability not tied to any spell in regular game, for AD, associating it here.
+        "AbilityDraftUltScepterAbility"     "snapfire_gobble_up"
+        "AbilityDraftUltScepterPreAbility"  "snapfire_spit_creep"
 
-		// Damage
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+        // Casting
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCastRange"              "3000"
+        "AbilityCastPoint"              "0.5"
+        "AbilityCastAnimation"          "ACT_DOTA_CAST_ABILITY_4"
 
-		// Time		
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"90"
-		"AbilityDuration"				"5.5"
+        // Damage
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"
 
-		// Cost
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"125 150 175"
+        // Time     
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityCooldown"               "120 110 100"
+        "AbilityDuration"               "5.5"
 
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityValues"
-		{
+        // Cost
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityManaCost"               "125 150 175"
+
+        // Special
+        //-------------------------------------------------------------------------------------------------------------
+        "AbilityValues"
+        {
             "projectile_count"
             {
-                "value"                             "8"
-				"special_bonus_unique_snapfire_1"	"+6"
+                "value"     "8"
+                "special_bonus_unique_snapfire_1"   "+6"
+				"snapfire_special_bonus_mortimer_kisses_projectile_count" "+8"
             }
-            "projectile_speed"		"1300"
-            "projectile_width"		"130"
-            "impact_radius"			"275"
+            "projectile_speed"      "1300"
+            "projectile_width"      
+            {
+                "value" "130"
+                "affected_by_aoe_increase"  "1"     
+            }
+            "impact_radius"         
+            {
+                "value" "275"
+                "affected_by_aoe_increase"  "1" 
+            }
             "damage_per_impact"
-			{
-				"value"		                                                    "160 240 320"
-				"special_bonus_unique_snapfire_mortimer_kisses_impact_damage"	"+60"
-			}
-            "duration_tooltip"		"5.5"
-            "projectile_vision"		"500"
-            "turn_rate"				"75"
-			"burn_interval"			"0.5"
-            "burn_damage"			"60 80 100"
+            {
+                "value"     "180 270 360"
+                "special_bonus_unique_snapfire_mortimer_kisses_impact_damage"       "+60"
+            }
+            "duration_tooltip"      "5.5"
+            "projectile_vision"
+            {
+                "value" "500"
+                "affected_by_aoe_increase"  "1" 
+            }
+            "turn_rate"             "75"
+            "burn_interval"         "0.5"
+            "burn_damage"                   
+            {
+                "value"                 "60 80 100"
+                "CalculateSpellDamageTooltip"   "1"
+            }
             "move_slow_pct"
             {
-                "value"             "15 20 25"
-				"LinkedSpecialBonus"	"special_bonus_unique_snapfire_4"
+                "value"         "15 20 25"
+                "special_bonus_unique_snapfire_4"   "+20"
             }
-			"burn_ground_duration"	"3.0"
-            "dist_change_speed"		"75"
-            "min_range"				"600"
-            "min_lob_travel_time"	"0.8"
-            "max_lob_travel_time"	"2.0"
-            "delay_after_last_projectile"	"0.5"
-            "burn_linger_duration"	"1.0"
-		}
-		
-	}
+            "burn_ground_duration"  "3.0"
+            "dist_change_speed"     "75"
+            "min_range"             "600"
+            "min_lob_travel_time"   "0.8"
+            "max_lob_travel_time"   "2.0"
+            "delay_after_last_projectile"   "0.5"
+            "burn_linger_duration"  "1.0"
+        }
+    }
 
 	
 
@@ -701,10 +717,10 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"AbilityTextureName"            "snapfire_mortimer_kisses"
-		"AbilityValues"
 		"BaseClass"						"ability_lua"
-		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
+		"ScriptFile"					"heroes/snapfire/aghsfort_special_snapfire_mortimer_kisses_fragmentation"
+		"AbilityTextureName"            "snapfire_mortimer_kisses"
+		"AbilityValues"		
         {
             "split_projectiles" "6"
             "split_radius" "300"

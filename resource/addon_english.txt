@@ -829,10 +829,11 @@
 	"DOTA_Tooltip_ability_aghsfort_special_disruptor_thunder_strike_on_attack"						"Loaded Weapon"
 	"DOTA_Tooltip_ability_aghsfort_special_disruptor_thunder_strike_on_attack_Description"			"Disruptor gains a %strike_chance%%% chance to cast a Thunder Strike on an attacked target."
 	
-	"DOTA_Tooltip_Ability_aghsfort_special_omniknight_guardian_angel_single_target_Description"				"Omniknight gains a separate ability, allowing him to cast his current level of Guardian angel on a single target. Cooldown: %cooldown% seconds. Mana cost is reduced by %mana_cost_modifier% percent."
+	//"DOTA_Tooltip_Ability_aghsfort_special_omniknight_guardian_angel_single_target_Description"				"Omniknight gains a separate ability, allowing him to cast his current level of Guardian angel on a single target. Cooldown: %cooldown% seconds. Mana cost is reduced by %mana_cost_modifier% percent."
 
 	"DOTA_Tooltip_Ability_aghsfort_special_omniknight_guardian_angel_purification_Description"				"Any time a unit affected by Guardian Angel is attacked, there is a %purification_trigger_chance%%% chance that the unit will be healed by Omniknight's current level of Purification."
-	
+	"DOTA_Tooltip_Ability_aghsfort_special_omniknight_degen_aura_buff"								"Degen Aura"
+	"DOTA_Tooltip_Ability_aghsfort_special_omniknight_degen_aura_buff_Description"					"Gotta go fast"
 	
 	//>----------------------------------------------------------------------------------------------------------------------------------------------
 	//>----------------------------------------------------------------------------------------------------------------------------------------------
@@ -5719,7 +5720,6 @@
 
 	"DOTA_Tooltip_ability_special_bonus_unique_snapfire_2"											"+{s:value}s Scatterblast Slow Duration"
 	"DOTA_Tooltip_ability_special_bonus_unique_snapfire_shredder_armor"								"+{s:bonus_armor_reduction_per_attack} Lil' Shredder Armor Loss per Attack"
-	
 	"DOTA_Tooltip_Ability_item_aghsfort_sniper_shrapnel_flat_damage"								"Shrapnel: Damage"
 	"DOTA_Tooltip_Ability_item_aghsfort_sniper_shrapnel_flat_damage_Description"					"<h1>Common Scepter Fragment</h1>Increases Shrapnel Damage by %value%."
 	"DOTA_Tooltip_Ability_item_aghsfort_sniper_shrapnel_flat_radius"								"Shrapnel: Radius"
@@ -6073,7 +6073,8 @@
 	"DOTA_Tooltip_Ability_special_bonus_unique_venomancer_ward_bonus_damage" 	                                        "Ruttoluikero"
 	"DOTA_Tooltip_Ability_special_bonus_unique_venomancer_ward_bonus_damage_Description" 	                            "Plague Wards gain %bonus_damage_pct%%% of Venomancers total damage as bonus damage"
 	
-	
+	"DOTA_Tooltip_ability_snapfire_special_bonus_mortimer_kisses_projectile_count"										"Rapid Fire"
+	"DOTA_Tooltip_Ability_snapfire_special_bonus_mortimer_kisses_projectile_count_Description" 							"Gain %bonus_projectiles% projetiles and more firing speed"
 	//>---------------------------------------
 	//>--- ABILITY ---------------------------
 	//>---------------------------------------
