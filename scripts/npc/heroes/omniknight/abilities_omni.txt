@@ -58,26 +58,5 @@
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"        	
     }
 
-    //=================================================================================================================
-	// Ability: Special Bonus
-	//=================================================================================================================
-	"aghsfort_special_omniknight_purification_charges"
-	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-        "AbilityTextureName"            "omniknight_purification"
-        "BaseClass"                     "ability_lua" 
-        "ScriptFile"                    "heroes/omniknight/omniknight_purification_benevolence"  
-		
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityValues"
-		{
-			
-				 
-				"value"				"2"
-			
-		}
-	}
+    
 }

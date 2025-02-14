@@ -1,12 +1,11 @@
+aghsfort_special_omniknight_purification_charges = class({})
 LinkLuaModifier("modifier_generic_2_charges", "heroes/omniknight/omniknight_purification_benevolence", LUA_MODIFIER_MOTION_NONE)
 LinkLuaModifier("modifier_omniknight_purification_benevolence", "heroes/omniknight/omniknight_purification_benevolence", LUA_MODIFIER_MOTION_NONE)
-if aghsfort_special_omniknight_purification_charges == nil then
-    aghsfort_special_omniknight_purification_charges = class({})
-end
+
 
 
 function aghsfort_special_omniknight_purification_charges:GetIntrinsicModifierName()
-	print("[DEBUG] omniknight_purification_benevolence: GetIntrinsicModifierName called")
+	
 	return "modifier_omniknight_purification_benevolence"
    
 end
@@ -33,17 +32,8 @@ end
 
 function modifier_omniknight_purification_benevolence:OnCreated(kv)
     if IsServer() then
-		print("[DEBUG] modifier_omniknight_purification_benevolence: OnCreated called")
-        local unit = self:GetCaster()
-		local ability = unit:FindAbilityByName("aghsfort_omniknight_purification")
-		
-		if not ability then
-			print("[ERROR] modifier_omniknight_purification_benevolence: aghsfort_omniknight_purification not found on caster!")
-			return
-		end
-
-        unit:AddNewModifier(unit, ability, "modifier_generic_2_charges", {})
-		print("[DEBUG] modifier_generic_2_charges added to", unit:GetUnitName())
+       local unit = self:GetCaster()
+        unit:AddNewModifier(unit, unit:FindAbilityByName("aghsfort_omniknight_purification"), "modifier_generic_2_charges", { })
     end
 end
 
@@ -75,19 +65,12 @@ function modifier_generic_2_charges:GetAttributes()
 	return MODIFIER_ATTRIBUTE_MULTIPLE
 end
 
+
 --------------------------------------------------------------------------------
 -- Initializations
 function modifier_generic_2_charges:OnCreated( kv )
-	print("[DEBUG] modifier_generic_2_charges: OnCreated called")
-
 	-- references
 	self.max_charges = 2
-	local ability = self:GetAbility()
-
-	if not ability then
-		print("[ERROR] modifier_generic_2_charges: No ability assigned!")
-		return
-	end
 	if IsServer() then
 		self.charge_time = self:GetAbility():GetEffectiveCooldown(self:GetAbility():GetLevel())
 		self:SetHasCustomTransmitterData( true )
@@ -116,6 +99,28 @@ function modifier_generic_2_charges:OnDestroy( kv )
 
 end
 
+function modifier_generic_2_charges:OnRemoved()
+    -- Print debug message when the modifier is removed
+    print("modifier_generic_2_charges removed!")
+
+    -- Reapply the modifier to restore charges
+    if IsServer() then
+        local parent = self:GetParent()
+
+        -- Check if the modifier is removed, then reapply it with the original charge count
+        parent:AddNewModifier(parent, self:GetAbility(), "modifier_generic_2_charges", {})
+        parent:FindModifierByName("modifier_generic_2_charges"):SetStackCount(self:GetStackCount()) -- Restores the charge count
+    end
+end
+
+
+-- Listen for the ability point event and reapply the modifier if needed
+function modifier_generic_2_charges:OnAbilityLevelUp(kv)
+    -- Reapply modifier if it's removed or not found
+    if not self:GetParent():HasModifier("modifier_generic_2_charges") then
+        self:GetParent():AddNewModifier(self:GetParent(), self:GetAbility(), "modifier_generic_2_charges", {})
+    end
+end
 --------------------------------------------------------------------------------
 -- Modifier Effects
 function modifier_generic_2_charges:DeclareFunctions()
