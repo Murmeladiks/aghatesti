@@ -99,6 +99,24 @@ function modifier_generic_3_charges:OnDestroy( kv )
 
 end
 
+function modifier_generic_3_charges:OnRemoved()
+    -- Print debug message when the modifier is removed
+    print("modifier_generic_3_charges removed!")
+
+    -- Reapply the modifier to restore charges
+    if IsServer() then
+        local parent = self:GetParent()
+
+        -- Check if the modifier is removed, then reapply it with the original charge count
+        parent:AddNewModifier(parent, self:GetAbility(), "modifier_generic_3_charges", {})
+        parent:FindModifierByName("modifier_generic_3_charges"):SetStackCount(self:GetStackCount()) -- Restores the charge count
+    end
+end
+
+function modifier_generic_3_charges:IsPermanent()
+	return true
+end
+
 --------------------------------------------------------------------------------
 -- Modifier Effects
 function modifier_generic_3_charges:DeclareFunctions()

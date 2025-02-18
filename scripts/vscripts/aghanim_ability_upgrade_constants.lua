@@ -153,7 +153,7 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_venomancer"] =
 SPECIAL_ABILITY_UPGRADES["npc_dota_hero_omniknight"] =
 {
 	"aghsfort_special_omniknight_purification_cast_radius",
-	"aghsfort_special_omniknight_purification_charges",
+	--"aghsfort_special_omniknight_purification_charges",
 	"aghsfort_special_omniknight_purification_cooldown_reduction",
 	"aghsfort_special_omniknight_purification_multicast",
 

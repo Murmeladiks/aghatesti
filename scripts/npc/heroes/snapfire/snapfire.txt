@@ -8,8 +8,9 @@
 		"Ability3"				"aghsfort_snapfire_lil_shredder"
 		//"Ability4"				"aghsfort_snapfire_gobble_up"
 		//"Ability5"				"aghsfort_snapfire_spit_creep"
-		"Ability6"				"snapfire_mortimer_kisses"	
-		"Ability4"				"snapfire_buckshot"	
+		//"Ability4"				"snapfire_mortimer_kisses_lua"
+		"Ability6"				"snapfire_mortimer_kisses_lua"	
+		//"Ability4"				"snapfire_buckshot"	
 		
 		"Ability11"				"special_bonus_strength_10"
 		"Ability14"				"special_bonus_unique_snapfire_shredder_armor"

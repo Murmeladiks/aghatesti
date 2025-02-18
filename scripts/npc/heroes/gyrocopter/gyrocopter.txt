@@ -1,0 +1,16 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_gyrocopter_aghsfort"
+	{
+		"override_hero"			"npc_dota_hero_gyrocopter"
+		"Ability1"				"aghsfort_gyrocopter_rocket_barrage"
+		"Ability2"				"aghsfort_gyrocopter_homing_missile"
+		"Ability3"				"aghsfort_gyrocopter_flak_cannon"
+		"Ability6"				"aghsfort_gyrocopter_call_down"
+		//"Ability10"				"special_bonus_mp_250"
+		//"Ability12"				"special_bonus_armor_6"
+		//"Ability15"				"special_bonus_mp_regen_3"
+		//"Ability17"				"special_bonus_unique_omniknight_3"
+		//"ArmorPhysical"		"0"
+	}
+}

@@ -1946,7 +1946,7 @@
 	
 	
 	
-	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_unleash"	                                                 "Fluff From Above/EI TOIMI?"
+	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_unleash"	                                                 "Fluff From Above"
 	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_unleash_Description"	                                     "Upon landing from Rebound, Marci is granted a single sequence of Unleash attacks. If the target Marci leaps off is an ally, both Marci and her target will be buffed with the current level of Sidekick."
 	
 	"DOTA_Tooltip_Ability_pathfinder_marci_companion_run_leap"	                                                        "I'm Walking Here"

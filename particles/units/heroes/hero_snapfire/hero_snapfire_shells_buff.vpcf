@@ -1,0 +1,75 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf25:version{7bca2d8d-3a14-4a76-bd41-f483fdf78d50} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 0
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_shells_buff_body.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_shells_lightray.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_buff_vent_smoke.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_buff_vent_smoke_02.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_buff_vent_glow.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_buff_light.vpcf"
+		},
+	]
+	m_nBehaviorVersion = 10
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_previewState = 
+			{
+				m_previewModel = "models/heroes/snapfire/snapfire.vmdl"
+				m_nModSpecificData = 691
+				m_sequenceName = "snapfire_cast_explosive_shells"
+				m_hitboxSetName = "select_low"
+			}
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 5
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "attach_cockpit_fx"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "parent"
+				},
+				{
+					m_iControlPoint = 3
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "attach_vent_01_fx"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "parent"
+				},
+				{
+					m_iControlPoint = 4
+					m_iAttachType = "PATTACH_POINT_FOLLOW"
+					m_attachmentName = "attach_vent_02_fx"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "parent"
+				},
+			]
+		},
+	]
+}

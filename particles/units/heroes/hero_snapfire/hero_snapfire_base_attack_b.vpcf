@@ -1,0 +1,75 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf24:version{c9a29215-bb77-47b2-af5d-67eb30ba6578} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 1
+	m_flConstantRadius = 1.0
+	m_flMaxDrawDistance = 10000.0
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_base_attack_core_b.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_base_attack_core.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_base_attack_e.vpcf"
+		},
+		{
+			m_bEndCap = true
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_base_attack_hit.vpcf"
+		},
+		{
+			m_bEndCap = true
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_base_attack_explosion.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/units/heroes/hero_snapfire/hero_snapfire_base_attack_smokfront.vpcf"
+		},
+	]
+	m_nBehaviorVersion = 10
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 1
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 3
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 15
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 255.0, 255.0, 255.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+				{
+					m_iControlPoint = 16
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+}

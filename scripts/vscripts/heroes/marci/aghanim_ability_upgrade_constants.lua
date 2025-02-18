@@ -206,7 +206,7 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_marci"] = {
 	"pathfinder_marci_grapple_stun",
 	
 	"pathfinder_marci_companion_run_unleash",
-	"pathfinder_marci_companion_run_leap",
+	--"pathfinder_marci_companion_run_leap",
 	"pathfinder_marci_companion_run_global",
 	
 	--"pathfinder_marci_guardian_permanent",

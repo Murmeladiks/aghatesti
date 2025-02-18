@@ -13391,8 +13391,9 @@
         "AbilityValues"
         {
             "miss_chance" "25" 
-            "damage_amp"   {
-					"value"												"25"
+            "damage_amp"   
+            {
+				"value"												"25"
 				"special_bonus_unique_snapfire_lil_shredder_gunner"		"125"
 			} 
             "split_shot"
@@ -13405,9 +13406,10 @@
                 "value"     "0"
                 "special_bonus_facet_snapfire_ricochet_ii"      "=75"
             }
-            "glancing_shot_damage_pct" {
-					"value"			"60"
-					"special_bonus_unique_snapfire_lil_shredder_gunner"		"120"
+            "glancing_shot_damage_pct" 
+            {
+				"value"			"60"
+				"special_bonus_unique_snapfire_lil_shredder_gunner"		"120"
 			} 
         }
         "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_3"
@@ -13422,6 +13424,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "BaseClass"                     "snapfire_scatterblast"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"FightRecapLevel"				"1"
@@ -13485,22 +13488,23 @@
 	}
 
 	//=================================================================================================================
-	// Ability: Snapfire Mortimer Kisses
+	// Snapfire: Mortimer Kisses (Lua version)
 	//=================================================================================================================
-	"snapfire_mortimer_kisses"
+	//=================================================================================================================
+	"snapfire_mortimer_kisses_lua"
     {
         // General
         //-------------------------------------------------------------------------------------------------------------
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
         "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_mortimer_kisses_lua.lua"
         "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
         "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
         "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
         "SpellDispellableType"          "SPELL_DISPELLABLE_YES"
         "AbilitySound"                  "Hero_Snapfire.MortimerBlob.Launch"
-        "BaseClass"                     "snapfire_mortimer_kisses"
         "AbilityTextureName"            "snapfire_mortimer_kisses"
-        
 
         // Casting
         //-------------------------------------------------------------------------------------------------------------
@@ -13514,8 +13518,8 @@
 
         // Time     
         //-------------------------------------------------------------------------------------------------------------
-        "AbilityCooldown"               "120 110 100"
-        "AbilityDuration"               "5.5"
+        "AbilityCooldown"               "90"
+        "AbilityDuration"               "6"
 
         // Cost
         //-------------------------------------------------------------------------------------------------------------
@@ -13529,6 +13533,7 @@
             {
                 "value"     "8"
                 "special_bonus_unique_snapfire_1"   "+6"
+				"snapfire_special_bonus_mortimer_kisses_projectile_count" "+8"
             }
             "projectile_speed"      "1300"
             "projectile_width"      
@@ -13571,18 +13576,28 @@
             "max_lob_travel_time"   "2.0"
             "delay_after_last_projectile"   "0.5"
             "burn_linger_duration"  "1.0"
-        } 
+        }
 
-        "OnSpellStart"
-		{			
-			"RunScript"
-			{
-				"ScriptFile"		"heroes/snapfire/mortimer_kisses"
-				"Function"			"snapfire_mortimer_kisses:OnSpellStart"
-				"Target"			"POINT"
-				"Duration"			"%duration"
-			}
-		}  
+        "AbilityTooltips"
+        {
+            "projectile_count"           "Projectile Count: %d"
+            "projectile_speed"           "Projectile Speed: %d"
+            "impact_radius"              "Impact Radius: %d"
+            "damage_per_impact"          "Damage per Impact: %d"
+            "duration_tooltip"           "Duration: %s"
+            "projectile_vision"          "Projectile Vision: %d"
+            "turn_rate"                  "Turn Rate: %d"
+            "burn_interval"              "Burn Interval: %s"
+            "burn_damage"                "Burn Damage: %d"
+            "move_slow_pct"              "Move Slow %: %d"
+            "burn_ground_duration"       "Burn Ground Duration: %s"
+            "dist_change_speed"          "Distance Change Speed: %d"
+            "min_range"                  "Minimum Range: %d"
+            "min_lob_travel_time"        "Min Lob Travel Time: %s"
+            "max_lob_travel_time"        "Max Lob Travel Time: %s"
+            "delay_after_last_projectile" "Delay After Last Projectile: %s"
+            "burn_linger_duration"       "Burn Linger Duration: %s"
+        }
     }
 
 	//=================================================================================================================
@@ -13702,6 +13717,7 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        "BaseClass"                     "snapfire_firesnap_cookie"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
         "AbilityUnitTargetFlags"            "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
@@ -13761,9 +13777,10 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        "BaseClass"                     "snapfire_lil_shredder"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
-        "AbilityUnitTargetFlags"            "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        "AbilityUnitTargetFlags"        "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Snapfire.ExplosiveShells.Cast"
 		"AbilityTextureName"            "snapfire_lil_shredder"
@@ -13827,6 +13844,8 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_scatterblast_double_barrel"
 		"AbilityTextureName"            "snapfire_scatterblast"
 		"AbilityValues"
         {
@@ -13871,6 +13890,8 @@
         // General
         //-------------------------------------------------------------------------------------------------------------
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_scatterblast_sawed_off"
         "AbilityTextureName"            "snapfire_scatterblast"
         "AbilityValues"
         {
@@ -13905,8 +13926,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
 		"AbilityValues"
-        "BaseClass"						"ability_lua"
-		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
+        "ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
+		"AbilityTextureName"            "snapfire_firesnap_cookie"
         {
             "bonus_attack_range" "250"
             "bonus_attack_damage" "50"
@@ -13924,6 +13945,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
+        "ScriptFile"                    "heroes/snapfire/special_bonus_unique_snapfire_firesnap_cookie_enemy"
+		"AbilityTextureName"            "snapfire_firesnap_cookie"
 		"AbilityValues"
         {
         }
@@ -13938,6 +13961,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_lil_shredder"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_lil_shredder_explosive_shells"
 		"AbilityValues"
         {
             "value" "150"
@@ -15787,6 +15812,179 @@
     //=================================================================================================================
 
     //=================================================================================================================
+    // Gyrocopter START
+    //=================================================================================================================
+
+    //=================================================================================================================
+    // Gyrocopter: Rocket Barrage
+    //=================================================================================================================
+    "aghsfort_gyrocopter_rocket_barrage"
+    {
+        // General
+        "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "BaseClass"                      "gyrocopter_rocket_barrage"
+        "AbilityUnitDamageType"          "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"              "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"           "SPELL_DISPELLABLE_YES"
+        "AbilityUnitTargetType"          "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "FightRecapLevel"                "1"
+        "AbilityTextureName"             "gyrocopter_rocket_barrage"
+        "AbilityCastAnimation"           "ACT_DOTA_CAST_ABILITY_1"
+
+        // Casting
+        "AbilityCastRange"               "850"
+        "AbilityCastPoint"               "0"
+
+        // Time
+        "AbilityCooldown"                "9.0 8.5 8 7.5"
+        
+        // Cost
+        "AbilityManaCost"                "90"
+
+        // Special Values
+        "AbilityValues"
+        {
+            "radius"                       "400"
+            "rockets_per_second"           "10"
+            "rocket_damage"
+            {
+                "value"                    "7 12 17 22"
+                "LinkedSpecialBonus"       "special_bonus_unique_gyrocopter_3"
+            }
+            "duration"                     "3"
+        }
+    }
+
+    //=================================================================================================================
+    // Gyrocopter: Homing Missile
+    //=================================================================================================================
+    "aghsfort_gyrocopter_homing_missile"
+    {
+        // General
+        "AbilityTextureName"             "gyrocopter_homing_missile"
+        "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        "BaseClass"                      "gyrocopter_homing_missile"
+        "AbilityUnitTargetTeam"          "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        "AbilityUnitTargetType"          "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+        "AbilityUnitDamageType"          "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"              "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"           "SPELL_DISPELLABLE_YES_STRONG"
+        "FightRecapLevel"                "1"
+        "AbilityCastAnimation"           "ACT_DOTA_CAST_ABILITY_2"
+
+        // Casting
+        "AbilityCastRange"               "1050"
+        "AbilityCastPoint"               "0"
+
+        // Time
+        "AbilityCooldown"                "17 15 13 11"
+
+        // Cost
+        "AbilityManaCost"                "90 100 110 120"
+
+        // Special Values
+        "AbilityValues"
+        {
+            "damage"                       "100 175 250 325"
+            "stun_duration"
+            {
+                "value"                    "1.25 1.5 1.75 2.0"
+                "LinkedSpecialBonus"       "special_bonus_unique_gyrocopter_6"
+            }
+            "pre_flight_time"              "1"
+            "speed"                         "500"
+            "acceleration"                 "20"
+        }
+    }
+
+    //=================================================================================================================
+    // Gyrocopter: Flak Cannon
+    //=================================================================================================================
+    "aghsfort_gyrocopter_flak_cannon"
+    {
+        // General
+        "AbilityTextureName"             "gyrocopter_flak_cannon"
+        "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "BaseClass"                      "gyrocopter_flak_cannon"
+        "AbilityUnitDamageType"          "DAMAGE_TYPE_PHYSICAL"
+        "SpellImmunityType"              "SPELL_IMMUNITY_ENEMIES_YES"
+        "SpellDispellableType"           "SPELL_DISPELLABLE_NO"
+        "FightRecapLevel"                "1"
+        "AbilitySound"                   "Hero_Gyrocopter.FlackCannon"
+        "HasScepterUpgrade"              "1"
+        "AbilityCastPoint"               "0 0 0 0"
+
+        // Time
+        "AbilityCooldown"                "24 22 20 18"
+
+        // Cost
+        "AbilityManaCost"                "50 50 50 50"
+
+        // Duration
+        "AbilityDuration"                "10"
+
+        // Special Values
+        "AbilityValues"
+        {
+            "radius"                       "1250"
+            "max_attacks"
+            {
+                "value"                    "3 4 5 6"
+                "LinkedSpecialBonus"       "special_bonus_unique_gyrocopter_2"
+            }
+            "projectile_speed"             "800"
+            "duration"                     "10"
+            "max_targets"                  "4 5 6 7"
+        }
+
+        "AbilityCastAnimation"           "ACT_DOTA_CAST_ABILITY_3"
+    }
+
+    //=================================================================================================================
+    // Gyrocopter: Call Down
+    //=================================================================================================================
+    "aghsfort_gyrocopter_call_down"
+    {
+        // General
+        "AbilityTextureName"             "gyrocopter_call_down"
+        "AbilityBehavior"                "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+        "BaseClass"                      "gyrocopter_call_down"
+        "AbilityType"                    "DOTA_ABILITY_TYPE_ULTIMATE"
+        "AbilityUnitDamageType"          "DAMAGE_TYPE_MAGICAL"
+        "SpellImmunityType"              "SPELL_IMMUNITY_ENEMIES_NO"
+        "SpellDispellableType"           "SPELL_DISPELLABLE_YES"
+        "FightRecapLevel"                "2"
+        "AbilitySound"                   "Hero_Gyrocopter.CallDown.Fire"
+
+        // Casting
+        "AbilityCastRange"               "1000"
+        "AbilityCastPoint"               "0.3 0.3 0.3"
+        "AbilityCastAnimation"           "ACT_INVALID"
+
+        // Time
+        "AbilityCooldown"                "85 75 60"
+
+        // Cost
+        "AbilityManaCost"                "125 125 125"
+
+        // Special Values
+        "AbilityValues"
+        {
+            "slow_duration_first"          "2"
+            "slow_duration_second"         "4"
+            "damage_first"                 "150 250 350"
+            "damage_second"                "200 275 350"
+            "slow_first"                   "30"
+            "slow_second"                  "60"
+            "radius"                       "600"
+            "range_scepter"                "0"
+            "damage_second_scepter"        "175 225 275"
+            "missile_delay_tooltip"        "2"
+        }
+    }
+
+
+    //=================================================================================================================
     // SLARK START
     //=================================================================================================================
 
@@ -15798,6 +15996,7 @@
         // General
         //-------------------------------------------------------------------------------------------------------------
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        "BaseClass"                     "slark_dark_pact"
         "AbilityUnitDamageType"         "DAMAGE_TYPE_MAGICAL"   
         "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
         "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
@@ -15805,6 +16004,7 @@
         "AbilityTextureName"            "slark_dark_pact"
         "FightRecapLevel"               "1"
         "AbilitySound"                  "Hero_Slark.DarkPact.Cast"
+        
 
         // Casting
         //-------------------------------------------------------------------------------------------------------------
@@ -15846,6 +16046,7 @@
         // General
         //-------------------------------------------------------------------------------------------------------------
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+        "BaseClass"                     "slark_pounce"
         "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
         "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
         "FightRecapLevel"               "1"
@@ -15889,6 +16090,7 @@
         // General
         //-------------------------------------------------------------------------------------------------------------
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                     "slark_essence_shift"
         "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_YES"
         "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
         "AbilityTextureName"            "slark_essence_shift" 
@@ -15929,6 +16131,7 @@
         //-------------------------------------------------------------------------------------------------------------
         "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
         "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                     "slark_shadow_dance"
         "AbilityTextureName"            "slark_shadow_dance"
         "SpellDispellableType"          "SPELL_DISPELLABLE_NO"
         "FightRecapLevel"               "2"
