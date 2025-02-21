@@ -1,0 +1,33 @@
+-- Created by Elfansoer
+--[[
+Ability checklist (erase if done/checked):
+- Scepter Upgrade
+- Break behavior
+- Linken/Reflect behavior
+- Spell Immune/Invulnerable/Invisible behavior
+- Illusion behavior
+- Stolen behavior
+]]
+--------------------------------------------------------------------------------
+aghsfort_snapfire_lil_shredder = class({})
+LinkLuaModifier( "modifier_snapfire_lil_shredder_lua", "heroes/snapfire/modifier_snapfire_lil_shredder_lua", LUA_MODIFIER_MOTION_NONE )
+LinkLuaModifier( "modifier_snapfire_lil_shredder_lua_debuff", "heroes/snapfire/modifier_snapfire_lil_shredder_lua_debuff", LUA_MODIFIER_MOTION_NONE )
+LinkLuaModifier( "modifier_snapfire_lil_shredder_lua_armor_reduction", "heroes/snapfire/modifier_snapfire_lil_shredder_lua_armor_reduction", LUA_MODIFIER_MOTION_NONE )
+
+--------------------------------------------------------------------------------
+-- Ability Start
+function aghsfort_snapfire_lil_shredder:OnSpellStart()
+    -- unit identifier
+    local caster = self:GetCaster()
+
+    -- load data
+    local duration = self:GetDuration()
+
+    -- add buff
+    caster:AddNewModifier(
+        caster, -- player source
+        self, -- ability source
+        "modifier_snapfire_lil_shredder_lua", -- modifier name
+        { duration = duration } -- kv
+    )
+end

@@ -3454,7 +3454,31 @@
 	//>-MISC END-------------------------------------------------------------------------------------------------------------------------------------
 	//>----------------------------------------------------------------------------------------------------------------------------------------------
 	//>----------------------------------------------------------------------------------------------------------------------------------------------
-			
+
+	//>----------------------------------------------------------------------------------------------------------------------------------------------
+	//>----------------------------------------------------------------------------------------------------------------------------------------------
+	//>-SNAPFIRE START------------------------------------------------------------------------------------------------------------------------------
+	//>----------------------------------------------------------------------------------------------------------------------------------------------
+	//>----------------------------------------------------------------------------------------------------------------------------------------------
+
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua"        "Mortimer's Kisses"
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua_Description" "Snapfire launches glob projectiles, dealing damage in an area on impact."
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua_Lore"   "A deadly barrage of scorching projectiles."
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua_projectile_count"	"Projectile Count"
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua_damage_per_impact" "Impact Damage"
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua_impact_radius" "Impact Radius"
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua_burn_damage" "Burn Damage"
+		"DOTA_Tooltip_ability_snapfire_mortimer_kisses_lua_move_slow_pct" "Slow Percentage"
+
+		//>---------------------------------------
+		//>--- LEGENDARY -------------------------
+		//>---------------------------------------
+		"DOTA_Tooltip_ability_snapfire_special_bonus_mortimer_kisses_projectile_count"										"Wild West Bombardment"
+		"DOTA_Tooltip_Ability_snapfire_special_bonus_mortimer_kisses_projectile_count_Description" 							"Like a gunslinger in a final showdown, Mortimer fires 6 more shots at a faster rate."
+		"DOTA_Tooltip_ability_aghsfort_special_snapfire_lil_shredder_upgrade" "Deadeye Barrage"
+		"DOTA_Tooltip_ability_aghsfort_special_snapfire_lil_shredder_upgrade_Description" "Doubles Lil' Shredder's damage and armor reduction, and increases the armor reduction duration."
+
+
 	//>----------------------------------------------------------------------------------------------------------------------------------------------
 	//>----------------------------------------------------------------------------------------------------------------------------------------------
 	//>-NEVERMORE START------------------------------------------------------------------------------------------------------------------------------
@@ -6073,8 +6097,6 @@
 	"DOTA_Tooltip_Ability_special_bonus_unique_venomancer_ward_bonus_damage" 	                                        "Ruttoluikero"
 	"DOTA_Tooltip_Ability_special_bonus_unique_venomancer_ward_bonus_damage_Description" 	                            "Plague Wards gain %bonus_damage_pct%%% of Venomancers total damage as bonus damage"
 	
-	"DOTA_Tooltip_ability_snapfire_special_bonus_mortimer_kisses_projectile_count"										"Rapid Fire"
-	"DOTA_Tooltip_Ability_snapfire_special_bonus_mortimer_kisses_projectile_count_Description" 							"Gain %bonus_projectiles% projetiles and more firing speed"
 	//>---------------------------------------
 	//>--- ABILITY ---------------------------
 	//>---------------------------------------

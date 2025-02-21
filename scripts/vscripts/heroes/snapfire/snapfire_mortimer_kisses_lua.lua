@@ -30,6 +30,19 @@ function snapfire_mortimer_kisses_lua:OnSpellStart()
 	local caster = self:GetCaster()
 	local point = self:GetCursorPosition()
 
+	-- Load base projectile count from the ability
+    local base_projectile_count = self:GetSpecialValueFor("projectile_count")
+
+    -- Check for the talent and add extra projectiles
+    if caster:HasAbility("snapfire_special_bonus_mortimer_kisses_projectile_count") then
+        local talent = caster:FindAbilityByName("snapfire_special_bonus_mortimer_kisses_projectile_count")
+        if talent and talent:GetLevel() > 0 then
+            local extra_projectiles = talent:GetSpecialValueFor("projectiles_count")
+            base_projectile_count = base_projectile_count + extra_projectiles
+        end
+    end
+
+    print("DEBUG: Final Projectile Count = ", base_projectile_count)
 	-- load data
 	local duration = self:GetDuration()
 
@@ -42,6 +55,7 @@ function snapfire_mortimer_kisses_lua:OnSpellStart()
 			duration = duration,
 			pos_x = point.x,
 			pos_y = point.y,
+			projectiles = base_projectile_count -- Pass modified projectile count
 		} -- kv
 	)
 end

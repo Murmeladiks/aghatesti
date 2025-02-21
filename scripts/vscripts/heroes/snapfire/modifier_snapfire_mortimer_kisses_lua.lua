@@ -49,7 +49,19 @@ function modifier_snapfire_mortimer_kisses_lua:OnCreated( kv )
 	if not IsServer() then return end
 
 	-- load data
-	local interval = self:GetAbility():GetDuration()/self:GetAbility():GetSpecialValueFor( "projectile_count" ) + 0.01 -- so it only have 8 projectiles instead of 9
+	local total_projectiles = self:GetAbility():GetSpecialValueFor("projectile_count")
+
+	-- Check if the hero has the projectile count talent
+	if self:GetCaster():HasAbility("snapfire_special_bonus_mortimer_kisses_projectile_count") then
+		local talent = self:GetCaster():FindAbilityByName("snapfire_special_bonus_mortimer_kisses_projectile_count")
+		if talent and talent:GetLevel() > 0 then
+			total_projectiles = total_projectiles + talent:GetSpecialValueFor("projectiles_count")
+		end
+	end
+
+	local interval = self:GetAbility():GetDuration() / total_projectiles + 0.01
+
+	--local interval = self:GetAbility():GetDuration()/self:GetAbility():GetSpecialValueFor( "projectile_count" ) + 0.01 -- so it only have 8 projectiles instead of 9
 	self:SetValidTarget( Vector( kv.pos_x, kv.pos_y, 0 ) )
 	local projectile_name = "particles/units/heroes/hero_snapfire/snapfire_lizard_blobs_arced.vpcf"
 	local projectile_start_radius = 0
