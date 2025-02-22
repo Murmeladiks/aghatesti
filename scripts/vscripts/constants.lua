@@ -3,7 +3,7 @@ require("utility_functions")
 -- General Game Mode Config
 _G.AGHANIM_PLAYERS = 4
 
-_G.HERO_SELECTION_TIME = 120
+_G.HERO_SELECTION_TIME = IsInToolsMode() and 3600 or 120
 _G.STRATEGY_TIME = IsInToolsMode() and 5 or 20
 
 _G.player_patron_level = {0, 0, 0, 0}

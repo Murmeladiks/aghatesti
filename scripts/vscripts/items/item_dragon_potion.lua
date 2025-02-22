@@ -13,6 +13,7 @@ function item_dragon_potion:Precache( context )
 	PrecacheResource("particle", "particles/units/heroes/hero_dragon_knight/dragon_knight_transform_black.vpcf", context)
 	PrecacheResource("particle", "particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_attack_black.vpcf", context)
 	PrecacheResource("particle", "particles/status_fx/status_effect_frost.vpcf", context)
+	PrecacheResource("model", "models/heroes/dragon_knight/dragon_knight_dragon.vmdl", context)
 end
 
 --------------------------------------------------------------------------------

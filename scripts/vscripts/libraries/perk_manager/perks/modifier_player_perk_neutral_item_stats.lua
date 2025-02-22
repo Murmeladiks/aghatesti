@@ -58,7 +58,7 @@ function modifier_player_perk_neutral_item_stats:OnIntervalThink()
 	local ability = self:GetAbility()
 
 	if parent then
-		local item = parent:GetItemInSlot(DOTA_ITEM_NEUTRAL_SLOT)
+		local item = parent:GetItemInSlot(DOTA_ITEM_NEUTRAL_ACTIVE_SLOT)
 		if item and not item:IsNull() then
 			if ability then ability:SetLevel(self.neutral_list[item:GetAbilityName()]) end
 		else

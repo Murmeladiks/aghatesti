@@ -132,7 +132,7 @@ function modifier_hexed:DisableAbilitiesAndItems()
 		end
 	end
 
-	for i = 0, DOTA_ITEM_NEUTRAL_SLOT do
+	for i = 0, DOTA_ITEM_NEUTRAL_ACTIVE_SLOT do
 		local hItem = self:GetParent():GetItemInSlot( i )
 		if hItem then
 			hItem:OnUnequip()
@@ -169,7 +169,7 @@ function modifier_hexed:RestoreAbilitiesAndItems()
 
 			if hAbilityOrItem:IsItem() then
 				local nSlot = hAbilityOrItem:GetItemSlot()
-				if nSlot <= DOTA_ITEM_SLOT_6 or nSlot == DOTA_ITEM_TP_SCROLL or nSlot == DOTA_ITEM_NEUTRAL_SLOT then
+				if nSlot <= DOTA_ITEM_SLOT_6 or nSlot == DOTA_ITEM_TP_SCROLL or nSlot == DOTA_ITEM_NEUTRAL_ACTIVE_SLOT then
 					hAbilityOrItem:OnEquip()
 				end
 			end			

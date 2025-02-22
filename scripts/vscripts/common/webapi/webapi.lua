@@ -184,7 +184,7 @@ function WebApi:AfterMatch(signoutTable, bWonGame)
 					table.insert(items, item:GetAbilityName())
 				end
 			end
-			local neutral_item = hero:GetItemInSlot(DOTA_ITEM_NEUTRAL_SLOT )
+			local neutral_item = hero:GetItemInSlot(DOTA_ITEM_NEUTRAL_ACTIVE_SLOT )
 			if neutral_item then
 				table.insert(items, neutral_item:GetAbilityName())
 			end

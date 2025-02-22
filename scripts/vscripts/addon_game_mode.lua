@@ -2523,22 +2523,6 @@ function CAghanim:HaveAllRewardsBeenSelected()
     return true
 end
 
-function CAghanim:OnPlayerGainedLevel(keys)
-    local playerID = keys.player_id
-    local hero = PlayerResource:GetSelectedHeroEntity(playerID)
-
-    if hero then
-        if hero:GetLevel() == 24 then
-            -- Add enough XP to reach level 25
-            local xpToLevelUp = 9000  -- Adjust XP if needed
-            hero:AddExperience(xpToLevelUp, DOTA_ModifyXP_Unspecified, false, true)
-
-            -- Give extra ability point at level 25
-            hero:SetAbilityPoints(hero:GetAbilityPoints() + 1)
-        end
-    end
-end
-
 --------------------------------------------------------------------------------
 
 function CAghanim:OnTestEncounterThink()

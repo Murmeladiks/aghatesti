@@ -18,6 +18,8 @@ function CMapEncounter_TrapBase:Precache( context )
 
 	PrecacheResource( "particle", "particles/units/heroes/hero_monkey_king/monkey_king_disguise.vpcf", context )
 	PrecacheUnitByNameSync( "npc_dota_pendulum_trap", context, -1 )
+	PrecacheUnitByNameSync( "pathfinder_trap_catapult", context, -1 )
+	PrecacheResource("model", "models/creeps/lane_creeps/creep_good_siege/creep_good_siege.vmdl", context)
 end
 
 --------------------------------------------------------------------------------

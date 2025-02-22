@@ -199,7 +199,7 @@ function HeroSelection:OnHeroPicked(event)
 	if not HeroSelection:IsHeroAvailableForPlayer(player_id, hero_name) then return end
 
 	local player = PlayerResource:GetPlayer(player_id)
-	player:SetSelectedHero(hero_name)
+	--player:SetSelectedHero(hero_name)
 	HeroSelection:LockFaceVoiceLine(string.sub(hero_name, 15))
 	HeroSelection.PickedHeroes[player_id] = hero_name
 
@@ -268,7 +268,9 @@ function HeroSelection:OnHeroListRequested(event)
 end
 
 function HeroSelection:IsHeroAvailableForPlayer(player_id, hero_name)
-	return true -- Allow all heroes regardless of supporter level
+	if not self.supporter_heroes[hero_name] then return true end
+
+	return Supporters:GetLevel(player_id) >= self.supporter_heroes[hero_name]
 end
 
 HeroSelection:Init()

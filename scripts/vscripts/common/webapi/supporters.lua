@@ -19,7 +19,6 @@ function Supporters:GetPlayerState(playerId)
 end
 
 local developerSteamIds = {
-	["76561198046481746"] = true, -- Meikä manne
 	["76561198132422587"] = true, -- Sanctus Animus
 	["76561198054179075"] = true, -- darklord
 	["76561198052211234"] = true, -- bukka

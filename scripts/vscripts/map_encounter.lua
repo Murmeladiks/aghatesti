@@ -600,7 +600,7 @@ function CMapEncounter:Start()
 		local hDroppedItem = GameRules:GetDroppedItem(i)
 		if hDroppedItem then
 			local hContainedItem = hDroppedItem:GetContainedItem()
-			if hContainedItem and hContainedItem:IsNeutralDrop() then
+			if hContainedItem and hContainedItem:IsActiveNeutral() then
 				PlayerResource:AddNeutralItemToStash(0, DOTA_TEAM_GOODGUYS, hContainedItem)
 
 				local nFXIndex =
@@ -2425,7 +2425,7 @@ function CMapEncounter:ResetHeroState()
 				midas:SetCurrentCharges(midas:GetCurrentCharges() + 1)
 			end
 
-			local hNeutralItem = hPlayerHero:GetItemInSlot(DOTA_ITEM_NEUTRAL_SLOT)
+			local hNeutralItem = hPlayerHero:GetItemInSlot(DOTA_ITEM_NEUTRAL_ACTIVE_SLOT)
 			if hNeutralItem and hNeutralItem:IsRefreshable() then
 				hNeutralItem:SetFrozenCooldown(false)
 				hNeutralItem:EndCooldown()

@@ -16,6 +16,7 @@ function MatchEvents.SendRequest()
 		"match/events",
 		{ matchId = tonumber(tostring(GameRules:Script_GetMatchID())) },
 		function(responses)
+			if not responses then return end
 			MatchEvents.ScheduleNextRequest()
 			for _, response in ipairs(responses) do
 				MatchEvents.HandleResponse(response)

@@ -1206,7 +1206,7 @@ function CAghanim:OnItemPickedUp(event)
         self:RegisterGoldBagCollectedStat(event.PlayerID)
     end
 
-    --if item:IsNeutralDrop() then
+    --if item:IsActiveNeutral() then
 	--	item:SetPurchaser(PlayerResource:GetSelectedHeroEntity(event.PlayerID))
 	--end
 end
