@@ -1,0 +1,758 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_nFlags = 0
+	m_name = ""
+	m_localHAnimArray = 
+	[
+		resource:"models/gameplay/6df77e8b/breakingvase_dest_break.vanim",
+		resource:"models/gameplay/6df77e8b/breakingvase_dest_break_b.vanim",
+		resource:"models/gameplay/6df77e8b/breakingvase_dest_break_c.vanim",
+		resource:"models/gameplay/6df77e8b/breaking_vase_idle.vanim",
+	]
+	m_includedGroupArray = 
+	[
+	]
+	m_directHSeqGroup = null
+	m_decodeKey = 
+	{
+		m_name = ""
+		m_boneArray = 
+		[
+			
+			{
+				m_name = "breakingvase_dest_joint2"
+				m_parent = -1
+				m_pos = 
+				[
+					-2.495788,
+					23.002014,
+					154.724930,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint3"
+				m_parent = -1
+				m_pos = 
+				[
+					-27.745634,
+					10.475815,
+					137.032639,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint4"
+				m_parent = -1
+				m_pos = 
+				[
+					-11.361795,
+					-26.367939,
+					137.032654,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint5"
+				m_parent = -1
+				m_pos = 
+				[
+					-7.850944,
+					35.819839,
+					127.185211,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint6"
+				m_parent = -1
+				m_pos = 
+				[
+					39.097477,
+					35.433525,
+					98.699379,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint7"
+				m_parent = -1
+				m_pos = 
+				[
+					-25.772137,
+					48.520279,
+					81.683380,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint8"
+				m_parent = -1
+				m_pos = 
+				[
+					54.671196,
+					-18.332806,
+					80.442421,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint9"
+				m_parent = -1
+				m_pos = 
+				[
+					-9.140163,
+					-50.862137,
+					86.151642,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint10"
+				m_parent = -1
+				m_pos = 
+				[
+					-50.976067,
+					-17.996796,
+					90.603119,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint11"
+				m_parent = -1
+				m_pos = 
+				[
+					-12.315087,
+					-62.685242,
+					39.895439,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint12"
+				m_parent = -1
+				m_pos = 
+				[
+					-43.671795,
+					43.799000,
+					60.014111,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint13"
+				m_parent = -1
+				m_pos = 
+				[
+					-64.452194,
+					30.763052,
+					55.517338,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint14"
+				m_parent = -1
+				m_pos = 
+				[
+					-57.892891,
+					-19.307823,
+					50.421013,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint15"
+				m_parent = -1
+				m_pos = 
+				[
+					-38.783516,
+					10.869390,
+					19.097700,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint16"
+				m_parent = -1
+				m_pos = 
+				[
+					28.534754,
+					-59.643482,
+					49.258369,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint17"
+				m_parent = -1
+				m_pos = 
+				[
+					52.753864,
+					-54.135509,
+					52.606346,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint18"
+				m_parent = -1
+				m_pos = 
+				[
+					44.489948,
+					-17.275694,
+					32.122765,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint19"
+				m_parent = -1
+				m_pos = 
+				[
+					27.474314,
+					46.687645,
+					37.477684,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint20"
+				m_parent = -1
+				m_pos = 
+				[
+					9.669474,
+					1.711164,
+					14.060395,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint1"
+				m_parent = -1
+				m_pos = 
+				[
+					29.133022,
+					-6.717731,
+					134.613113,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "breakingvase_dest_joint21"
+				m_parent = -1
+				m_pos = 
+				[
+					-0.125478,
+					0.000000,
+					168.013977,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+		]
+		m_userArray = 
+		[
+		]
+		m_morphArray = 
+		[
+		]
+		m_nChannelElements = 42
+		m_dataChannelArray = 
+		[
+			
+			{
+				m_szChannelClass = "BoneChannel"
+				m_szVariableName = "Position"
+				m_nFlags = 0
+				m_nType = 3
+				m_szGrouping = ""
+				m_szDescription = ""
+				m_szElementNameArray = 
+				[
+					"breakingvase_dest_joint2",
+					"breakingvase_dest_joint3",
+					"breakingvase_dest_joint4",
+					"breakingvase_dest_joint5",
+					"breakingvase_dest_joint6",
+					"breakingvase_dest_joint7",
+					"breakingvase_dest_joint8",
+					"breakingvase_dest_joint9",
+					"breakingvase_dest_joint10",
+					"breakingvase_dest_joint11",
+					"breakingvase_dest_joint12",
+					"breakingvase_dest_joint13",
+					"breakingvase_dest_joint14",
+					"breakingvase_dest_joint15",
+					"breakingvase_dest_joint16",
+					"breakingvase_dest_joint17",
+					"breakingvase_dest_joint18",
+					"breakingvase_dest_joint19",
+					"breakingvase_dest_joint20",
+					"breakingvase_dest_joint1",
+					"breakingvase_dest_joint21",
+				]
+				m_nElementIndexArray = 
+				[
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15,
+					16,
+					17,
+					18,
+					19,
+					20,
+				]
+				m_nElementMaskArray = 
+				[
+					1,
+					2,
+					8,
+					16,
+					64,
+					128,
+					512,
+					1024,
+					4096,
+					8192,
+					32768,
+					65536,
+					262144,
+					524288,
+					2097152,
+					4194304,
+					16777216,
+					33554432,
+					134217728,
+					268435456,
+					1073741824,
+				]
+			},
+			
+			{
+				m_szChannelClass = "BoneChannel"
+				m_szVariableName = "Angle"
+				m_nFlags = 0
+				m_nType = 4
+				m_szGrouping = ""
+				m_szDescription = ""
+				m_szElementNameArray = 
+				[
+					"breakingvase_dest_joint2",
+					"breakingvase_dest_joint3",
+					"breakingvase_dest_joint4",
+					"breakingvase_dest_joint5",
+					"breakingvase_dest_joint6",
+					"breakingvase_dest_joint7",
+					"breakingvase_dest_joint8",
+					"breakingvase_dest_joint9",
+					"breakingvase_dest_joint10",
+					"breakingvase_dest_joint11",
+					"breakingvase_dest_joint12",
+					"breakingvase_dest_joint13",
+					"breakingvase_dest_joint14",
+					"breakingvase_dest_joint15",
+					"breakingvase_dest_joint16",
+					"breakingvase_dest_joint17",
+					"breakingvase_dest_joint18",
+					"breakingvase_dest_joint19",
+					"breakingvase_dest_joint20",
+					"breakingvase_dest_joint1",
+					"breakingvase_dest_joint21",
+				]
+				m_nElementIndexArray = 
+				[
+					21,
+					22,
+					23,
+					24,
+					25,
+					26,
+					27,
+					28,
+					29,
+					30,
+					31,
+					32,
+					33,
+					34,
+					35,
+					36,
+					37,
+					38,
+					39,
+					40,
+					41,
+				]
+				m_nElementMaskArray = 
+				[
+					1,
+					2,
+					8,
+					16,
+					64,
+					128,
+					512,
+					1024,
+					4096,
+					8192,
+					32768,
+					65536,
+					262144,
+					524288,
+					2097152,
+					4194304,
+					16777216,
+					33554432,
+					134217728,
+					268435456,
+					1073741824,
+				]
+			},
+		]
+	}
+	m_retarget = 
+	{
+		m_bEnableRetarget = 0
+		m_nRetargetStyle = 0
+		m_element = 
+		[
+		]
+		m_chain = 
+		[
+		]
+		m_replicated = 
+		[
+		]
+	}
+	m_szScripts = 
+	[
+	]
+}

@@ -1,0 +1,2007 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_name = ""
+	m_animArray = 
+	[
+		
+		{
+			m_name = "versus_epi"
+			m_flags = 
+			{
+				m_bLooping = false
+				m_bAllZeros = false
+				m_bHidden = false
+				m_bDelta = false
+				m_bLegacyWorldspace = false
+				m_bModelDoc = false
+			}
+			fps = 0.300000
+			m_pData = 
+			{
+				m_fileName = ""
+				m_nFrames = 9
+				m_nFramesPerBlock = 0
+				m_frameblockArray = 
+				[
+					
+					{
+						m_nStartFrame = 0
+						m_nEndFrame = 8
+						m_segmentIndexArray = 
+						[
+							0,
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+						]
+					},
+				]
+				m_usageDifferences = 
+				{
+					m_boneArray = 
+					[
+						
+						{
+							m_name = "jaw"
+							m_parent = "head"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tongue"
+							m_parent = "jaw"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tongue2"
+							m_parent = "tongue"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tongue3"
+							m_parent = "tongue2"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "head_parentConstraint1"
+							m_parent = "head"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "neck1_parentConstraint1"
+							m_parent = "neck1"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "attach_attack1"
+							m_parent = "wrist_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "wrist_L_pointConstraint1"
+							m_parent = "wrist_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "wrist_L_orientConstraint1"
+							m_parent = "wrist_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "elbow_L_parentConstraint1"
+							m_parent = "elbow_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "bicep_L_parentConstraint1"
+							m_parent = "bicep_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "clavicle_L_parentConstraint1"
+							m_parent = "clavicle_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "wrist_R_pointConstraint1"
+							m_parent = "wrist_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "wrist_R_orientConstraint1"
+							m_parent = "wrist_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "elbow_R_parentConstraint1"
+							m_parent = "elbow_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "bicep_R_parentConstraint1"
+							m_parent = "bicep_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "clavicle_R_parentConstraint1"
+							m_parent = "clavicle_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "spine3_parentConstraint1"
+							m_parent = "spine3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "attach_hitloc"
+							m_parent = "spine2"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "spine2_parentConstraint1"
+							m_parent = "spine2"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "spine1_parentConstraint1"
+							m_parent = "spine1"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadWrist_R"
+							m_parent = "quadElbow_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadElbow_R_parentConstraint1"
+							m_parent = "quadElbow_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadHumerous_R_parentConstraint1"
+							m_parent = "quadHumerous_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadClavicle_R_parentConstraint1"
+							m_parent = "quadClavicle_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadToe_R_pointConstraint1"
+							m_parent = "quadToe_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadToe_R_orientConstraint1"
+							m_parent = "quadToe_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadAnkle_R_parentConstraint1"
+							m_parent = "quadAnkle_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadKnee_R_parentConstraint1"
+							m_parent = "quadKnee_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadThigh_R_parentConstraint1"
+							m_parent = "quadThigh_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadToe_A_L"
+							m_parent = "quadAnkle_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadToe_A_L_pointConstraint1"
+							m_parent = "quadToe_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadToe_A_L_orientConstraint1"
+							m_parent = "quadToe_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadAnkle_A_L_parentConstraint1"
+							m_parent = "quadAnkle_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadKnee_A_L_parentConstraint1"
+							m_parent = "quadKnee_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadThigh_A_L_parentConstraint1"
+							m_parent = "quadThigh_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadWrist_L"
+							m_parent = "quadElbow_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadElbow_L_parentConstraint1"
+							m_parent = "quadElbow_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadHumerous_L_parentConstraint1"
+							m_parent = "quadHumerous_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadClavicle_L_parentConstraint1"
+							m_parent = "quadClavicle_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadWrist_A_R"
+							m_parent = "quadElbow_A_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadElbow_A_R_parentConstraint1"
+							m_parent = "quadElbow_A_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadHumerous_A_R_parentConstraint1"
+							m_parent = "quadHumerous_A_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadClavicle_A_R_parentConstraint1"
+							m_parent = "quadClavicle_A_R"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike2_L2_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike2_L2_1"
+							m_parent = "tailSpike2_L2_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike2_R2_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike2_R2_1"
+							m_parent = "tailSpike2_R2_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike3_R3_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike3_R3_1"
+							m_parent = "tailSpike3_R3_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike4_L4_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike4_L4_1"
+							m_parent = "tailSpike4_L4_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike4_R4_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike4_R4_1"
+							m_parent = "tailSpike4_R4_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike1_R1_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike1_R1_1"
+							m_parent = "tailSpike1_R1_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike3_L3_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike3_L3_1"
+							m_parent = "tailSpike3_L3_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike1_L1_0"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "tailSpike1_L1_1"
+							m_parent = "tailSpike1_L1_0"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "attach_tail"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "effector9"
+							m_parent = "tail0_3"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadWrist_A_L"
+							m_parent = "quadElbow_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadWrist_A_L_pointConstraint1"
+							m_parent = "quadWrist_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadWrist_A_L_orientConstraint1"
+							m_parent = "quadWrist_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadElbow_A_L_parentConstraint1"
+							m_parent = "quadElbow_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadHumerous_A_L_parentConstraint1"
+							m_parent = "quadHumerous_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "quadClavicle_A_L_parentConstraint1"
+							m_parent = "quadClavicle_A_L"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "root_parentConstraint1"
+							m_parent = "root"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "root_orientConstraint1"
+							m_parent = "root"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "root_parentConstraint2"
+							m_parent = "root"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+					]
+					m_morphArray = 
+					[
+					]
+					m_userArray = 
+					[
+					]
+					m_bHasRotationBitArray = 
+					[
+						255,
+						255,
+						255,
+						255,
+						255,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+					]
+					m_bHasMovementBitArray = 
+					[
+						255,
+						255,
+						255,
+						255,
+						255,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+					]
+					m_bHasMorphBitArray = 
+					[
+						255,
+						255,
+						255,
+						63,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+					]
+					m_bHasUserBitArray = 
+					[
+					]
+				}
+			}
+			m_movementArray = 
+			[
+			]
+			m_eventArray = 
+			[
+			]
+			m_activityArray = 
+			[
+				
+				{
+					m_name = "ACT_DOTA_VERSUS"
+					m_nActivity = 0
+					m_nFlags = 0
+					m_nWeight = 1
+				},
+			]
+			m_hierarchyArray = 
+			[
+			]
+			framestalltime = 0.000000
+			m_vecRootMin = 
+			[
+				-9.186282,
+				0.456082,
+				36.875355,
+			]
+			m_vecRootMax = 
+			[
+				15.738922,
+				0.490933,
+				58.665905,
+			]
+			m_vecBoneWorldMin = 
+			[
+				
+				[
+					-9.186282,
+					0.456082,
+					36.875355,
+				],
+				
+				[
+					-0.995046,
+					0.360220,
+					45.560959,
+				],
+				
+				[
+					10.612333,
+					0.183856,
+					54.883862,
+				],
+				
+				[
+					22.320786,
+					0.734300,
+					72.743484,
+				],
+				
+				[
+					31.886114,
+					1.068902,
+					79.436859,
+				],
+				
+				[
+					48.949791,
+					3.313353,
+					80.103569,
+				],
+				
+				[
+					26.903339,
+					2.010129,
+					84.868599,
+				],
+				
+				[
+					16.414177,
+					20.400890,
+					86.611351,
+				],
+				
+				[
+					-3.300524,
+					43.588562,
+					77.985428,
+				],
+				
+				[
+					16.569294,
+					51.563736,
+					53.202175,
+				],
+				
+				[
+					27.739367,
+					-2.951997,
+					83.816483,
+				],
+				
+				[
+					33.226639,
+					-22.897610,
+					78.348175,
+				],
+				
+				[
+					48.811394,
+					-48.800072,
+					63.368855,
+				],
+				
+				[
+					75.826477,
+					-54.100258,
+					39.005196,
+				],
+				
+				[
+					-26.534302,
+					-23.597235,
+					34.326416,
+				],
+				
+				[
+					-23.417866,
+					-36.752289,
+					22.255198,
+				],
+				
+				[
+					-23.233105,
+					-58.786259,
+					29.202868,
+				],
+				
+				[
+					-47.403606,
+					-26.506733,
+					43.023689,
+				],
+				
+				[
+					-59.013721,
+					-31.928833,
+					33.315796,
+				],
+				
+				[
+					-71.109581,
+					-55.264862,
+					27.943348,
+				],
+				
+				[
+					-46.751106,
+					28.330633,
+					43.060299,
+				],
+				
+				[
+					-54.258221,
+					35.875103,
+					31.543472,
+				],
+				
+				[
+					-67.036270,
+					52.585289,
+					31.217932,
+				],
+				
+				[
+					-9.694909,
+					23.223957,
+					25.207720,
+				],
+				
+				[
+					6.618733,
+					34.803299,
+					17.641655,
+				],
+				
+				[
+					25.382652,
+					47.558636,
+					31.701754,
+				],
+				
+				[
+					-10.236209,
+					-22.267967,
+					25.177351,
+				],
+				
+				[
+					-0.514949,
+					-29.179678,
+					5.776413,
+				],
+				
+				[
+					16.575512,
+					-42.318218,
+					24.904594,
+				],
+				
+				[
+					-54.902634,
+					0.978429,
+					53.238949,
+				],
+				
+				[
+					-89.101410,
+					-1.648815,
+					70.592636,
+				],
+				
+				[
+					-116.856491,
+					-8.332125,
+					102.876152,
+				],
+				
+				[
+					-112.452255,
+					-14.486528,
+					139.748703,
+				],
+				
+				[
+					-25.956844,
+					24.933668,
+					34.358818,
+				],
+				
+				[
+					-25.148043,
+					36.263519,
+					22.824493,
+				],
+				
+				[
+					-24.939482,
+					55.344284,
+					23.988811,
+				],
+				
+				[
+					-89.061142,
+					-40.750851,
+					0.574556,
+				],
+				
+				[
+					-76.976395,
+					-22.300867,
+					174.137085,
+				],
+				
+				[
+					-56.416786,
+					-22.944746,
+					168.362793,
+				],
+				
+				[
+					-48.971737,
+					-21.232859,
+					156.041763,
+				],
+			]
+			m_vecBoneWorldMax = 
+			[
+				
+				[
+					15.738922,
+					0.490933,
+					58.665905,
+				],
+				
+				[
+					24.829620,
+					0.382026,
+					75.035889,
+				],
+				
+				[
+					40.036766,
+					0.502372,
+					88.541138,
+				],
+				
+				[
+					53.226494,
+					1.253754,
+					108.349518,
+				],
+				
+				[
+					64.044769,
+					2.368759,
+					115.913757,
+				],
+				
+				[
+					81.264969,
+					5.342712,
+					118.937752,
+				],
+				
+				[
+					60.399174,
+					3.496314,
+					120.898338,
+				],
+				
+				[
+					51.904217,
+					22.614431,
+					123.575439,
+				],
+				
+				[
+					43.521465,
+					54.489506,
+					108.609055,
+				],
+				
+				[
+					50.438660,
+					78.332756,
+					84.861610,
+				],
+				
+				[
+					61.139893,
+					-1.483471,
+					120.060684,
+				],
+				
+				[
+					65.839813,
+					-21.584259,
+					112.901108,
+				],
+				
+				[
+					85.518105,
+					-44.393936,
+					97.303360,
+				],
+				
+				[
+					104.998276,
+					-39.740784,
+					80.915642,
+				],
+				
+				[
+					-3.227335,
+					-23.549374,
+					52.710640,
+				],
+				
+				[
+					-8.362982,
+					-35.082214,
+					38.243000,
+				],
+				
+				[
+					-16.956993,
+					-57.129398,
+					30.346048,
+				],
+				
+				[
+					-22.388809,
+					-26.481623,
+					57.928093,
+				],
+				
+				[
+					-38.008007,
+					-31.320236,
+					44.226830,
+				],
+				
+				[
+					-62.272541,
+					-42.491920,
+					31.978836,
+				],
+				
+				[
+					-21.733849,
+					28.355740,
+					57.967182,
+				],
+				
+				[
+					-34.770840,
+					37.049683,
+					42.886951,
+				],
+				
+				[
+					-56.414688,
+					61.102417,
+					38.103485,
+				],
+				
+				[
+					11.600165,
+					23.299252,
+					46.364937,
+				],
+				
+				[
+					24.548710,
+					39.964973,
+					35.076710,
+				],
+				
+				[
+					33.403114,
+					54.768250,
+					33.796638,
+				],
+				
+				[
+					11.056828,
+					-22.192636,
+					46.332516,
+				],
+				
+				[
+					19.783215,
+					-23.680740,
+					25.479898,
+				],
+				
+				[
+					21.605896,
+					-38.174717,
+					29.385365,
+				],
+				
+				[
+					-27.119942,
+					1.000556,
+					67.104431,
+				],
+				
+				[
+					-49.675808,
+					1.360405,
+					86.012428,
+				],
+				
+				[
+					-51.550438,
+					-3.248308,
+					132.513763,
+				],
+				
+				[
+					-42.617546,
+					-5.226181,
+					173.193512,
+				],
+				
+				[
+					-2.647701,
+					24.981497,
+					52.745228,
+				],
+				
+				[
+					-8.615555,
+					38.238785,
+					38.137955,
+				],
+				
+				[
+					-18.291439,
+					59.975723,
+					27.581537,
+				],
+				
+				[
+					-89.060585,
+					-40.749977,
+					0.576790,
+				],
+				
+				[
+					-8.944126,
+					0.894009,
+					225.403885,
+				],
+				
+				[
+					11.537971,
+					3.515542,
+					234.710159,
+				],
+				
+				[
+					19.736855,
+					4.026237,
+					228.875671,
+				],
+			]
+			m_sequenceParams = 
+			{
+				m_flFadeInTime = 0.200000
+				m_flFadeOutTime = 0.200000
+			}
+		},
+	]
+	m_decoderArray = 
+	[
+		
+		{
+			m_szName = "CCompressedStaticFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedFullFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedAnimVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedDeltaVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedAnimQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedFullQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedStaticChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullShort"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedFullBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedStaticColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedFullColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedFullVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+		
+		{
+			m_szName = "CCompressedFullVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+	]
+	m_nMaxUniqueFrameIndex = 68
+	m_segmentArray = 
+	[
+		
+		{
+			m_nUniqueFrameIndex = 0
+			m_nLocalElementMasks = 1018
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 0A 00 94 00 02 00 04 00 05 00 06 00 07 00 08 00 09 00 0A 00 0B 00 0C 00 EE 78 8E 41
+				00 00 00 34 00 00 00 B7 A0 30 43 41 00 00 80 35 00 00 00 36 60 CB 8B 41 00 00 40 36 00 00 00 37
+				48 8B 36 41 F4 3D 23 40 24 E2 D2 40 00 B9 AA 41 00 00 40 B7 00 00 00 00 8A AA 07 42 00 00 00 00
+				00 00 80 B6 5A CB FF 41 00 00 00 37 00 00 00 B7 58 8B 36 41 E0 3D 23 C0 54 E2 D2 40 04 B9 AA C1
+				00 00 C0 B7 00 00 00 B7 8C AA 07 C2 00 00 00 B7 00 00 00 00 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 1
+			m_nLocalElementMasks = 1031168
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 0A 00 94 00 0D 00 0E 00 0F 00 10 00 11 00 13 00 14 00 16 00 17 00 18 00 58 CB FF C1
+				00 00 00 B7 00 00 80 36 A4 CC 70 C1 2D 23 C2 C1 F8 3F 36 C1 CC 1B 94 C1 00 00 00 37 00 00 00 00
+				22 54 BF C1 00 00 90 B6 00 00 C0 B6 2A FC 0F C2 79 5D DB C1 3E 05 50 C1 48 FB D9 C1 00 00 00 37
+				00 00 00 B7 28 FC 0F C2 7C 5D DB 41 3C 05 50 C1 46 FB D9 41 00 00 20 36 00 00 00 00 98 87 E5 3F
+				07 FB B5 41 44 67 46 C1 70 C8 B3 41 00 00 00 B6 00 00 80 36 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 2
+			m_nLocalElementMasks = 5324804
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				02 00 03 00 05 00 30 00 03 00 12 00 15 00 19 00 1C 00 C1 4D 48 00 40 80 C1 CC 00 00 40 00 C1 4C
+				40 80 80 00 BC 4D 20 80 00 00 BC CD 0A 80 20 00 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 3
+			m_nLocalElementMasks = 3702521856
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 09 00 86 00 1A 00 1B 00 1D 00 21 00 22 00 23 00 24 00 26 00 27 00 80 87 E5 3F 08 FB
+				B5 C1 44 67 46 C1 6A C8 B3 C1 00 00 00 37 00 00 80 36 C6 62 35 C2 00 00 90 35 48 4D D0 C0 A0 CC
+				70 C1 2A 23 C2 41 F8 3F 36 C1 D4 1B 94 41 00 00 80 36 00 00 00 B6 22 54 BF 41 00 00 C0 36 00 00
+				C0 36 40 57 19 C2 00 00 80 B6 00 00 00 00 30 25 65 41 00 00 38 B8 80 63 6C C1 78 DB 4E 41 00 00
+				30 39 00 00 80 37 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 4
+			m_nLocalElementMasks = 587202561
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				06 00 03 00 06 00 9C 02 00 00 01 00 1E 00 1F 00 20 00 25 00 37 75 68 41 92 5B FB 3E FF CA 13 42
+				A0 9B 60 40 00 42 82 BB C0 74 3E 41 C8 AB 1B 42 00 00 40 B6 00 00 20 B7 70 3B 3C 42 00 00 80 B5
+				00 00 80 36 4E 0A 26 42 00 00 A8 36 00 00 00 00 F0 A3 5A 42 00 00 00 00 00 00 00 00 AA 64 74 41
+				5E D4 FA 3E 5D 80 13 42 5C 5F 64 40 00 BF 15 BB 4C 9D 40 41 98 7F 1E 42 00 00 E0 36 00 00 C0 36
+				A0 A6 3F 42 00 00 C0 36 00 00 00 00 56 0E 29 42 00 00 48 36 00 00 00 37 7C 9C 5E 42 00 00 00 37
+				00 00 80 B7 A0 D2 7B 41 AB 1D FA 3E 58 44 14 42 14 90 69 40 00 00 00 B4 FC 84 43 41 C4 EA 1F 42
+				00 00 C0 35 00 00 C0 B6 D0 5D 41 42 00 00 80 36 00 00 00 37 BA 91 2A 42 00 00 08 37 00 00 00 00
+				90 9A 60 42 00 00 00 00 00 00 80 37 22 96 6F 41 D2 7C F7 3E 98 FB 1B 42 00 E5 82 40 40 0A 1C 3C
+				A4 3E 4D 41 8C F0 1D 42 00 00 C0 35 00 00 00 00 B8 F9 3E 42 00 00 C0 36 00 00 00 37 C6 75 28 42
+				00 00 00 35 00 00 80 37 9C D3 5D 42 00 00 80 B5 00 00 80 37 FB CD 47 41 D5 9A F2 3E D2 AA 2C 42
+				3C 8D 9D 40 A0 21 DD 3C B8 07 5F 41 CB 7B 18 42 00 00 30 B6 00 00 40 B7 C8 60 38 42 00 00 00 36
+				00 00 80 B6 FC A3 22 42 00 00 00 00 00 00 80 37 D3 29 56 42 00 00 60 B6 00 00 00 B8 83 93 0D 41
+				24 67 ED 3E 77 19 41 42 08 A3 B6 40 C0 45 34 3D B8 77 72 41 32 45 12 42 00 00 18 36 00 00 00 37
+				84 DD 30 42 00 00 00 B6 00 00 00 B7 70 03 1C 42 00 00 80 B6 00 00 00 00 D9 6F 4D 42 00 00 40 36
+				00 00 80 B7 B9 5F 94 40 E8 DF E9 3E 27 ED 53 42 08 93 BE 40 00 DB 54 3D 0E EC 80 41 E8 07 0E 42
+				00 00 D0 B5 00 00 40 37 2C BD 2B 42 00 00 80 36 00 00 80 37 CE 7D 17 42 00 00 00 37 00 00 00 00
+				92 7B 47 42 00 00 80 B5 00 00 80 B7 D8 44 B5 BF 88 83 E9 3E E3 A9 6A 42 AC 90 AA 40 A8 25 40 3D
+				CC 47 89 41 D8 FA 0C 42 00 00 00 36 00 00 40 37 DC 77 2A 42 00 00 80 35 00 00 80 B6 DA 5E 16 42
+				00 00 00 37 00 00 80 37 A5 01 46 42 00 00 08 37 00 00 40 38 03 FB 12 C1 CB F0 EA 3E CA 34 67 42
+				74 DC 8F 40 30 15 0C 3D E8 5B 94 41 FA 75 0E 42 00 00 30 36 00 00 00 00 48 42 2C 42 00 00 00 36
+				00 00 00 00 34 F3 17 42 00 00 80 36 00 00 00 B7 22 16 48 42 00 00 40 36 00 00 80 B7 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 13
+			m_nLocalElementMasks = 31
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 90 01 28 00 29 00 2A 00 2B 00 2C 00 2D 00 2E 00 2A 40 22 57 7D 3F 48 42 FD 11
+				44 42 D1 43 00 31 C7 42 B9 45 94 4D 3B 3D 8F 41 7A 56 4A 3F 79 32 FE 4B 4B 39 F8 F1 6A 67 2A 68
+				2A 40 F8 56 7D 3F 48 42 3B 12 44 42 61 42 F0 2E BA 42 DB 45 A7 50 70 3D 8F 41 7A 56 4A 3F 97 33
+				9D 4F 21 3A B6 E6 70 E8 16 72 29 40 89 56 7C 3F 4A 42 AA 12 41 42 67 41 9D 2D A6 42 F7 45 63 54
+				B1 3D 8F 41 7A 56 4A 3F A4 34 56 51 D4 3A E0 E5 CA E8 D6 71 28 40 D2 55 7C 3F 4E 42 53 13 39 42
+				0D 41 76 2D 9F 42 07 46 21 58 F3 3D 8F 41 7A 56 4A 3F CB 35 21 4F C4 3B F4 E4 32 E9 86 71 27 40
+				D2 54 7C 3F 57 42 F1 13 2A 42 19 41 42 2E A3 42 0A 46 35 5B 28 3E 8F 41 7A 56 4A 3F 02 37 EF 49
+				12 3D FF E3 9F E9 2A 71 25 40 84 53 7B 3F 66 42 11 14 19 42 53 41 BE 2F A3 42 0C 46 0D 5D 47 3E
+				8F 41 7A 56 4A 3F FF 37 0D 45 3F 3E 0E E3 0D EA C8 70 22 40 E3 51 7A 3F 80 42 40 13 05 42 85 41
+				A2 31 95 42 16 46 07 5D 44 3E 8F 41 7A 56 4A 3F C4 38 ED 43 A0 3E 2B E2 74 EA 65 70 1E 40 C4 4E
+				7A 3F A9 42 3C 12 DD 41 A1 41 76 34 6F 42 30 46 D5 58 F7 3D 8F 41 7A 56 4A 3F 65 39 BB 48 8D 3D
+				67 E1 CF EA 0A 70 17 40 4C 49 78 3F DD 42 05 12 8B 41 C7 41 34 38 3D 42 23 46 56 50 62 3D 8F 41
+				7A 56 4A 3F 92 39 20 51 6A 3B CA E0 17 EB BE 6F 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 22
+			m_nLocalElementMasks = 2016
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 90 01 2F 00 30 00 31 00 32 00 33 00 34 00 35 00 BB 4C 2D B9 68 F4 FE 30 60 5A
+				A4 4C C9 28 B2 5A AA 51 3A 1E 64 1D 74 74 97 3F 19 AD 05 F0 02 3C EF 5F 33 40 DB 1A E8 51 F5 3F
+				EA 4D 97 BA 42 F5 C0 30 49 5E 94 4D 2D 29 02 5B 1C 53 B3 1F 6E 1C A2 74 06 43 10 AA 5F EE 03 3C
+				3E 60 31 40 9E 1D EB 51 E5 3F 18 50 8D BB 0C F5 77 30 CE 62 02 4E 9E 29 62 5B B1 54 BC F5 B9 9F
+				89 1C 9B 45 65 A7 30 EC 03 3C D8 60 2D 40 F8 1E 63 52 2A 42 46 53 D1 BB E6 F3 25 30 AD 67 BA 4D
+				13 2A D3 5B 51 56 98 F3 22 9F 93 1C CC 45 D7 A5 59 EA 03 3C AE 61 27 40 4B 20 31 53 A0 45 DF 56
+				B1 BB B0 F2 CE 2F 90 6C A9 4C 81 2A 53 5C E6 57 66 F3 F0 9D 50 1B C9 44 58 A5 FD E8 03 3C C4 62
+				1D 40 B1 21 36 54 D2 49 3E 5A AD BB 81 F2 78 2F 35 71 DB 4A DF 2A E4 5C 5F 59 1D 1B A0 18 7A 71
+				B1 43 F2 A5 21 E8 03 3C C9 64 09 40 3B 23 50 55 60 4E 9D 5C 6D BC 6C F4 27 2F 57 75 82 48 1E 2B
+				86 5D AA 5A E8 18 7A 16 43 6B A1 43 D6 A7 B7 E7 04 3C 7B 67 EC 3F E2 24 5E 56 E5 52 0B 5D EF BE
+				DB F9 E3 2E BF 78 F0 45 30 2B 3B 5E B3 5B 9F 19 A8 15 8A 69 B0 44 C4 AC D5 E7 06 3C 55 6A C8 3F
+				7F 26 44 57 FA 56 1A 08 FD 5A 42 43 AF 2E 58 7B 7F 43 05 2B 06 5F 6D 5C 77 1F 13 16 FF 6E D3 45
+				CD B4 02 E8 08 3C E7 6C A3 3F DE 27 ED 57 59 5A 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 31
+			m_nLocalElementMasks = 129024
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 90 01 36 00 37 00 38 00 39 00 3A 00 3B 00 3C 00 CC D8 CA 76 EA A6 51 2B C3 E6
+				4E E6 00 40 41 78 00 40 0E 1B 3F A2 E9 EA 0E 26 56 30 F1 47 00 40 E7 62 00 40 27 DA D4 75 3E 43
+				9A D9 E8 77 ED A7 EE 2B D8 E6 B6 E4 00 40 F3 77 00 40 22 1B C1 A2 7B EB 12 25 65 31 E0 47 00 40
+				38 61 00 40 82 DA 73 75 FE 42 4E DA EB 78 E1 A8 6C 2C D7 E6 80 E3 00 40 A3 77 00 40 39 1B 73 A3
+				36 EC 24 24 F5 31 F2 47 00 40 5A 60 00 40 FD DA FD 74 C4 42 2D D9 31 78 78 A8 4E 2C 9F E5 BC E5
+				00 40 3B 76 00 40 35 1B 46 A3 0A EC 4C 25 E4 31 A3 47 00 40 5D 60 00 40 C5 DA 2B 75 D0 42 9B D5
+				3C 75 93 A6 EC 2B 88 E2 38 EC 00 40 DA 72 00 40 11 1B CB A1 88 EA AE 29 35 31 94 46 00 40 2A 61
+				00 40 85 D9 46 76 3D 43 2A D1 9C 71 B6 A4 70 2C 3A DE 0F F4 00 40 9D 6D 00 40 F1 1A DB 9F 8D E8
+				39 30 04 30 F2 44 00 40 B7 62 00 40 F1 D7 AF 77 E3 43 47 CD 82 6E 7E A3 09 2E D2 D9 36 FB 00 40
+				7D 67 00 40 DE 1A 54 9E EE E6 65 37 F3 2D 11 43 00 40 B7 65 00 40 B5 D6 DA 78 98 44 D4 C9 2F 6C
+				15 A3 2A 08 10 32 03 54 00 40 57 5D 00 40 C2 1A AE 9D 16 E6 6A 40 4D 2A 36 40 00 40 37 6B 00 40
+				0C D6 9D 79 50 45 FD C9 12 6B D4 A1 A7 10 69 2D A8 55 00 40 F3 65 00 40 3F 1A C6 A2 10 EA 18 40
+				8B 1D 5A 40 00 40 E9 7C 00 40 86 D9 D0 77 81 46 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 40
+			m_nLocalElementMasks = 4128768
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 90 01 3D 00 3E 00 3F 00 40 00 41 00 42 00 43 00 56 30 64 D9 0D E4 00 40 94 68
+				00 40 2B 76 D4 57 99 5B 30 27 C6 E8 35 F0 00 C0 A4 19 00 C0 E0 E9 AD 5D 48 C0 86 D6 13 A1 C7 0F
+				9F 30 C0 D8 40 E4 00 40 7B 67 00 40 1E 76 91 58 88 5B 66 27 A7 E9 A3 EF 00 C0 68 1A 00 C0 9C E9
+				5E 5E 39 C0 82 D5 86 A1 A2 0F B1 30 6A D8 AA E4 00 40 F2 66 00 40 2F 76 6A 59 1E 5B B7 27 3A EA
+				35 EF 00 C0 C3 1A 00 C0 5D E9 3B 5F 7C C0 D6 D4 A0 A1 9D 0F AF 30 2B D8 36 E5 00 40 92 66 00 40
+				7E 76 0F 5A 48 59 A1 28 E5 E8 A2 EF 00 C0 80 67 00 40 2A E9 1C 60 39 C2 43 D6 6C 9F 58 10 AB 30
+				D4 D7 00 E6 00 40 0F 66 00 40 EE 76 43 5A F7 55 3E 2A C0 E4 6E F1 00 C0 75 6D 00 40 FA E8 C4 60
+				82 C5 7D DA 87 9A 3E 12 7D 30 86 D7 67 E7 00 40 B0 65 00 40 4A 77 38 5A 6B 52 56 2C DA DE 3F F4
+				00 C0 71 0A 00 C0 C1 E8 36 61 05 C9 1C E0 F5 94 1A 15 C1 2F CF D7 90 E9 00 40 84 66 00 40 93 77
+				26 5A 63 4F DC 2E 83 D8 67 F7 00 C0 EC 7D 00 40 92 E8 96 61 F8 CB E4 E5 21 90 97 18 C3 2D E4 D8
+				E6 ED 00 40 5A 69 00 40 F0 77 CD 5A 84 4B 93 33 C2 CF 61 FB 00 40 B1 75 00 40 26 E8 C8 62 87 CF
+				A7 1E 43 EE 63 ED 05 25 58 E0 83 F2 00 40 5C 79 00 40 33 79 4D 5B 1A 49 F3 35 B3 CA 4D FE 00 40
+				21 6E 00 40 E1 E8 00 64 95 D1 FE 22 AA E9 0E F3 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 49
+			m_nLocalElementMasks = 264241152
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 90 01 44 00 45 00 46 00 47 00 48 00 49 00 4A 00 00 C0 40 14 00 C0 1F BF 30 2B
+				B3 3C 97 3D 42 58 81 3B FA 3B DC 49 B6 42 36 3C 2B 45 D8 42 B6 59 3F 7A B7 57 83 2F 44 E1 DE E3
+				00 C0 08 15 00 C0 2B BF 8E 2E 7B 3C 76 3E DA 5B FF 3B 93 3C 9E 4D 5C 42 D3 3C C2 47 E1 42 4F 59
+				91 7A F8 57 AE 2F F9 E0 D9 E3 00 C0 6A 15 00 C0 27 BF F3 31 7E 3C 73 3F 0A 5F 1A 3C 46 3D 0A 51
+				2F 42 68 3D 6E 4A 0A 43 F1 58 DE 7A 39 58 C6 2F A8 E0 21 E4 00 C0 BE 6C 00 40 42 BF 2F 36 0C 3D
+				F0 40 9D 62 56 3B FA 3D 91 55 2B 42 B5 3D 4A 4E 72 43 DB 58 C0 7A 9D 57 1E 30 99 DF 04 E5 00 C0
+				8C 72 00 40 A1 BF 87 3B 56 3E 8D 42 C2 65 AC 39 BC 3E FC 5A 56 41 B2 3D 90 54 63 43 29 59 0C 7A
+				DA 55 06 31 2F DD D3 E6 00 C0 8C 7A 00 40 CB BF 71 3F 5C C0 1A 43 59 67 E5 38 59 3F C4 5D A3 3F
+				A4 3D 7A 5C 3A 42 A7 59 0C 79 B1 53 96 32 7B D9 A9 E9 00 40 F6 7C 00 40 90 BF FF 3D 04 C0 3A 42
+				9D 65 D3 39 04 3F 6D 5E 45 3E AF 3D 27 62 BC 40 2E 5A 11 78 D5 51 BD 34 13 D5 59 ED 00 40 2A 6E
+				00 40 EA BF 44 41 94 C0 BE 3F 93 5F F7 3A F9 3C 5C 61 EE 3C 62 3D 51 62 CA 3F 79 5A 38 77 0A 50
+				EB 3A 7B CB A7 F3 00 40 FB 63 00 40 E7 BF 93 3C 37 3E CE 3D BA 59 A7 3A 22 3B C7 63 A5 3C 40 3D
+				D9 5D 14 40 91 5B E4 76 20 51 77 33 A6 D4 BD F9 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 58
+			m_nLocalElementMasks = 4026531840
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 05 00 20 01 4B 00 4C 00 4D 00 4E 00 4F 00 00 40 91 6E 00 40 3C 65 E0 D0 76 F3 00 40
+				00 40 00 40 4D E9 4D E9 E1 F0 A6 68 6C 71 5A 17 00 40 10 6E 00 40 C4 65 A9 D1 69 F3 00 40 00 40
+				00 40 4D E9 4D E9 E1 F0 A6 68 6C 71 5A 17 00 40 94 6D 00 40 10 66 1A D2 69 F3 00 40 00 40 00 40
+				4D E9 4D E9 E1 F0 A6 68 6C 71 5A 17 00 40 EA 6B 00 40 B4 65 59 D1 E5 F2 00 40 00 40 00 40 4D E9
+				4D E9 E1 F0 A6 68 6C 71 5A 17 00 40 FD 67 00 40 A0 64 F8 CE 4B F1 00 40 00 40 00 40 4D E9 4D E9
+				E1 F0 A6 68 6C 71 5A 17 00 40 AF 61 00 40 4D 63 71 CB 79 EE 00 40 00 40 00 40 4D E9 4D E9 E1 F0
+				A6 68 6C 71 5A 17 00 40 C5 59 00 40 F5 61 2B C7 D2 EA 00 40 00 40 00 40 4D E9 4D E9 E1 F0 A6 68
+				6C 71 5A 17 00 40 BE 46 00 40 6B 60 EE C0 F3 E4 00 40 00 40 00 40 4D E9 4D E9 E1 F0 A6 68 6C 71
+				5A 17 00 40 35 5B 00 40 7E 5D 0B B9 5B E4 00 40 00 40 00 40 4D E9 4D E9 E1 F0 A6 68 6C 71 5A 17
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 67
+			m_nLocalElementMasks = 2147450879
+			m_nLocalChannel = 2
+			m_container = 
+			#[
+				00 00 01 00 1E 00 BC 00 50 00 51 00 52 00 53 00 54 00 55 00 56 00 57 00 58 00 59 00 5A 00 5B 00
+				5C 00 5D 00 5E 00 5F 00 60 00 61 00 62 00 63 00 64 00 65 00 66 00 67 00 68 00 69 00 6A 00 6B 00
+				6C 00 6D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+				00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+				00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+				00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+			]
+		},
+	]
+}

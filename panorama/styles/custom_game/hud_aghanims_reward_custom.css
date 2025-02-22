@@ -1,0 +1,93 @@
+/* Prettified by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io */
+
+#RewardHeader
+{
+	horizontal-align: center;
+	width: fit-children;
+	transform: none;
+	vertical-align: center;
+}
+
+.RewardBodyHeader
+{
+	flow-children: none;
+	vertical-align: center;
+}
+
+#RerollButton
+{
+	background-color: gradient(linear, 0% 0%, 10% 100%, from(#373d45), to(#455866));
+	align: right center;
+	min-width: 100px;
+	height: 62px;
+	margin-right: 40px;
+	background-image: url("s2r://panorama/images/backgrounds/background_play_button_2x_png.vtex");
+	background-size: 300% 100%;
+	background-position: 100% 50%;
+	flow-children: down;
+	transition: brightness 0.1s ease-in-out 0s;
+	visibility: collapse;
+}
+
+#RerollButton.Visible
+{
+	visibility: visible;
+}
+
+#RerollButton:not(.NoRedraw):hover
+{
+	brightness: 1.5;
+}
+
+#RerollButton:not(.NoRedraw):active
+{
+	brightness: 1.9;
+}
+
+.SuppForUnlock_Commmon #RerollButton
+{
+	opacity: 0;
+}
+
+#RerollHeader
+{
+	font-family: defaultFont;
+	color: white;
+	letter-spacing: 1px;
+	align: center top;
+	margin: 5px 0px 0px 0px;
+	font-size: 18px;
+}
+
+#RerollCostRoot
+{
+	flow-children: right;
+	align: center bottom;
+	max-width: 100%;
+	height: 100%;
+	margin: 0px 5px 0px 0px;
+}
+
+#RerollCostRoot Image
+{
+	width: 20px;
+	height: 20px;
+	margin-top: 1px;
+}
+
+#RerollCostRoot Label
+{
+	margin-left: 2px;
+	color: gradient(linear, 0% 100%, 0% 0%, from(#bd8820), to(#cdbc2c));
+	text-shadow: rgba(0, 0, 0, 0.45) 0px 1px 2px 2;
+	text-transform: uppercase;
+	font-size: 17px;
+	padding-top: 1px;
+	font-weight: bold;
+}
+
+.Expired
+{
+	visibility: collapse;
+}
+

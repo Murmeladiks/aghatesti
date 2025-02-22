@@ -1,0 +1,347 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_name = ""
+	m_animArray = 
+	[
+		
+		{
+			m_name = "morokai_orb_overhead_idle"
+			m_flags = 
+			{
+				m_bLooping = true
+				m_bAllZeros = false
+				m_bHidden = false
+				m_bDelta = false
+				m_bLegacyWorldspace = false
+				m_bModelDoc = false
+			}
+			fps = 30.000000
+			m_pData = 
+			{
+				m_fileName = ""
+				m_nFrames = 30
+				m_nFramesPerBlock = 0
+				m_frameblockArray = 
+				[
+					
+					{
+						m_nStartFrame = 0
+						m_nEndFrame = 29
+						m_segmentIndexArray = 
+						[
+							0,
+							1,
+							2,
+						]
+					},
+				]
+				m_usageDifferences = 
+				{
+					m_boneArray = 
+					[
+					]
+					m_morphArray = 
+					[
+					]
+					m_userArray = 
+					[
+					]
+					m_bHasRotationBitArray = 
+					[
+						7,
+						0,
+						0,
+					]
+					m_bHasMovementBitArray = 
+					[
+						7,
+						0,
+						0,
+					]
+					m_bHasMorphBitArray = 
+					[
+					]
+					m_bHasUserBitArray = 
+					[
+					]
+				}
+			}
+			m_movementArray = 
+			[
+			]
+			m_eventArray = 
+			[
+			]
+			m_activityArray = 
+			[
+			]
+			m_hierarchyArray = 
+			[
+			]
+			framestalltime = 0.000000
+			m_vecRootMin = 
+			[
+				0.000000,
+				0.000000,
+				-0.257256,
+			]
+			m_vecRootMax = 
+			[
+				0.000000,
+				0.000000,
+				0.576444,
+			]
+			m_vecBoneWorldMin = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+					-0.257256,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+					11.010336,
+				],
+				
+				[
+					-0.000000,
+					-0.000000,
+					-9.151817,
+				],
+			]
+			m_vecBoneWorldMax = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+					0.576444,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+					11.844038,
+				],
+				
+				[
+					-0.000000,
+					-0.000000,
+					-8.318116,
+				],
+			]
+			m_sequenceParams = 
+			{
+				m_flFadeInTime = 0.200000
+				m_flFadeOutTime = 0.200000
+			}
+		},
+	]
+	m_decoderArray = 
+	[
+		
+		{
+			m_szName = "CCompressedStaticFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedFullFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedAnimVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedDeltaVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedAnimQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedFullQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedStaticChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullShort"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedFullBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedStaticColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedFullColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedFullVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+		
+		{
+			m_szName = "CCompressedFullVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+	]
+	m_nMaxUniqueFrameIndex = 61
+	m_segmentArray = 
+	[
+		
+		{
+			m_nUniqueFrameIndex = 0
+			m_nLocalElementMasks = 2098176
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 02 00 24 00 01 00 02 00 00 00 00 9D 0F 48 34 41 00 00 D0 28 00 00 00 00 1F 50 0E C1
+				00 00 C0 A7 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 1
+			m_nLocalElementMasks = 1
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				04 00 03 00 01 00 BE 00 00 00 00 00 00 00 1D B4 00 00 00 00 E4 B3 00 00 00 00 EE B2 00 00 00 00
+				75 B1 00 00 00 00 1A AF 00 00 00 00 3B A9 00 00 00 00 A2 28 00 00 00 00 8C 2F 00 00 00 00 72 32
+				00 00 00 00 87 34 00 00 00 00 C3 35 00 00 00 00 E2 36 00 00 00 00 D5 37 00 00 00 00 49 38 00 00
+				00 00 86 38 00 00 00 00 9C 38 00 00 00 00 83 38 00 00 00 00 3D 38 00 00 00 00 A5 37 00 00 00 00
+				94 36 00 00 00 00 54 35 00 00 00 00 F2 33 00 00 00 00 1B 31 00 00 00 00 85 2C 00 00 00 00 44 A3
+				00 00 00 00 E2 AD 00 00 00 00 16 B1 00 00 00 00 C1 B2 00 00 00 00 D7 B3 00 00 00 00 1D B4 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 31
+			m_nLocalElementMasks = 2098177
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 03 00 2A 02 03 00 04 00 05 00 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40
+				3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40
+				00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40
+				00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D
+				00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D
+				3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40
+				00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40
+				00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40
+				00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED
+				3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40
+				3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40
+				00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40
+				00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D
+				00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D
+				3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40
+				00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40
+				00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40 00 40 00 40 00 40 00 40 00 40 3F 6D 3F ED 3F 6D 00 40
+				00 40 00 40 00 40 00 40 00 40 
+			]
+		},
+	]
+}

@@ -1,0 +1,1345 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CRenderMesh"
+	m_sceneObjects = 
+	[
+		
+		{
+			m_vMinBounds = 
+			[
+				-121.764786,
+				-118.722954,
+				-55.630131,
+			]
+			m_vMaxBounds = 
+			[
+				134.098572,
+				111.575775,
+				378.530884,
+			]
+			m_drawCalls = 
+			[
+				
+				{
+					m_nPrimitiveType = "RENDER_PRIM_TRIANGLES"
+					m_nBaseVertex = 0
+					m_nVertexCount = 4831
+					m_nStartIndex = 0
+					m_nIndexCount = 13191
+					m_nStartInstance = 0
+					m_nInstanceCount = 0
+					m_flUvDensity = 196.048676
+					m_vTintColor = 
+					[
+						1.000000,
+						1.000000,
+						1.000000,
+					]
+					m_CullDataIndex = -1
+					m_indexBuffer = 
+					{
+						m_hBuffer = 0
+						m_nBindOffsetBytes = 0
+					}
+					m_material = resource:"materials/props_gameplay/undying_tower_winter/undying_tower_winter.vmat"
+					m_vertexBuffers = 
+					[
+						
+						{
+							m_hBuffer = 0
+							m_nBindOffsetBytes = 0
+						},
+					]
+					m_bUseCompressedNormalTangent = true
+				},
+				
+				{
+					m_nPrimitiveType = "RENDER_PRIM_TRIANGLES"
+					m_nBaseVertex = 0
+					m_nVertexCount = 4831
+					m_nStartIndex = 13191
+					m_nIndexCount = 5796
+					m_nStartInstance = 0
+					m_nInstanceCount = 0
+					m_flUvDensity = 186.800812
+					m_vTintColor = 
+					[
+						1.000000,
+						1.000000,
+						1.000000,
+					]
+					m_CullDataIndex = -1
+					m_indexBuffer = 
+					{
+						m_hBuffer = 0
+						m_nBindOffsetBytes = 0
+					}
+					m_material = resource:"materials/props_gameplay/undying_tower_winter/undying_rocks_winter.vmat"
+					m_vertexBuffers = 
+					[
+						
+						{
+							m_hBuffer = 0
+							m_nBindOffsetBytes = 0
+						},
+					]
+					m_bUseCompressedNormalTangent = true
+				},
+			]
+			m_drawCullData = 
+			[
+			]
+			m_vTintColor = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+		},
+	]
+	m_constraints = 
+	[
+	]
+	m_skeleton = 
+	{
+		m_bones = 
+		[
+			
+			{
+				m_boneName = "undying_tower_winter_joint2"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-313.930023,
+					1.000000,
+					0.000000,
+					0.000000,
+					-35.086651,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						-0.000002,
+					]
+					m_vecSize = 
+					[
+						66.946091,
+						64.600861,
+						36.268738,
+					]
+				}
+				m_flSphereRadius = 85.352432
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint3"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-39.249893,
+					0.000000,
+					0.000000,
+					1.000000,
+					-279.070679,
+					1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.000002,
+						-0.000015,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						32.105492,
+						29.741501,
+						22.075354,
+					]
+				}
+				m_flSphereRadius = 42.769794
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint4"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					39.249893,
+					0.000000,
+					0.000000,
+					1.000000,
+					-279.070679,
+					1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000002,
+						-0.000015,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						32.105492,
+						29.741501,
+						22.075354,
+					]
+				}
+				m_flSphereRadius = 42.769794
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint5"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					3.092562,
+					0.000000,
+					0.000000,
+					1.000000,
+					-169.178711,
+					1.000000,
+					0.000000,
+					0.000000,
+					-2.569212,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000008,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						32.926949,
+						48.898872,
+						38.203964,
+					]
+				}
+				m_flSphereRadius = 61.675842
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint6"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-22.234795,
+					0.000000,
+					0.000000,
+					1.000000,
+					-51.934067,
+					1.000000,
+					0.000000,
+					0.000000,
+					-22.966652,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000002,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						34.873375,
+						49.457130,
+						35.276340,
+					]
+				}
+				m_flSphereRadius = 62.048985
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint7"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-25.661829,
+					0.000000,
+					0.000000,
+					1.000000,
+					-99.300682,
+					1.000000,
+					0.000000,
+					0.000000,
+					-12.725489,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						35.220970,
+						44.185051,
+						35.899727,
+					]
+				}
+				m_flSphereRadius = 55.955650
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint8"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					12.756296,
+					0.000000,
+					0.000000,
+					1.000000,
+					-49.252716,
+					1.000000,
+					0.000000,
+					0.000000,
+					-15.060053,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000002,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						42.893791,
+						46.806259,
+						44.673950,
+					]
+				}
+				m_flSphereRadius = 65.090996
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint9"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					19.448946,
+					0.000000,
+					0.000000,
+					1.000000,
+					-99.786766,
+					1.000000,
+					0.000000,
+					0.000000,
+					-2.084982,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						-0.000002,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						40.319954,
+						47.264732,
+						40.862816,
+					]
+				}
+				m_flSphereRadius = 63.678833
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint10"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-11.531906,
+					0.000000,
+					0.000000,
+					1.000000,
+					-64.369392,
+					1.000000,
+					0.000000,
+					0.000000,
+					30.907127,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000002,
+						-0.000001,
+					]
+					m_vecSize = 
+					[
+						35.253838,
+						61.922935,
+						30.010674,
+					]
+				}
+				m_flSphereRadius = 70.871086
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint11"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					15.185033,
+					0.000000,
+					0.000000,
+					1.000000,
+					-74.237030,
+					1.000000,
+					0.000000,
+					0.000000,
+					28.095791,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						-0.000001,
+					]
+					m_vecSize = 
+					[
+						34.852135,
+						60.588455,
+						31.287289,
+					]
+				}
+				m_flSphereRadius = 64.543701
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint12"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-241.518250,
+					1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000008,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						42.555401,
+						23.845757,
+						43.302502,
+					]
+				}
+				m_flSphereRadius = 59.146873
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint13"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-5.711892,
+					0.000000,
+					0.000000,
+					1.000000,
+					-189.823792,
+					1.000000,
+					0.000000,
+					0.000000,
+					-1.874243,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						-0.000008,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						30.003357,
+						51.146217,
+						31.515501,
+					]
+				}
+				m_flSphereRadius = 59.709686
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint14"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					40.500000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-21.500000,
+					1.000000,
+					0.000000,
+					0.000000,
+					-91.500099,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000001,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						16.634998,
+						36.650398,
+						18.373901,
+					]
+				}
+				m_flSphereRadius = 38.457359
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint15"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					46.599998,
+					0.000000,
+					0.000000,
+					1.000000,
+					-7.267249,
+					1.000000,
+					0.000000,
+					0.000000,
+					89.799896,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.000001,
+						0.000000,
+						-0.000004,
+					]
+					m_vecSize = 
+					[
+						21.929901,
+						32.995949,
+						20.455097,
+					]
+				}
+				m_flSphereRadius = 37.622143
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint16"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-67.820602,
+					0.000000,
+					0.000000,
+					1.000000,
+					-2.535700,
+					1.000000,
+					0.000000,
+					0.000000,
+					-72.412849,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.000002,
+						0.000000,
+						0.000002,
+					]
+					m_vecSize = 
+					[
+						24.568499,
+						42.484802,
+						19.838652,
+					]
+				}
+				m_flSphereRadius = 44.420563
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint17"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					14.045959,
+					0.000000,
+					0.000000,
+					1.000000,
+					-2.231380,
+					1.000000,
+					0.000000,
+					0.000000,
+					99.324493,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.000000,
+						0.000000,
+						-0.000004,
+					]
+					m_vecSize = 
+					[
+						13.301340,
+						7.621100,
+						10.985500,
+					]
+				}
+				m_flSphereRadius = 15.895790
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint18"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-75.229897,
+					0.000000,
+					0.000000,
+					1.000000,
+					-20.575499,
+					1.000000,
+					0.000000,
+					0.000000,
+					-40.175552,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000002,
+						0.000000,
+						-0.000002,
+					]
+					m_vecSize = 
+					[
+						22.077398,
+						51.232597,
+						21.628450,
+					]
+				}
+				m_flSphereRadius = 54.219246
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint19"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					65.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-20.031349,
+					1.000000,
+					0.000000,
+					0.000000,
+					-69.000000,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						24.180199,
+						65.117249,
+						19.549599,
+					]
+				}
+				m_flSphereRadius = 67.528374
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint20"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-41.624649,
+					0.000000,
+					0.000000,
+					1.000000,
+					-5.796195,
+					1.000000,
+					0.000000,
+					0.000000,
+					-91.786346,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000004,
+					]
+					m_vecSize = 
+					[
+						14.974850,
+						10.279105,
+						13.110653,
+					]
+				}
+				m_flSphereRadius = 17.669886
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint21"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					103.000198,
+					0.000000,
+					0.000000,
+					1.000000,
+					0.260850,
+					1.000000,
+					0.000000,
+					0.000000,
+					-11.499999,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						13.462799,
+						16.482948,
+						26.040298,
+					]
+				}
+				m_flSphereRadius = 26.925396
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint22"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-74.499847,
+					0.000000,
+					0.000000,
+					1.000000,
+					-10.539148,
+					1.000000,
+					0.000000,
+					0.000000,
+					49.000000,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000004,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						27.827152,
+						56.759750,
+						30.803101,
+					]
+				}
+				m_flSphereRadius = 59.199806
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint23"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-93.192276,
+					0.000000,
+					0.000000,
+					1.000000,
+					6.482355,
+					1.000000,
+					0.000000,
+					0.000000,
+					3.005554,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						18.383499,
+						33.970947,
+						16.929001,
+					]
+				}
+				m_flSphereRadius = 35.878983
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint24"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					94.005951,
+					0.000000,
+					0.000000,
+					1.000000,
+					7.964029,
+					1.000000,
+					0.000000,
+					0.000000,
+					-46.023727,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000004,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						24.717007,
+						47.666100,
+						23.789001,
+					]
+				}
+				m_flSphereRadius = 51.438667
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint25"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-37.435722,
+					0.000000,
+					0.000000,
+					1.000000,
+					3.017290,
+					1.000000,
+					0.000000,
+					0.000000,
+					99.660789,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						23.454506,
+						41.398552,
+						22.103996,
+					]
+				}
+				m_flSphereRadius = 45.520115
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint26"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-1.533318,
+					0.000000,
+					0.000000,
+					1.000000,
+					-6.512539,
+					1.000000,
+					0.000000,
+					0.000000,
+					-107.008484,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						-0.000004,
+					]
+					m_vecSize = 
+					[
+						25.403999,
+						45.710751,
+						27.090092,
+					]
+				}
+				m_flSphereRadius = 51.514324
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint27"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					61.113602,
+					0.000000,
+					0.000000,
+					1.000000,
+					-13.074848,
+					1.000000,
+					0.000000,
+					0.000000,
+					52.094749,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						31.691101,
+						56.808048,
+						32.752151,
+					]
+				}
+				m_flSphereRadius = 65.657692
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint28"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					79.760902,
+					0.000000,
+					0.000000,
+					1.000000,
+					-13.775051,
+					1.000000,
+					0.000000,
+					0.000000,
+					-1.308901,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000002,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						23.406099,
+						52.707050,
+						31.497400,
+					]
+				}
+				m_flSphereRadius = 62.771492
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint29"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					49.596828,
+					0.000000,
+					0.000000,
+					1.000000,
+					-35.146347,
+					1.000000,
+					0.000000,
+					0.000000,
+					-57.186451,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.000002,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						48.453468,
+						75.502647,
+						46.642551,
+					]
+				}
+				m_flSphereRadius = 94.012840
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint30"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-29.183750,
+					0.000000,
+					0.000000,
+					1.000000,
+					-11.290649,
+					1.000000,
+					0.000000,
+					0.000000,
+					-74.130997,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000002,
+						0.000000,
+						0.000004,
+					]
+					m_vecSize = 
+					[
+						40.207748,
+						57.060349,
+						34.533001,
+					]
+				}
+				m_flSphereRadius = 67.188438
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint31"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-64.843948,
+					0.000000,
+					0.000000,
+					1.000000,
+					-3.467100,
+					1.000000,
+					0.000000,
+					0.000000,
+					-34.916100,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						31.699348,
+						54.768303,
+						46.189301,
+					]
+				}
+				m_flSphereRadius = 74.428841
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint32"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-66.731903,
+					0.000000,
+					0.000000,
+					1.000000,
+					-12.424700,
+					1.000000,
+					0.000000,
+					0.000000,
+					26.460550,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.000004,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						29.811398,
+						63.430801,
+						35.511353,
+					]
+				}
+				m_flSphereRadius = 67.951859
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint33"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-40.505283,
+					0.000000,
+					0.000000,
+					1.000000,
+					-16.058510,
+					1.000000,
+					0.000000,
+					0.000000,
+					63.766548,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						38.225513,
+						62.609291,
+						37.890450,
+					]
+				}
+				m_flSphereRadius = 78.758888
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint34"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					23.837450,
+					0.000000,
+					0.000000,
+					1.000000,
+					-3.503151,
+					1.000000,
+					0.000000,
+					0.000000,
+					76.620003,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000002,
+					]
+					m_vecSize = 
+					[
+						36.047951,
+						47.690250,
+						25.278002,
+					]
+				}
+				m_flSphereRadius = 58.748943
+			},
+			
+			{
+				m_boneName = "undying_tower_winter_joint1"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					-313.930023,
+					1.000000,
+					0.000000,
+					0.000000,
+					35.086643,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						-0.000002,
+					]
+					m_vecSize = 
+					[
+						66.946091,
+						64.600861,
+						36.268730,
+					]
+				}
+				m_flSphereRadius = 85.352432
+			},
+		]
+		m_boneParents = 
+		[
+		]
+		m_nBoneWeightCount = 1
+	}
+	m_attachments = 
+	[
+	]
+	m_hitboxsets = 
+	[
+	]
+	m_morphSet = null
+}

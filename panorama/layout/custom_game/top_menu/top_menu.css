@@ -1,0 +1,331 @@
+/* Prettified by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io */
+
+#TopMenuPanel
+{
+	horizontal-align: left;
+	vertical-align: top;
+	margin-left: 53px;
+	flow-children: right-wrap;
+	transition-property: position;
+	transition-duration: 0.5s;
+	position: 0px 0px 0px;
+	margin-top: 2px;
+}
+
+.AspectRatio16x10 #TopMenuPanel
+{
+	max-width: 350px;
+}
+
+.AspectRatio4x3 #TopMenuPanel
+{
+	max-width: 250px;
+}
+
+.Spacer16x10
+{
+	visibility: collapse;
+}
+
+.AspectRatio16x10 .Spacer16x10
+{
+	visibility: visible;
+}
+
+.TopMenuIcon
+{
+	height: 48px;
+	width: 48px;
+	background-repeat: no-repeat;
+	background-size: 33px 33px;
+	background-position: center center;
+	tooltip-position: bottom;
+}
+
+.TopMenuButtonColor
+{
+	width: 100%;
+	height: 100%;
+	background-color: gradient(linear, 0% 120%, 0% 0%, from(#b6bacb), to(#e6e8ef));
+	transition: background-color 0.2s ease-in-out 0s;
+}
+
+.TopMenuButtonShadow
+{
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+}
+
+.TopMenuButtonColor:hover
+{
+	background-color: gradient(linear, 0% 100%, 0% 0%, from(#c97536), to(#ffa66b));
+}
+
+#DiscordShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/discord_shadow_png.vtex");
+}
+
+#DiscordColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/discord_base_png.vtex");
+}
+
+#ChatwheelShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/chatwheel_shadow_png.vtex");
+}
+
+#ChatwheelColor
+{
+	background-color: gradient(linear, 0% 120%, 0% 0%, from(#c8ccdf), to(#eef0f7));
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/chatwheel_base_png.vtex");
+}
+
+#ChatwheelColor:hover
+{
+	background-color: gradient(linear, 0% 100%, 0% 0%, from(#c97536), to(#ffa66b));
+}
+
+#FeedbackShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/feedback_shadow_png.vtex");
+}
+
+#FeedbackColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/feedback_base_png.vtex");
+}
+
+#CollectionShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/collection_shadow_png.vtex");
+}
+
+#CollectionColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/collection_base_png.vtex");
+}
+
+#LeaderboardShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/leaderboard_shadow_png.vtex");
+}
+
+#LeaderboardColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/leaderboard_base_png.vtex");
+}
+
+#MailShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/mail_shadow_png.vtex");
+}
+
+#MailColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/mail_base_png.vtex");
+}
+
+#MailColor:hover
+{
+	background-color: gradient(linear, 0% 100%, 0% 0%, from(#e28a2e), to(#fcd065));
+}
+
+#LeaderboardColor:hover
+{
+	background-color: gradient(linear, 0% 100%, 0% 0%, from(#e28a2e), to(#fcd065));
+}
+
+#ShrinkGameShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/shrinkgame_shadow_png.vtex");
+}
+
+#ShrinkGameColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/shrinkgame_base_png.vtex");
+}
+
+#GameSettingsShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/gamesettings_shadow_png.vtex");
+}
+
+#GameSettingsColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/gamesettings_base_png.vtex");
+}
+
+#GameScoreboardColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/scoreboard_base_png.vtex");
+}
+
+#GameScoreboardShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/scoreboard_shadow_png.vtex");
+}
+
+#OpenSyncedChatShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/synced_chat_shadow_png.vtex");
+}
+
+#OpenSyncedChatColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/synced_chat_base_png.vtex");
+}
+
+#OpenHeroVotingShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/hero_voting_shadow_png.vtex");
+}
+
+#OpenHeroVotingColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/hero_voting_base_png.vtex");
+}
+
+#OpeGitShadow
+{
+	background-image: url("s2r://panorama/layout/custom_game/top_menu/images/github_shadow_png.vtex");
+}
+
+#OpenGitColor
+{
+	opacity-mask: url("s2r://panorama/layout/custom_game/top_menu/images/github_base_png.vtex");
+}
+
+.Ping .TopMenuButtonColor
+{
+	opacity: 0.8;
+	animation-name: gold_glow;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes 'gold_glow'
+{
+	0%
+	{
+		background-color: gradient(linear, 0% 100%, 0% 0%, from(#e28a2e), to(#fcd065));
+	}
+	
+	25%
+	{
+		background-color: gradient(linear, 0% 120%, 0% 0%, from(#ccddff), to(#e6e8ef));
+	}
+	
+	50%
+	{
+		background-color: gradient(linear, 0% 100%, 0% 0%, from(#e28a2e), to(#fcd065));
+	}
+	
+	75%
+	{
+		background-color: gradient(linear, 0% 120%, 0% 0%, from(#ccddff), to(#e6e8ef));
+	}
+	
+	100%
+	{
+		background-color: gradient(linear, 0% 100%, 0% 0%, from(#e28a2e), to(#fcd065));
+	}
+	
+}
+
+.Unfocussed .TopMenuButtonColor
+{
+	animation-name: glow;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes 'glow'
+{
+	0%
+	{
+		background-color: gradient(linear, 0% 120%, 0% 0%, from(#c81912), to(#ff0800));
+	}
+	
+	25%
+	{
+		background-color: gradient(linear, 0% 120%, 0% 0%, from(#b6bacb), to(#e6e8ef));
+	}
+	
+	50%
+	{
+		background-color: gradient(linear, 0% 120%, 0% 0%, from(#c81912), to(#ff0800));
+	}
+	
+	75%
+	{
+		background-color: gradient(linear, 0% 120%, 0% 0%, from(#b6bacb), to(#e6e8ef));
+	}
+	
+	100%
+	{
+		background-color: gradient(linear, 0% 120%, 0% 0%, from(#c81912), to(#ff0800));
+	}
+	
+}
+
+.Hidden
+{
+	opacity: 0;
+}
+
+#GitOptions
+{
+	width: 120px;
+	flow-children: down;
+	padding-top: -2px;
+	background-color: #1e1e26;
+	border: 1px solid #7f8aa1;
+	margin: 45px 0px 0px 258px;
+	transition: opacity 0.1s ease-in-out 0s;
+	opacity: 0;
+}
+
+#GitOptions.Show
+{
+	opacity: 1;
+}
+
+#GitOptions Button
+{
+	background-color: gradient(linear, 0% 120%, 0% 0%, from(#363b46), to(#5c5d62));
+	background-color: #15151d;
+	width: 100%;
+	padding: 2px 10px;
+	margin-top: 2px;
+	horizontal-align: center;
+	border: 1px solid #474a6e;
+	transition: background-color 0.1s ease-in-out 0s;
+}
+
+#GitOptions Button:hover
+{
+	background-color: gradient(linear, 0% 120%, 0% 0%, from(#454c5a), to(#696a70));
+	background-color: #272733;
+}
+
+#GitOptions Button:hover Label
+{
+	color: gradient(linear, 0% 100%, 0% 0%, from(#e28a2e), to(#fcd065));
+}
+
+#GitOptions Label
+{
+	horizontal-align: center;
+	text-align: center;
+	font-size: 14px;
+	font-weight: semi-bold;
+	color: gradient(linear, 0% 120%, 0% 0%, from(#ccddff), to(#e6e8ef));
+	transition: color 0.1s ease-in-out 0s;
+	text-shadow: black 0px 0px 2px 2;
+}
+

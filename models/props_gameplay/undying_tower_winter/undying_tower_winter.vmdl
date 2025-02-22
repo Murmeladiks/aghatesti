@@ -1,0 +1,845 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "models/props_gameplay/undying_tower_winter/undying_tower_winter.vmesh"
+						filename = "models/props_gameplay/undying_tower_winter/undying_tower_winter.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						ignore_rotation = false
+						parent_bone = "tower2_0"
+						relative_origin = 
+						[
+							-120.000000,
+							-0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_base"
+						ignore_rotation = false
+						parent_bone = "root"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-33.129330,
+									-36.968950,
+									-14.980010,
+								]
+								hitbox_maxs = 
+								[
+									28.843010,
+									27.766350,
+									92.011800,
+								]
+								name = "rock0_0"
+								parent_bone = "rock0_0"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-28.649000,
+									-31.680440,
+									-13.892850,
+								]
+								hitbox_maxs = 
+								[
+									23.621550,
+									26.049320,
+									121.468200,
+								]
+								name = "rock0_1"
+								parent_bone = "rock0_1"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-9.643745,
+									-19.858560,
+									-15.575970,
+								]
+								hitbox_maxs = 
+								[
+									20.399640,
+									19.622610,
+									49.480360,
+								]
+								name = "rock0_2"
+								parent_bone = "rock0_2"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-24.903870,
+									-27.205040,
+									-21.321610,
+								]
+								hitbox_maxs = 
+								[
+									49.531090,
+									27.566480,
+									95.873300,
+								]
+								name = "rock0_3"
+								parent_bone = "rock0_3"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-46.374140,
+									-26.478900,
+									-23.287760,
+								]
+								hitbox_maxs = 
+								[
+									15.720660,
+									32.266860,
+									66.923450,
+								]
+								name = "rock0_4"
+								parent_bone = "rock0_4"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-39.108390,
+									-39.481410,
+									-32.949220,
+								]
+								hitbox_maxs = 
+								[
+									21.637620,
+									30.871300,
+									96.912280,
+								]
+								name = "rock0_5"
+								parent_bone = "rock0_5"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-42.247240,
+									-27.684430,
+									-21.106840,
+								]
+								hitbox_maxs = 
+								[
+									26.143450,
+									19.297880,
+									54.078260,
+								]
+								name = "rock0_6"
+								parent_bone = "rock0_6"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-30.902750,
+									-34.892200,
+									-32.005130,
+								]
+								hitbox_maxs = 
+								[
+									35.211210,
+									30.792360,
+									99.501370,
+								]
+								name = "rock0_7"
+								parent_bone = "rock0_7"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-35.772130,
+									-22.353440,
+									-22.886280,
+								]
+								hitbox_maxs = 
+								[
+									31.980480,
+									26.431450,
+									70.247290,
+								]
+								name = "rock0_8"
+								parent_bone = "rock0_8"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-15.085460,
+									-18.203650,
+									-31.310630,
+								]
+								hitbox_maxs = 
+								[
+									12.805900,
+									15.654350,
+									39.887150,
+								]
+								name = "rock0_9"
+								parent_bone = "rock0_9"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-20.052800,
+									-36.298770,
+									-37.388600,
+								]
+								hitbox_maxs = 
+								[
+									23.461770,
+									23.392050,
+									63.345860,
+								]
+								name = "rock0_10"
+								parent_bone = "rock0_10"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-25.294150,
+									-50.294780,
+									-54.891510,
+								]
+								hitbox_maxs = 
+								[
+									6.422178,
+									-15.968760,
+									44.449870,
+								]
+								name = "rock0_11"
+								parent_bone = "rock0_11"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-22.522980,
+									-25.197580,
+									-35.406560,
+								]
+								hitbox_maxs = 
+								[
+									18.891860,
+									22.065700,
+									52.423630,
+								]
+								name = "rock0_12"
+								parent_bone = "rock0_12"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-34.032680,
+									-35.307960,
+									-33.555110,
+								]
+								hitbox_maxs = 
+								[
+									31.249610,
+									35.125440,
+									281.763000,
+								]
+								name = "root"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-118.471200,
+									-92.549130,
+									-27.464120,
+								]
+								hitbox_maxs = 
+								[
+									114.528800,
+									86.450870,
+									76.535880,
+								]
+								name = "root"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+					
+					{
+						_class = "HitboxSet"
+						name = "select_low"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-127.636500,
+									-99.758910,
+									-31.698130,
+								]
+								hitbox_maxs = 
+								[
+									123.694200,
+									93.660650,
+									80.769880,
+								]
+								name = "root"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-51.740230,
+									-51.990330,
+									-33.505470,
+								]
+								hitbox_maxs = 
+								[
+									48.957150,
+									51.807820,
+									306.116700,
+								]
+								name = "root"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+					
+					{
+						_class = "HitboxSet"
+						name = "select_high"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-30.470250,
+									-27.889790,
+									-27.679870,
+								]
+								hitbox_maxs = 
+								[
+									27.687170,
+									27.707280,
+									294.190200,
+								]
+								name = "root"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-64.271480,
+									-72.805120,
+									-28.459930,
+								]
+								hitbox_maxs = 
+								[
+									74.612470,
+									66.706860,
+									44.587160,
+								]
+								name = "root"
+								parent_bone = "root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "root"
+						origin = 
+						[
+							0.000000,
+							0.000000,
+							-15.978940,
+						]
+						angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "ring1_0"
+								origin = 
+								[
+									0.000000,
+									-0.000000,
+									21.294610,
+								]
+								angles = 
+								[
+									-0.000003,
+									0.000000,
+									-0.000003,
+								]
+								do_not_discard = true
+								children = 
+								[
+									
+									{
+										_class = "Bone"
+										name = "rock0_0"
+										origin = 
+										[
+											41.502150,
+											79.928920,
+											10.471500,
+										]
+										angles = 
+										[
+											25.562260,
+											-62.132840,
+											-0.000003,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_1"
+										origin = 
+										[
+											-42.487830,
+											79.822990,
+											-1.497753,
+										]
+										angles = 
+										[
+											9.298842,
+											-56.664230,
+											-7.090052,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_2"
+										origin = 
+										[
+											-96.899540,
+											-14.225770,
+											-3.895482,
+										]
+										angles = 
+										[
+											23.497480,
+											19.488760,
+											-5.115339,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_3"
+										origin = 
+										[
+											-90.210910,
+											-43.353360,
+											-11.381060,
+										]
+										angles = 
+										[
+											24.710070,
+											25.484300,
+											4.828967,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_4"
+										origin = 
+										[
+											9.539927,
+											-104.097500,
+											-11.381070,
+										]
+										angles = 
+										[
+											-18.399690,
+											-96.914080,
+											0.000002,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_5"
+										origin = 
+										[
+											72.951860,
+											-70.920390,
+											-11.381080,
+										]
+										angles = 
+										[
+											-9.953978,
+											-45.061140,
+											-0.000004,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_6"
+										origin = 
+										[
+											93.915160,
+											-39.507500,
+											11.218280,
+										]
+										angles = 
+										[
+											-17.688780,
+											1.857537,
+											-0.562644,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_7"
+										origin = 
+										[
+											93.806500,
+											42.663800,
+											-3.257632,
+										]
+										angles = 
+										[
+											-21.149680,
+											30.151670,
+											0.990348,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_8"
+										origin = 
+										[
+											74.781990,
+											67.936410,
+											-11.381080,
+										]
+										angles = 
+										[
+											-21.778670,
+											56.221370,
+											-0.742886,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_9"
+										origin = 
+										[
+											-1.730898,
+											94.796470,
+											-15.499480,
+										]
+										angles = 
+										[
+											20.616610,
+											-90.000000,
+											0.000000,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_10"
+										origin = 
+										[
+											109.224000,
+											0.512217,
+											-11.056120,
+										]
+										angles = 
+										[
+											20.958420,
+											-147.748600,
+											7.392273,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_11"
+										origin = 
+										[
+											44.699760,
+											-94.384670,
+											-20.247930,
+										]
+										angles = 
+										[
+											21.099520,
+											108.486500,
+											-4.640215,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "rock0_12"
+										origin = 
+										[
+											-99.596160,
+											38.706440,
+											-16.637690,
+										]
+										angles = 
+										[
+											13.425690,
+											23.587080,
+											2.408600,
+										]
+										do_not_discard = true
+									},
+								]
+							},
+							
+							{
+								_class = "Bone"
+								name = "tower2_0"
+								origin = 
+								[
+									0.000000,
+									0.000000,
+									42.373580,
+								]
+								angles = 
+								[
+									89.980210,
+									-159.863100,
+									-159.863100,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "root_parentConstraint1"
+								origin = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								angles = 
+								[
+									-0.000001,
+									-0.000002,
+									0.000062,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "root_orientConstraint1"
+								origin = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								angles = 
+								[
+									-0.000001,
+									-0.000002,
+									0.000062,
+								]
+								do_not_discard = true
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

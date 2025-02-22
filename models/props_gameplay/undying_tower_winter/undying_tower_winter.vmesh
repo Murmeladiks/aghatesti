@@ -1,0 +1,1509 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CRenderMesh"
+	m_sceneObjects = 
+	[
+		
+		{
+			m_vMinBounds = 
+			[
+				-121.764786,
+				-118.722946,
+				-55.630131,
+			]
+			m_vMaxBounds = 
+			[
+				134.098587,
+				111.575775,
+				378.530884,
+			]
+			m_drawCalls = 
+			[
+				
+				{
+					m_nPrimitiveType = "RENDER_PRIM_TRIANGLES"
+					m_nBaseVertex = 0
+					m_nVertexCount = 3904
+					m_nStartIndex = 0
+					m_nIndexCount = 11844
+					m_nStartInstance = 0
+					m_nInstanceCount = 0
+					m_flUvDensity = 193.926483
+					m_vTintColor = 
+					[
+						1.000000,
+						1.000000,
+						1.000000,
+					]
+					m_CullDataIndex = -1
+					m_indexBuffer = 
+					{
+						m_hBuffer = 0
+						m_nBindOffsetBytes = 0
+					}
+					m_material = resource:"materials/props_gameplay/undying_tower_winter/undying_tower_winter.vmat"
+					m_vertexBuffers = 
+					[
+						
+						{
+							m_hBuffer = 0
+							m_nBindOffsetBytes = 0
+						},
+					]
+					m_bUseCompressedNormalTangent = true
+				},
+				
+				{
+					m_nPrimitiveType = "RENDER_PRIM_TRIANGLES"
+					m_nBaseVertex = 0
+					m_nVertexCount = 3904
+					m_nStartIndex = 11844
+					m_nIndexCount = 5304
+					m_nStartInstance = 0
+					m_nInstanceCount = 0
+					m_flUvDensity = 183.547852
+					m_vTintColor = 
+					[
+						1.000000,
+						1.000000,
+						1.000000,
+					]
+					m_CullDataIndex = -1
+					m_indexBuffer = 
+					{
+						m_hBuffer = 0
+						m_nBindOffsetBytes = 0
+					}
+					m_material = resource:"materials/props_gameplay/undying_tower_winter/undying_rocks_winter.vmat"
+					m_vertexBuffers = 
+					[
+						
+						{
+							m_hBuffer = 0
+							m_nBindOffsetBytes = 0
+						},
+					]
+					m_bUseCompressedNormalTangent = true
+				},
+			]
+			m_drawCullData = 
+			[
+			]
+			m_vTintColor = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+		},
+	]
+	m_constraints = 
+	[
+	]
+	m_skeleton = 
+	{
+		m_bones = 
+		[
+			
+			{
+				m_boneName = "root"
+				m_parentName = ""
+				m_invBindPose = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					1.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+					15.978942,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vecSize = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+				}
+				m_flSphereRadius = 0.000000
+			},
+			
+			{
+				m_boneName = "ring1_0"
+				m_parentName = "root"
+				m_invBindPose = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-0.000000,
+					0.000000,
+					-0.000000,
+					0.000000,
+					1.000000,
+					-5.315663,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						3.382999,
+						-3.311852,
+						24.358238,
+					]
+					m_vecSize = 
+					[
+						105.281006,
+						99.855148,
+						80.975098,
+					]
+				}
+				m_flSphereRadius = 116.061172
+			},
+			
+			{
+				m_boneName = "rock0_9"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.000000,
+					-0.935957,
+					-0.352113,
+					85.139618,
+					1.000000,
+					0.000000,
+					0.000000,
+					1.730897,
+					-0.000000,
+					-0.352113,
+					0.935957,
+					42.910690,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-1.139774,
+						-1.274657,
+						4.288258,
+					]
+					m_vecSize = 
+					[
+						13.945683,
+						16.929001,
+						35.598888,
+					]
+				}
+				m_flSphereRadius = 39.908356
+			},
+			
+			{
+				m_boneName = "rock0_10"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					-0.789763,
+					-0.498330,
+					-0.357690,
+					84.462906,
+					0.490279,
+					-0.863244,
+					0.120150,
+					-52.418358,
+					-0.368648,
+					-0.080479,
+					0.926079,
+					45.622562,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						0.286598,
+						-1.665070,
+						12.978632,
+					]
+					m_vecSize = 
+					[
+						20.339409,
+						25.057129,
+						50.367226,
+					]
+				}
+				m_flSphereRadius = 63.374924
+			},
+			
+			{
+				m_boneName = "rock0_11"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					-0.295824,
+					0.884814,
+					-0.359989,
+					91.360695,
+					-0.936055,
+					-0.343663,
+					-0.075475,
+					8.277966,
+					-0.190496,
+					0.314643,
+					0.929899,
+					52.098038,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						3.949268,
+						0.209373,
+						7.411007,
+					]
+					m_vecSize = 
+					[
+						20.384975,
+						26.332375,
+						50.017605,
+					]
+				}
+				m_flSphereRadius = 57.829517
+			},
+			
+			{
+				m_boneName = "rock0_12"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.891408,
+					0.389207,
+					-0.232184,
+					71.087196,
+					-0.390846,
+					0.919548,
+					0.040877,
+					-74.056412,
+					0.229414,
+					0.054310,
+					0.971813,
+					31.749489,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-1.815559,
+						-1.565943,
+						8.508535,
+					]
+					m_vecSize = 
+					[
+						20.707413,
+						23.631639,
+						43.915100,
+					]
+				}
+				m_flSphereRadius = 52.935078
+			},
+			
+			{
+				m_boneName = "rock0_0"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.421670,
+					-0.797502,
+					-0.431492,
+					53.055260,
+					0.884034,
+					0.467423,
+					-0.000000,
+					-74.049919,
+					0.201689,
+					-0.381453,
+					0.902117,
+					7.876730,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						1.413776,
+						-1.324585,
+						6.908733,
+					]
+					m_vecSize = 
+					[
+						19.149601,
+						19.437019,
+						52.594341,
+					]
+				}
+				m_flSphereRadius = 60.276867
+			},
+			
+			{
+				m_boneName = "rock0_1"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.542323,
+					-0.824486,
+					-0.161584,
+					89.471939,
+					0.818116,
+					0.562005,
+					-0.121807,
+					-9.635904,
+					0.191239,
+					-0.066135,
+					0.979313,
+					9.665545,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						3.353880,
+						-3.831667,
+						7.270313,
+					]
+					m_vecSize = 
+					[
+						26.580488,
+						26.592400,
+						57.328953,
+					]
+				}
+				m_flSphereRadius = 64.706139
+			},
+			
+			{
+				m_boneName = "rock0_2"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.864535,
+					0.305957,
+					-0.398709,
+					88.691803,
+					-0.365806,
+					0.927092,
+					-0.081768,
+					-22.141682,
+					0.344623,
+					0.216541,
+					0.913425,
+					35.176998,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-1.025333,
+						0.153213,
+						-0.470761,
+					]
+					m_vecSize = 
+					[
+						9.122387,
+						13.905251,
+						8.817981,
+					]
+				}
+				m_flSphereRadius = 15.172091
+			},
+			
+			{
+				m_boneName = "rock0_3"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.820047,
+					0.390867,
+					-0.418027,
+					88.387062,
+					-0.396970,
+					0.914640,
+					0.076473,
+					4.305502,
+					0.412235,
+					0.103232,
+					0.905210,
+					47.154030,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.451603,
+						-2.624636,
+						13.154360,
+					]
+					m_vecSize = 
+					[
+						13.075062,
+						20.127264,
+						36.026901,
+					]
+				}
+				m_flSphereRadius = 49.388317
+			},
+			
+			{
+				m_boneName = "rock0_4"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					-0.114227,
+					-0.941977,
+					0.315644,
+					-95.053223,
+					0.992728,
+					-0.120381,
+					0.000000,
+					-22.001890,
+					0.037997,
+					0.313349,
+					0.948878,
+					38.011627,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.966026,
+						1.707913,
+						6.711077,
+					]
+					m_vecSize = 
+					[
+						14.115623,
+						26.123695,
+						17.221575,
+					]
+				}
+				m_flSphereRadius = 30.532070
+			},
+			
+			{
+				m_boneName = "rock0_5"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.695719,
+					-0.697205,
+					0.172857,
+					-99.151627,
+					0.707861,
+					0.706352,
+					-0.000000,
+					-1.545029,
+					-0.122098,
+					0.122359,
+					0.984947,
+					23.559113,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-2.757149,
+						0.153290,
+						27.555367,
+					]
+					m_vecSize = 
+					[
+						17.956985,
+						20.034578,
+						66.285881,
+					]
+				}
+				m_flSphereRadius = 94.537636
+			},
+			
+			{
+				m_boneName = "rock0_6"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.952220,
+					0.030882,
+					0.303846,
+					-93.231644,
+					-0.029431,
+					0.999523,
+					-0.009356,
+					42.407330,
+					-0.303990,
+					-0.000034,
+					0.952675,
+					12.796494,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-4.555996,
+						-1.042368,
+						5.754913,
+					]
+					m_vecSize = 
+					[
+						16.472301,
+						16.474680,
+						38.065483,
+					]
+				}
+				m_flSphereRadius = 43.858856
+			},
+			
+			{
+				m_boneName = "rock0_7"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.806454,
+					0.468457,
+					0.360806,
+					-96.379288,
+					-0.507608,
+					0.861437,
+					0.016120,
+					10.831583,
+					-0.303260,
+					-0.196148,
+					0.932502,
+					34.897041,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-0.173809,
+						0.039527,
+						2.527152,
+					]
+					m_vecSize = 
+					[
+						8.681522,
+						16.431469,
+						11.241591,
+					]
+				}
+				m_flSphereRadius = 17.272530
+			},
+			
+			{
+				m_boneName = "rock0_8"
+				m_parentName = "ring1_0"
+				m_invBindPose = 
+				[
+					0.516302,
+					0.771865,
+					0.371022,
+					-88.797379,
+					-0.828448,
+					0.559937,
+					-0.012040,
+					23.839798,
+					-0.217042,
+					-0.301156,
+					0.928546,
+					42.322338,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						3.972702,
+						0.976756,
+						8.687361,
+					]
+					m_vecSize = 
+					[
+						14.778603,
+						20.924515,
+						44.002304,
+					]
+				}
+				m_flSphereRadius = 53.017960
+			},
+			
+			{
+				m_boneName = "tower2_0"
+				m_parentName = "root"
+				m_invBindPose = 
+				[
+					-0.000000,
+					-0.000000,
+					-1.000000,
+					26.394638,
+					0.000000,
+					1.000000,
+					-0.000000,
+					0.000001,
+					1.000000,
+					0.000000,
+					-0.000000,
+					0.000003,
+				]
+				m_bbox = 
+				{
+					m_vecCenter = 
+					[
+						-164.094055,
+						-0.000008,
+						-0.000027,
+					]
+					m_vecSize = 
+					[
+						188.042236,
+						71.355385,
+						71.355392,
+					]
+				}
+				m_flSphereRadius = 355.179016
+			},
+		]
+		m_boneParents = 
+		[
+		]
+		m_nBoneWeightCount = 3
+	}
+	m_attachments = 
+	[
+		
+		{
+			key = "attach_hitloc"
+			value = 
+			{
+				m_name = "attach_hitloc"
+				m_influenceNames = 
+				[
+					"tower2_0",
+					"",
+					"",
+				]
+				m_vInfluenceOffsets = 
+				[
+					
+					[
+						-120.000000,
+						-0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+				]
+				m_vInfluenceRotations = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+				]
+				m_influenceWeights = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+				]
+				m_bInfluenceRootTransform = 
+				[
+					false,
+					false,
+					false,
+				]
+				m_nInfluences = 1
+				m_bIgnoreRotation = false
+			}
+		},
+		
+		{
+			key = "attach_base"
+			value = 
+			{
+				m_name = "attach_base"
+				m_influenceNames = 
+				[
+					"root",
+					"",
+					"",
+				]
+				m_vInfluenceOffsets = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					],
+				]
+				m_vInfluenceRotations = 
+				[
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+					
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+						1.000000,
+					],
+				]
+				m_influenceWeights = 
+				[
+					1.000000,
+					0.000000,
+					0.000000,
+				]
+				m_bInfluenceRootTransform = 
+				[
+					false,
+					false,
+					false,
+				]
+				m_nInfluences = 1
+				m_bIgnoreRotation = false
+			}
+		},
+	]
+	m_hitboxsets = 
+	[
+		
+		{
+			key = "default"
+			value = 
+			{
+				m_name = "default"
+				m_nNameHash = 1977497166
+				m_HitBoxes = 
+				[
+					
+					{
+						m_vMinBounds = 
+						[
+							-33.129330,
+							-36.968952,
+							-14.980013,
+						]
+						m_vMaxBounds = 
+						[
+							28.843008,
+							27.766348,
+							92.011803,
+						]
+						m_name = "rock0_0"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_0"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3899857161
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 0
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-28.649000,
+							-31.680437,
+							-13.892845,
+						]
+						m_vMaxBounds = 
+						[
+							23.621548,
+							26.049320,
+							121.468208,
+						]
+						m_name = "rock0_1"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_1"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 4047906475
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 1
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-9.643745,
+							-19.858561,
+							-15.575969,
+						]
+						m_vMaxBounds = 
+						[
+							20.399635,
+							19.622610,
+							49.480358,
+						]
+						m_name = "rock0_2"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_2"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 2592160732
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 2
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-24.903873,
+							-27.205044,
+							-21.321608,
+						]
+						m_vMaxBounds = 
+						[
+							49.531086,
+							27.566481,
+							95.873299,
+						]
+						m_name = "rock0_3"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_3"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3566335028
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 3
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-46.374142,
+							-26.478901,
+							-23.287756,
+						]
+						m_vMaxBounds = 
+						[
+							15.720660,
+							32.266857,
+							66.923454,
+						]
+						m_name = "rock0_4"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_4"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 2553327279
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 4
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-39.108391,
+							-39.481411,
+							-32.949223,
+						]
+						m_vMaxBounds = 
+						[
+							21.637615,
+							30.871304,
+							96.912277,
+						]
+						m_name = "rock0_5"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_5"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 2572033946
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 5
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-42.247242,
+							-27.684427,
+							-21.106842,
+						]
+						m_vMaxBounds = 
+						[
+							26.143450,
+							19.297880,
+							54.078262,
+						]
+						m_name = "rock0_6"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_6"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 567178272
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 6
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-30.902750,
+							-34.892200,
+							-32.005135,
+						]
+						m_vMaxBounds = 
+						[
+							35.211208,
+							30.792358,
+							99.501373,
+						]
+						m_name = "rock0_7"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_7"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 512118008
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 7
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-35.772133,
+							-22.353441,
+							-22.886282,
+						]
+						m_vMaxBounds = 
+						[
+							31.980478,
+							26.431448,
+							70.247292,
+						]
+						m_name = "rock0_8"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_8"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3016868749
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 8
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-15.085464,
+							-18.203653,
+							-31.310635,
+						]
+						m_vMaxBounds = 
+						[
+							12.805900,
+							15.654347,
+							39.887146,
+						]
+						m_name = "rock0_9"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_9"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 839472758
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 9
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-20.052805,
+							-36.298771,
+							-37.388596,
+						]
+						m_vMaxBounds = 
+						[
+							23.461765,
+							23.392054,
+							63.345856,
+						]
+						m_name = "rock0_10"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_10"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 2677562730
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 10
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-25.294146,
+							-50.294785,
+							-54.891514,
+						]
+						m_vMaxBounds = 
+						[
+							6.422178,
+							-15.968762,
+							44.449871,
+						]
+						m_name = "rock0_11"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_11"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 1872185952
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 11
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-22.522976,
+							-25.197582,
+							-35.406559,
+						]
+						m_vMaxBounds = 
+						[
+							18.891857,
+							22.065699,
+							52.423634,
+						]
+						m_name = "rock0_12"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "rock0_12"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 369622468
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 12
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-34.032684,
+							-35.307957,
+							-33.555111,
+						]
+						m_vMaxBounds = 
+						[
+							31.249609,
+							35.125443,
+							281.763000,
+						]
+						m_name = "root"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "root"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3153423456
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 13
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-118.471169,
+							-92.549126,
+							-27.464123,
+						]
+						m_vMaxBounds = 
+						[
+							114.528831,
+							86.450874,
+							76.535881,
+						]
+						m_name = "root"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "root"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3153423456
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 14
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+				]
+				m_SourceFilename = ""
+			}
+		},
+		
+		{
+			key = "select_low"
+			value = 
+			{
+				m_name = "select_low"
+				m_nNameHash = 3944345580
+				m_HitBoxes = 
+				[
+					
+					{
+						m_vMinBounds = 
+						[
+							-127.636536,
+							-99.758911,
+							-31.698128,
+						]
+						m_vMaxBounds = 
+						[
+							123.694191,
+							93.660652,
+							80.769882,
+						]
+						m_name = "root"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "root"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3153423456
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 15
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-51.740227,
+							-51.990334,
+							-33.505470,
+						]
+						m_vMaxBounds = 
+						[
+							48.957153,
+							51.807819,
+							306.116699,
+						]
+						m_name = "root"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "root"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3153423456
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 16
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+				]
+				m_SourceFilename = ""
+			}
+		},
+		
+		{
+			key = "select_high"
+			value = 
+			{
+				m_name = "select_high"
+				m_nNameHash = 2570599
+				m_HitBoxes = 
+				[
+					
+					{
+						m_vMinBounds = 
+						[
+							-30.470249,
+							-27.889793,
+							-27.679869,
+						]
+						m_vMaxBounds = 
+						[
+							27.687174,
+							27.707277,
+							294.190247,
+						]
+						m_name = "root"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "root"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3153423456
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 17
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+					
+					{
+						m_vMinBounds = 
+						[
+							-64.271477,
+							-72.805122,
+							-28.459927,
+						]
+						m_vMaxBounds = 
+						[
+							74.612473,
+							66.706863,
+							44.587162,
+						]
+						m_name = "root"
+						m_sSurfaceProperty = "default"
+						m_sBoneName = "root"
+						m_flShapeRadius = 0.000000
+						m_nBoneNameHash = 3153423456
+						m_nGroupId = 0
+						m_cRenderColor = 
+						[
+							255,
+							255,
+							255,
+							64,
+						]
+						m_nHitBoxIndex = 18
+						m_nShapeType = 0
+						m_bTranslationOnly = false
+						m_bVisible = false
+						m_bSelected = false
+					},
+				]
+				m_SourceFilename = ""
+			}
+		},
+	]
+	m_morphSet = null
+}

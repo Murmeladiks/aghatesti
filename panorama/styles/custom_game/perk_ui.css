@@ -1,0 +1,63 @@
+/* Prettified by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io */
+
+#PerksContainer
+{
+	flow-children: down;
+	margin-left: 302px;
+	margin-top: 95px;
+}
+
+.PerkIcon
+{
+	margin-bottom: 12px;
+}
+
+#LocalPlayerPerk
+{
+	margin-bottom: 25px;
+}
+
+.PerkSocket
+{
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: 2px solid black;
+	background-color: gradient(linear, 0% 100%, 0% 0%, from(#484849), to(#2a2a2b));
+	transition: brightness 0.15s linear 0s;
+}
+
+#LocalPlayerPerk .PerkSocket
+{
+	box-shadow: #2c86f533 0px 0px 8px 0px;
+}
+
+.PerkSocket Label
+{
+	align: center center;
+	font-size: 28px;
+	margin-top: 2px;
+	color: #d3d5d5;
+}
+
+.PerkIcon:hover .PerkSocket
+{
+	brightness: 1.5;
+}
+
+#PerkImage
+{
+	width: 100%;
+	height: 100%;
+	align: center center;
+	padding: -2px;
+	border-radius: 50%;
+	border: 2px solid black;
+	transition: brightness 0.15s linear 0s;
+}
+
+.PerkIcon:hover #PerkImage
+{
+	brightness: 1.5;
+}
+

@@ -1,0 +1,3110 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_nFlags = 0
+	m_nRefCounter = 0
+	m_bonesHash = 
+	[
+	]
+	m_boneNames = 
+	[
+	]
+	m_indexNames = 
+	[
+	]
+	m_indexHash = 
+	[
+	]
+	m_bindPose = 
+	[
+	]
+	m_parts = 
+	[
+		
+		{
+			m_nFlags = 0
+			m_flMass = 0.000000
+			m_rnShape = 
+			{
+				m_spheres = 
+				[
+				]
+				m_capsules = 
+				[
+				]
+				m_hulls = 
+				[
+					
+					{
+						m_nCollisionAttributeIndex = 0
+						m_nSurfacePropertyIndex = 0
+						m_UserFriendlyName = ""
+						m_Hull = 
+						{
+							m_vCentroid = 
+							[
+								-14.949976,
+								6.516723,
+								0.559439,
+							]
+							m_flMaxAngularRadius = 256.695923
+							m_Vertices = 
+							[
+								
+								[
+									218.096863,
+									-28.343834,
+									-26.196432,
+								],
+								
+								[
+									-38.538395,
+									177.431290,
+									23.534210,
+								],
+								
+								[
+									-20.443703,
+									-57.823875,
+									-46.404396,
+								],
+								
+								[
+									15.882196,
+									-175.002335,
+									-4.450890,
+								],
+								
+								[
+									-136.514404,
+									-167.838501,
+									-9.047935,
+								],
+								
+								[
+									136.767624,
+									72.348114,
+									-57.399670,
+								],
+								
+								[
+									146.621902,
+									135.033188,
+									6.772209,
+								],
+								
+								[
+									-194.388824,
+									57.817818,
+									-9.743188,
+								],
+								
+								[
+									-176.173157,
+									139.109634,
+									34.873459,
+								],
+								
+								[
+									187.242783,
+									-130.975693,
+									-46.120056,
+								],
+								
+								[
+									-143.303268,
+									-61.809441,
+									57.936798,
+								],
+								
+								[
+									-190.214066,
+									-110.113892,
+									52.360806,
+								],
+								
+								[
+									-10.201469,
+									171.921326,
+									-20.423086,
+								],
+								
+								[
+									170.661758,
+									-158.469940,
+									-23.308298,
+								],
+								
+								[
+									-188.595566,
+									-115.748947,
+									-4.941941,
+								],
+								
+								[
+									-167.283508,
+									-168.526794,
+									9.155844,
+								],
+								
+								[
+									189.481033,
+									59.045750,
+									-32.893970,
+								],
+								
+								[
+									126.442284,
+									148.041214,
+									-15.323611,
+								],
+								
+								[
+									204.708084,
+									-45.360592,
+									-51.640629,
+								],
+								
+								[
+									-17.554152,
+									-167.455917,
+									-33.316528,
+								],
+								
+								[
+									-142.205521,
+									107.169716,
+									52.870956,
+								],
+								
+								[
+									-138.320633,
+									154.842621,
+									46.770119,
+								],
+								
+								[
+									-210.701233,
+									-96.968903,
+									38.648438,
+								],
+								
+								[
+									-85.912788,
+									174.707520,
+									13.726683,
+								],
+								
+								[
+									209.199188,
+									-22.039425,
+									-9.388238,
+								],
+								
+								[
+									-201.940948,
+									-9.952679,
+									-15.018151,
+								],
+								
+								[
+									-198.141129,
+									-48.041580,
+									56.268845,
+								],
+								
+								[
+									200.235062,
+									-117.029221,
+									-29.954760,
+								],
+								
+								[
+									102.337723,
+									-173.687256,
+									-26.923523,
+								],
+								
+								[
+									-180.881897,
+									135.361359,
+									21.091269,
+								],
+								
+								[
+									163.210861,
+									77.085747,
+									-51.725697,
+								],
+								
+								[
+									27.799284,
+									154.965714,
+									30.321207,
+								],
+								
+								[
+									167.444748,
+									108.809113,
+									-22.179928,
+								],
+								
+								[
+									-146.715240,
+									-144.263107,
+									36.576660,
+								],
+								
+								[
+									188.086884,
+									-145.544418,
+									-38.762764,
+								],
+								
+								[
+									3.261835,
+									177.216171,
+									-6.127972,
+								],
+								
+								[
+									-43.315948,
+									172.266571,
+									35.282032,
+								],
+								
+								[
+									-196.112122,
+									-126.291718,
+									37.282154,
+								],
+								
+								[
+									40.511536,
+									-92.021080,
+									21.523232,
+								],
+								
+								[
+									-217.372955,
+									-66.464172,
+									42.235695,
+								],
+								
+								[
+									-8.536175,
+									156.749054,
+									-27.925817,
+								],
+								
+								[
+									11.704443,
+									-149.626373,
+									-41.497883,
+								],
+								
+								[
+									-110.787781,
+									64.554955,
+									54.872799,
+								],
+								
+								[
+									159.988693,
+									67.823570,
+									-57.588676,
+								],
+								
+								[
+									-189.622833,
+									-89.597542,
+									57.715488,
+								],
+								
+								[
+									217.952225,
+									-40.724785,
+									-31.256273,
+								],
+								
+								[
+									147.665054,
+									137.718704,
+									1.701486,
+								],
+								
+								[
+									78.123009,
+									-133.674545,
+									4.656537,
+								],
+								
+								[
+									-7.346799,
+									176.407349,
+									-17.903044,
+								],
+								
+								[
+									115.867378,
+									142.085480,
+									-24.108334,
+								],
+								
+								[
+									-193.415405,
+									58.779346,
+									41.085159,
+								],
+								
+								[
+									-204.929199,
+									-41.186001,
+									52.597092,
+								],
+								
+								[
+									161.709366,
+									112.223373,
+									-26.692656,
+								],
+								
+								[
+									-194.138367,
+									72.723663,
+									-3.015740,
+								],
+								
+								[
+									-214.667755,
+									-82.975563,
+									42.377186,
+								],
+								
+								[
+									137.804672,
+									144.224228,
+									-4.593699,
+								],
+								
+								[
+									-162.044495,
+									-170.243790,
+									6.992310,
+								],
+								
+								[
+									-192.250473,
+									-101.877998,
+									54.861565,
+								],
+								
+								[
+									-142.123001,
+									154.879318,
+									45.318027,
+								],
+								
+								[
+									210.592987,
+									-24.976887,
+									-10.256108,
+								],
+								
+								[
+									130.130783,
+									147.140564,
+									-14.434504,
+								],
+								
+								[
+									-169.303391,
+									-166.116577,
+									12.015127,
+								],
+								
+								[
+									-81.035271,
+									175.811569,
+									12.591187,
+								],
+								
+								[
+									160.887573,
+									-158.570740,
+									-20.828369,
+								],
+								
+								[
+									-127.150406,
+									-146.917313,
+									32.849926,
+								],
+								
+								[
+									103.089981,
+									-173.862518,
+									-26.248569,
+								],
+								
+								[
+									161.712387,
+									75.282883,
+									-53.670868,
+								],
+								
+								[
+									208.749573,
+									-36.991634,
+									-11.878129,
+								],
+								
+								[
+									-216.520660,
+									-30.036655,
+									33.385571,
+								],
+								
+								[
+									-201.504837,
+									-11.908770,
+									-15.267241,
+								],
+								
+								[
+									-187.515381,
+									-118.021896,
+									-4.878339,
+								],
+								
+								[
+									-5.705259,
+									176.461105,
+									-17.676882,
+								],
+								
+								[
+									-38.339172,
+									176.890762,
+									25.013239,
+								],
+								
+								[
+									16.138683,
+									-174.713608,
+									-4.125015,
+								],
+								
+								[
+									205.358795,
+									-44.674118,
+									-50.826004,
+								],
+								
+								[
+									187.722107,
+									-145.945755,
+									-38.570599,
+								],
+								
+								[
+									-217.287384,
+									-33.610596,
+									33.302734,
+								],
+								
+								[
+									189.078583,
+									58.842659,
+									-33.549522,
+								],
+								
+								[
+									127.162849,
+									147.936371,
+									-15.097980,
+								],
+								
+								[
+									8.970594,
+									175.912064,
+									-6.350471,
+								],
+								
+								[
+									-180.047485,
+									135.698669,
+									20.960814,
+								],
+								
+								[
+									-5.999582,
+									176.449554,
+									-17.760313,
+								],
+								
+								[
+									-180.924774,
+									135.232056,
+									21.046795,
+								],
+								
+								[
+									-218.172501,
+									-39.568546,
+									33.711922,
+								],
+							]
+							m_Planes = 
+							[
+								
+								{
+									m_vNormal = 
+									[
+										0.097755,
+										0.118488,
+										0.988132,
+									]
+									m_flOffset = 51.040455
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.190280,
+										-0.025165,
+										0.981407,
+									]
+									m_flOffset = 31.147331
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.019872,
+										-0.060297,
+										-0.997983,
+									]
+									m_flOffset = 50.203667
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.022836,
+										0.030106,
+										0.999286,
+									]
+									m_flOffset = 59.307037
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.667751,
+										-0.362522,
+										0.650143,
+									]
+									m_flOffset = 200.976364
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.535984,
+										-0.080613,
+										0.840371,
+									]
+									m_flOffset = 157.359940
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.351654,
+										0.146970,
+										0.924521,
+									]
+									m_flOffset = 114.638184
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.882455,
+										0.315688,
+										0.348733,
+									]
+									m_flOffset = 174.377213
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.651823,
+										0.695576,
+										-0.302159,
+									]
+									m_flOffset = 191.531235
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.215737,
+										-0.622517,
+										0.752283,
+									]
+									m_flOffset = 148.974197
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.147663,
+										-0.253751,
+										0.955932,
+									]
+									m_flOffset = 49.907207
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.039606,
+										-0.976997,
+										-0.209541,
+									]
+									m_flOffset = 171.280441
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.244111,
+										-0.166430,
+										0.955359,
+									]
+									m_flOffset = 45.766769
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.520945,
+										-0.240400,
+										0.819039,
+									]
+									m_flOffset = 107.911186
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.871004,
+										-0.194543,
+										0.451116,
+									]
+									m_flOffset = 183.659637
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.145819,
+										0.092913,
+										-0.984939,
+									]
+									m_flOffset = 43.313972
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.906382,
+										-0.151879,
+										-0.394213,
+									]
+									m_flOffset = 190.467682
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.869354,
+										-0.420430,
+										-0.259734,
+									]
+									m_flOffset = 213.904327
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.198037,
+										-0.121335,
+										-0.972656,
+									]
+									m_flOffset = 56.200195
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.459119,
+										-0.403804,
+										-0.791298,
+									]
+									m_flOffset = 137.609787
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.126842,
+										0.926019,
+										0.355526,
+									]
+									m_flOffset = 177.560165
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.238022,
+										0.837211,
+										0.492364,
+									]
+									m_flOffset = 151.285019
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.021778,
+										-0.756777,
+										0.653310,
+									]
+									m_flOffset = 129.875809
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.156204,
+										-0.797130,
+										0.583253,
+									]
+									m_flOffset = 139.384552
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.150024,
+										-0.418285,
+										0.895841,
+									]
+									m_flOffset = 71.805923
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.841464,
+										-0.203919,
+										-0.500355,
+									]
+									m_flOffset = 207.342987
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.755013,
+										-0.464586,
+										0.462726,
+									]
+									m_flOffset = 191.689377
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.215914,
+										-0.859253,
+										-0.463751,
+									]
+									m_flOffset = 183.823273
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.961626,
+										0.126126,
+										-0.243655,
+									]
+									m_flOffset = 196.595627
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.801934,
+										0.158691,
+										0.575951,
+									]
+									m_flOffset = 188.097168
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.660976,
+										0.223508,
+										-0.716348,
+									]
+									m_flOffset = 162.161392
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.702333,
+										0.432704,
+										-0.565239,
+									]
+									m_flOffset = 177.221069
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.799789,
+										0.219059,
+										-0.558883,
+									]
+									m_flOffset = 182.863312
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.320778,
+										0.558628,
+										-0.764877,
+									]
+									m_flOffset = 134.980515
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.223273,
+										0.924839,
+										0.307931,
+									]
+									m_flOffset = 162.737717
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.236278,
+										0.966305,
+										0.102116,
+									]
+									m_flOffset = 171.455719
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.208714,
+										0.951909,
+										-0.224293,
+									]
+									m_flOffset = 170.749008
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.387840,
+										0.914376,
+										-0.116175,
+									]
+									m_flOffset = 191.474075
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.307961,
+										0.607353,
+										-0.732313,
+									]
+									m_flOffset = 122.514603
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.165354,
+										0.712391,
+										-0.682025,
+									]
+									m_flOffset = 136.821960
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.080222,
+										0.448900,
+										-0.889974,
+									]
+									m_flOffset = 94.533058
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.026559,
+										0.998649,
+										-0.044669,
+									]
+									m_flOffset = 177.163834
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.977677,
+										0.209940,
+										-0.008493,
+									]
+									m_flOffset = 205.097900
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.939592,
+										0.221834,
+										0.260684,
+									]
+									m_flOffset = 205.481094
+								},
+								
+								{
+									m_vNormal = 
+									[
+										-0.296325,
+										0.397028,
+										-0.868654,
+									]
+									m_flOffset = 89.021095
+								},
+								
+								{
+									m_vNormal = 
+									[
+										0.024250,
+										-0.449532,
+										-0.892935,
+									]
+									m_flOffset = 104.600555
+								},
+							]
+							m_Edges = 
+							[
+								
+								{
+									m_nNext = 10
+									m_nTwin = 1
+									m_nOrigin = 42
+									m_nFace = 0
+								},
+								
+								{
+									m_nNext = 19
+									m_nTwin = 0
+									m_nOrigin = 31
+									m_nFace = 1
+								},
+								
+								{
+									m_nNext = 39
+									m_nTwin = 3
+									m_nOrigin = 36
+									m_nFace = 0
+								},
+								
+								{
+									m_nNext = 123
+									m_nTwin = 2
+									m_nOrigin = 21
+									m_nFace = 20
+								},
+								
+								{
+									m_nNext = 0
+									m_nTwin = 5
+									m_nOrigin = 20
+									m_nFace = 0
+								},
+								
+								{
+									m_nNext = 20
+									m_nTwin = 4
+									m_nOrigin = 42
+									m_nFace = 3
+								},
+								
+								{
+									m_nNext = 58
+									m_nTwin = 7
+									m_nOrigin = 10
+									m_nFace = 1
+								},
+								
+								{
+									m_nNext = 72
+									m_nTwin = 6
+									m_nOrigin = 38
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 125
+									m_nTwin = 9
+									m_nOrigin = 24
+									m_nFace = 1
+								},
+								
+								{
+									m_nNext = 46
+									m_nTwin = 8
+									m_nOrigin = 6
+									m_nFace = 7
+								},
+								
+								{
+									m_nNext = 2
+									m_nTwin = 11
+									m_nOrigin = 31
+									m_nFace = 0
+								},
+								
+								{
+									m_nNext = 124
+									m_nTwin = 10
+									m_nOrigin = 36
+									m_nFace = 21
+								},
+								
+								{
+									m_nNext = 148
+									m_nTwin = 13
+									m_nOrigin = 18
+									m_nFace = 2
+								},
+								
+								{
+									m_nNext = 171
+									m_nTwin = 12
+									m_nOrigin = 9
+									m_nFace = 25
+								},
+								
+								{
+									m_nNext = 208
+									m_nTwin = 15
+									m_nOrigin = 41
+									m_nFace = 2
+								},
+								
+								{
+									m_nNext = 108
+									m_nTwin = 14
+									m_nOrigin = 2
+									m_nFace = 18
+								},
+								
+								{
+									m_nNext = 224
+									m_nTwin = 17
+									m_nOrigin = 5
+									m_nFace = 2
+								},
+								
+								{
+									m_nNext = 89
+									m_nTwin = 16
+									m_nOrigin = 43
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 5
+									m_nTwin = 19
+									m_nOrigin = 10
+									m_nFace = 3
+								},
+								
+								{
+									m_nNext = 6
+									m_nTwin = 18
+									m_nOrigin = 42
+									m_nFace = 1
+								},
+								
+								{
+									m_nNext = 29
+									m_nTwin = 21
+									m_nOrigin = 20
+									m_nFace = 3
+								},
+								
+								{
+									m_nNext = 38
+									m_nTwin = 20
+									m_nOrigin = 26
+									m_nFace = 6
+								},
+								
+								{
+									m_nNext = 32
+									m_nTwin = 23
+									m_nOrigin = 57
+									m_nFace = 4
+								},
+								
+								{
+									m_nNext = 61
+									m_nTwin = 22
+									m_nOrigin = 54
+									m_nFace = 5
+								},
+								
+								{
+									m_nNext = 55
+									m_nTwin = 25
+									m_nOrigin = 22
+									m_nFace = 4
+								},
+								
+								{
+									m_nNext = 93
+									m_nTwin = 24
+									m_nOrigin = 37
+									m_nFace = 17
+								},
+								
+								{
+									m_nNext = 22
+									m_nTwin = 27
+									m_nOrigin = 11
+									m_nFace = 4
+								},
+								
+								{
+									m_nNext = 62
+									m_nTwin = 26
+									m_nOrigin = 57
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 37
+									m_nTwin = 29
+									m_nOrigin = 44
+									m_nFace = 5
+								},
+								
+								{
+									m_nNext = 73
+									m_nTwin = 28
+									m_nOrigin = 26
+									m_nFace = 3
+								},
+								
+								{
+									m_nNext = 95
+									m_nTwin = 31
+									m_nOrigin = 51
+									m_nFace = 5
+								},
+								
+								{
+									m_nNext = 166
+									m_nTwin = 30
+									m_nOrigin = 39
+									m_nFace = 29
+								},
+								
+								{
+									m_nNext = 24
+									m_nTwin = 33
+									m_nOrigin = 54
+									m_nFace = 4
+								},
+								
+								{
+									m_nNext = 94
+									m_nTwin = 32
+									m_nOrigin = 22
+									m_nFace = 16
+								},
+								
+								{
+									m_nNext = 167
+									m_nTwin = 35
+									m_nOrigin = 8
+									m_nFace = 6
+								},
+								
+								{
+									m_nNext = 245
+									m_nTwin = 34
+									m_nOrigin = 50
+									m_nFace = 43
+								},
+								
+								{
+									m_nNext = 21
+									m_nTwin = 37
+									m_nOrigin = 51
+									m_nFace = 6
+								},
+								
+								{
+									m_nNext = 30
+									m_nTwin = 36
+									m_nOrigin = 26
+									m_nFace = 5
+								},
+								
+								{
+									m_nNext = 120
+									m_nTwin = 39
+									m_nOrigin = 20
+									m_nFace = 6
+								},
+								
+								{
+									m_nNext = 4
+									m_nTwin = 38
+									m_nOrigin = 21
+									m_nFace = 0
+								},
+								
+								{
+									m_nNext = 182
+									m_nTwin = 41
+									m_nOrigin = 59
+									m_nFace = 7
+								},
+								
+								{
+									m_nNext = 71
+									m_nTwin = 40
+									m_nOrigin = 0
+									m_nFace = 14
+								},
+								
+								{
+									m_nNext = 127
+									m_nTwin = 43
+									m_nOrigin = 16
+									m_nFace = 7
+								},
+								
+								{
+									m_nNext = 181
+									m_nTwin = 42
+									m_nOrigin = 32
+									m_nFace = 31
+								},
+								
+								{
+									m_nNext = 9
+									m_nTwin = 45
+									m_nOrigin = 46
+									m_nFace = 7
+								},
+								
+								{
+									m_nNext = 49
+									m_nTwin = 44
+									m_nOrigin = 6
+									m_nFace = 21
+								},
+								
+								{
+									m_nNext = 40
+									m_nTwin = 47
+									m_nOrigin = 24
+									m_nFace = 7
+								},
+								
+								{
+									m_nNext = 59
+									m_nTwin = 46
+									m_nOrigin = 59
+									m_nFace = 12
+								},
+								
+								{
+									m_nNext = 126
+									m_nTwin = 49
+									m_nOrigin = 55
+									m_nFace = 8
+								},
+								
+								{
+									m_nNext = 178
+									m_nTwin = 48
+									m_nOrigin = 46
+									m_nFace = 21
+								},
+								
+								{
+									m_nNext = 187
+									m_nTwin = 51
+									m_nOrigin = 32
+									m_nFace = 8
+								},
+								
+								{
+									m_nNext = 43
+									m_nTwin = 50
+									m_nOrigin = 52
+									m_nFace = 31
+								},
+								
+								{
+									m_nNext = 63
+									m_nTwin = 53
+									m_nOrigin = 61
+									m_nFace = 9
+								},
+								
+								{
+									m_nNext = 115
+									m_nTwin = 52
+									m_nOrigin = 33
+									m_nFace = 22
+								},
+								
+								{
+									m_nNext = 101
+									m_nTwin = 55
+									m_nOrigin = 11
+									m_nFace = 9
+								},
+								
+								{
+									m_nNext = 26
+									m_nTwin = 54
+									m_nOrigin = 37
+									m_nFace = 4
+								},
+								
+								{
+									m_nNext = 142
+									m_nTwin = 57
+									m_nOrigin = 64
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 129
+									m_nTwin = 56
+									m_nOrigin = 47
+									m_nFace = 24
+								},
+								
+								{
+									m_nNext = 8
+									m_nTwin = 59
+									m_nOrigin = 38
+									m_nFace = 1
+								},
+								
+								{
+									m_nNext = 143
+									m_nTwin = 58
+									m_nOrigin = 24
+									m_nFace = 12
+								},
+								
+								{
+									m_nNext = 27
+									m_nTwin = 61
+									m_nOrigin = 44
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 28
+									m_nTwin = 60
+									m_nOrigin = 57
+									m_nFace = 5
+								},
+								
+								{
+									m_nNext = 130
+									m_nTwin = 63
+									m_nOrigin = 11
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 54
+									m_nTwin = 62
+									m_nOrigin = 33
+									m_nFace = 9
+								},
+								
+								{
+									m_nNext = 136
+									m_nTwin = 65
+									m_nOrigin = 65
+									m_nFace = 11
+								},
+								
+								{
+									m_nNext = 252
+									m_nTwin = 64
+									m_nOrigin = 3
+									m_nFace = 23
+								},
+								
+								{
+									m_nNext = 112
+									m_nTwin = 67
+									m_nOrigin = 56
+									m_nFace = 11
+								},
+								
+								{
+									m_nNext = 133
+									m_nTwin = 66
+									m_nOrigin = 4
+									m_nFace = 19
+								},
+								
+								{
+									m_nNext = 157
+									m_nTwin = 69
+									m_nOrigin = 19
+									m_nFace = 11
+								},
+								
+								{
+									m_nNext = 109
+									m_nTwin = 68
+									m_nOrigin = 28
+									m_nFace = 45
+								},
+								
+								{
+									m_nNext = 47
+									m_nTwin = 71
+									m_nOrigin = 67
+									m_nFace = 12
+								},
+								
+								{
+									m_nNext = 80
+									m_nTwin = 70
+									m_nOrigin = 59
+									m_nFace = 14
+								},
+								
+								{
+									m_nNext = 60
+									m_nTwin = 73
+									m_nOrigin = 10
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 18
+									m_nTwin = 72
+									m_nOrigin = 44
+									m_nFace = 3
+								},
+								
+								{
+									m_nNext = 139
+									m_nTwin = 75
+									m_nOrigin = 47
+									m_nFace = 12
+								},
+								
+								{
+									m_nNext = 57
+									m_nTwin = 74
+									m_nOrigin = 63
+									m_nFace = 24
+								},
+								
+								{
+									m_nNext = 70
+									m_nTwin = 77
+									m_nOrigin = 13
+									m_nFace = 12
+								},
+								
+								{
+									m_nNext = 78
+									m_nTwin = 76
+									m_nOrigin = 67
+									m_nFace = 13
+								},
+								
+								{
+									m_nNext = 81
+									m_nTwin = 79
+									m_nOrigin = 13
+									m_nFace = 13
+								},
+								
+								{
+									m_nNext = 155
+									m_nTwin = 78
+									m_nOrigin = 27
+									m_nFace = 26
+								},
+								
+								{
+									m_nNext = 152
+									m_nTwin = 81
+									m_nOrigin = 67
+									m_nFace = 14
+								},
+								
+								{
+									m_nNext = 77
+									m_nTwin = 80
+									m_nOrigin = 27
+									m_nFace = 13
+								},
+								
+								{
+									m_nNext = 41
+									m_nTwin = 83
+									m_nOrigin = 45
+									m_nFace = 14
+								},
+								
+								{
+									m_nNext = 145
+									m_nTwin = 82
+									m_nOrigin = 0
+									m_nFace = 32
+								},
+								
+								{
+									m_nNext = 48
+									m_nTwin = 85
+									m_nOrigin = 60
+									m_nFace = 8
+								},
+								
+								{
+									m_nNext = 198
+									m_nTwin = 84
+									m_nOrigin = 55
+									m_nFace = 35
+								},
+								
+								{
+									m_nNext = 160
+									m_nTwin = 87
+									m_nOrigin = 25
+									m_nFace = 15
+								},
+								
+								{
+									m_nNext = 97
+									m_nTwin = 86
+									m_nOrigin = 7
+									m_nFace = 28
+								},
+								
+								{
+									m_nNext = 209
+									m_nTwin = 89
+									m_nOrigin = 40
+									m_nFace = 15
+								},
+								
+								{
+									m_nNext = 247
+									m_nTwin = 88
+									m_nOrigin = 5
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 200
+									m_nTwin = 91
+									m_nOrigin = 2
+									m_nFace = 15
+								},
+								
+								{
+									m_nNext = 15
+									m_nTwin = 90
+									m_nOrigin = 69
+									m_nFace = 18
+								},
+								
+								{
+									m_nNext = 33
+									m_nTwin = 93
+									m_nOrigin = 14
+									m_nFace = 16
+								},
+								
+								{
+									m_nNext = 105
+									m_nTwin = 92
+									m_nOrigin = 22
+									m_nFace = 17
+								},
+								
+								{
+									m_nNext = 165
+									m_nTwin = 95
+									m_nOrigin = 54
+									m_nFace = 16
+								},
+								
+								{
+									m_nNext = 23
+									m_nTwin = 94
+									m_nOrigin = 39
+									m_nFace = 5
+								},
+								
+								{
+									m_nNext = 201
+									m_nTwin = 97
+									m_nOrigin = 83
+									m_nFace = 16
+								},
+								
+								{
+									m_nNext = 162
+									m_nTwin = 96
+									m_nOrigin = 25
+									m_nFace = 28
+								},
+								
+								{
+									m_nNext = 114
+									m_nTwin = 99
+									m_nOrigin = 70
+									m_nFace = 17
+								},
+								
+								{
+									m_nNext = 111
+									m_nTwin = 98
+									m_nOrigin = 15
+									m_nFace = 19
+								},
+								
+								{
+									m_nNext = 25
+									m_nTwin = 101
+									m_nOrigin = 61
+									m_nFace = 17
+								},
+								
+								{
+									m_nNext = 52
+									m_nTwin = 100
+									m_nOrigin = 37
+									m_nFace = 9
+								},
+								
+								{
+									m_nNext = 34
+									m_nTwin = 103
+									m_nOrigin = 58
+									m_nFace = 6
+								},
+								
+								{
+									m_nNext = 119
+									m_nTwin = 102
+									m_nOrigin = 8
+									m_nFace = 37
+								},
+								
+								{
+									m_nNext = 107
+									m_nTwin = 105
+									m_nOrigin = 70
+									m_nFace = 18
+								},
+								
+								{
+									m_nNext = 98
+									m_nTwin = 104
+									m_nOrigin = 14
+									m_nFace = 17
+								},
+								
+								{
+									m_nNext = 92
+									m_nTwin = 107
+									m_nOrigin = 69
+									m_nFace = 16
+								},
+								
+								{
+									m_nNext = 91
+									m_nTwin = 106
+									m_nOrigin = 14
+									m_nFace = 18
+								},
+								
+								{
+									m_nNext = 113
+									m_nTwin = 109
+									m_nOrigin = 41
+									m_nFace = 18
+								},
+								
+								{
+									m_nNext = 149
+									m_nTwin = 108
+									m_nOrigin = 19
+									m_nFace = 45
+								},
+								
+								{
+									m_nNext = 104
+									m_nTwin = 111
+									m_nOrigin = 4
+									m_nFace = 18
+								},
+								
+								{
+									m_nNext = 67
+									m_nTwin = 110
+									m_nOrigin = 70
+									m_nFace = 19
+								},
+								
+								{
+									m_nNext = 68
+									m_nTwin = 113
+									m_nOrigin = 4
+									m_nFace = 11
+								},
+								
+								{
+									m_nNext = 110
+									m_nTwin = 112
+									m_nOrigin = 19
+									m_nFace = 18
+								},
+								
+								{
+									m_nNext = 100
+									m_nTwin = 115
+									m_nOrigin = 15
+									m_nFace = 17
+								},
+								
+								{
+									m_nNext = 132
+									m_nTwin = 114
+									m_nOrigin = 61
+									m_nFace = 22
+								},
+								
+								{
+									m_nNext = 213
+									m_nTwin = 117
+									m_nOrigin = 1
+									m_nFace = 20
+								},
+								
+								{
+									m_nNext = 233
+									m_nTwin = 116
+									m_nOrigin = 62
+									m_nFace = 41
+								},
+								
+								{
+									m_nNext = 121
+									m_nTwin = 119
+									m_nOrigin = 23
+									m_nFace = 20
+								},
+								
+								{
+									m_nNext = 210
+									m_nTwin = 118
+									m_nOrigin = 58
+									m_nFace = 37
+								},
+								
+								{
+									m_nNext = 102
+									m_nTwin = 121
+									m_nOrigin = 21
+									m_nFace = 6
+								},
+								
+								{
+									m_nNext = 3
+									m_nTwin = 120
+									m_nOrigin = 58
+									m_nFace = 20
+								},
+								
+								{
+									m_nNext = 11
+									m_nTwin = 123
+									m_nOrigin = 72
+									m_nFace = 21
+								},
+								
+								{
+									m_nNext = 195
+									m_nTwin = 122
+									m_nOrigin = 36
+									m_nFace = 20
+								},
+								
+								{
+									m_nNext = 45
+									m_nTwin = 125
+									m_nOrigin = 31
+									m_nFace = 21
+								},
+								
+								{
+									m_nNext = 1
+									m_nTwin = 124
+									m_nOrigin = 6
+									m_nFace = 1
+								},
+								
+								{
+									m_nNext = 50
+									m_nTwin = 127
+									m_nOrigin = 46
+									m_nFace = 8
+								},
+								
+								{
+									m_nNext = 44
+									m_nTwin = 126
+									m_nOrigin = 32
+									m_nFace = 7
+								},
+								
+								{
+									m_nNext = 131
+									m_nTwin = 129
+									m_nOrigin = 73
+									m_nFace = 22
+								},
+								
+								{
+									m_nNext = 140
+									m_nTwin = 128
+									m_nOrigin = 64
+									m_nFace = 24
+								},
+								
+								{
+									m_nNext = 56
+									m_nTwin = 131
+									m_nOrigin = 33
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 53
+									m_nTwin = 130
+									m_nOrigin = 64
+									m_nFace = 22
+								},
+								
+								{
+									m_nNext = 137
+									m_nTwin = 133
+									m_nOrigin = 15
+									m_nFace = 22
+								},
+								
+								{
+									m_nNext = 99
+									m_nTwin = 132
+									m_nOrigin = 56
+									m_nFace = 19
+								},
+								
+								{
+									m_nNext = 128
+									m_nTwin = 135
+									m_nOrigin = 3
+									m_nFace = 22
+								},
+								
+								{
+									m_nNext = 65
+									m_nTwin = 134
+									m_nOrigin = 73
+									m_nFace = 23
+								},
+								
+								{
+									m_nNext = 66
+									m_nTwin = 137
+									m_nOrigin = 3
+									m_nFace = 11
+								},
+								
+								{
+									m_nNext = 134
+									m_nTwin = 136
+									m_nOrigin = 56
+									m_nFace = 22
+								},
+								
+								{
+									m_nNext = 141
+									m_nTwin = 139
+									m_nOrigin = 13
+									m_nFace = 23
+								},
+								
+								{
+									m_nNext = 76
+									m_nTwin = 138
+									m_nOrigin = 63
+									m_nFace = 12
+								},
+								
+								{
+									m_nNext = 75
+									m_nTwin = 141
+									m_nOrigin = 73
+									m_nFace = 24
+								},
+								
+								{
+									m_nNext = 135
+									m_nTwin = 140
+									m_nOrigin = 63
+									m_nFace = 23
+								},
+								
+								{
+									m_nNext = 7
+									m_nTwin = 143
+									m_nOrigin = 47
+									m_nFace = 10
+								},
+								
+								{
+									m_nNext = 74
+									m_nTwin = 142
+									m_nOrigin = 38
+									m_nFace = 12
+								},
+								
+								{
+									m_nNext = 153
+									m_nTwin = 145
+									m_nOrigin = 74
+									m_nFace = 25
+								},
+								
+								{
+									m_nNext = 184
+									m_nTwin = 144
+									m_nOrigin = 45
+									m_nFace = 32
+								},
+								
+								{
+									m_nNext = 255
+									m_nTwin = 147
+									m_nOrigin = 27
+									m_nFace = 25
+								},
+								
+								{
+									m_nNext = 79
+									m_nTwin = 146
+									m_nOrigin = 34
+									m_nFace = 26
+								},
+								
+								{
+									m_nNext = 14
+									m_nTwin = 149
+									m_nOrigin = 9
+									m_nFace = 2
+								},
+								
+								{
+									m_nNext = 254
+									m_nTwin = 148
+									m_nOrigin = 41
+									m_nFace = 45
+								},
+								
+								{
+									m_nNext = 147
+									m_nTwin = 151
+									m_nOrigin = 75
+									m_nFace = 26
+								},
+								
+								{
+									m_nNext = 250
+									m_nTwin = 150
+									m_nOrigin = 34
+									m_nFace = 45
+								},
+								
+								{
+									m_nNext = 82
+									m_nTwin = 153
+									m_nOrigin = 27
+									m_nFace = 14
+								},
+								
+								{
+									m_nNext = 146
+									m_nTwin = 152
+									m_nOrigin = 45
+									m_nFace = 25
+								},
+								
+								{
+									m_nNext = 253
+									m_nTwin = 155
+									m_nOrigin = 75
+									m_nFace = 27
+								},
+								
+								{
+									m_nNext = 150
+									m_nTwin = 154
+									m_nOrigin = 13
+									m_nFace = 26
+								},
+								
+								{
+									m_nNext = 251
+									m_nTwin = 157
+									m_nOrigin = 65
+									m_nFace = 27
+								},
+								
+								{
+									m_nNext = 64
+									m_nTwin = 156
+									m_nOrigin = 28
+									m_nFace = 11
+								},
+								
+								{
+									m_nNext = 236
+									m_nTwin = 159
+									m_nOrigin = 76
+									m_nFace = 28
+								},
+								
+								{
+									m_nNext = 169
+									m_nTwin = 158
+									m_nOrigin = 53
+									m_nFace = 42
+								},
+								
+								{
+									m_nNext = 88
+									m_nTwin = 161
+									m_nOrigin = 7
+									m_nFace = 15
+								},
+								
+								{
+									m_nNext = 237
+									m_nTwin = 160
+									m_nOrigin = 40
+									m_nFace = 44
+								},
+								
+								{
+									m_nNext = 158
+									m_nTwin = 163
+									m_nOrigin = 83
+									m_nFace = 28
+								},
+								
+								{
+									m_nNext = 164
+									m_nTwin = 162
+									m_nOrigin = 76
+									m_nFace = 29
+								},
+								
+								{
+									m_nNext = 31
+									m_nTwin = 165
+									m_nOrigin = 83
+									m_nFace = 29
+								},
+								
+								{
+									m_nNext = 96
+									m_nTwin = 164
+									m_nOrigin = 39
+									m_nFace = 16
+								},
+								
+								{
+									m_nNext = 240
+									m_nTwin = 167
+									m_nOrigin = 51
+									m_nFace = 29
+								},
+								
+								{
+									m_nNext = 36
+									m_nTwin = 166
+									m_nOrigin = 50
+									m_nFace = 6
+								},
+								
+								{
+									m_nNext = 163
+									m_nTwin = 169
+									m_nOrigin = 68
+									m_nFace = 29
+								},
+								
+								{
+									m_nNext = 234
+									m_nTwin = 168
+									m_nOrigin = 76
+									m_nFace = 42
+								},
+								
+								{
+									m_nNext = 225
+									m_nTwin = 171
+									m_nOrigin = 74
+									m_nFace = 30
+								},
+								
+								{
+									m_nNext = 144
+									m_nTwin = 170
+									m_nOrigin = 18
+									m_nFace = 25
+								},
+								
+								{
+									m_nNext = 189
+									m_nTwin = 173
+									m_nOrigin = 43
+									m_nFace = 30
+								},
+								
+								{
+									m_nNext = 17
+									m_nTwin = 172
+									m_nOrigin = 66
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 185
+									m_nTwin = 175
+									m_nOrigin = 30
+									m_nFace = 30
+								},
+								
+								{
+									m_nNext = 176
+									m_nTwin = 174
+									m_nOrigin = 77
+									m_nFace = 31
+								},
+								
+								{
+									m_nNext = 51
+									m_nTwin = 177
+									m_nOrigin = 30
+									m_nFace = 31
+								},
+								
+								{
+									m_nNext = 188
+									m_nTwin = 176
+									m_nOrigin = 52
+									m_nFace = 33
+								},
+								
+								{
+									m_nNext = 122
+									m_nTwin = 179
+									m_nOrigin = 55
+									m_nFace = 21
+								},
+								
+								{
+									m_nNext = 196
+									m_nTwin = 178
+									m_nOrigin = 72
+									m_nFace = 34
+								},
+								
+								{
+									m_nNext = 183
+									m_nTwin = 181
+									m_nOrigin = 77
+									m_nFace = 32
+								},
+								
+								{
+									m_nNext = 175
+									m_nTwin = 180
+									m_nOrigin = 16
+									m_nFace = 31
+								},
+								
+								{
+									m_nNext = 42
+									m_nTwin = 183
+									m_nOrigin = 0
+									m_nFace = 7
+								},
+								
+								{
+									m_nNext = 83
+									m_nTwin = 182
+									m_nOrigin = 16
+									m_nFace = 32
+								},
+								
+								{
+									m_nNext = 180
+									m_nTwin = 185
+									m_nOrigin = 74
+									m_nFace = 32
+								},
+								
+								{
+									m_nNext = 170
+									m_nTwin = 184
+									m_nOrigin = 77
+									m_nFace = 30
+								},
+								
+								{
+									m_nNext = 177
+									m_nTwin = 187
+									m_nOrigin = 60
+									m_nFace = 33
+								},
+								
+								{
+									m_nNext = 84
+									m_nTwin = 186
+									m_nOrigin = 52
+									m_nFace = 8
+								},
+								
+								{
+									m_nNext = 222
+									m_nTwin = 189
+									m_nOrigin = 30
+									m_nFace = 33
+								},
+								
+								{
+									m_nNext = 174
+									m_nTwin = 188
+									m_nOrigin = 66
+									m_nFace = 30
+								},
+								
+								{
+									m_nNext = 203
+									m_nTwin = 191
+									m_nOrigin = 49
+									m_nFace = 33
+								},
+								
+								{
+									m_nNext = 221
+									m_nTwin = 190
+									m_nOrigin = 17
+									m_nFace = 39
+								},
+								
+								{
+									m_nNext = 232
+									m_nTwin = 193
+									m_nOrigin = 79
+									m_nFace = 34
+								},
+								
+								{
+									m_nNext = 249
+									m_nTwin = 192
+									m_nOrigin = 35
+									m_nFace = 36
+								},
+								
+								{
+									m_nNext = 179
+									m_nTwin = 195
+									m_nOrigin = 1
+									m_nFace = 34
+								},
+								
+								{
+									m_nNext = 116
+									m_nTwin = 194
+									m_nOrigin = 72
+									m_nFace = 20
+								},
+								
+								{
+									m_nNext = 192
+									m_nTwin = 197
+									m_nOrigin = 55
+									m_nFace = 34
+								},
+								
+								{
+									m_nNext = 85
+									m_nTwin = 196
+									m_nOrigin = 79
+									m_nFace = 35
+								},
+								
+								{
+									m_nNext = 248
+									m_nTwin = 199
+									m_nOrigin = 60
+									m_nFace = 35
+								},
+								
+								{
+									m_nNext = 186
+									m_nTwin = 198
+									m_nOrigin = 78
+									m_nFace = 33
+								},
+								
+								{
+									m_nNext = 86
+									m_nTwin = 201
+									m_nOrigin = 69
+									m_nFace = 15
+								},
+								
+								{
+									m_nNext = 106
+									m_nTwin = 200
+									m_nOrigin = 25
+									m_nFace = 16
+								},
+								
+								{
+									m_nNext = 218
+									m_nTwin = 203
+									m_nOrigin = 78
+									m_nFace = 36
+								},
+								
+								{
+									m_nNext = 199
+									m_nTwin = 202
+									m_nOrigin = 17
+									m_nFace = 33
+								},
+								
+								{
+									m_nNext = 193
+									m_nTwin = 205
+									m_nOrigin = 71
+									m_nFace = 36
+								},
+								
+								{
+									m_nNext = 217
+									m_nTwin = 204
+									m_nOrigin = 35
+									m_nFace = 41
+								},
+								
+								{
+									m_nNext = 244
+									m_nTwin = 207
+									m_nOrigin = 80
+									m_nFace = 37
+								},
+								
+								{
+									m_nNext = 227
+									m_nTwin = 206
+									m_nOrigin = 29
+									m_nFace = 44
+								},
+								
+								{
+									m_nNext = 16
+									m_nTwin = 209
+									m_nOrigin = 2
+									m_nFace = 2
+								},
+								
+								{
+									m_nNext = 90
+									m_nTwin = 208
+									m_nOrigin = 5
+									m_nFace = 15
+								},
+								
+								{
+									m_nNext = 206
+									m_nTwin = 211
+									m_nOrigin = 23
+									m_nFace = 37
+								},
+								
+								{
+									m_nNext = 212
+									m_nTwin = 210
+									m_nOrigin = 80
+									m_nFace = 38
+								},
+								
+								{
+									m_nNext = 230
+									m_nTwin = 213
+									m_nOrigin = 23
+									m_nFace = 38
+								},
+								
+								{
+									m_nNext = 118
+									m_nTwin = 212
+									m_nOrigin = 62
+									m_nFace = 20
+								},
+								
+								{
+									m_nNext = 226
+									m_nTwin = 215
+									m_nOrigin = 48
+									m_nFace = 38
+								},
+								
+								{
+									m_nNext = 229
+									m_nTwin = 214
+									m_nOrigin = 12
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 219
+									m_nTwin = 217
+									m_nOrigin = 81
+									m_nFace = 39
+								},
+								
+								{
+									m_nNext = 228
+									m_nTwin = 216
+									m_nOrigin = 71
+									m_nFace = 41
+								},
+								
+								{
+									m_nNext = 204
+									m_nTwin = 219
+									m_nOrigin = 17
+									m_nFace = 36
+								},
+								
+								{
+									m_nNext = 191
+									m_nTwin = 218
+									m_nOrigin = 71
+									m_nFace = 39
+								},
+								
+								{
+									m_nNext = 223
+									m_nTwin = 221
+									m_nOrigin = 81
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 216
+									m_nTwin = 220
+									m_nOrigin = 49
+									m_nFace = 39
+								},
+								
+								{
+									m_nNext = 190
+									m_nTwin = 223
+									m_nOrigin = 66
+									m_nFace = 33
+								},
+								
+								{
+									m_nNext = 173
+									m_nTwin = 222
+									m_nOrigin = 49
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 12
+									m_nTwin = 225
+									m_nOrigin = 43
+									m_nFace = 2
+								},
+								
+								{
+									m_nNext = 172
+									m_nTwin = 224
+									m_nOrigin = 18
+									m_nFace = 30
+								},
+								
+								{
+									m_nNext = 211
+									m_nTwin = 227
+									m_nOrigin = 12
+									m_nFace = 38
+								},
+								
+								{
+									m_nNext = 246
+									m_nTwin = 226
+									m_nOrigin = 80
+									m_nFace = 44
+								},
+								
+								{
+									m_nNext = 231
+									m_nTwin = 229
+									m_nOrigin = 81
+									m_nFace = 41
+								},
+								
+								{
+									m_nNext = 220
+									m_nTwin = 228
+									m_nOrigin = 48
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 214
+									m_nTwin = 231
+									m_nOrigin = 62
+									m_nFace = 38
+								},
+								
+								{
+									m_nNext = 117
+									m_nTwin = 230
+									m_nOrigin = 48
+									m_nFace = 41
+								},
+								
+								{
+									m_nNext = 194
+									m_nTwin = 233
+									m_nOrigin = 35
+									m_nFace = 34
+								},
+								
+								{
+									m_nNext = 205
+									m_nTwin = 232
+									m_nOrigin = 1
+									m_nFace = 41
+								},
+								
+								{
+									m_nNext = 238
+									m_nTwin = 235
+									m_nOrigin = 68
+									m_nFace = 42
+								},
+								
+								{
+									m_nNext = 241
+									m_nTwin = 234
+									m_nOrigin = 82
+									m_nFace = 43
+								},
+								
+								{
+									m_nNext = 87
+									m_nTwin = 237
+									m_nOrigin = 53
+									m_nFace = 28
+								},
+								
+								{
+									m_nNext = 239
+									m_nTwin = 236
+									m_nOrigin = 7
+									m_nFace = 44
+								},
+								
+								{
+									m_nNext = 159
+									m_nTwin = 239
+									m_nOrigin = 82
+									m_nFace = 42
+								},
+								
+								{
+									m_nNext = 243
+									m_nTwin = 238
+									m_nOrigin = 53
+									m_nFace = 44
+								},
+								
+								{
+									m_nNext = 168
+									m_nTwin = 241
+									m_nOrigin = 50
+									m_nFace = 29
+								},
+								
+								{
+									m_nNext = 35
+									m_nTwin = 240
+									m_nOrigin = 68
+									m_nFace = 43
+								},
+								
+								{
+									m_nNext = 235
+									m_nTwin = 243
+									m_nOrigin = 29
+									m_nFace = 43
+								},
+								
+								{
+									m_nNext = 207
+									m_nTwin = 242
+									m_nOrigin = 82
+									m_nFace = 44
+								},
+								
+								{
+									m_nNext = 103
+									m_nTwin = 245
+									m_nOrigin = 29
+									m_nFace = 37
+								},
+								
+								{
+									m_nNext = 242
+									m_nTwin = 244
+									m_nOrigin = 8
+									m_nFace = 43
+								},
+								
+								{
+									m_nNext = 161
+									m_nTwin = 247
+									m_nOrigin = 12
+									m_nFace = 44
+								},
+								
+								{
+									m_nNext = 215
+									m_nTwin = 246
+									m_nOrigin = 40
+									m_nFace = 40
+								},
+								
+								{
+									m_nNext = 197
+									m_nTwin = 249
+									m_nOrigin = 78
+									m_nFace = 35
+								},
+								
+								{
+									m_nNext = 202
+									m_nTwin = 248
+									m_nOrigin = 79
+									m_nFace = 36
+								},
+								
+								{
+									m_nNext = 69
+									m_nTwin = 251
+									m_nOrigin = 75
+									m_nFace = 45
+								},
+								
+								{
+									m_nNext = 154
+									m_nTwin = 250
+									m_nOrigin = 28
+									m_nFace = 27
+								},
+								
+								{
+									m_nNext = 138
+									m_nTwin = 253
+									m_nOrigin = 65
+									m_nFace = 23
+								},
+								
+								{
+									m_nNext = 156
+									m_nTwin = 252
+									m_nOrigin = 13
+									m_nFace = 27
+								},
+								
+								{
+									m_nNext = 151
+									m_nTwin = 255
+									m_nOrigin = 9
+									m_nFace = 45
+								},
+								
+								{
+									m_nNext = 13
+									m_nTwin = 254
+									m_nOrigin = 34
+									m_nFace = 25
+								},
+							]
+							m_Faces = 
+							[
+								
+								{
+									m_nEdge = 0
+								},
+								
+								{
+									m_nEdge = 19
+								},
+								
+								{
+									m_nEdge = 224
+								},
+								
+								{
+									m_nEdge = 73
+								},
+								
+								{
+									m_nEdge = 22
+								},
+								
+								{
+									m_nEdge = 61
+								},
+								
+								{
+									m_nEdge = 102
+								},
+								
+								{
+									m_nEdge = 40
+								},
+								
+								{
+									m_nEdge = 84
+								},
+								
+								{
+									m_nEdge = 52
+								},
+								
+								{
+									m_nEdge = 56
+								},
+								
+								{
+									m_nEdge = 64
+								},
+								
+								{
+									m_nEdge = 70
+								},
+								
+								{
+									m_nEdge = 77
+								},
+								
+								{
+									m_nEdge = 80
+								},
+								
+								{
+									m_nEdge = 200
+								},
+								
+								{
+									m_nEdge = 106
+								},
+								
+								{
+									m_nEdge = 98
+								},
+								
+								{
+									m_nEdge = 104
+								},
+								
+								{
+									m_nEdge = 111
+								},
+								
+								{
+									m_nEdge = 195
+								},
+								
+								{
+									m_nEdge = 122
+								},
+								
+								{
+									m_nEdge = 128
+								},
+								
+								{
+									m_nEdge = 135
+								},
+								
+								{
+									m_nEdge = 140
+								},
+								
+								{
+									m_nEdge = 144
+								},
+								
+								{
+									m_nEdge = 150
+								},
+								
+								{
+									m_nEdge = 154
+								},
+								
+								{
+									m_nEdge = 158
+								},
+								
+								{
+									m_nEdge = 163
+								},
+								
+								{
+									m_nEdge = 185
+								},
+								
+								{
+									m_nEdge = 175
+								},
+								
+								{
+									m_nEdge = 180
+								},
+								
+								{
+									m_nEdge = 199
+								},
+								
+								{
+									m_nEdge = 192
+								},
+								
+								{
+									m_nEdge = 85
+								},
+								
+								{
+									m_nEdge = 249
+								},
+								
+								{
+									m_nEdge = 206
+								},
+								
+								{
+									m_nEdge = 211
+								},
+								
+								{
+									m_nEdge = 216
+								},
+								
+								{
+									m_nEdge = 220
+								},
+								
+								{
+									m_nEdge = 228
+								},
+								
+								{
+									m_nEdge = 234
+								},
+								
+								{
+									m_nEdge = 235
+								},
+								
+								{
+									m_nEdge = 243
+								},
+								
+								{
+									m_nEdge = 250
+								},
+							]
+							m_vOrthographicAreas = 
+							[
+								0.925926,
+								0.740741,
+								0.901235,
+							]
+							m_MassProperties = 
+							[
+								59971682304.000000,
+								-780644672.000000,
+								11912502272.000000,
+								-14.831361,
+								-780644672.000000,
+								87409639424.000000,
+								-2116628992.000000,
+								-2.505834,
+								11912502272.000000,
+								-2116628992.000000,
+								138206412800.000000,
+								-1.917190,
+							]
+							m_flVolume = 7634705.000000
+							m_flMaxMotionRadius = 256.695923
+							m_flMinMotionThickness = 33.606968
+							m_Bounds = 
+							{
+								m_vMinBounds = 
+								[
+									-218.172501,
+									-175.002335,
+									-57.588676,
+								]
+								m_vMaxBounds = 
+								[
+									218.096863,
+									177.431290,
+									57.936798,
+								]
+							}
+							m_nFlags = 0
+						}
+					},
+				]
+				m_meshes = 
+				[
+				]
+				m_CollisionAttributeIndices = 
+				[
+				]
+			}
+			m_nCollisionAttributeIndex = 0
+			m_nReserved = 0
+			m_flInertiaScale = 1.000000
+			m_flLinearDamping = 0.000000
+			m_flAngularDamping = 0.000000
+			m_bOverrideMassCenter = false
+			m_vMassCenterOverride = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+		},
+	]
+	m_constraints2 = 
+	[
+	]
+	m_joints = 
+	[
+	]
+	m_pFeModel = null
+	m_boneParents = 
+	[
+	]
+	m_surfacePropertyHashes = 
+	[
+		1977497166,
+	]
+	m_collisionAttributes = 
+	[
+		
+		{
+			m_CollisionGroup = 1977497166
+			m_InteractAs = 
+			[
+			]
+			m_InteractWith = 
+			[
+			]
+			m_InteractExclude = 
+			[
+			]
+			m_CollisionGroupString = "default"
+			m_InteractAsStrings = 
+			[
+			]
+			m_InteractWithStrings = 
+			[
+			]
+			m_InteractExcludeStrings = 
+			[
+			]
+		},
+	]
+	m_debugPartNames = 
+	[
+	]
+	m_embeddedKeyvalues = ""
+}

@@ -1,0 +1,11916 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_nWidth = 72
+	m_nHeight = 72
+	m_nLookupType = "LOOKUP_TYPE_VERTEX_ID"
+	m_nEncodingType = "ENCODING_TYPE_OBJECT_SPACE"
+	m_bundleTypes = 
+	[
+		"MORPH_BUNDLE_TYPE_POSITION_SPEED",
+		"MORPH_BUNDLE_TYPE_NORMAL_WRINKLE",
+	]
+	m_morphDatas = 
+	[
+		
+		{
+			m_name = "innerBrowRaiser"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								-0.196964,
+								-0.345557,
+								-0.049749,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.570747,
+								0.779798,
+								1.268596,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.396825
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.101587
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.609524
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								-0.196964,
+								-0.345557,
+								-0.049749,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.570747,
+								0.779798,
+								1.268596,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.711111
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.850794
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								-0.196964,
+								-0.345557,
+								-0.049749,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.570747,
+								0.779798,
+								1.268596,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "outerBrowRaiser"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 30
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.019048
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.977778
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.164994,
+								-0.116555,
+								-0.158285,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.316343,
+								0.220159,
+								1.121188,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.977778
+							m_flVTopSrc = 0.053968
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 60
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.003175
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.996825
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.164994,
+								-0.116555,
+								-0.158285,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.316343,
+								0.220159,
+								1.121188,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.984127
+							m_flVTopSrc = 0.060317
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.771429
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								-0.164994,
+								-0.116555,
+								-0.158285,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.316343,
+								0.220159,
+								1.121188,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.749206
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.060317
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.539683
+							m_offsets = 
+							[
+								-0.164994,
+								-0.116555,
+								-0.158285,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.316343,
+								0.220159,
+								1.121188,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.587302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 35
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.063492
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.933333
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								-0.164994,
+								-0.116555,
+								-0.158285,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.316343,
+								0.220159,
+								1.121188,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								-0.164994,
+								-0.116555,
+								-0.158285,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.316343,
+								0.220159,
+								1.121188,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.758730
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "browLowerer"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								-0.318223,
+								-0.525466,
+								-1.331813,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.053855,
+								1.080595,
+								1.386173,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.701587
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.101587
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.318223,
+								-0.525466,
+								-1.331813,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.053855,
+								1.080595,
+								1.386173,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.812698
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								-0.318223,
+								-0.525466,
+								-1.331813,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.053855,
+								1.080595,
+								1.386173,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.704762
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "eyeUp"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.085714
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.914286
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								-0.159200,
+								-0.069547,
+								-0.023546,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.287915,
+								0.133342,
+								0.353191,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.403175
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 27
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.930159
+							m_offsets = 
+							[
+								-0.159200,
+								-0.069547,
+								-0.023546,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.287915,
+								0.133342,
+								0.353191,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.650794
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 44
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.888889
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.159200,
+								-0.069547,
+								-0.023546,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.287915,
+								0.133342,
+								0.353191,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.453968
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "eyeDown"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.600000
+							m_offsets = 
+							[
+								-0.199979,
+								-0.139892,
+								-0.496935,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.380556,
+								0.280885,
+								0.539227,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.650794
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.101587
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.203175
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.199979,
+								-0.139892,
+								-0.496935,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.380556,
+								0.280885,
+								0.539227,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.101587
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								-0.199979,
+								-0.139892,
+								-0.496935,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.380556,
+								0.280885,
+								0.539227,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "eyeLeft"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.396825
+							m_offsets = 
+							[
+								-0.047310,
+								-0.041328,
+								-0.066858,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.104904,
+								0.301101,
+								0.115978,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.549206
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.834921
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								-0.047310,
+								-0.041328,
+								-0.066858,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.104904,
+								0.301101,
+								0.115978,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.590476
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 44
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								-0.047310,
+								-0.041328,
+								-0.066858,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.104904,
+								0.301101,
+								0.115978,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.501587
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "eyeRight"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.650794
+							m_offsets = 
+							[
+								-0.059517,
+								-0.308146,
+								-0.044528,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.103951,
+								0.355553,
+								0.119523,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.904762
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.657143
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								-0.059517,
+								-0.308146,
+								-0.044528,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.103951,
+								0.355553,
+								0.119523,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.901587
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 44
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.549206
+							m_offsets = 
+							[
+								-0.059517,
+								-0.308146,
+								-0.044528,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.103951,
+								0.355553,
+								0.119523,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.596825
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "upperLidRaiser"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.082540
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								-0.082871,
+								-0.102367,
+								-0.067629,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.203194,
+								0.212225,
+								0.718559,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.298413
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 26
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.060317
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.634921
+							m_offsets = 
+							[
+								-0.082871,
+								-0.102367,
+								-0.067629,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.203194,
+								0.212225,
+								0.718559,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.682540
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 45
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.085714
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.273016
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								-0.082871,
+								-0.102367,
+								-0.067629,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.203194,
+								0.212225,
+								0.718559,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.530159
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "eyeClosed"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.082540
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.450794
+							m_offsets = 
+							[
+								-0.633434,
+								-0.370538,
+								-1.579432,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.984913,
+								0.738181,
+								1.856015,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.501587
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 26
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.057143
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.657143
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								-0.633434,
+								-0.370538,
+								-1.579432,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.984913,
+								0.738181,
+								1.856015,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.714286
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 44
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								-0.633434,
+								-0.370538,
+								-1.579432,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.984913,
+								0.738181,
+								1.856015,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.184127
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "squint"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.396825
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								-0.125943,
+								-0.242111,
+								-0.527083,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.544329,
+								0.460733,
+								1.003031,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.542857
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.101587
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								-0.125943,
+								-0.242111,
+								-0.527083,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.544329,
+								0.460733,
+								1.003031,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.101587
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.730159
+							m_offsets = 
+							[
+								-0.125943,
+								-0.242111,
+								-0.527083,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.544329,
+								0.460733,
+								1.003031,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.609524
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-0.125943,
+								-0.242111,
+								-0.527083,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.544329,
+								0.460733,
+								1.003031,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.965079
+							m_flVTopSrc = 0.139683
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "cheekRaiser"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.085714
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.444444
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								-0.039888,
+								-0.129596,
+								-0.056015,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.169524,
+								0.264376,
+								0.492542,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.358730
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 27
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.200000
+							m_offsets = 
+							[
+								-0.039888,
+								-0.129596,
+								-0.056015,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.169524,
+								0.264376,
+								0.492542,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.250794
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.780952
+							m_offsets = 
+							[
+								-0.039888,
+								-0.129596,
+								-0.056015,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.169524,
+								0.264376,
+								0.492542,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.965079
+							m_flVTopSrc = 0.142857
+							m_offsets = 
+							[
+								-0.039888,
+								-0.129596,
+								-0.056015,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.169524,
+								0.264376,
+								0.492542,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.568254
+							m_flVTopSrc = 0.190476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "dimpler"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.085714
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.615873
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								-0.449591,
+								-0.226785,
+								-0.141492,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.707690,
+								0.431569,
+								0.213494,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.701587
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 27
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.831746
+							m_offsets = 
+							[
+								-0.449591,
+								-0.226785,
+								-0.141492,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.707690,
+								0.431569,
+								0.213494,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.882540
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 44
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.352381
+							m_offsets = 
+							[
+								-0.449591,
+								-0.226785,
+								-0.141492,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.707690,
+								0.431569,
+								0.213494,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.301587
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.396825
+							m_flVTopSrc = 0.190476
+							m_offsets = 
+							[
+								-0.449591,
+								-0.226785,
+								-0.141492,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.707690,
+								0.431569,
+								0.213494,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.422222
+							m_flVTopSrc = 0.190476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "noseWrinkler"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								-0.290501,
+								-0.431488,
+								-1.051444,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.578732,
+								0.880236,
+								1.605499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.930159
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 28
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.082540
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.349206
+							m_offsets = 
+							[
+								-0.290501,
+								-0.431488,
+								-1.051444,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.578732,
+								0.880236,
+								1.605499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.400000
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 54
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.057143
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.438095
+							m_offsets = 
+							[
+								-0.290501,
+								-0.431488,
+								-1.051444,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.578732,
+								0.880236,
+								1.605499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.488889
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.469841
+							m_flVTopSrc = 0.190476
+							m_offsets = 
+							[
+								-0.290501,
+								-0.431488,
+								-1.051444,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.578732,
+								0.880236,
+								1.605499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.190476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "nostrilDilator"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 28
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.003175
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.996825
+							m_flVTopSrc = 0.057143
+							m_offsets = 
+							[
+								-0.006021,
+								-0.031974,
+								-0.022319,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.052947,
+								0.057826,
+								0.029797,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.996825
+							m_flVTopSrc = 0.053968
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.796825
+							m_offsets = 
+							[
+								-0.006021,
+								-0.031974,
+								-0.022319,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.052947,
+								0.057826,
+								0.029797,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.847619
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 17
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.069841
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.955556
+							m_offsets = 
+							[
+								-0.006021,
+								-0.031974,
+								-0.022319,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.052947,
+								0.057826,
+								0.029797,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.955556
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 39
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.041270
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.803175
+							m_flVTopSrc = 0.917460
+							m_offsets = 
+							[
+								-0.006021,
+								-0.031974,
+								-0.022319,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.052947,
+								0.057826,
+								0.029797,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.803175
+							m_flVTopSrc = 0.958730
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.047619
+					m_flVHeightSrc = 0.041270
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.952381
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								-0.006021,
+								-0.031974,
+								-0.022319,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.052947,
+								0.057826,
+								0.029797,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.857143
+							m_flVTopSrc = 0.866667
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "upperLipsToward"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 8
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.031746
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.965079
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								-0.298237,
+								-0.027737,
+								-0.759499,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.300594,
+								0.055692,
+								0.759499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.968254
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 18
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.876190
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								-0.298237,
+								-0.027737,
+								-0.759499,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.300594,
+								0.055692,
+								0.759499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 34
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.031746
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.857143
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								-0.298237,
+								-0.027737,
+								-0.759499,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.300594,
+								0.055692,
+								0.759499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.923810
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.047619
+					m_flVHeightSrc = 0.031746
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.866667
+							m_offsets = 
+							[
+								-0.298237,
+								-0.027737,
+								-0.759499,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.300594,
+								0.055692,
+								0.759499,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.961905
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lowerLipsToward"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.812698
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.222918,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								4.372626,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.752381
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.923810
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.222918,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								4.372626,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.447619
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.222918,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								4.372626,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.498413
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.549206
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.222918,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								4.372626,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.603175
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.542857
+							m_flVTopSrc = 0.190476
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.222918,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								4.372626,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.965079
+							m_flVTopSrc = 0.136508
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "upperLipsPart"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 1
+					m_nYTopDst = 46
+					m_flUWidthSrc = 0.006349
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.977778
+							m_flVTopSrc = 0.057143
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.984127
+							m_flVTopSrc = 0.057143
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 18
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.393651
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.593651
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 42
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.041270
+					m_flVHeightSrc = 0.031746
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.958730
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.955556
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.047619
+					m_flVHeightSrc = 0.031746
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.898413
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.930159
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lowerLipsPart"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.752381
+							m_flVTopSrc = 0.882540
+							m_offsets = 
+							[
+								-2.340094,
+								-0.118575,
+								-2.750752,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.260660,
+								2.934903,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.647619
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								-2.340094,
+								-0.118575,
+								-2.750752,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.260660,
+								2.934903,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.698413
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								-2.340094,
+								-0.118575,
+								-2.750752,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.260660,
+								2.934903,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.898413
+							m_offsets = 
+							[
+								-2.340094,
+								-0.118575,
+								-2.750752,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.260660,
+								2.934903,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.949206
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.634921
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-2.340094,
+								-0.118575,
+								-2.750752,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.260660,
+								2.934903,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.660317
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "upperLipRaiser"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 1
+					m_nYTopDst = 46
+					m_flUWidthSrc = 0.006349
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.990476
+							m_flVTopSrc = 0.057143
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.977778
+							m_flVTopSrc = 0.060317
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 18
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.460317
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.526984
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 42
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.041270
+					m_flVHeightSrc = 0.031746
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.955556
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.955556
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.047619
+					m_flVHeightSrc = 0.031746
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.952381
+							m_flVTopSrc = 0.898413
+							m_offsets = 
+							[
+								-0.010869,
+								-0.155659,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.125978,
+								0.310101,
+								0.814276,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.952381
+							m_flVTopSrc = 0.866667
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lowerLipDepressor"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.752381
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								-2.340094,
+								-0.193369,
+								-2.975103,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.388260,
+								3.161046,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.853968
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.695238
+							m_offsets = 
+							[
+								-2.340094,
+								-0.193369,
+								-2.975103,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.388260,
+								3.161046,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.847619
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								-2.340094,
+								-0.193369,
+								-2.975103,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.388260,
+								3.161046,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.933333
+							m_offsets = 
+							[
+								-2.340094,
+								-0.193369,
+								-2.975103,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.388260,
+								3.161046,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.685714
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-2.340094,
+								-0.193369,
+								-2.975103,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.617210,
+								0.388260,
+								3.161046,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.965079
+							m_flVTopSrc = 0.133333
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "chinRaiser"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.701587
+							m_flVTopSrc = 0.882540
+							m_offsets = 
+							[
+								-0.412644,
+								-0.197198,
+								-0.215913,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								5.845788,
+								0.372485,
+								5.505777,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.803175
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.822222
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								-0.412644,
+								-0.197198,
+								-0.215913,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								5.845788,
+								0.372485,
+								5.505777,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.873016
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.542857
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								-0.412644,
+								-0.197198,
+								-0.215913,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								5.845788,
+								0.372485,
+								5.505777,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.469841
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.711111
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								-0.412644,
+								-0.197198,
+								-0.215913,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								5.845788,
+								0.372485,
+								5.505777,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.603175
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.926984
+							m_flVTopSrc = 0.142857
+							m_offsets = 
+							[
+								-0.412644,
+								-0.197198,
+								-0.215913,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								5.845788,
+								0.372485,
+								5.505777,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.965079
+							m_flVTopSrc = 0.130159
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipCornerDepressor"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.069841
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.723810
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								-0.623391,
+								-0.181743,
+								-0.518570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.878258,
+								0.298997,
+								0.632705,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.793651
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 22
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.873016
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								-0.623391,
+								-0.181743,
+								-0.518570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.878258,
+								0.298997,
+								0.632705,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.695238
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 39
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.863492
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								-0.623391,
+								-0.181743,
+								-0.518570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.878258,
+								0.298997,
+								0.632705,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.701587
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.847619
+							m_offsets = 
+							[
+								-0.623391,
+								-0.181743,
+								-0.518570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.878258,
+								0.298997,
+								0.632705,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipPressor"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.615873
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								-0.053229,
+								-0.043578,
+								-0.177338,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.185936,
+								0.086815,
+								0.213308,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.469841
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.101587
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.406349
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								-0.053229,
+								-0.043578,
+								-0.177338,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.185936,
+								0.086815,
+								0.213308,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.304762
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								-0.053229,
+								-0.043578,
+								-0.177338,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.185936,
+								0.086815,
+								0.213308,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.876190
+							m_flVTopSrc = 0.142857
+							m_offsets = 
+							[
+								-0.053229,
+								-0.043578,
+								-0.177338,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.185936,
+								0.086815,
+								0.213308,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.901587
+							m_flVTopSrc = 0.142857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "sharpLipPuller"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.853968
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								-0.262876,
+								-0.128206,
+								-0.104104,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.330213,
+								0.261539,
+								0.780779,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.926984
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								-0.262876,
+								-0.128206,
+								-0.104104,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.330213,
+								0.261539,
+								0.780779,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								-0.262876,
+								-0.128206,
+								-0.104104,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.330213,
+								0.261539,
+								0.780779,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.800000
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 48
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.076190
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.653968
+							m_offsets = 
+							[
+								-0.262876,
+								-0.128206,
+								-0.104104,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.330213,
+								0.261539,
+								0.780779,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.806349
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipCornerPuller"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								-0.522702,
+								-0.327075,
+								-0.243917,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.838295,
+								0.689289,
+								0.797421,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 28
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.853968
+							m_offsets = 
+							[
+								-0.522702,
+								-0.327075,
+								-0.243917,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.838295,
+								0.689289,
+								0.797421,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.523810
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 49
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.761905
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								-0.522702,
+								-0.327075,
+								-0.243917,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.838295,
+								0.689289,
+								0.797421,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.834921
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.812698
+							m_flVTopSrc = 0.142857
+							m_offsets = 
+							[
+								-0.522702,
+								-0.327075,
+								-0.243917,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.838295,
+								0.689289,
+								0.797421,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.838095
+							m_flVTopSrc = 0.142857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipStretcher"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.787302
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								-1.085361,
+								-0.417288,
+								-0.101102,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.198126,
+								0.844511,
+								0.277215,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.876190
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 28
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.457143
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								-1.085361,
+								-0.417288,
+								-0.101102,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.198126,
+								0.844511,
+								0.277215,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.904762
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 49
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.615873
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								-1.085361,
+								-0.417288,
+								-0.101102,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.198126,
+								0.844511,
+								0.277215,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.688889
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipPuckerer"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.069841
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.863492
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								-0.170026,
+								-0.202416,
+								-0.530286,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.985378,
+								0.430135,
+								0.795428,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 22
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								-0.170026,
+								-0.202416,
+								-0.530286,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.985378,
+								0.430135,
+								0.795428,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.549206
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 39
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.746032
+							m_offsets = 
+							[
+								-0.170026,
+								-0.202416,
+								-0.530286,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.985378,
+								0.430135,
+								0.795428,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.796825
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.603175
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								-0.170026,
+								-0.202416,
+								-0.530286,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.985378,
+								0.430135,
+								0.795428,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.657143
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.050794
+							m_flVTopSrc = 0.984127
+							m_offsets = 
+							[
+								-0.170026,
+								-0.202416,
+								-0.530286,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.985378,
+								0.430135,
+								0.795428,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.787302
+							m_flVTopSrc = 0.142857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = ""
+			m_morphRectDatas = 
+			[
+			]
+		},
+		
+		{
+			m_name = "lowerLipFunneler"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.701587
+							m_flVTopSrc = 0.930159
+							m_offsets = 
+							[
+								-0.142315,
+								-0.063196,
+								-0.054063,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.772134,
+								0.126889,
+								0.087253,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.752381
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.898413
+							m_offsets = 
+							[
+								-0.142315,
+								-0.063196,
+								-0.054063,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.772134,
+								0.126889,
+								0.087253,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.949206
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.907937
+							m_flVTopSrc = 0.193651
+							m_offsets = 
+							[
+								-0.142315,
+								-0.063196,
+								-0.054063,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.772134,
+								0.126889,
+								0.087253,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.765079
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								-0.142315,
+								-0.063196,
+								-0.054063,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.772134,
+								0.126889,
+								0.087253,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.819048
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.050794
+							m_flVTopSrc = 0.993651
+							m_offsets = 
+							[
+								-0.142315,
+								-0.063196,
+								-0.054063,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.772134,
+								0.126889,
+								0.087253,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.050794
+							m_flVTopSrc = 0.996825
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lowerLipSuck"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.752381
+							m_flVTopSrc = 0.930159
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.218718,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								3.280769,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.803175
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.218718,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								3.280769,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.396825
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.218718,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								3.280769,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.926984
+							m_flVTopSrc = 0.390476
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.218718,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								3.280769,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.050794
+							m_flVTopSrc = 0.987302
+							m_offsets = 
+							[
+								-0.399537,
+								-0.197198,
+								-0.218718,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.638637,
+								0.372485,
+								3.280769,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.050794
+							m_flVTopSrc = 0.990476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipSidewaysL"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.660317
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								-0.074614,
+								-0.055724,
+								-0.030156,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.146358,
+								0.218608,
+								0.130333,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.822222
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 17
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.069841
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.257143
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								-0.074614,
+								-0.055724,
+								-0.030156,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.146358,
+								0.218608,
+								0.130333,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.326984
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 40
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.047619
+					m_flVHeightSrc = 0.041270
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.857143
+							m_flVTopSrc = 0.907937
+							m_offsets = 
+							[
+								-0.074614,
+								-0.055724,
+								-0.030156,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.146358,
+								0.218608,
+								0.130333,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.857143
+							m_flVTopSrc = 0.949206
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.041270
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.803175
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								-0.074614,
+								-0.055724,
+								-0.030156,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.146358,
+								0.218608,
+								0.130333,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.803175
+							m_flVTopSrc = 0.876190
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipSidewaysR"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.098413
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.507937
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.085783,
+								-0.154684,
+								-0.013303,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.155139,
+								0.209811,
+								0.116977,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.606349
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 31
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.076190
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.755556
+							m_offsets = 
+							[
+								-0.085783,
+								-0.154684,
+								-0.013303,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.155139,
+								0.209811,
+								0.116977,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.704762
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.714286
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								-0.085783,
+								-0.154684,
+								-0.013303,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.155139,
+								0.209811,
+								0.116977,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.768254
+							m_flVTopSrc = 0.346032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "jawThrust"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.914286
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								-0.470070,
+								-0.208737,
+								-0.178570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.550379,
+								0.419117,
+								0.288198,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.701587
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.800000
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								-0.470070,
+								-0.208737,
+								-0.178570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.550379,
+								0.419117,
+								0.288198,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.850794
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.498413
+							m_offsets = 
+							[
+								-0.470070,
+								-0.208737,
+								-0.178570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.550379,
+								0.419117,
+								0.288198,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.447619
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								-0.470070,
+								-0.208737,
+								-0.178570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.550379,
+								0.419117,
+								0.288198,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.711111
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-0.470070,
+								-0.208737,
+								-0.178570,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								2.550379,
+								0.419117,
+								0.288198,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.050794
+							m_flVTopSrc = 0.980952
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "jawSuck"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.650794
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								-2.482644,
+								-0.296071,
+								-0.219173,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.229970,
+								0.599192,
+								1.074789,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.701587
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.901587
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								-2.482644,
+								-0.296071,
+								-0.219173,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.229970,
+								0.599192,
+								1.074789,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.549206
+							m_offsets = 
+							[
+								-2.482644,
+								-0.296071,
+								-0.219173,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.229970,
+								0.599192,
+								1.074789,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.600000
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.746032
+							m_offsets = 
+							[
+								-2.482644,
+								-0.296071,
+								-0.219173,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.229970,
+								0.599192,
+								1.074789,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.796825
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.736508
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-2.482644,
+								-0.296071,
+								-0.219173,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								3.229970,
+								0.599192,
+								1.074789,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.050794
+							m_flVTopSrc = 0.977778
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "jawSidewaysL"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.650794
+							m_flVTopSrc = 0.739683
+							m_offsets = 
+							[
+								-0.283163,
+								-0.313811,
+								-0.180823,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.527054,
+								2.162751,
+								0.354691,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.904762
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.695238
+							m_offsets = 
+							[
+								-0.283163,
+								-0.313811,
+								-0.180823,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.527054,
+								2.162751,
+								0.354691,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.746032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.752381
+							m_offsets = 
+							[
+								-0.283163,
+								-0.313811,
+								-0.180823,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.527054,
+								2.162751,
+								0.354691,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.701587
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.898413
+							m_offsets = 
+							[
+								-0.283163,
+								-0.313811,
+								-0.180823,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.527054,
+								2.162751,
+								0.354691,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.387302
+							m_flVTopSrc = 0.949206
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.761905
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-0.283163,
+								-0.313811,
+								-0.180823,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.527054,
+								2.162751,
+								0.354691,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.025397
+							m_flVTopSrc = 0.996825
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "jawSidewaysR"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.650794
+							m_flVTopSrc = 0.787302
+							m_offsets = 
+							[
+								-0.193113,
+								-1.543716,
+								-0.161773,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.410365,
+								1.874512,
+								0.343767,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.853968
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.796825
+							m_offsets = 
+							[
+								-0.193113,
+								-1.543716,
+								-0.161773,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.410365,
+								1.874512,
+								0.343767,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.847619
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.803175
+							m_offsets = 
+							[
+								-0.193113,
+								-1.543716,
+								-0.161773,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.410365,
+								1.874512,
+								0.343767,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.853968
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.495238
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								-0.193113,
+								-1.543716,
+								-0.161773,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.410365,
+								1.874512,
+								0.343767,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.549206
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.025397
+							m_flVTopSrc = 0.990476
+							m_offsets = 
+							[
+								-0.193113,
+								-1.543716,
+								-0.161773,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.410365,
+								1.874512,
+								0.343767,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.025397
+							m_flVTopSrc = 0.993651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "jawOpen"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.752381
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								-8.387918,
+								-0.458108,
+								-8.752339,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								9.464243,
+								1.024715,
+								9.919317,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.803175
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.898413
+							m_offsets = 
+							[
+								-8.387918,
+								-0.458108,
+								-8.752339,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								9.464243,
+								1.024715,
+								9.919317,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.647619
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.907937
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								-8.387918,
+								-0.458108,
+								-8.752339,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								9.464243,
+								1.024715,
+								9.919317,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.542857
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.657143
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								-8.387918,
+								-0.458108,
+								-8.752339,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								9.464243,
+								1.024715,
+								9.919317,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.644444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.787302
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-8.387918,
+								-0.458108,
+								-8.752339,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								9.464243,
+								1.024715,
+								9.919317,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.025397
+							m_flVTopSrc = 0.987302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "jawClencher"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.079365
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.857143
+							m_offsets = 
+							[
+								-0.026317,
+								-0.101970,
+								-0.033947,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.119836,
+								0.158550,
+								0.052784,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.177778
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 25
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.079365
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.552381
+							m_offsets = 
+							[
+								-0.026317,
+								-0.101970,
+								-0.033947,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.119836,
+								0.158550,
+								0.052784,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.603175
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 50
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.069841
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.752381
+							m_offsets = 
+							[
+								-0.026317,
+								-0.101970,
+								-0.033947,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.119836,
+								0.158550,
+								0.052784,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.803175
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.812698
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-0.026317,
+								-0.101970,
+								-0.033947,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.119836,
+								0.158550,
+								0.052784,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.025397
+							m_flVTopSrc = 0.984127
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "phonemeBMP"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.650794
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.701587
+							m_flVTopSrc = 0.692064
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.546032
+							m_flVTopSrc = 0.949206
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.250794
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.469841
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.926984
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.492063
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.838095
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.025397
+							m_flVTopSrc = 0.980952
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "phonemeFV"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.650794
+							m_flVTopSrc = 0.882540
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.650794
+							m_flVTopSrc = 0.930159
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 16
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.050794
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.698413
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.749206
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 32
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.834921
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.615873
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.695238
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.746032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.996825
+							m_offsets = 
+							[
+								-0.790026,
+								-0.104503,
+								-0.174141,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								1.299720,
+								0.206576,
+								1.850250,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.025397
+							m_flVTopSrc = 0.977778
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "eyeClosed__eyeUp"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.688889
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								-0.061276,
+								-0.035115,
+								-0.189206,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.205597,
+								0.082910,
+								0.214434,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.761905
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.101587
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.406349
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.061276,
+								-0.035115,
+								-0.189206,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.205597,
+								0.082910,
+								0.214434,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.304762
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								-0.061276,
+								-0.035115,
+								-0.189206,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.205597,
+								0.082910,
+								0.214434,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.596825
+							m_flVTopSrc = 0.882540
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "eyeClosed__eyeDown"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.092063
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.704762
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								-0.179246,
+								-0.060720,
+								-0.043022,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.232019,
+								0.113850,
+								0.281300,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.796825
+							m_flVTopSrc = 0.050794
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 29
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.082540
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.196825
+							m_offsets = 
+							[
+								-0.179246,
+								-0.060720,
+								-0.043022,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.232019,
+								0.113850,
+								0.281300,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.247619
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.542857
+							m_offsets = 
+							[
+								-0.179246,
+								-0.060720,
+								-0.043022,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.232019,
+								0.113850,
+								0.281300,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.441270
+							m_flVTopSrc = 0.593651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.863492
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-0.179246,
+								-0.060720,
+								-0.043022,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.232019,
+								0.113850,
+								0.281300,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.993651
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "jawOpen__lipCornerPuller"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.088889
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.882540
+							m_offsets = 
+							[
+								-0.215660,
+								-0.254598,
+								-0.227990,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.277744,
+								0.362696,
+								0.321201,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.834921
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 28
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.066667
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								-0.215660,
+								-0.254598,
+								-0.227990,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.277744,
+								0.362696,
+								0.321201,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.390476
+							m_flVTopSrc = 0.295238
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 49
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.396825
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								-0.215660,
+								-0.254598,
+								-0.227990,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.277744,
+								0.362696,
+								0.321201,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.323810
+							m_flVTopSrc = 0.244444
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.888889
+							m_flVTopSrc = 0.047619
+							m_offsets = 
+							[
+								-0.215660,
+								-0.254598,
+								-0.227990,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.277744,
+								0.362696,
+								0.321201,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.990476
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipPuckerer__lowerLipFunneler"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.079365
+					m_flVHeightSrc = 0.047619
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.952381
+							m_offsets = 
+							[
+								-0.011008,
+								-0.027617,
+								-0.007674,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.019767,
+								0.052950,
+								0.014389,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.095238
+							m_flVTopSrc = 0.904762
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 25
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.095238
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.098413
+							m_offsets = 
+							[
+								-0.011008,
+								-0.027617,
+								-0.007674,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.019767,
+								0.052950,
+								0.014389,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.149206
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.819048
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								-0.011008,
+								-0.027617,
+								-0.007674,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.019767,
+								0.052950,
+								0.014389,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.873016
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.977778
+							m_offsets = 
+							[
+								-0.011008,
+								-0.027617,
+								-0.007674,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.019767,
+								0.052950,
+								0.014389,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.987302
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			m_name = "lipPuckerer__upperLipFunneler"
+			m_morphRectDatas = 
+			[
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 33
+					m_flUWidthSrc = 0.073016
+					m_flVHeightSrc = 0.044444
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.761905
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								-0.013613,
+								-0.026727,
+								-0.011888,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.041324,
+								0.047328,
+								0.019814,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.688889
+							m_flVTopSrc = 0.146032
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 23
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.101587
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.203175
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								-0.013613,
+								-0.026727,
+								-0.011888,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.041324,
+								0.047328,
+								0.019814,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.507937
+							m_flVTopSrc = 0.000000
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 55
+					m_nYTopDst = 32
+					m_flUWidthSrc = 0.053968
+					m_flVHeightSrc = 0.050794
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.711111
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								-0.013613,
+								-0.026727,
+								-0.011888,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.041324,
+								0.047328,
+								0.019814,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.765079
+							m_flVTopSrc = 0.441270
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+				
+				{
+					m_nXLeftDst = 0
+					m_nYTopDst = 48
+					m_flUWidthSrc = 0.025397
+					m_flVHeightSrc = 0.003175
+					m_bundleDatas = 
+					[
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.980952
+							m_offsets = 
+							[
+								-0.013613,
+								-0.026727,
+								-0.011888,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.041324,
+								0.047328,
+								0.019814,
+								0.000000,
+							]
+						},
+						
+						{
+							m_flULeftSrc = 0.000000
+							m_flVTopSrc = 0.984127
+							m_offsets = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_ranges = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+	m_pTextureAtlas = resource:"models/creeps/sandking_boss/sand_king_model_9aaad9d6_vmorf.vtex"
+	m_FlexDesc = 
+	[
+		
+		{
+			m_szFacs = "innerBrowRaiser"
+		},
+		
+		{
+			m_szFacs = "outerBrowRaiser"
+		},
+		
+		{
+			m_szFacs = "browLowerer"
+		},
+		
+		{
+			m_szFacs = "eyeUp"
+		},
+		
+		{
+			m_szFacs = "eyeDown"
+		},
+		
+		{
+			m_szFacs = "eyeLeft"
+		},
+		
+		{
+			m_szFacs = "eyeRight"
+		},
+		
+		{
+			m_szFacs = "upperLidRaiser"
+		},
+		
+		{
+			m_szFacs = "eyeClosed"
+		},
+		
+		{
+			m_szFacs = "squint"
+		},
+		
+		{
+			m_szFacs = "cheekRaiser"
+		},
+		
+		{
+			m_szFacs = "dimpler"
+		},
+		
+		{
+			m_szFacs = "noseWrinkler"
+		},
+		
+		{
+			m_szFacs = "nostrilDilator"
+		},
+		
+		{
+			m_szFacs = "upperLipsToward"
+		},
+		
+		{
+			m_szFacs = "lowerLipsToward"
+		},
+		
+		{
+			m_szFacs = "upperLipsPart"
+		},
+		
+		{
+			m_szFacs = "lowerLipsPart"
+		},
+		
+		{
+			m_szFacs = "upperLipRaiser"
+		},
+		
+		{
+			m_szFacs = "lowerLipDepressor"
+		},
+		
+		{
+			m_szFacs = "chinRaiser"
+		},
+		
+		{
+			m_szFacs = "lipCornerDepressor"
+		},
+		
+		{
+			m_szFacs = "lipPressor"
+		},
+		
+		{
+			m_szFacs = "sharpLipPuller"
+		},
+		
+		{
+			m_szFacs = "lipCornerPuller"
+		},
+		
+		{
+			m_szFacs = "lipStretcher"
+		},
+		
+		{
+			m_szFacs = "lipPuckerer"
+		},
+		
+		{
+			m_szFacs = "upperLipFunneler"
+		},
+		
+		{
+			m_szFacs = "lowerLipFunneler"
+		},
+		
+		{
+			m_szFacs = "lowerLipSuck"
+		},
+		
+		{
+			m_szFacs = "lipSidewaysL"
+		},
+		
+		{
+			m_szFacs = "lipSidewaysR"
+		},
+		
+		{
+			m_szFacs = "jawThrust"
+		},
+		
+		{
+			m_szFacs = "jawSuck"
+		},
+		
+		{
+			m_szFacs = "jawSidewaysL"
+		},
+		
+		{
+			m_szFacs = "jawSidewaysR"
+		},
+		
+		{
+			m_szFacs = "jawOpen"
+		},
+		
+		{
+			m_szFacs = "jawClencher"
+		},
+		
+		{
+			m_szFacs = "phonemeBMP"
+		},
+		
+		{
+			m_szFacs = "phonemeFV"
+		},
+		
+		{
+			m_szFacs = "eyeClosed__eyeUp"
+		},
+		
+		{
+			m_szFacs = "eyeClosed__eyeDown"
+		},
+		
+		{
+			m_szFacs = "jawOpen__lipCornerPuller"
+		},
+		
+		{
+			m_szFacs = "lipPuckerer__lowerLipFunneler"
+		},
+		
+		{
+			m_szFacs = "lipPuckerer__upperLipFunneler"
+		},
+	]
+	m_FlexControllers = 
+	[
+		
+		{
+			m_szName = "innerBrowRaiser"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "outerBrowRaiser"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "browLowerer"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "eyeDownAndUp"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "eyeRightAndLeft"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "eyeClosedAndLidRaiser"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "squint"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "cheekRaiser"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "dimpler"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "noseWrinkler"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "nostrilDilator"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "upperLipsTowardAndPart"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "phonemeFV"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "phonemeBMP"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lowerLipsTowardAndPart"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "upperLipRaiser"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lowerLipDepressorAndChinRaiser"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lipCornerDepressorAndSharpLipPuller"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lipPressor"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lipCornerPuller"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lipStretcher"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lipPuckerer"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "upperLipFunneler"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lowerLipFunneler"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lowerLipSuck"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "lipSideways"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "jawSuckAndThrust"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "jawSideways"
+			m_szType = "default"
+			min = -1.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "jawOpen"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+		
+		{
+			m_szName = "jawClencher"
+			m_szType = "default"
+			min = 0.000000
+			max = 1.000000
+		},
+	]
+	m_FlexRules = 
+	[
+		
+		{
+			m_nFlex = 0
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 1
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 1
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 2
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 2
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 3
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 3
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 4
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 3
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 5
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 4
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 6
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 4
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 7
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 5
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 8
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 5
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 9
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 6
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 10
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 7
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 11
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 8
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 12
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 9
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 13
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 10
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 14
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 11
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 11
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 11
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 15
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 14
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 14
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 14
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 16
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 11
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 11
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 11
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 17
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 14
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 14
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 14
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 18
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 15
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 15
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 15
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 19
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 16
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 16
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 16
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 20
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 16
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 16
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 16
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 21
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 17
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 22
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 18
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 23
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 17
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 24
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 19
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 25
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 20
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 26
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 21
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 27
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 22
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 22
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 22
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 28
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 23
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 23
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 23
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 29
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 24
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 30
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 25
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 31
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 25
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 32
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 26
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 26
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1056964608
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 26
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 33
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 26
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 26
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1056964608
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 26
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 34
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 27
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 27
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1060320051
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 27
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1060320051
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 35
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 27
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 27
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1060320051
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 27
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1060320051
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 36
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 28
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 28
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 28
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 37
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 29
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 38
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 39
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 40
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 5
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 3
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 41
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 5
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 3
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MIN"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = -1082130432
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 42
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 28
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 28
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 28
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 19
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 43
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 21
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 23
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 23
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 23
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+		
+		{
+			m_nFlex = 44
+			m_FlexOps = 
+			[
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 21
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 22
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 22
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 12
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 22
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 1065353216
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_FETCH1"
+					m_Data = 13
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_ADD"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_SUB"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_CONST"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MAX"
+					m_Data = 0
+				},
+				
+				{
+					m_OpCode = "FLEX_OP_MUL"
+					m_Data = 0
+				},
+			]
+		},
+	]
+}

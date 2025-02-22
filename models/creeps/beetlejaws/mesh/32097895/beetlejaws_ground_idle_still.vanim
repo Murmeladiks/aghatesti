@@ -1,0 +1,1200 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_name = ""
+	m_animArray = 
+	[
+		
+		{
+			m_name = "beetlejaws_ground_idle_still"
+			m_flags = 
+			{
+				m_bLooping = true
+				m_bAllZeros = false
+				m_bHidden = false
+				m_bDelta = false
+				m_bLegacyWorldspace = false
+				m_bModelDoc = false
+			}
+			fps = 30.000000
+			m_pData = 
+			{
+				m_fileName = ""
+				m_nFrames = 1
+				m_nFramesPerBlock = 0
+				m_frameblockArray = 
+				[
+					
+					{
+						m_nStartFrame = 0
+						m_nEndFrame = 0
+						m_segmentIndexArray = 
+						[
+							0,
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+						]
+					},
+				]
+				m_usageDifferences = 
+				{
+					m_boneArray = 
+					[
+						
+						{
+							m_name = "bn_tail_01"
+							m_parent = "root"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "bn_tail_02"
+							m_parent = "bn_tail_01"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "effector8"
+							m_parent = "bn_R_legC_02"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "effector4"
+							m_parent = "bn_R_legB_02"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "effector1"
+							m_parent = "bn_R_legA_02"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "effector7"
+							m_parent = "bn_L_legA_02"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "effector6"
+							m_parent = "bn_L_legB_02"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+						
+						{
+							m_name = "effector9"
+							m_parent = "bn_L_legC_02"
+							m_posError = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_bHasRotation = false
+							m_bHasMovement = false
+						},
+					]
+					m_morphArray = 
+					[
+					]
+					m_userArray = 
+					[
+					]
+					m_bHasRotationBitArray = 
+					[
+						255,
+						255,
+						255,
+						255,
+						255,
+						255,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+					]
+					m_bHasMovementBitArray = 
+					[
+						255,
+						255,
+						255,
+						255,
+						255,
+						255,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+					]
+					m_bHasMorphBitArray = 
+					[
+					]
+					m_bHasUserBitArray = 
+					[
+					]
+				}
+			}
+			m_movementArray = 
+			[
+			]
+			m_eventArray = 
+			[
+			]
+			m_activityArray = 
+			[
+				
+				{
+					m_name = "ACT_DOTA_IDLE"
+					m_nActivity = 0
+					m_nFlags = 0
+					m_nWeight = 1
+				},
+			]
+			m_hierarchyArray = 
+			[
+			]
+			framestalltime = 0.000000
+			m_vecRootMin = 
+			[
+				0.000000,
+				-0.000000,
+				9.252876,
+			]
+			m_vecRootMax = 
+			[
+				0.000000,
+				-0.000000,
+				9.252876,
+			]
+			m_vecBoneWorldMin = 
+			[
+				
+				[
+					0.000000,
+					-0.000000,
+					9.252876,
+				],
+				
+				[
+					-7.965849,
+					-18.937752,
+					5.316078,
+				],
+				
+				[
+					-18.526667,
+					-32.130669,
+					-41.474747,
+				],
+				
+				[
+					-27.795532,
+					-43.709629,
+					-82.541443,
+				],
+				
+				[
+					3.565221,
+					-18.937752,
+					5.316078,
+				],
+				
+				[
+					3.914144,
+					-25.382513,
+					-21.774702,
+				],
+				
+				[
+					4.141542,
+					-29.586706,
+					-39.442974,
+				],
+				
+				[
+					14.133060,
+					-18.937752,
+					5.316077,
+				],
+				
+				[
+					16.720373,
+					-25.058447,
+					-22.345951,
+				],
+				
+				[
+					18.372423,
+					-28.967028,
+					-40.006302,
+				],
+				
+				[
+					-17.180683,
+					0.026761,
+					21.553024,
+				],
+				
+				[
+					22.535820,
+					0.026747,
+					35.873817,
+				],
+				
+				[
+					-53.973553,
+					-27.422615,
+					-78.630890,
+				],
+				
+				[
+					-47.100471,
+					-32.299427,
+					-77.359138,
+				],
+				
+				[
+					-42.917492,
+					-42.802681,
+					-68.940033,
+				],
+				
+				[
+					-79.768585,
+					-42.019524,
+					-116.180161,
+				],
+				
+				[
+					19.539463,
+					0.227625,
+					48.864044,
+				],
+				
+				[
+					21.542583,
+					-13.999593,
+					45.196400,
+				],
+				
+				[
+					21.542582,
+					14.454844,
+					45.196445,
+				],
+				
+				[
+					-53.696232,
+					2.804454,
+					-89.186195,
+				],
+				
+				[
+					-42.488728,
+					6.188966,
+					-96.324547,
+				],
+				
+				[
+					-38.305698,
+					16.692162,
+					-87.905457,
+				],
+				
+				[
+					-32.607716,
+					16.287363,
+					-92.862076,
+				],
+				
+				[
+					-0.748762,
+					-23.633358,
+					-56.316521,
+				],
+				
+				[
+					1.173321,
+					-22.949152,
+					-63.270706,
+				],
+				
+				[
+					-26.245380,
+					-28.639227,
+					-73.321640,
+				],
+				
+				[
+					-3.539749,
+					-42.764828,
+					-182.953232,
+				],
+				
+				[
+					-6.855589,
+					-17.312962,
+					-150.080261,
+				],
+				
+				[
+					-125.321838,
+					0.781311,
+					-171.392166,
+				],
+				
+				[
+					14.133099,
+					18.937799,
+					5.316079,
+				],
+				
+				[
+					16.720354,
+					25.058485,
+					-22.345875,
+				],
+				
+				[
+					18.372442,
+					28.967060,
+					-40.006241,
+				],
+				
+				[
+					3.565219,
+					18.937799,
+					5.316080,
+				],
+				
+				[
+					3.914141,
+					25.382534,
+					-21.774620,
+				],
+				
+				[
+					4.141540,
+					29.586731,
+					-39.442883,
+				],
+				
+				[
+					-7.965851,
+					18.937799,
+					5.316080,
+				],
+				
+				[
+					-18.526781,
+					32.130726,
+					-41.474724,
+				],
+				
+				[
+					-27.795555,
+					43.709641,
+					-82.541512,
+				],
+				
+				[
+					-58.934441,
+					-28.366037,
+					-102.770012,
+				],
+				
+				[
+					-57.455772,
+					-30.428116,
+					-74.688011,
+				],
+				
+				[
+					-75.859917,
+					-36.010151,
+					-57.230007,
+				],
+				
+				[
+					-95.183937,
+					-38.917202,
+					-56.290127,
+				],
+				
+				[
+					-109.681519,
+					-44.613354,
+					-67.182335,
+				],
+				
+				[
+					-47.727463,
+					21.121687,
+					-112.901978,
+				],
+				
+				[
+					-34.336132,
+					22.833977,
+					-97.816483,
+				],
+				
+				[
+					-39.589546,
+					28.352070,
+					-81.077827,
+				],
+				
+				[
+					-58.913536,
+					31.259075,
+					-80.137917,
+				],
+				
+				[
+					-73.411095,
+					36.955276,
+					-91.030106,
+				],
+			]
+			m_vecBoneWorldMax = 
+			[
+				
+				[
+					0.000000,
+					-0.000000,
+					9.252876,
+				],
+				
+				[
+					-7.965849,
+					-18.937752,
+					5.316078,
+				],
+				
+				[
+					-18.526667,
+					-32.130669,
+					-41.474747,
+				],
+				
+				[
+					-27.795532,
+					-43.709629,
+					-82.541443,
+				],
+				
+				[
+					3.565221,
+					-18.937752,
+					5.316078,
+				],
+				
+				[
+					3.914144,
+					-25.382513,
+					-21.774702,
+				],
+				
+				[
+					4.141542,
+					-29.586706,
+					-39.442974,
+				],
+				
+				[
+					14.133060,
+					-18.937752,
+					5.316077,
+				],
+				
+				[
+					16.720373,
+					-25.058447,
+					-22.345951,
+				],
+				
+				[
+					18.372423,
+					-28.967028,
+					-40.006302,
+				],
+				
+				[
+					-17.180683,
+					0.026761,
+					21.553024,
+				],
+				
+				[
+					22.535820,
+					0.026747,
+					35.873817,
+				],
+				
+				[
+					-53.973553,
+					-27.422615,
+					-78.630890,
+				],
+				
+				[
+					-47.100471,
+					-32.299427,
+					-77.359138,
+				],
+				
+				[
+					-42.917492,
+					-42.802681,
+					-68.940033,
+				],
+				
+				[
+					-79.768585,
+					-42.019524,
+					-116.180161,
+				],
+				
+				[
+					19.539463,
+					0.227625,
+					48.864044,
+				],
+				
+				[
+					21.542583,
+					-13.999593,
+					45.196400,
+				],
+				
+				[
+					21.542582,
+					14.454844,
+					45.196445,
+				],
+				
+				[
+					-53.696232,
+					2.804454,
+					-89.186195,
+				],
+				
+				[
+					-42.488728,
+					6.188966,
+					-96.324547,
+				],
+				
+				[
+					-38.305698,
+					16.692162,
+					-87.905457,
+				],
+				
+				[
+					-32.607716,
+					16.287363,
+					-92.862076,
+				],
+				
+				[
+					-0.748762,
+					-23.633358,
+					-56.316521,
+				],
+				
+				[
+					1.173321,
+					-22.949152,
+					-63.270706,
+				],
+				
+				[
+					-26.245380,
+					-28.639227,
+					-73.321640,
+				],
+				
+				[
+					-3.539749,
+					-42.764828,
+					-182.953232,
+				],
+				
+				[
+					-6.855589,
+					-17.312962,
+					-150.080261,
+				],
+				
+				[
+					-125.321838,
+					0.781311,
+					-171.392166,
+				],
+				
+				[
+					14.133099,
+					18.937799,
+					5.316079,
+				],
+				
+				[
+					16.720354,
+					25.058485,
+					-22.345875,
+				],
+				
+				[
+					18.372442,
+					28.967060,
+					-40.006241,
+				],
+				
+				[
+					3.565219,
+					18.937799,
+					5.316080,
+				],
+				
+				[
+					3.914141,
+					25.382534,
+					-21.774620,
+				],
+				
+				[
+					4.141540,
+					29.586731,
+					-39.442883,
+				],
+				
+				[
+					-7.965851,
+					18.937799,
+					5.316080,
+				],
+				
+				[
+					-18.526781,
+					32.130726,
+					-41.474724,
+				],
+				
+				[
+					-27.795555,
+					43.709641,
+					-82.541512,
+				],
+				
+				[
+					-58.934441,
+					-28.366037,
+					-102.770012,
+				],
+				
+				[
+					-57.455772,
+					-30.428116,
+					-74.688011,
+				],
+				
+				[
+					-75.859917,
+					-36.010151,
+					-57.230007,
+				],
+				
+				[
+					-95.183937,
+					-38.917202,
+					-56.290127,
+				],
+				
+				[
+					-109.681519,
+					-44.613354,
+					-67.182335,
+				],
+				
+				[
+					-47.727463,
+					21.121687,
+					-112.901978,
+				],
+				
+				[
+					-34.336132,
+					22.833977,
+					-97.816483,
+				],
+				
+				[
+					-39.589546,
+					28.352070,
+					-81.077827,
+				],
+				
+				[
+					-58.913536,
+					31.259075,
+					-80.137917,
+				],
+				
+				[
+					-73.411095,
+					36.955276,
+					-91.030106,
+				],
+			]
+			m_sequenceParams = 
+			{
+				m_flFadeInTime = 0.200000
+				m_flFadeOutTime = 0.200000
+			}
+		},
+	]
+	m_decoderArray = 
+	[
+		
+		{
+			m_szName = "CCompressedStaticFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedFullFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedAnimVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedDeltaVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedAnimQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedFullQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedStaticChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullShort"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedFullBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedStaticColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedFullColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedFullVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+		
+		{
+			m_szName = "CCompressedFullVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+	]
+	m_nMaxUniqueFrameIndex = 13
+	m_segmentArray = 
+	[
+		
+		{
+			m_nUniqueFrameIndex = 0
+			m_nLocalElementMasks = 127
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 0A 00 94 00 00 00 01 00 02 00 03 00 04 00 05 00 06 00 07 00 08 00 09 00 00 00 00 00
+				00 80 39 8D C8 0B 14 41 84 80 97 C1 82 F4 7B C0 3E E8 FE C0 FF FE 46 42 00 00 80 36 00 00 80 36
+				E8 A6 2E 42 00 00 C0 36 00 00 00 00 84 80 97 C1 80 F4 7B C0 93 2C 64 40 C3 CA DE 41 00 00 20 B7
+				00 00 00 B5 D6 4D 91 41 00 00 00 B6 00 00 00 35 84 80 97 C1 82 F4 7B C0 02 21 62 41 87 97 E3 41
+				00 00 80 36 00 00 00 36 CE 4D 91 41 00 00 80 36 00 00 00 00 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 1
+			m_nLocalElementMasks = 8128
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 0A 00 94 00 0A 00 0B 00 0C 00 0D 00 0E 00 0F 00 10 00 11 00 12 00 13 00 AB 3A DB 3C
+				68 CD 44 41 0A 72 89 C1 E3 35 21 42 E4 3B 49 41 00 30 B3 36 F3 7C 24 C2 E1 F8 C4 C2 56 98 DB 41
+				68 19 C5 40 D0 51 B8 40 80 0F 9E BF 34 89 61 41 00 00 80 36 00 00 00 B7 10 46 4F 40 28 64 1C C2
+				3A 28 35 42 FA 7F 17 42 FC 7B CD 41 64 B1 4D BE AD A2 63 C1 A0 1A 2F C0 F8 2A 4A 40 B2 A2 63 41
+				F0 19 2F C0 54 2A 4A 40 15 38 25 C2 41 16 DA C2 9A C5 31 C0 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 2
+			m_nLocalElementMasks = 2088960
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 0A 00 94 00 14 00 15 00 17 00 18 00 19 00 1A 00 1B 00 1C 00 1D 00 1E 00 60 64 5B C1
+				00 00 A0 B8 00 00 80 B7 08 89 61 C1 00 00 38 38 00 00 40 38 70 63 50 41 D8 05 9D C2 EB 47 BD 41
+				04 44 6A 41 E1 15 AB C2 A9 CE B7 41 74 39 ED 41 A8 2F 1B 40 00 00 00 00 A2 06 97 40 06 E8 4C C3
+				96 2A 2B 42 68 AF 35 40 8E EB 2B C3 C0 B7 8A 41 16 AC EC C2 7C D5 B9 C1 7C 23 84 C1 9D 80 97 41
+				7A F4 7B C0 2D 21 62 41 5D 97 E3 C1 00 00 60 B7 00 00 40 36 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 3
+			m_nLocalElementMasks = 133169152
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 0A 00 94 00 1F 00 20 00 21 00 22 00 23 00 24 00 25 00 26 00 27 00 28 00 D8 4D 91 C1
+				00 00 50 B8 00 00 E0 B7 9D 80 97 41 78 F4 7B C0 91 2C 64 40 96 CA DE C1 00 00 80 37 00 00 50 37
+				D2 4D 91 C1 00 00 70 B8 00 00 48 B7 9D 80 97 41 7A F4 7B C0 3E E8 FE C0 01 FF 46 C2 00 00 18 B8
+				00 00 40 B8 F8 A6 2E C2 00 00 98 38 00 00 80 35 D4 84 3C C2 BD C5 F4 C2 78 24 E3 41 B8 A0 B0 41
+				64 4A 86 41 18 88 A2 C0 4B 92 B6 41 28 C7 42 C1 C0 F8 17 40 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 4
+			m_nLocalElementMasks = 1073758208
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				02 00 03 00 02 00 18 00 16 00 2D 00 90 C7 40 82 00 02 99 CC 00 03 C0 00 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 5
+			m_nLocalElementMasks = 4160749568
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				03 00 03 00 06 00 5C 00 29 00 2A 00 2B 00 2C 00 2E 00 2F 00 2C 83 9C 41 00 00 80 B6 00 00 00 B7
+				58 0E 98 41 00 00 80 B6 00 00 70 36 BC 7F 11 C2 2A FF 04 C3 65 C2 A8 C1 54 F4 A1 C1 00 00 D0 37
+				00 00 80 B6 1C 83 9C C1 00 00 80 B7 00 00 58 B8 54 0E 98 C1 00 00 80 36 00 00 14 38 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 6
+			m_nLocalElementMasks = 31
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 40 00 30 00 31 00 32 00 33 00 34 00 35 00 36 00 3F 6D 3F ED 3F 6D 96 AE 3A 41
+				D7 F6 00 40 00 40 00 40 5C 65 C6 1C 8C 65 EE F7 5F C4 8E B9 00 40 00 40 00 40 C9 22 87 C1 A7 4B
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 7
+			m_nLocalElementMasks = 496
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 40 00 37 00 38 00 39 00 3A 00 3B 00 3C 00 3D 00 E4 F7 85 B6 45 C5 00 40 00 40
+				00 40 95 23 37 C1 8B 48 64 C1 FA 7F 9C BE 00 40 00 40 00 40 D2 5F 32 2B BA 2B 00 40 00 40 2E 7C
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 8
+			m_nLocalElementMasks = 15872
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 40 00 3E 00 3F 00 40 00 41 00 42 00 43 00 44 00 E0 F8 11 C3 7B C2 A9 42 56 48
+				A0 24 BC 4C B6 7E 44 33 82 C3 99 4A EC E2 EC E2 67 B5 82 43 46 D4 CE D4 D2 5F 00 40 00 40 2E 7C
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 9
+			m_nLocalElementMasks = 507904
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 40 00 45 00 46 00 47 00 48 00 49 00 4A 00 4B 00 E0 F8 11 C3 7B C2 A9 42 56 48
+				A0 24 A1 A2 40 45 09 CF 3B A4 71 4B C5 CD 00 40 00 40 00 40 09 4F 40 C5 5F 5D C5 4D 71 CB C5 5B
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 10
+			m_nLocalElementMasks = 8126464
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 40 00 4C 00 4D 00 4E 00 4F 00 50 00 51 00 52 00 00 40 00 40 00 40 45 C5 7B 49
+				E4 77 00 40 00 40 00 40 95 23 37 C1 8B 48 72 C6 5F 44 12 88 00 40 00 40 00 40 C9 22 87 C1 A7 4B
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 11
+			m_nLocalElementMasks = 260046848
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 07 00 40 00 53 00 54 00 55 00 56 00 57 00 58 00 59 00 D7 F6 C6 BE 96 2E 00 40 00 40
+				00 40 5C 65 C6 1C 8C 65 1F 4E DE 41 63 63 95 6C 00 C0 00 40 30 45 4D 3A 8C 0D 84 43 5E 4A 25 23
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 12
+			m_nLocalElementMasks = 4026531840
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 06 00 38 00 5A 00 5B 00 5C 00 5D 00 5E 00 5F 00 AE 43 8C 37 F2 63 63 E3 DE C1 E1 B1
+				95 6C 00 C0 00 40 30 45 4D 3A 8C 0D 84 43 5E 4A 25 23 AE 43 8C 37 F2 63 
+			]
+		},
+	]
+}

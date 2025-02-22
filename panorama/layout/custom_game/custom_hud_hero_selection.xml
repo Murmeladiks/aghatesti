@@ -1,0 +1,80 @@
+<!-- xml reconstructed by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/hudstyles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/hud_hero_selection.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/aghanim_game_info.vcss_c" />
+		<include src="s2r://panorama/styles/popups/popup_manager.vcss_c" />
+		<include src="s2r://panorama/layout/custom_game/patch_notes/patch_notes.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/layout/custom_game/scripts/utils.vjs_c" />
+		<include src="s2r://panorama/scripts/custom_game/hud_hero_selection.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/patch_notes/patch_notes.vjs_c" />
+	</scripts>
+	<snippets>
+		<snippet name="PatchLine">
+			<Panel class="PatchLine">
+				<Label id="PatchSymbol" text="" />
+				<Label id="PatchText" />
+			</Panel>
+		</snippet>
+		<snippet name="PatchData">
+			<Panel class="PatchData">
+				<Label id="PatchDate" />
+				<Panel id="PatchLines" />
+			</Panel>
+		</snippet>
+	</snippets>
+	<Panel class="Mother">
+		<Panel id="LesserMother">
+			<Panel id="SelectionSceneContainer">
+				<Image id="ChatMessagesBackground" src="s2r://" />
+				<Panel id="ChatMessages">
+					<TextEntry id="ChatBox" maxchars="100" placeholder="Type here to chat..." oninputsubmit="BroadcastChatInput();" />
+					<Panel id="ChatMessagesContainer" />
+				</Panel>
+				<Panel id="patchnotes">
+					<Label id="patchnotestitle" text="LATEST PATCH NOTES" />
+					<Panel id="PatchNotesLines" />
+				</Panel>
+				<Panel id="name1">
+					<Label id="name1_text" text="" />
+				</Panel>
+				<Panel id="name2">
+					<Label id="name2_text" text="" />
+				</Panel>
+				<Panel id="name3">
+					<Label id="name3_text" text="" />
+				</Panel>
+				<Panel id="name4">
+					<Label id="name4_text" text="" />
+				</Panel>
+				<DOTAScenePanel id="scene" map="background_panorama" renderdeferred="true" light="light1" camera="camera1" particleonly="false" antialias="true" post-process-material="materials/dev/deferred_post_process_graphic_ui.vmat" />
+				<Panel id="PickTimerTop">
+					<Label id="TimerTxtTop" text="99" />
+				</Panel>
+				<DOTAUIHeroFacetDropdown id="HeroFacetDropdown" class="small FacetSelector" />
+				<Panel id="grid_container">
+					<Panel class="slanted_grid_edge" antialias="true">
+						<Panel id="SlantGridEdgeLeft" />
+						<Panel id="SlantGridEdgeRight" />
+					</Panel>
+					<Panel class="slanted_grid" id="slanted_grid_id" />
+					<Button class="RedConfirm">
+						<Panel id="RedConfirmLeft" />
+						<Panel id="RedConfirmRight" />
+						<DOTAHeroMovie id="face_selected" heroname="" />
+						<Button id="ConfirmButton" onactivate="LockFace();">
+							<Panel id="Check" />
+						</Button>
+						<Button id="RandomButton" onactivate="LockFaceRandom();">
+							<Panel id="Dice" />
+						</Button>
+					</Button>
+				</Panel>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

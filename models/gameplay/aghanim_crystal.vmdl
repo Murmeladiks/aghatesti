@@ -1,0 +1,119 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "models/gameplay/aghanim_gem_3362747d.vmesh"
+						filename = "models/gameplay/aghanim_gem_3362747d.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						ignore_rotation = false
+						parent_bone = "gem"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-11.926490,
+									-33.202070,
+									-16.642260,
+								]
+								hitbox_maxs = 
+								[
+									11.926490,
+									33.881320,
+									16.642260,
+								]
+								name = "hitbox_default"
+								parent_bone = "gem"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "gem"
+						origin = 
+						[
+							0.072859,
+							0.329711,
+							-2.490403,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+				]
+			},
+		]
+	}
+}

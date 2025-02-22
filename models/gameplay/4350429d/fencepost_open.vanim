@@ -1,0 +1,332 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_name = ""
+	m_animArray = 
+	[
+		
+		{
+			m_name = "fencepost_open"
+			m_flags = 
+			{
+				m_bLooping = false
+				m_bAllZeros = false
+				m_bHidden = false
+				m_bDelta = false
+				m_bLegacyWorldspace = false
+				m_bModelDoc = false
+			}
+			fps = 30.000000
+			m_pData = 
+			{
+				m_fileName = ""
+				m_nFrames = 30
+				m_nFramesPerBlock = 0
+				m_frameblockArray = 
+				[
+					
+					{
+						m_nStartFrame = 0
+						m_nEndFrame = 29
+						m_segmentIndexArray = 
+						[
+							0,
+							1,
+							2,
+						]
+					},
+				]
+				m_usageDifferences = 
+				{
+					m_boneArray = 
+					[
+					]
+					m_morphArray = 
+					[
+					]
+					m_userArray = 
+					[
+					]
+					m_bHasRotationBitArray = 
+					[
+						3,
+						0,
+					]
+					m_bHasMovementBitArray = 
+					[
+						3,
+						0,
+					]
+					m_bHasMorphBitArray = 
+					[
+					]
+					m_bHasUserBitArray = 
+					[
+					]
+				}
+			}
+			m_movementArray = 
+			[
+			]
+			m_eventArray = 
+			[
+			]
+			m_activityArray = 
+			[
+			]
+			m_hierarchyArray = 
+			[
+			]
+			framestalltime = 0.000000
+			m_vecRootMin = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+			m_vecRootMax = 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+			]
+			m_vecBoneWorldMin = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					-0.203772,
+					-0.216556,
+					13.593461,
+				],
+			]
+			m_vecBoneWorldMax = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000017,
+					-0.012799,
+					229.999908,
+				],
+			]
+			m_sequenceParams = 
+			{
+				m_flFadeInTime = 0.200000
+				m_flFadeOutTime = 0.200000
+			}
+		},
+	]
+	m_decoderArray = 
+	[
+		
+		{
+			m_szName = "CCompressedStaticFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedFullFloat"
+			m_nVersion = 0
+			m_nType = 1
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedAnimVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedDeltaVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedFullVector3"
+			m_nVersion = 0
+			m_nType = 3
+		},
+		
+		{
+			m_szName = "CCompressedStaticQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedAnimQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedFullQuaternion"
+			m_nVersion = 0
+			m_nType = 4
+		},
+		
+		{
+			m_szName = "CCompressedStaticChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullChar"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullShort"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedFullInt"
+			m_nVersion = 0
+			m_nType = 5
+		},
+		
+		{
+			m_szName = "CCompressedStaticBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedFullBool"
+			m_nVersion = 0
+			m_nType = 6
+		},
+		
+		{
+			m_szName = "CCompressedStaticColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedFullColor32"
+			m_nVersion = 0
+			m_nType = 9
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedFullVector2D"
+			m_nVersion = 0
+			m_nType = 25
+		},
+		
+		{
+			m_szName = "CCompressedStaticVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+		
+		{
+			m_szName = "CCompressedFullVector4D"
+			m_nVersion = 0
+			m_nType = 27
+		},
+	]
+	m_nMaxUniqueFrameIndex = 61
+	m_segmentArray = 
+	[
+		
+		{
+			m_nUniqueFrameIndex = 0
+			m_nLocalElementMasks = 1
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				02 00 03 00 01 00 10 00 00 00 00 00 00 00 00 00 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 1
+			m_nLocalElementMasks = 65536
+			m_nLocalChannel = 0
+			m_container = 
+			#[
+				06 00 03 00 01 00 72 01 01 00 00 00 66 43 00 E0 8F 37 01 80 28 37 EC 3E 65 43 00 B0 35 BA DF FF
+				27 37 2A 0B 63 43 80 37 36 BB C8 07 73 B6 12 88 5F 43 C0 79 C7 BB 0A 11 6F B6 CC C8 5A 43 F0 C2
+				2C BC 05 3E 20 37 0E E6 54 43 B8 E3 83 BC 10 2D 63 B6 E6 0A 4E 43 E8 AC B8 BC C5 BB 16 37 C8 42
+				46 43 E8 B4 F4 BC 64 7A 11 37 1F A7 3D 43 38 9A 1B BD 54 6A 4A B6 7B 68 34 43 30 42 3F BD B2 82
+				40 B6 D2 8C 2A 43 18 3D 65 BD FC 6A F9 36 4E 2E 20 43 0C A3 86 BD 01 B8 2A B6 C7 80 15 43 E0 35
+				9B BD 8B E3 DA 36 E9 86 0A 43 F4 60 B0 BD AA DF CA 36 2C B7 FE 42 6C EF C5 BD 83 8E 07 B6 8F 67
+				E8 42 C1 72 DB BD D4 57 F7 B5 06 22 D2 42 0F E9 F0 BD D5 13 9A 36 E2 1D BC 42 74 13 03 BE 8E CC
+				C7 B5 D9 C2 A6 42 E5 5D 0D BE 54 18 74 36 34 16 92 42 BC 55 17 BE 05 11 56 36 5D A1 7C 42 21 DF
+				20 BE 70 6F 84 B5 D6 A6 57 42 1C C9 29 BE 56 40 62 B5 9A 54 35 42 64 0E 32 BE 6C BD 04 36 08 1F
+				16 42 10 95 39 BE 0C ED 1B B5 CF 64 F5 41 F5 30 40 BE 1C 26 B3 35 06 79 C6 41 D2 D8 45 BE D1 DD
+				90 35 55 69 A0 41 9D 6F 4A BE A2 4A A0 B4 92 50 84 41 8D D2 4D BE B0 14 83 B4 1D 90 65 41 52 EF
+				4F BE 0A 5E 27 35 D7 7E 59 41 80 A9 50 BE E8 5B 1E 35 
+			]
+		},
+		
+		{
+			m_nUniqueFrameIndex = 31
+			m_nLocalElementMasks = 65537
+			m_nLocalChannel = 1
+			m_container = 
+			#[
+				08 00 04 00 02 00 74 01 02 00 03 00 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92
+				45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92
+				C6 92 C6 12 BB 12 C6 12 45 ED C6 92 C6 92 C6 12 BB 12 C6 12 45 ED C6 92 C6 92 C6 92 45 6D C6 92
+				45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92
+				45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92
+				C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92
+				45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92
+				45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92
+				C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92
+				45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92
+				45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 92 45 6D C6 92 45 ED C6 92
+				C6 92 C6 92 45 6D C6 92 45 ED C6 92 C6 92 C6 12 BB 12 C6 12 
+			]
+		},
+	]
+}

@@ -1,0 +1,379 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "outpost"
+						filename = "models/props_structures/aghanim_outpost_outpost.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "attach_fx"
+						ignore_rotation = false
+						parent_bone = "outpost_rig_A"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							-89.214400,
+							-179.999700,
+							179.999700,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						ignore_rotation = false
+						parent_bone = "outpost_root"
+						relative_origin = 
+						[
+							0.000000,
+							174.510600,
+							0.000015,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					
+					{
+						_class = "AnimFile"
+						name = "@outpost_captured_idle_up"
+						source_filename = "models/props_structures/@outpost_captured_idle_up.dmx"
+						fade_in_time = 1.000000
+						fade_out_time = 1.000000
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "@aghanim_outpost_idle_base"
+						source_filename = "models/props_structures/@aghanim_outpost_idle_base.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "@aghanim_outpost_idle_90"
+						source_filename = "models/props_structures/@aghanim_outpost_idle_90.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "@aghanim_outpost_idle_180"
+						source_filename = "models/props_structures/@aghanim_outpost_idle_180.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "@aghanim_outpost_idle_minus_90"
+						source_filename = "models/props_structures/@aghanim_outpost_idle_minus_90.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "@aghanim_outpost_minus_179"
+						source_filename = "models/props_structures/@aghanim_outpost_minus_179.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "outpost_captured_idle_base"
+						source_filename = "models/props_structures/outpost_captured_idle_base.dmx"
+						fade_in_time = 1.000000
+						fade_out_time = 1.000000
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+					},
+				]
+			},
+			
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-131.161700,
+									-22.075580,
+									-111.119700,
+								]
+								hitbox_maxs = 
+								[
+									122.181100,
+									422.452700,
+									102.814900,
+								]
+								name = "outpost_root"
+								parent_bone = "outpost_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "outpost_root"
+						origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						angles = 
+						[
+							0.000024,
+							89.999980,
+							89.999970,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_A"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_B1"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_B2"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_B3"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_C1"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_C2"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_C3"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "outpost_rig_C4"
+								origin = 
+								[
+									0.000083,
+									347.843300,
+									0.000104,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

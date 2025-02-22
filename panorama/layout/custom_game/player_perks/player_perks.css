@@ -1,0 +1,281 @@
+/* Prettified by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io */
+
+.PerksRoot
+{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.PerksRoot.Show
+{
+	opacity: 1;
+}
+
+#PerksMenuContainer
+{
+	width: 1220px;
+	height: 540px;
+	align: center center;
+	transition: opacity 0.2s ease-in-out 0s, transform 0.15s ease-in-out 0s;
+	background-color: gradient(linear, 0% 100%, 0% 0%, from(#212129), to(#434355));
+	flow-children: down;
+}
+
+#PerksMenuTitle
+{
+	width: 100%;
+	background-color: gradient(linear, 0% 0%, 100% 0%, from(#254b8a), to(#40455a));
+	flow-children: right;
+}
+
+#PerksMenuTitleLabels
+{
+	width: 1150px;
+	align: left center;
+	flow-children: down;
+}
+
+#PerksMenuLabel
+{
+	width: 100%;
+	margin-top: 10px;
+	align: left center;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #ddeaf1;
+	text-shadow: rgba(0, 0, 0, 0.9) 0px 3px 3px 2;
+}
+
+#PerksMenuSubLabel
+{
+	width: 100%;
+	margin-bottom: 10px;
+	align: left center;
+	text-align: center;
+	font-size: 18px;
+	color: #9cb2f8;
+}
+
+#PerksMenuClose
+{
+	width: 30px;
+	height: 30px;
+	align: right center;
+	background-size: 100%;
+	margin-right: 10px;
+	background-image: url("s2r://panorama/images/custom_game/import_dota/x_close_png_png.vtex");
+	transition: wash-color 0.2s ease-in-out 0s;
+	wash-color: #7c91b8;
+}
+
+#PerksMenuClose:hover
+{
+	wash-color: #a3bfee;
+}
+
+#PerksMenuClose:active
+{
+	wash-color: #e0e9ff;
+}
+
+.PerkColumnTitle
+{
+	horizontal-align: center;
+	text-align: center;
+	font-size: 28px;
+	padding: 12px 0px 11px 0px;
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 100%;
+}
+
+#PerksContainer1Title
+{
+	color: #adccf1;
+	text-shadow: rgba(183, 217, 255, 0.2) 0px 0px 8px 3px;
+	layout-position: fixed;
+}
+
+#PerksContainer2Title
+{
+	color: #6b82f1;
+	text-shadow: rgba(112, 139, 255, 0.2) 0px 0px 8px 3px;
+}
+
+#PerksContainer3Title
+{
+	color: #e369f1;
+	text-shadow: rgba(241, 110, 255, 0.2) 0px 0px 8px 3px;
+}
+
+#PerksColumnsContainer
+{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+	flow-children: down;
+	padding-left: 4px;
+}
+
+#PerksColumnsHeaders_Root
+{
+	flow-children: right;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#PerksColumns_Root
+{
+	flow-children: right;
+	overflow: squish scroll;
+	padding-right: 20px;
+}
+
+.PerkColumnPart
+{
+	width: 387px;
+	margin-left: 10px;
+}
+
+.PerksColumn_Wrap
+{
+	background-color: rgba(16, 16, 19, 0.8);
+}
+
+.PerksColumn
+{
+	horizontal-align: center;
+	flow-children: right-wrap;
+	overflow: clip;
+	padding-top: 10px;
+	padding-left: -5px;
+}
+
+.Perk
+{
+	margin-bottom: 5px;
+	margin-left: 5px;
+	width: 120px;
+	height: 120px;
+	flow-children: down;
+	padding: 1px;
+	background-image: url("s2r://panorama/images/custom_game/perk_bg_png.vtex");
+	background-size: 100%;
+}
+
+#PerkIcon
+{
+	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	align: center center;
+	border-radius: 10%;
+}
+
+#PerkLabel
+{
+	width: 114px;
+	align: center center;
+	color: #86a3ff;
+	font-size: 16px;
+	text-overflow: shrink;
+	text-align: center;
+	margin: 0px 2px -2px 2px;
+	text-shadow: 1px -1px 2px 3 #000000ff;
+	font-weight: lighter;
+}
+
+.PerkIconNotAvailable
+{
+	saturation: 0;
+	brightness: 0.75;
+}
+
+.ActivePerkIcon:hover
+{
+	brightness: 1.3;
+	pre-transform-scale2d: 1.05;
+}
+
+#PerksHeaderImage
+{
+	height: 250px;
+	width: 420px;
+	align: center center;
+	margin-bottom: 594px;
+	margin-right: 935px;
+}
+
+@define overlay_shadow_weight: 20px;
+@define overlay_shadow_opacity: 0.7;
+.OverlayRight
+{
+	width: overlay_shadow_weight;
+	height: 100%;
+	background-color: gradient( linear, 100% 0%, 0% 0%, from(transparent), color-stop(0.65, transparent), to(rgba(0, 0, 0, overlay_shadow_opacity)) );
+}
+
+.OverlayLeft
+{
+	width: overlay_shadow_weight;
+	height: 100%;
+	horizontal-align: right;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from(transparent), color-stop(0.65, transparent), to(rgba(0, 0, 0, overlay_shadow_opacity)) );
+}
+
+.OverlayBottom
+{
+	width: 100%;
+	height: overlay_shadow_weight;
+	vertical-align: bottom;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.65, transparent), to(rgba(0, 0, 0, overlay_shadow_opacity)) );
+}
+
+.OverlayTop
+{
+	width: 100%;
+	height: overlay_shadow_weight;
+	background-color: gradient( linear, 0% 100%, 0% 0%, from(transparent), color-stop(0.65, transparent), to(rgba(0, 0, 0, overlay_shadow_opacity)) );
+}
+
+#ScrollThumb
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from(#10111a), color-stop(0.2, #1e2031), color-stop(0.8, #1e2031), to(#24263a) );
+	border-right: 1px solid #2e304b;
+}
+
+#VerticalScrollBar
+{
+	width: 15px;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from(#0e0e10), color-stop(0.92, #0e0e10), color-stop(0.92, #202024), to(#202024) );
+}
+
+#ScrollFiller
+{
+	height: 100%;
+	width: 15px;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from(#0e0e10), color-stop(0.92, #0e0e10), color-stop(0.92, #202024), to(#202024) );
+	margin-left: 5px;
+}
+
+.GetSuppLevel
+{
+	align: center bottom;
+	font-style: italic;
+	font-size: 14px;
+	text-decoration: underline;
+	margin-bottom: 1px;
+	color: #9ba1ca;
+}
+
+.GetSuppLevel:hover
+{
+	color: #c6ceff;
+}
+
+.OpenTier .GetSuppLevel
+{
+	visibility: collapse;
+}
+

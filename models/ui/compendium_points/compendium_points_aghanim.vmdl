@@ -1,0 +1,817 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "models/ui/compendium_points/compendium_points_24levels_262c0dc7.vmesh"
+						filename = "models/ui/compendium_points/compendium_points_24levels_262c0dc7.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "attach_particle"
+						ignore_rotation = false
+						parent_bone = "root"
+						relative_origin = 
+						[
+							4.620384,
+							8.657494,
+							-11.582410,
+						]
+						relative_angles = 
+						[
+							-0.127026,
+							-1.611524,
+							1.150346,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					
+					{
+						_class = "HitboxSet"
+						name = "select_low"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-46.220400,
+									-46.220400,
+									-46.220400,
+								]
+								hitbox_maxs = 
+								[
+									46.220400,
+									46.220400,
+									46.220400,
+								]
+								name = "select_low"
+								parent_bone = "root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+					
+					{
+						_class = "HitboxSet"
+						name = "select_high"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-25.421220,
+									-25.421220,
+									-25.421220,
+								]
+								hitbox_maxs = 
+								[
+									25.421220,
+									25.421220,
+									25.421220,
+								]
+								name = "select_high"
+								parent_bone = "root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "root"
+						origin = 
+						[
+							-0.116265,
+							-0.140446,
+							40.738300,
+						]
+						angles = 
+						[
+							-11.845260,
+							90.000010,
+							89.115760,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "joint_a_01"
+								origin = 
+								[
+									-4.357050,
+									4.920311,
+									-7.135566,
+								]
+								angles = 
+								[
+									32.561750,
+									-180.000000,
+									-180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_a_02"
+								origin = 
+								[
+									15.834150,
+									-10.253320,
+									-2.340774,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_a_03"
+								origin = 
+								[
+									10.831080,
+									4.142532,
+									7.225049,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_01"
+								origin = 
+								[
+									-5.732424,
+									-1.040150,
+									-33.873760,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_02"
+								origin = 
+								[
+									11.717880,
+									-10.995320,
+									-21.745860,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_03"
+								origin = 
+								[
+									3.535905,
+									-0.349545,
+									-33.779300,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_04"
+								origin = 
+								[
+									22.887530,
+									3.986412,
+									-24.314530,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_05"
+								origin = 
+								[
+									-8.890065,
+									-0.980640,
+									18.833230,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_06"
+								origin = 
+								[
+									-19.790360,
+									2.155701,
+									-14.391730,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_07"
+								origin = 
+								[
+									28.393910,
+									5.113747,
+									-4.189187,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_b_08"
+								origin = 
+								[
+									9.055859,
+									-1.174114,
+									-37.887210,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_01"
+								origin = 
+								[
+									1.555340,
+									15.352160,
+									-0.964310,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_02"
+								origin = 
+								[
+									10.128150,
+									15.077300,
+									-20.611010,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_03"
+								origin = 
+								[
+									-14.932990,
+									21.996870,
+									-31.088250,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_04"
+								origin = 
+								[
+									13.509890,
+									5.444611,
+									-15.850870,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_05"
+								origin = 
+								[
+									11.069340,
+									8.152016,
+									-19.644220,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_06"
+								origin = 
+								[
+									1.075051,
+									8.327728,
+									-27.135850,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_07"
+								origin = 
+								[
+									19.355510,
+									23.313790,
+									-28.883090,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_08"
+								origin = 
+								[
+									-5.524539,
+									10.339950,
+									-23.098280,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_09"
+								origin = 
+								[
+									-15.535910,
+									13.705700,
+									-3.927788,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_10"
+								origin = 
+								[
+									27.035210,
+									6.591942,
+									-15.852340,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_11"
+								origin = 
+								[
+									9.834101,
+									20.437550,
+									-30.069520,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_12"
+								origin = 
+								[
+									-6.265658,
+									20.687900,
+									-37.067540,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_13"
+								origin = 
+								[
+									-18.124060,
+									6.537861,
+									-18.828720,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_14"
+								origin = 
+								[
+									2.133080,
+									18.988610,
+									-12.066920,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_15"
+								origin = 
+								[
+									7.939972,
+									4.697811,
+									-8.654531,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_16"
+								origin = 
+								[
+									24.221900,
+									13.871630,
+									-14.615030,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_17"
+								origin = 
+								[
+									13.920270,
+									19.884070,
+									-9.506658,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_18"
+								origin = 
+								[
+									-0.985933,
+									-4.634556,
+									-1.458940,
+								]
+								angles = 
+								[
+									22.084580,
+									180.000000,
+									180.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_19"
+								origin = 
+								[
+									-8.611040,
+									6.135815,
+									-19.410460,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_20"
+								origin = 
+								[
+									-2.697834,
+									19.906930,
+									-18.633290,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_21"
+								origin = 
+								[
+									19.854600,
+									12.229410,
+									-3.584858,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_22"
+								origin = 
+								[
+									-21.090260,
+									8.792686,
+									-6.942823,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_23"
+								origin = 
+								[
+									7.645594,
+									-3.430740,
+									-33.531630,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_24"
+								origin = 
+								[
+									4.136621,
+									-6.129234,
+									-13.484000,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_25"
+								origin = 
+								[
+									-5.684049,
+									22.265950,
+									-10.910690,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "joint_c_26"
+								origin = 
+								[
+									-21.621160,
+									2.989807,
+									-18.573230,
+								]
+								angles = 
+								[
+									-0.000000,
+									-0.000000,
+									-0.000000,
+								]
+								do_not_discard = true
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

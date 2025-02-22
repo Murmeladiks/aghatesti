@@ -1,0 +1,122 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "models/props_gameplay/morokai_orb_model_0e8953e9.vmesh"
+						filename = "models/props_gameplay/morokai_orb_model_0e8953e9.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "attach_root"
+						ignore_rotation = false
+						parent_bone = "orb_root"
+						relative_origin = 
+						[
+							0.000000,
+							2.583892,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							-61.076750,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "orb_root"
+						origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "orb_top"
+								origin = 
+								[
+									0.000000,
+									7.480134,
+									0.000000,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+							
+							{
+								_class = "Bone"
+								name = "orb_botton"
+								origin = 
+								[
+									0.000000,
+									-7.606564,
+									0.000000,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

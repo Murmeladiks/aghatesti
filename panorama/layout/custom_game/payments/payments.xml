@@ -1,0 +1,76 @@
+<!-- xml reconstructed by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/layout/custom_game/payments/payments.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/layout/custom_game/scripts/utils.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/payments/payments_const.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/payments/payments_base.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/payments/payments.vjs_c" />
+	</scripts>
+	<Panel class="PaymentsRoot" hittest="false">
+		<Panel id="CollectionPayment" onactivate="">
+			<Panel id="PaymentPanel">
+				<Panel class="HeaderWithCloseButton">
+					<Label class="AdaptiveText_LightAndUpper BlueHeader" text="#you_are_purchasing" />
+					<Button class="CloseButton" onactivate="SetPaymentVisible(false)" />
+				</Panel>
+				<Panel id="PurchasingInfoWrap">
+					<Image id="PurchasingIcon" src="s2r://panorama/images/custom_game/payment/payment_boost_png.vtex" />
+					<Panel id="PurchasingInfo">
+						<Label id="PurchasingHeader" />
+						<Label id="PurchasingDescription" html="true" />
+						<Panel id="PurchasingPriceWrap">
+							<Label id="TotalPrice" text="#total_price" />
+							<Label id="Price" text="{s:paySymbol}{s:price}" />
+						</Panel>
+					</Panel>
+				</Panel>
+				<Label id="PaymentMethodHeader" class="AdaptiveText_LightAndUpper BlueHeader" text="#choose_payment_mehtod" />
+				<Panel id="PurchasingMethods">
+					<Button class="PaymentMethod" onactivate="updatePaymentWindow(&apos;wechat&apos;)">
+						<Image scaling="stretch-to-fit-preserve-aspect" src="s2r://panorama/images/custom_game/payment/payment_wechat_png.vtex" class="HasNoBackground" />
+					</Button>
+					<Button class="PaymentMethod" onactivate="updatePaymentWindow(&apos;alipay&apos;)">
+						<Image scaling="stretch-to-fit-preserve-aspect" src="s2r://panorama/images/custom_game/payment/payment_alipay_png.vtex" class="HasNoBackground" />
+					</Button>
+					<Button id="PatreonPaymentButton" class="PaymentMethod" onactivate="OpenPatreonURL()">
+						<Image scaling="stretch-to-fit-preserve-aspect" src="s2r://panorama/images/custom_game/payment/payment_patreon_png.vtex" />
+						<Label class="PaymentInBrowser" text="#completed_in_browser" />
+					</Button>
+					<Button class="PaymentMethod" onactivate="updatePaymentWindow(&apos;checkout&apos;)">
+						<Image scaling="stretch-to-fit-preserve-aspect" src="s2r://panorama/images/custom_game/payment/payment_card_png.vtex" />
+						<Label class="PaymentInBrowser" text="#completed_in_browser" />
+					</Button>
+				</Panel>
+				<Label id="PaymentDescription" html="true" text="#payment_description" />
+			</Panel>
+		</Panel>
+		<Panel id="PaymentWindow" onactivate="">
+			<Panel id="PaymentWindowContent">
+				<Panel id="PaymentWindowHTML_Loading">
+					<Label class="PaymentMessage" text="#html_loading" />
+					<Panel class="Spinner" />
+				</Panel>
+				<HTML id="PaymentWindowHTML" acceptsinput="true" />
+				<Panel id="PaymentWindowLoader">
+					<Panel class="Spinner" />
+				</Panel>
+				<Panel id="PaymentWindowError">
+					<Label id="PaymentWindowErrorMessage" class="PaymentMessage" />
+				</Panel>
+			</Panel>
+			<Button class="CloseButton" onactivate="setPaymentWindowStatus(&apos;closed&apos;)" />
+		</Panel>
+		<Panel id="PatreonBaseButton">
+			<Button id="BuyBaseBooster" class="BuyBoost" onactivate="BuyBoost(`base_booster`);">
+				<Label html="true" text="#base_supp_button" />
+			</Button>
+			<Button id="BuyGoldBooster" class="BuyBoost" onactivate="BuyBoost(`golden_booster`);">
+				<Label html="true" text="#golden_supp_button" />
+			</Button>
+		</Panel>
+	</Panel>
+</root>

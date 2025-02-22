@@ -1,0 +1,1172 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_nFlags = 0
+	m_name = ""
+	m_localHAnimArray = 
+	[
+		resource:"models/props_gameplay/undying_tower_winter/9dd7ff60/undying_tower_winter_destroy.vanim",
+		resource:"models/props_gameplay/undying_tower_winter/9dd7ff60/undying_tower_winter_destroyed.vanim",
+	]
+	m_includedGroupArray = 
+	[
+	]
+	m_directHSeqGroup = null
+	m_decodeKey = 
+	{
+		m_name = ""
+		m_boneArray = 
+		[
+			
+			{
+				m_name = "undying_tower_winter_joint2"
+				m_parent = -1
+				m_pos = 
+				[
+					35.086651,
+					0.000000,
+					313.930023,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint3"
+				m_parent = -1
+				m_pos = 
+				[
+					0.000000,
+					39.249893,
+					279.070679,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint4"
+				m_parent = -1
+				m_pos = 
+				[
+					0.000000,
+					-39.249893,
+					279.070679,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint5"
+				m_parent = -1
+				m_pos = 
+				[
+					2.569212,
+					-3.092562,
+					169.178711,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint6"
+				m_parent = -1
+				m_pos = 
+				[
+					22.966652,
+					22.234795,
+					51.934067,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint7"
+				m_parent = -1
+				m_pos = 
+				[
+					12.725489,
+					25.661829,
+					99.300682,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint8"
+				m_parent = -1
+				m_pos = 
+				[
+					15.060053,
+					-12.756296,
+					49.252716,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint9"
+				m_parent = -1
+				m_pos = 
+				[
+					2.084982,
+					-19.448946,
+					99.786766,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint10"
+				m_parent = -1
+				m_pos = 
+				[
+					-30.907127,
+					11.531906,
+					64.369392,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint11"
+				m_parent = -1
+				m_pos = 
+				[
+					-28.095791,
+					-15.185033,
+					74.237030,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint12"
+				m_parent = -1
+				m_pos = 
+				[
+					0.000000,
+					0.000000,
+					241.518250,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint13"
+				m_parent = -1
+				m_pos = 
+				[
+					1.874243,
+					5.711892,
+					189.823792,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint14"
+				m_parent = -1
+				m_pos = 
+				[
+					91.500099,
+					-40.500000,
+					21.500000,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint15"
+				m_parent = -1
+				m_pos = 
+				[
+					-89.799896,
+					-46.599998,
+					7.267249,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint16"
+				m_parent = -1
+				m_pos = 
+				[
+					72.412849,
+					67.820602,
+					2.535700,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint17"
+				m_parent = -1
+				m_pos = 
+				[
+					-99.324493,
+					-14.045959,
+					2.231380,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint18"
+				m_parent = -1
+				m_pos = 
+				[
+					40.175552,
+					75.229897,
+					20.575499,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint19"
+				m_parent = -1
+				m_pos = 
+				[
+					69.000000,
+					-65.000000,
+					20.031349,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint20"
+				m_parent = -1
+				m_pos = 
+				[
+					91.786346,
+					41.624649,
+					5.796195,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint21"
+				m_parent = -1
+				m_pos = 
+				[
+					11.499999,
+					-103.000198,
+					-0.260850,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint22"
+				m_parent = -1
+				m_pos = 
+				[
+					-49.000000,
+					74.499847,
+					10.539148,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint23"
+				m_parent = -1
+				m_pos = 
+				[
+					-3.005554,
+					93.192276,
+					-6.482355,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint24"
+				m_parent = -1
+				m_pos = 
+				[
+					46.023727,
+					-94.005951,
+					-7.964029,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint25"
+				m_parent = -1
+				m_pos = 
+				[
+					-99.660789,
+					37.435722,
+					-3.017290,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint26"
+				m_parent = -1
+				m_pos = 
+				[
+					107.008484,
+					1.533318,
+					6.512539,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint27"
+				m_parent = -1
+				m_pos = 
+				[
+					-52.094749,
+					-61.113602,
+					13.074848,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint28"
+				m_parent = -1
+				m_pos = 
+				[
+					1.308901,
+					-79.760902,
+					13.775051,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint29"
+				m_parent = -1
+				m_pos = 
+				[
+					57.186451,
+					-49.596828,
+					35.146347,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint30"
+				m_parent = -1
+				m_pos = 
+				[
+					74.130997,
+					29.183750,
+					11.290649,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint31"
+				m_parent = -1
+				m_pos = 
+				[
+					34.916100,
+					64.843948,
+					3.467100,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint32"
+				m_parent = -1
+				m_pos = 
+				[
+					-26.460550,
+					66.731903,
+					12.424700,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint33"
+				m_parent = -1
+				m_pos = 
+				[
+					-63.766548,
+					40.505283,
+					16.058510,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint1"
+				m_parent = -1
+				m_pos = 
+				[
+					-35.086643,
+					0.000000,
+					313.930023,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+			
+			{
+				m_name = "undying_tower_winter_joint34"
+				m_parent = -1
+				m_pos = 
+				[
+					-76.620003,
+					-23.837450,
+					3.503151,
+				]
+				m_quat = 
+				[
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				]
+				m_qAlignment = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_flags = 64
+			},
+		]
+		m_userArray = 
+		[
+		]
+		m_morphArray = 
+		[
+		]
+		m_nChannelElements = 68
+		m_dataChannelArray = 
+		[
+			
+			{
+				m_szChannelClass = "BoneChannel"
+				m_szVariableName = "Position"
+				m_nFlags = 0
+				m_nType = 3
+				m_szGrouping = ""
+				m_szDescription = ""
+				m_szElementNameArray = 
+				[
+					"undying_tower_winter_joint2",
+					"undying_tower_winter_joint3",
+					"undying_tower_winter_joint4",
+					"undying_tower_winter_joint5",
+					"undying_tower_winter_joint6",
+					"undying_tower_winter_joint7",
+					"undying_tower_winter_joint8",
+					"undying_tower_winter_joint9",
+					"undying_tower_winter_joint10",
+					"undying_tower_winter_joint11",
+					"undying_tower_winter_joint12",
+					"undying_tower_winter_joint13",
+					"undying_tower_winter_joint14",
+					"undying_tower_winter_joint15",
+					"undying_tower_winter_joint16",
+					"undying_tower_winter_joint17",
+					"undying_tower_winter_joint18",
+					"undying_tower_winter_joint19",
+					"undying_tower_winter_joint20",
+					"undying_tower_winter_joint21",
+					"undying_tower_winter_joint22",
+					"undying_tower_winter_joint23",
+					"undying_tower_winter_joint24",
+					"undying_tower_winter_joint25",
+					"undying_tower_winter_joint26",
+					"undying_tower_winter_joint27",
+					"undying_tower_winter_joint28",
+					"undying_tower_winter_joint29",
+					"undying_tower_winter_joint30",
+					"undying_tower_winter_joint31",
+					"undying_tower_winter_joint32",
+					"undying_tower_winter_joint33",
+					"undying_tower_winter_joint1",
+					"undying_tower_winter_joint34",
+				]
+				m_nElementIndexArray = 
+				[
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15,
+					16,
+					17,
+					18,
+					19,
+					20,
+					21,
+					22,
+					23,
+					24,
+					25,
+					26,
+					27,
+					28,
+					29,
+					30,
+					31,
+					32,
+					33,
+				]
+				m_nElementMaskArray = 
+				[
+					1,
+					1,
+					2,
+					4,
+					8,
+					16,
+					32,
+					64,
+					128,
+					256,
+					512,
+					1024,
+					2048,
+					4096,
+					8192,
+					16384,
+					32768,
+					65536,
+					65536,
+					131072,
+					262144,
+					524288,
+					1048576,
+					2097152,
+					4194304,
+					8388608,
+					16777216,
+					33554432,
+					67108864,
+					134217728,
+					268435456,
+					536870912,
+					1073741824,
+					2147483648,
+				]
+			},
+			
+			{
+				m_szChannelClass = "BoneChannel"
+				m_szVariableName = "Angle"
+				m_nFlags = 0
+				m_nType = 4
+				m_szGrouping = ""
+				m_szDescription = ""
+				m_szElementNameArray = 
+				[
+					"undying_tower_winter_joint2",
+					"undying_tower_winter_joint3",
+					"undying_tower_winter_joint4",
+					"undying_tower_winter_joint5",
+					"undying_tower_winter_joint6",
+					"undying_tower_winter_joint7",
+					"undying_tower_winter_joint8",
+					"undying_tower_winter_joint9",
+					"undying_tower_winter_joint10",
+					"undying_tower_winter_joint11",
+					"undying_tower_winter_joint12",
+					"undying_tower_winter_joint13",
+					"undying_tower_winter_joint14",
+					"undying_tower_winter_joint15",
+					"undying_tower_winter_joint16",
+					"undying_tower_winter_joint17",
+					"undying_tower_winter_joint18",
+					"undying_tower_winter_joint19",
+					"undying_tower_winter_joint20",
+					"undying_tower_winter_joint21",
+					"undying_tower_winter_joint22",
+					"undying_tower_winter_joint23",
+					"undying_tower_winter_joint24",
+					"undying_tower_winter_joint25",
+					"undying_tower_winter_joint26",
+					"undying_tower_winter_joint27",
+					"undying_tower_winter_joint28",
+					"undying_tower_winter_joint29",
+					"undying_tower_winter_joint30",
+					"undying_tower_winter_joint31",
+					"undying_tower_winter_joint32",
+					"undying_tower_winter_joint33",
+					"undying_tower_winter_joint1",
+					"undying_tower_winter_joint34",
+				]
+				m_nElementIndexArray = 
+				[
+					34,
+					35,
+					36,
+					37,
+					38,
+					39,
+					40,
+					41,
+					42,
+					43,
+					44,
+					45,
+					46,
+					47,
+					48,
+					49,
+					50,
+					51,
+					52,
+					53,
+					54,
+					55,
+					56,
+					57,
+					58,
+					59,
+					60,
+					61,
+					62,
+					63,
+					64,
+					65,
+					66,
+					67,
+				]
+				m_nElementMaskArray = 
+				[
+					1,
+					1,
+					2,
+					4,
+					8,
+					16,
+					32,
+					64,
+					128,
+					256,
+					512,
+					1024,
+					2048,
+					4096,
+					8192,
+					16384,
+					32768,
+					65536,
+					65536,
+					131072,
+					262144,
+					524288,
+					1048576,
+					2097152,
+					4194304,
+					8388608,
+					16777216,
+					33554432,
+					67108864,
+					134217728,
+					268435456,
+					536870912,
+					1073741824,
+					2147483648,
+				]
+			},
+		]
+	}
+	m_retarget = 
+	{
+		m_bEnableRetarget = 0
+		m_nRetargetStyle = 0
+		m_element = 
+		[
+		]
+		m_chain = 
+		[
+		]
+		m_replicated = 
+		[
+		]
+	}
+	m_szScripts = 
+	[
+	]
+}

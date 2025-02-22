@@ -1,0 +1,27 @@
+<!-- xml reconstructed by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<scripts>
+		<include src="s2r://panorama/layout/custom_game/scripts/mouseclicks.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/scripts/override_dota_ui.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/scripts/vector_targeting.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/scripts/vector_targeting_nibuja.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/scripts/manifest_scripts.vjs_c" />
+	</scripts>
+	<Panel>
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/precache.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/hud_main.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/top_menu/top_menu.vxml_c" />
+		<CustomUIElement type="HudTopBar" layoutfile="s2r://panorama/layout/custom_game/aghanim_top_bar.vxml_c" />
+		<CustomUIElement type="FlyoutScoreboard" layoutfile="s2r://panorama/layout/custom_game/aghanim_scoreboard.vxml_c" />
+		<CustomUIElement type="PregameStrategy" layoutfile="s2r://panorama/layout/custom_game/custom_hud_hero_selection.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/collection/gift_codes/gift_codes.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/cosmetic_abilities/cosmetic_abilities.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/hud_aghanims_ability_upgrade.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/hud_aghanims_reward.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/custom_chat/custom_chat.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/player_perks/player_perks.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/collection/collection.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/tipping/tipping.vxml_c" />
+		<CustomUIElement type="Hud" layoutfile="s2r://panorama/layout/custom_game/chat_wheel/dota_hud_chat_wheel.vxml_c" />
+	</Panel>
+</root>

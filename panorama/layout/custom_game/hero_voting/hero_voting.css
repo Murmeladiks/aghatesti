@@ -1,0 +1,360 @@
+/* Prettified by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io */
+
+#HeroVoting_Root
+{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transform: translatey(-100px);
+	transition: opacity 0.2s ease-in-out 0s, transform 0.15s ease-in-out 0s;
+}
+
+#HeroVoting_Root.show
+{
+	opacity: 1;
+	transform: translatey(0px);
+}
+
+#HeroVoting_Panel
+{
+	background-image: url("s2r://panorama/images/custom_game/loading_screen/patchnotes_background_png.vtex");
+	background-size: 100%;
+	box-shadow: black 0px 0px 8px 0px;
+	flow-children: down;
+	align: center center;
+}
+
+#HeroVoting_Header
+{
+	width: 100%;
+	height: 35px;
+	background-image: url("s2r://panorama/images/custom_game/loading_screen/quest_header_png.vtex");
+	background-size: 100%;
+}
+
+#HeroVoting_HeaderText
+{
+	margin-top: 2px;
+	height: 33px;
+	font-size: 28px;
+	text-align: center;
+	text-overflow: shrink;
+	text-transform: uppercase;
+	color: #9baff9;
+	font-weight: lighter;
+	text-shadow: black 0px 2px 2px 0;
+	align: center center;
+}
+
+#HeroVoting_Close
+{
+	width: 18px;
+	height: 18px;
+	background-image: url("s2r://panorama/images/custom_game/import_dota/x_close_png_png.vtex");
+	background-size: 100%;
+	wash-color: #889be2;
+	align: right top;
+	margin: 5px 6px 0 0;
+	transition: brightness 0.15s ease-in-out 0s;
+}
+
+#HeroVoting_Close:hover
+{
+	brightness: 1.6;
+}
+
+#HeroVoting_Close:active
+{
+	brightness: 0.8;
+	sound: "General.ButtonClick";
+}
+
+#SearchContainer
+{
+	height: 35px;
+	flow-children: right;
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 1px solid #4a536f;
+	horizontal-align: right;
+	margin: 10px;
+}
+
+#SearchContainer:hover #SearchIcon
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	wash-color: #a4b7ff;
+}
+
+#SearchHero
+{
+	width: 280px;
+	background-color: transparent;
+	border: 0px solid #4a536f;
+	font-size: 17px;
+	padding: 8px 0px 8px 12px;
+}
+
+#SearchHero #PlaceholderText
+{
+	font-size: 17px;
+	margin: 0px;
+}
+
+#SearchIcon
+{
+	background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
+	background-size: 26px 26px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	width: 40px;
+	height: 35px;
+	align: center center;
+	wash-color: #889be2;
+	background-color: rgba(0, 0, 0, 0.2);
+	transition: background-color 0.15s ease-in-out 0s, wash-color 0.15s ease-in-out 0s;
+}
+
+#HeroVoting_ListRoot
+{
+	width: 795px;
+	width: 962px;
+	margin: 55px 0px 10px 10px;
+	flow-children: down;
+	padding-top: -3px;
+}
+
+.HeroVotingList_Root
+{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px;
+	margin-top: 3px;
+}
+
+.StatIcon
+{
+	width: 24px;
+	height: 24px;
+	background-size: 100%;
+	margin-left: 5px;
+}
+
+#HeroVoting_str_Root .StatIcon
+{
+	background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_strength.psd");
+}
+
+#HeroVoting_agi_Root .StatIcon
+{
+	background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_agility.psd");
+}
+
+#HeroVoting_int_Root .StatIcon
+{
+	background-image: url("s2r://panorama/images/primary_attribute_icons/primary_attribute_icon_intelligence.psd");
+}
+
+.StatName
+{
+	margin-left: 35px;
+	text-transform: uppercase;
+	height: 25px;
+	text-overflow: shrink;
+	letter-spacing: 1px;
+	font-size: 23px;
+	color: #889be2;
+}
+
+.HeroListRoot
+{
+	margin-top: 30px;
+	width: 100%;
+	flow-children: right-wrap;
+}
+
+.HeroButton
+{
+	width: 56px;
+	height: 72px;
+	tooltip-position: bottom;
+}
+
+#HeroImage
+{
+	width: 52px;
+	height: 68px;
+	align: center center;
+	transition: saturation 0.1s ease-in-out 0s;
+}
+
+.Search .HeroButton:not(.NoFilter)
+{
+	animation-name: search_glow;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes 'search_glow'
+{
+	0%
+	{
+		box-shadow: #6db9e2 0px 0px 8px 0px;
+	}
+	
+	50%
+	{
+		box-shadow: #91aeff 0px 0px 0px 0px;
+	}
+	
+	100%
+	{
+		box-shadow: #6db9e2 0px 0px 8px 0px;
+	}
+	
+}
+
+.NoFilter #HeroImage
+{
+	saturation: 0;
+	wash-color: #b8b8b8;
+}
+
+#HeroBackground
+{
+	width: 54px;
+	height: 70px;
+	align: center center;
+}
+
+#HeroCardMovieRoot
+{
+	width: 151px;
+	height: 200px;
+	border: 2px solid black;
+	visibility: collapse;
+}
+
+#HeroCardMovie
+{
+	width: 100%;
+	height: 100%;
+}
+
+#HeroMovieName,#HeroMovieName_Preview
+{
+	width: 100%;
+	text-transform: uppercase;
+	background-color: #000c;
+	padding: 5px 4px 2px 4px;
+	letter-spacing: 2px;
+	vertical-align: bottom;
+	color: white;
+	text-shadow: black 0px 1px 0px 2;
+	font-size: 16px;
+	text-align: center;
+}
+
+#HeroMovieName_Preview
+{
+	padding: 7px 4px 4px 4px;
+	font-size: 20px;
+}
+
+#HeroCardMovieRoot_Preview
+{
+	width: 170px;
+	height: 220px;
+	horizontal-align: right;
+	margin: 55px 10px 0px 978px;
+	opacity: 0;
+}
+
+.BHasSelectedHero #HeroCardMovieRoot_Preview
+{
+	opacity: 1;
+}
+
+#VoteButton
+{
+	width: 170px;
+	height: 35px;
+	horizontal-align: right;
+	margin: 285px 10px 0px 0px;
+	background-image: url("s2r://panorama/images/custom_game/ability_selection/button_bg_reroll_png.vtex");
+	background-size: 100%;
+	box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 2px 1px;
+	opacity: 0;
+}
+
+.BHasSelectedHero #VoteButton
+{
+	opacity: 1;
+}
+
+#VoteButton:hover:not(.Blocked)
+{
+	brightness: 1.5;
+}
+
+#VoteButton:active:not(.Blocked)
+{
+	brightness: 1.1;
+}
+
+#VoteButton.Blocked
+{
+	saturation: 0;
+	wash-color: #d9d9d9;
+}
+
+#VoteButton Label
+{
+	align: center center;
+	text-align: center;
+	color: #fbf6ff;
+	text-transform: uppercase;
+	font-size: 20px;
+	height: 24px;
+	text-overflow: shrink;
+	text-shadow: black 0px 2px 0px 0px;
+}
+
+#VoteDescription
+{
+	align: right top;
+	margin: 10px;
+	width: 170px;
+	height: 100%;
+	margin-top: 340px;
+	text-align: center;
+	color: #889be2;
+	font-weight: lighter;
+	font-style: italic;
+	text-shadow: black 0px 2px 0px 0px;
+	text-overflow: shrink;
+}
+
+#HeroOverlay
+{
+	width: 100%;
+	height: 100%;
+	margin: 6px;
+	pre-transform-scale2d: 1.12;
+	wash-color: #25e4ff;
+	brightness: 2;
+	saturation: 1.1;
+	opacity: 0;
+}
+
+#HeroBackground
+{
+	background-color: #0ba4b4;
+	opacity: 0;
+}
+
+.ChoosedHero #HeroBackground,.ChoosedHero #HeroOverlay
+{
+	opacity: 1;
+}
+

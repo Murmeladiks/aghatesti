@@ -1,0 +1,35 @@
+<!-- xml reconstructed by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/layout/custom_game/tipping/tipping.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/layout/custom_game/scripts/utils.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/tipping/tipping.vjs_c" />
+	</scripts>
+	<snippets>
+		<snippet name="TipNotification">
+			<Panel class="TipNotification">
+				<Panel class="TipPlayerContainer">
+					<Image id="SourceHero" class="Tips_Hero" src="s2r://" />
+					<Label id="SourceName" class="Tips_Name" text="" />
+				</Panel>
+				<Panel id="TipsInfo">
+					<Label text="#dotau_tipped" />
+					<Panel id="TipsCurrencyContainer">
+						<Image src="s2r://panorama/images/custom_game/collection/collection_coin_png.vtex" />
+						<Label id="TipsCurrenctNumber" text="0" />
+					</Panel>
+				</Panel>
+				<Panel class="TipPlayerContainer">
+					<Image id="TargetHero" class="Tips_Hero" src="s2r://" />
+					<Label id="TargetName" class="Tips_Name" text="" />
+				</Panel>
+			</Panel>
+		</snippet>
+	</snippets>
+	<Panel class="Tips_Root" hittest="false">
+		<Panel id="Tips_Container" />
+	</Panel>
+</root>

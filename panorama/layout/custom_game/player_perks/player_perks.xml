@@ -1,0 +1,77 @@
+<!-- xml reconstructed by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/layout/custom_game/styles/dotau_styles.vcss_c" />
+		<include src="s2r://panorama/layout/custom_game/player_perks/player_perks.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/layout/custom_game/scripts/utils.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/player_perks/player_perks.vjs_c" />
+	</scripts>
+	<snippets>
+		<snippet name="Perk">
+			<Panel class="Perk">
+				<Image id="PerkIcon" />
+				<Label id="PerkLabel" />
+			</Panel>
+		</snippet>
+	</snippets>
+	<Panel class="PerksRoot" hittest="false">
+		<Panel id="PerksMenuContainer">
+			<Panel id="PerksMenuTitle">
+				<Panel id="PerksMenuTitleLabels">
+					<Label id="PerksMenuLabel" text="#perks_menu_title" html="true" />
+					<Label id="PerksMenuSubLabel" text="#perks_menu_subtitle" />
+				</Panel>
+				<Button id="PerksMenuClose" onactivate="HidePerksMenu()" onmouseover="DOTAShowTextTooltip(#perks_menu_close)" onmouseout="DOTAHideTextTooltip()" />
+			</Panel>
+			<Panel id="PerksColumnsContainer">
+				<Panel id="PerksColumnsHeaders_Root">
+					<Panel class="PerksHeader_Wrap PerkColumnPart">
+						<Label id="PerksContainer1Title" class="PerkColumnTitle" text="#tier_1_perks_title" />
+						<Panel class="OverlayRight" />
+						<Panel class="OverlayLeft" />
+						<Panel class="OverlayTop" />
+					</Panel>
+					<Panel class="PerksHeader_Wrap PerkColumnPart">
+						<Label id="PerksContainer2Title" class="PerkColumnTitle" text="#tier_2_perks_title" />
+						<Label class="GetSuppLevel" text="#perk_menu_get_supp_level" onactivate="OpenShop(`BaseBoost`)" />
+						<Panel class="OverlayRight" />
+						<Panel class="OverlayLeft" />
+						<Panel class="OverlayTop" />
+					</Panel>
+					<Panel class="PerksHeader_Wrap PerkColumnPart">
+						<Label id="PerksContainer3Title" class="PerkColumnTitle" text="#tier_3_perks_title" />
+						<Label class="GetSuppLevel" text="#perk_menu_get_supp_level" onactivate="OpenShop(`GoldBoost`)" />
+						<Panel class="OverlayRight" />
+						<Panel class="OverlayLeft" />
+						<Panel class="OverlayTop" />
+					</Panel>
+					<Panel id="ScrollFiller" />
+				</Panel>
+				<Panel id="PerksColumns_Root">
+					<Panel class="PerksColumn_Wrap PerkColumnPart">
+						<Panel id="PerksColumn1" class="PerksColumn" />
+						<Panel class="OverlayRight" />
+						<Panel class="OverlayLeft" />
+						<Panel class="OverlayBottom" />
+					</Panel>
+					<Panel class="PerksColumn_Wrap PerkColumnPart">
+						<Panel id="PerksColumn2" class="PerksColumn" />
+						<Panel class="OverlayRight" />
+						<Panel class="OverlayLeft" />
+						<Panel class="OverlayBottom" />
+					</Panel>
+					<Panel class="PerksColumn_Wrap PerkColumnPart">
+						<Panel id="PerksColumn3" class="PerksColumn" />
+						<Panel class="OverlayRight" />
+						<Panel class="OverlayLeft" />
+						<Panel class="OverlayBottom" />
+					</Panel>
+				</Panel>
+			</Panel>
+		</Panel>
+		<Image id="PerksHeaderImage" src="s2r://panorama/images/custom_game/perks_header_image_png.vtex" hittest="false" />
+	</Panel>
+</root>

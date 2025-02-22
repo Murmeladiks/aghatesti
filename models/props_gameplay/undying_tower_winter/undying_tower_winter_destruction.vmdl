@@ -1,0 +1,650 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "models/props_gameplay/undying_tower_winter/undying_tower_winter_destruction_model.vmesh"
+						filename = "models/props_gameplay/undying_tower_winter/undying_tower_winter_destruction_model.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint2"
+						origin = 
+						[
+							35.086650,
+							0.000000,
+							313.930000,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint3"
+						origin = 
+						[
+							0.000000,
+							39.249890,
+							279.070700,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint4"
+						origin = 
+						[
+							0.000000,
+							-39.249890,
+							279.070700,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint5"
+						origin = 
+						[
+							2.569212,
+							-3.092562,
+							169.178700,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint6"
+						origin = 
+						[
+							22.966650,
+							22.234790,
+							51.934070,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint7"
+						origin = 
+						[
+							12.725490,
+							25.661830,
+							99.300680,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint8"
+						origin = 
+						[
+							15.060050,
+							-12.756300,
+							49.252720,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint9"
+						origin = 
+						[
+							2.084982,
+							-19.448950,
+							99.786770,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint10"
+						origin = 
+						[
+							-30.907130,
+							11.531910,
+							64.369390,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint11"
+						origin = 
+						[
+							-28.095790,
+							-15.185030,
+							74.237030,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint12"
+						origin = 
+						[
+							0.000000,
+							0.000000,
+							241.518200,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint13"
+						origin = 
+						[
+							1.874243,
+							5.711892,
+							189.823800,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint14"
+						origin = 
+						[
+							91.500100,
+							-40.500000,
+							21.500000,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint15"
+						origin = 
+						[
+							-89.799900,
+							-46.600000,
+							7.267249,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint16"
+						origin = 
+						[
+							72.412850,
+							67.820600,
+							2.535700,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint17"
+						origin = 
+						[
+							-99.324490,
+							-14.045960,
+							2.231380,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint18"
+						origin = 
+						[
+							40.175550,
+							75.229900,
+							20.575500,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint19"
+						origin = 
+						[
+							69.000000,
+							-65.000000,
+							20.031350,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint20"
+						origin = 
+						[
+							91.786350,
+							41.624650,
+							5.796195,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint21"
+						origin = 
+						[
+							11.500000,
+							-103.000200,
+							-0.260850,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint22"
+						origin = 
+						[
+							-49.000000,
+							74.499850,
+							10.539150,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint23"
+						origin = 
+						[
+							-3.005554,
+							93.192280,
+							-6.482355,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint24"
+						origin = 
+						[
+							46.023730,
+							-94.005950,
+							-7.964029,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint25"
+						origin = 
+						[
+							-99.660790,
+							37.435720,
+							-3.017290,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint26"
+						origin = 
+						[
+							107.008500,
+							1.533318,
+							6.512539,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint27"
+						origin = 
+						[
+							-52.094750,
+							-61.113600,
+							13.074850,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint28"
+						origin = 
+						[
+							1.308901,
+							-79.760900,
+							13.775050,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint29"
+						origin = 
+						[
+							57.186450,
+							-49.596830,
+							35.146350,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint30"
+						origin = 
+						[
+							74.131000,
+							29.183750,
+							11.290650,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint31"
+						origin = 
+						[
+							34.916100,
+							64.843950,
+							3.467100,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint32"
+						origin = 
+						[
+							-26.460550,
+							66.731900,
+							12.424700,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint33"
+						origin = 
+						[
+							-63.766550,
+							40.505280,
+							16.058510,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint1"
+						origin = 
+						[
+							-35.086640,
+							0.000000,
+							313.930000,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+					
+					{
+						_class = "Bone"
+						name = "undying_tower_winter_joint34"
+						origin = 
+						[
+							-76.620000,
+							-23.837450,
+							3.503151,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+					},
+				]
+			},
+		]
+	}
+}

@@ -1,0 +1,67 @@
+<!-- xml reconstructed by Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/layout/custom_game/hero_voting/hero_voting.vcss_c" />
+		<include src="s2r://panorama/layout/custom_game/styles/dotau_styles.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/layout/custom_game/scripts/utils.vjs_c" />
+		<include src="s2r://panorama/layout/custom_game/hero_voting/hero_voting.vjs_c" />
+	</scripts>
+	<snippets>
+		<snippet name="HeroButton">
+			<Panel class="HeroButton">
+				<Panel id="HeroBackground" />
+				<DOTAHeroImage id="HeroImage" class="HeroImage" scaling="stretch-to-fit-x-preserve-aspect" heroimagestyle="portrait" />
+				<DOTAScenePanel id="HeroOverlay" camera="camera_common_bot" particleonly="false" map="collection/spin_glow" hittest="false" />
+			</Panel>
+		</snippet>
+	</snippets>
+	<Panel style="width:100%;height:100%;" hittest="false">
+		<Panel id="HeroVoting_Root" hittest="false">
+			<Panel id="HeroVoting_Panel" hittest="false">
+				<Panel id="HeroVoting_Header">
+					<Label id="HeroVoting_HeaderText" text="#hero_voting" />
+					<Button id="HeroVoting_Close" onactivate="CloseHeroVoting()" />
+				</Panel>
+				<Panel id="HeroVoting_MainRoot" hittest="false">
+					<Panel class="OverlayShadow_Top" hittest="false" />
+					<Panel id="SearchContainer">
+						<TextEntry id="SearchHero" placeholder="#search_hero" ontextentrychange="HeroFilter()" />
+						<Panel id="SearchIcon" />
+					</Panel>
+					<Panel id="HeroVoting_ListRoot">
+						<Panel id="HeroVoting_str_Root" class="HeroVotingList_Root">
+							<Panel class="StatIcon" />
+							<Label class="StatName" text="#DOTA_Hero_Selection_STR" />
+							<Panel class="HeroListRoot" />
+						</Panel>
+						<Panel id="HeroVoting_agi_Root" class="HeroVotingList_Root">
+							<Panel class="StatIcon" />
+							<Label class="StatName" text="#DOTA_Hero_Selection_AGI" />
+							<Panel class="HeroListRoot" />
+						</Panel>
+						<Panel id="HeroVoting_int_Root" class="HeroVotingList_Root">
+							<Panel class="StatIcon" />
+							<Label class="StatName" text="#DOTA_Hero_Selection_INT" />
+							<Panel class="HeroListRoot" />
+						</Panel>
+					</Panel>
+					<Panel id="HeroCardMovieRoot_Preview" hittest="false" hittestchildren="false">
+						<DOTAHeroMovie id="HeroCardMovie_Preview" class="VideoPanel FullSize" heroname="" controls="none" repeat="true" autoplay="onload" />
+						<Label id="HeroMovieName_Preview" text="" />
+					</Panel>
+					<Button id="VoteButton" class="" onactivate="VoteForHero()">
+						<Label text="#hero_vote" />
+					</Button>
+					<Label id="VoteDescription" html="true" text="#hero_voting_description" />
+				</Panel>
+			</Panel>
+			<Panel id="HeroCardMovieRoot" hittest="false" hittestchildren="false">
+				<DOTAHeroMovie id="HeroCardMovie" class="VideoPanel" heroname="" controls="none" repeat="true" autoplay="onload" />
+				<Label id="HeroMovieName" text="" />
+			</Panel>
+		</Panel>
+	</Panel>
+</root>
