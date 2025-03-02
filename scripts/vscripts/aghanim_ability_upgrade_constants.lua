@@ -221,7 +221,7 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_snapfire"] =
    --"aghsfort_special_snapfire_lil_shredder_upgrade",
    --"aghsfort_special_snapfire_lil_shredder_bouncing_bullets",
 
-   "aghsfort_special_snapfire_mortimer_kisses_fragmentation",
+  -- "aghsfort_special_snapfire_mortimer_kisses_fragmentation",
    "snapfire_special_bonus_mortimer_kisses_projectile_count",
 --   "aghsfort_special_snapfire_mortimer_kisses_fire_trail",
   -- "aghsfort_special_snapfire_mortimer_kisses_autoattack",

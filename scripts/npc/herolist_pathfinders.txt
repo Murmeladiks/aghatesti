@@ -34,7 +34,7 @@
 	// Pathfinders Original
 	"npc_dota_hero_dawnbreaker"				"1"
 	"npc_dota_hero_venomancer"				"1"
-	"npc_dota_hero_windrunner"				"1"	
+	"npc_dota_hero_windrunner"				"0"	
 	"npc_dota_hero_phantom_assassin"		"1"
 	"npc_dota_hero_legion_commander"		"1"	
 	"npc_dota_hero_juggernaut"				"1"

@@ -9,7 +9,7 @@ windranger_focus_fire_lua = class({})
 --------------------------------------------------------------------------------
 
 function windranger_focus_fire_lua:GetAbilityTextureName()
-	return self:GetCaster():GetHeroFacetID() == 2 and "windrunner_focusfire" or "windrunner_whirlwind"
+	return self:GetCaster():GetHeroFacetID() == 2 and "windrunner_focusfire" --or "windrunner_whirlwind"
 end
 
 --------------------------------------------------------------------------------
@@ -46,19 +46,19 @@ end
 
 --------------------------------------------------------------------------------
 
-function windranger_focus_fire_lua:Whirlwind()
-	local hCaster = self:GetCaster()
-
-	hCaster:AddNewModifier(hCaster, self, "modifier_windrunner_pf_whirlwind", {duration = self:GetSpecialValueFor("whirlwind_duration")})
-	hCaster:EmitSound("Ability.Focusfire")
-
-	if hCaster:HasShard("pathfinder_special_windranger_whirlwind_lifesteal") then
-		local hWindrun = hCaster:FindAbilityByName("windranger_windrun_lua")
-		if hWindrun and hWindrun:IsTrained() then
-			hWindrun:OnSpellStart()
-		end
-	end
-end
+--function windranger_focus_fire_lua:Whirlwind()
+--	local hCaster = self:GetCaster()
+--
+--	hCaster:AddNewModifier(hCaster, self, "modifier_windrunner_pf_whirlwind", {duration = self:GetSpecialValueFor("whirlwind_duration")})
+--	hCaster:EmitSound("Ability.Focusfire")
+--
+--	if hCaster:HasShard("pathfinder_special_windranger_whirlwind_lifesteal") then
+--		local hWindrun = hCaster:FindAbilityByName("windranger_windrun_lua")
+--		if hWindrun and hWindrun:IsTrained() then
+--			hWindrun:OnSpellStart()
+--		end
+--	end
+--end
 
 --------------------------------------------------------------------------------
 

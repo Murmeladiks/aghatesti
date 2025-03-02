@@ -115,11 +115,8 @@ end
 
 
 -- Listen for the ability point event and reapply the modifier if needed
-function modifier_generic_2_charges:OnAbilityLevelUp(kv)
-    -- Reapply modifier if it's removed or not found
-    if not self:GetParent():HasModifier("modifier_generic_2_charges") then
-        self:GetParent():AddNewModifier(self:GetParent(), self:GetAbility(), "modifier_generic_2_charges", {})
-    end
+function modifier_generic_2_charges:IsPermanent()
+	return true
 end
 --------------------------------------------------------------------------------
 -- Modifier Effects
