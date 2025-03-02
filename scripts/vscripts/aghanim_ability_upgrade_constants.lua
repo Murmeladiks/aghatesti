@@ -208,24 +208,24 @@ SPECIAL_ABILITY_UPGRADES["npc_dota_hero_snapfire"] =
 {
    --"pathfinder_special_snapfire_gobble",
    "aghsfort_special_snapfire_scatterblast_double_barrel",
-   "aghsfort_special_snapfire_scatterblast_knockback",
+   --"aghsfort_special_snapfire_scatterblast_knockback",
   -- "aghsfort_special_snapfire_scatterblast_fullrange_pointblank",
    "aghsfort_special_snapfire_scatterblast_barrage",
 
-  -- "aghsfort_special_snapfire_firesnap_cookie_multicookie",
-   "aghsfort_special_snapfire_firesnap_cookie_enemytarget",
+   "aghsfort_special_snapfire_firesnap_cookie_multicookie",
+   --"aghsfort_special_snapfire_firesnap_cookie_enemytarget",
    "aghsfort_special_snapfire_firesnap_cookie_allied_buff",
 
    "aghsfort_special_snapfire_lil_shredder_explosives",
    "aghsfort_special_snapfire_lil_shredder_ally_cast",
-   "aghsfort_special_snapfire_lil_shredder_upgrade",
+   --"aghsfort_special_snapfire_lil_shredder_upgrade",
    --"aghsfort_special_snapfire_lil_shredder_bouncing_bullets",
 
    "aghsfort_special_snapfire_mortimer_kisses_fragmentation",
    "snapfire_special_bonus_mortimer_kisses_projectile_count",
 --   "aghsfort_special_snapfire_mortimer_kisses_fire_trail",
-   "aghsfort_special_snapfire_mortimer_kisses_autoattack",
-   "aghsfort_special_snapfire_mortimer_kisses_incoming_damage_reduction",
+  -- "aghsfort_special_snapfire_mortimer_kisses_autoattack",
+  -- "aghsfort_special_snapfire_mortimer_kisses_incoming_damage_reduction",
 }
 
 SPECIAL_ABILITY_UPGRADES["npc_dota_hero_tusk"] =

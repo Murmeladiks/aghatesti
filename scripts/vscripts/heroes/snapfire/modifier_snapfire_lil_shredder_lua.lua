@@ -80,7 +80,8 @@ function modifier_snapfire_lil_shredder_lua:OnRefresh( kv )
 	self.as_bonus = self:GetAbility():GetSpecialValueFor( "attack_speed_bonus" )
 	self.range_bonus = self:GetAbility():GetSpecialValueFor( "attack_range_bonus" )
 	self.bat = self:GetAbility():GetSpecialValueFor( "base_attack_time" )
-
+	self.armor_reduction = self:GetAbility():GetSpecialValueFor( "armor_reduction_per_attack" ) -- Added
+    self.armor_duration = self:GetAbility():GetSpecialValueFor( "armor_duration" )   -- Added
 	self.slow = self:GetAbility():GetSpecialValueFor( "slow_duration" )
 
 	if not IsServer() then return end
@@ -151,7 +152,7 @@ function modifier_snapfire_lil_shredder_lua:OnAttackLanded( params )
 			{ duration = self.slow }
 		)
 
-		-- Apply armor reduction
+		print("Passing armor_reduction:", self.armor_reduction)
 		target:AddNewModifier(
 			parent,
 			ability,

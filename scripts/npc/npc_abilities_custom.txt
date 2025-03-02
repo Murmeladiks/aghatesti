@@ -13712,9 +13712,7 @@
             "armor_reduction_per_attack"
             {
                 "value"                                         "1"
-                "special_bonus_unique_snapfire_shredder_armor"  "+0.5"
-                "LinkedSpecialBonus"        "aghsfort_special_snapfire_lil_shredder_upgrade"
-                "LinkedSpecialBonusField"   "armor_reduction_per_attack"             
+                "special_bonus_unique_snapfire_shredder_armor"  "+1"          
             }
 			"armor_duration"
             {
@@ -13809,9 +13807,9 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
-		"AbilityValues"
         "BaseClass"						"ability_lua"
 		"ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_bakers_dozen"
+        "AbilityValues"
         {
             "value" "300"
             "projectile_speed_pct" "50"
@@ -13825,10 +13823,10 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
-		"AbilityTextureName"            "snapfire_firesnap_cookie"
-		"AbilityValues"
+        "BaseClass"                     "ability_lua"
         "ScriptFile"					"heroes/snapfire/snapfire_firesnap_cookie_freshly_baked"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
+        "AbilityValues"
         {
             "bonus_attack_range" "250"
             "bonus_attack_damage" "50"
@@ -13846,8 +13844,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityTextureName"            "snapfire_firesnap_cookie"
+        "BaseClass"                     "ability_lua"
         "ScriptFile"                    "heroes/snapfire/special_bonus_unique_snapfire_firesnap_cookie_enemy"
-		"AbilityTextureName"            "snapfire_firesnap_cookie"
 		"AbilityValues"
         {
         }
@@ -13905,6 +13903,8 @@
 		// General
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        "BaseClass"                     "ability_lua"
+        "ScriptFile"                    "heroes/snapfire/snapfire_lil_shredder_allies"
 		"AbilityTextureName"            "snapfire_lil_shredder"
 		"AbilityValues"
         {
